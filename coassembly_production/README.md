@@ -109,6 +109,48 @@ the full detail; summary here since they cost real time (multiple kill/relaunch 
    many containers at once, not a real task failure. Covered by the same broadened
    `errorStrategy`/retry as point 6.
 
+## Further real issues hit once funcscan/MAP actually finished a full pass
+
+8. **`AMPIR` needs more than a 128GB memory cap on the 3 largest participants**
+   (`mh_p523`/`mh_p789`/`mh_p813`, 435K-696K genes) — confirmed real OOM (exit 137) even
+   after exhausting all 4 retries at the capped ceiling. Fixed with a more specific
+   `withName: '.*AMPIR'` selector (placed after the blanket `'.*'` one) raising the cap to
+   512GB — node capacity here is ~2TB, real headroom. A selector matching only one process
+   only affects that process's resolved config/cache hash, unlike editing the blanket rule.
+9. **`AMPCOMBI2_CLUSTER`'s known, already-accepted gbk limitation (point 4 above) took the
+   whole 19-participant funcscan run down with it** — its default `errorStrategy` ('finish'
+   after exhausting retries) triggered "Killing running tasks (60)", including `RGI_MAIN`
+   for effectively all 19 participants mid-execution — real AMR work that would have
+   completed fine on its own, lost for no benefit. Fixed: explicit
+   `withName: '.*AMPCOMBI2_CLUSTER' { errorStrategy = 'ignore' }` so this one known,
+   accepted limitation can no longer cascade into killing unrelated in-flight work.
+10. **A genuine, recurring bug in MAP's own `ICEFINDER2_LITE` subworkflow — patched by
+    disabling the subworkflow, not by excluding samples.** First seen on `mh_p398`: one
+    parallel branch (`PROCESS_BLASTP_PROKKA`) succeeded with real, non-empty output (525
+    lines), but a *different* parallel branch apparently produced nothing for this
+    participant, and a downstream Groovy closure joining the branches by sample ID wasn't
+    written to handle that "no match" case gracefully — crashed with `Invalid method
+    invocation \`call\` with arguments: [[id:X], null, .../X_uniprot_names.tsv]`, a
+    workflow-definition-level error (not a task failure `errorStrategy` can catch or retry).
+    Initially excluded just `mh_p398` and resumed — the *identical* error immediately
+    recurred on a *different* participant (`mh_p894`), confirming this is systemic, not a
+    one-sample edge case; excluding samples one at a time would have kept recurring
+    indefinitely. No built-in `--skip_icefinder`-style flag exists (confirmed via
+    `nextflow_schema.json` and the workflow's own invocation — called unconditionally). MAP's
+    own `CLAUDE.md` documents `remainder: true` joins as its established convention for
+    exactly this "optional/missing match" case, and confirmed the *downstream* consumer of
+    `ICEFINDER2_LITE.out.ices_tsv` already uses that pattern correctly — the bug is entirely
+    inside `ICEFINDER2_LITE`'s own internal joins, not in how its output is consumed. Fixed
+    by disabling the subworkflow call entirely and substituting `channel.empty()` for its
+    output (patch: `map_run/04_disable_broken_icefinder2_lite.patch`, verified clean-apply)
+    — the existing `remainder: true` downstream already tolerates this gracefully. ICE/IME
+    detection isn't among this project's stated priorities (plasmid/AMR/virulence/AMP), so
+    losing it entirely for this run is an acceptable trade against the alternative (chasing
+    a Groovy DSL fix inside unfamiliar subworkflow code, or losing an unknown, possibly
+    growing number of participants one at a time). All 19 participants, including `mh_p398`
+    and `mh_p894`, back in the same run after this fix — real cache preserved for every
+    unrelated already-completed task (confirmed: 0 "Unable to resume cached task" warnings).
+
 ## Known, accepted limitation given the deadline
 
 Some of the largest participants (`mh_p813`: 695,576 genes, `mh_p789`: 667,363,

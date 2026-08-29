@@ -1,0 +1,86 @@
+diff --git a/workflows/mobilomeannotation.nf b/workflows/mobilomeannotation.nf
+index a501d6a..d542f28 100755
+--- a/workflows/mobilomeannotation.nf
++++ b/workflows/mobilomeannotation.nf
+@@ -134,32 +134,23 @@ workflow MOBILOMEANNOTATION {
+     ch_versions = ch_versions.mix(VIRIFY_QC.out.versions)
+ 
+     // PREDICTION
+-    // Collecting ICEfinder2 databases
+-    def db_icefinder_hmm_models = channel.fromPath("${params.icefinder_hmm_models}.*", checkIfExists: true)
+-        .collect()
+-        .map { ice_db_files ->
+-            [[id: file(params.icefinder_hmm_models).name], ice_db_files]
+-        }
+-
+-    def db_icefinder_macsyfinder_models = file(params.icefinder_macsyfinder_models, checkIfExists: true)
+-
+-    def db_icefinder_prokka_uniprot = channel.fromPath("${params.icefinder_prokka_uniprot_db}/*", checkIfExists: true)
+-        .collect()
+-        .map { uniprot_db_files ->
+-            [[id: "prokka_uniprot"], uniprot_db_files]
+-        }
+-
+-    def icf2_inputs = RENAME.out.contigs_5kb
+-        .join(TRNAS_INTEGRATOR.out.merged_faa)
+-        .join(TRNAS_INTEGRATOR.out.merged_gff)
+-
+-    ICEFINDER2_LITE(
+-        icf2_inputs,
+-        db_icefinder_hmm_models,
+-        db_icefinder_macsyfinder_models,
+-        db_icefinder_prokka_uniprot
+-    )
+-    ch_versions = ch_versions.mix(ICEFINDER2_LITE.out.versions)
++    // ICEFINDER2_LITE disabled (production run, 2026-08-29): its internal join logic
++    // (combining PRESCAN/MACSYFINDER/BLASTP_PROKKA/VMATCH branches by sample ID) isn't
++    // written to handle a branch producing no match for a given sample gracefully -- hit
++    // a real crash ("Invalid method invocation `call` with arguments: [[id:X], null,
++    // .../X_uniprot_names.tsv]") for multiple different participants (mh_p398, mh_p894;
++    // recurring, not isolated to one sample), a workflow-definition-level Groovy error that
++    // errorStrategy/retries can't catch since it's not a task failure. Not fixable from an
++    // external config in the time available -- would need patching ICEFINDER2_LITE's own
++    // subworkflow to use the `remainder: true` pattern internally (the same pattern this
++    // pipeline's own CLAUDE.md documents as its established convention for exactly this
++    // kind of optional/missing-match case, already used correctly by the ICE_tsv consumer
++    // below). ICE/IME detection isn't among this project's stated priorities
++    // (plasmid/AMR/virulence/AMP, see ../../assembly_annotation_wf/CLAUDE.md) -- an empty
++    // placeholder channel here (which the consumer below already tolerates via its own
++    // `remainder: true`) lets everything else complete instead of losing participants one
++    // at a time to this same recurring bug.
++    def ch_icefinder2_ices_tsv = channel.empty()
+ 
+     def genomad_db = channel.of(file(params.genomad_db, checkIfExists: true))
+ 
+@@ -205,7 +196,7 @@ workflow MOBILOMEANNOTATION {
+     ).join(
+         INTEGRONFINDER.out.contigs_gbks
+     ).join(
+-        ICEFINDER2_LITE.out.ices_tsv, remainder: true
++        ch_icefinder2_ices_tsv, remainder: true
+     ).join(
+         GENOMAD.out.genomad_vir
+     ).join(
+@@ -365,8 +356,10 @@ workflow MOBILOMEANNOTATION {
+         )
+         ch_versions = ch_versions.mix(PATHOFACT2.out.versions)
+         ch_pathofact_gff = PATHOFACT2.out.gff
++        ch_signalp6_tsv = PATHOFACT2.out.signalp6_tsv
+     } else {
+         ch_pathofact_gff = Channel.empty()
++        ch_signalp6_tsv = Channel.empty()
+     }
+ 
+     // AMR_ANNOTATION ch_inputs: tuple(meta, aminoacids, cds_gff) ready in ch_proteins_source
+@@ -417,8 +410,9 @@ workflow MOBILOMEANNOTATION {
+         .join(AMR_ANNOTATION.out.gff, remainder: true)
+         .join(ch_bgc_gff, remainder: true)
+         .join(ch_user_ips, remainder: true)
+-        .map { meta, mobilome, contig_map, pathofact, amr, bgc, ips ->
+-            tuple(meta, mobilome, pathofact ?: [], amr ?: [], bgc ?: [], ips ?: [], contig_map)
++        .join(ch_signalp6_tsv, remainder: true)
++        .map { meta, mobilome, contig_map, pathofact, amr, bgc, ips, signalp6 ->
++            tuple(meta, mobilome, pathofact ?: [], amr ?: [], bgc ?: [], ips ?: [], contig_map, signalp6 ?: [])
+         }
+ 
+     COMBINEREPORTER( ch_combinereporter_input )
