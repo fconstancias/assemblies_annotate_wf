@@ -1,0 +1,44 @@
+# Nextflow runtime state and work directories -- huge, ephemeral, regeneratable via -resume
+# against the real work/ dir which itself never belongs in git
+work/
+.nextflow/
+.nextflow.log*
+.nextflow.pid
+*.trace.txt
+report-*.html
+timeline-*.html
+dag-*.html
+
+# Pipeline outputs -- large data products, not source, regeneratable by rerunning the
+# documented commands (REPRODUCE.md) against the real upstream contigs-dbs
+results/
+
+# Real per-sample gene exports -- large FASTA/GFF3/GenBank data, regeneratable from the
+# source anvi'o contigs-db via the exact commands in REPRODUCE.md section 5
+gene_export/**/*.faa
+gene_export/**/*.fna
+gene_export/**/*.gff3
+gene_export/**/*.gbff
+gene_export/*.faa
+gene_export/*.fna
+gene_export/*.gff3
+gene_export/*.gbff
+coassembly_production/gene_export/*.faa
+coassembly_production/gene_export/*.fna
+coassembly_production/gene_export/*.gff3
+coassembly_production/gene_export/*.gbff
+
+# Verbose run logs -- often multi-MB, not meaningful outside the run that produced them
+*.log
+logs/
+
+# Anvi'o contigs-dbs -- binary SQLite data, regeneratable via anvi-gen-contigs-database
+# (see REPRODUCE.md) or already sourced from BINNING/01_ANVIO_DBs/ outside this repo
+*.db
+
+# Large reference databases -- these live outside assembly_annotation_wf/ anyway
+# (anvio_kegg_data/, dram2_databases/ are project-wide, not per-workflow) but excluded
+# defensively in case anything gets built locally
+*_data/
+*_database/
+*_databases/

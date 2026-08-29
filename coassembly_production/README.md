@@ -1,0 +1,108 @@
+# Co-assembly production run — all 19 real per-participant MEGAHIT co-assemblies
+
+Started 2026-08-29, under real time pressure: cluster access ends 2026-08-31 (Monday).
+Goal — process as much of the real dataset as the remaining window allows, not just the
+curated test subset used everywhere else in `../`.
+
+## Scope
+
+19 of 25 participants (the ones actually used by `../../spa_coassembly_all/` — see that
+directory's `CO_ASSEMBLY.md` for why 6 are excluded: `729, 654, 431, 373, 151, 142`, held
+back pending more samples). **Not** `co728`/`co894`/`cospa728`/`cospa894` under
+`BINNING/01_ANVIO_DBs/` — those are an older/different run, explicitly superseded per
+`CO_ASSEMBLY.md`. Real contigs-dbs (gene calls, HMMs, everything already done — no
+re-derivation needed), one per participant:
+`../../spa_coassembly_all/results_coassembly_all/concoct/mh_p{ID}/mh_p{ID}.db`
+(named `concoct/` for historical/organizational reasons in that pipeline, but it is the
+genuine, full anvi'o contigs-db — confirmed directly from `metagenome_assemble.smk`'s
+`anvi_gen_contigs_db` rule).
+
+Real scale, per participant (`select count(*) from genes_in_contigs`): 230,757 (`mh_p408`,
+smallest) to 695,576 (`mh_p813`, largest) genes. Total ≈ 6.6M genes across all 19 — 15-55x
+bigger than the curated 100-contig subset used for all prior validation in `../`.
+
+## What's running
+
+- **`gene_export/`**: gff3 + faa per participant, same `anvi-get-sequences-for-gene-calls`
+  command and `--defline-format "{contigs_db_project_name}___{gene_caller_id}"` fix as
+  everywhere else in this project (`../CLAUDE.md`'s Upstream section).
+- **`anvio_kegg/`**: `anvi-run-kegg-kofams` + `anvi-estimate-metabolism --metagenome-mode`,
+  submitted as one SLURM array job (`anvio_kegg/run_kofams_array.sh`, job array, one task
+  per participant) — **not** run directly on the login/interactive node like the curated-
+  subset tests were, since at this scale (per-task ~15-50x the subset's already-substantial
+  runtime) that would be genuinely heavy sustained compute, which is what `sbatch` is for.
+  Uses the same `anvio_kegg_data` KEGG setup built for the subset comparison (`../
+  metabolism_comparison/anvio_kegg/`) — no need to redo that step, it's participant-agnostic.
+- **`funcscan_run/`** + **`map_run/`**: same patched asset checkouts, same AMR+AMP+CAZyme /
+  full-scope flags as `../funcscan_run/` and `../map_run/`, one multi-sample samplesheet
+  (19 rows) each instead of 19 separate invocations — lets Nextflow's own SLURM executor
+  handle per-sample parallelism across the queue.
+- **AMPCOMBI2**: no real per-participant `.gbk` built for this run (unlike the curated-
+  subset comparison) — given the time constraint, prioritizing getting real AMR/AMP/CAZyme
+  hit lists across all 19 participants over perfecting cross-sample AMP clustering
+  (`AMPCOMBI2_CLUSTER`, which needs real gbk content — see `../CLAUDE.md`). The placeholder-
+  gbk patch (`../funcscan_gff_test/patches/02_ampcombi2_parsetables_optional_gbk.patch`,
+  already applied to the shared checkout) still gets real per-sample AMP hits
+  (`PARSETABLES`/`COMPLETE`) — just not the cross-sample dedup step. Revisit only if time
+  remains.
+
+## Real-scale gotchas hit going from 2-sample tests to 19-participant production
+
+None of these ever surfaced during the curated-subset validation earlier in `../` — only
+appeared at real scale, real concurrency, or with the actual production data. All fixed in
+`funcscan_run/nextflow.config` and `map_run/nextflow.config`, see those files' comments for
+the full detail; summary here since they cost real time (multiple kill/relaunch cycles).
+
+1. **`executor.queueSize = 50`** (copied unmodified from the tiny 2-sample test configs)
+   silently throttled both pipelines to 50 concurrent submitted tasks each, while the actual
+   cluster sat with 330 idle CPUs and one fully-idle node — confirmed directly via
+   `squeue`/`sinfo`. At 19-participant scale, a single sample alone spawns ~10 parallel
+   fARGene sub-tasks; 50 total across the whole run was nowhere near enough. Bumped to 200
+   in both configs. This is an executor-level submission-throttle setting, not a per-task
+   directive — safe to change and resume without losing any completed work (see point 3).
+   Confirmed real effect: 125 concurrent jobs (330 CPUs idle) → 265 jobs (partition at
+   ~full utilization, 1660/1664 CPUs allocated).
+2. **MAP's `--skip_sanntis`/`--skip_gecco`/`--skip_antismash` CLI flags broke** ("Value is
+   [string] but should be [boolean]") — caused by the `nextflow self-update` done earlier
+   this session (25.10.2 → 26.04.6, needed for funcscan 4.0.0's version floor) changing how
+   the newer Nextflow CLI parses `--flag true`/`--flag false`. Fixed by setting them as real
+   Groovy booleans directly in `nextflow.config`'s `params {}` block instead of as CLI
+   arguments — sidesteps the CLI parser entirely.
+3. **Editing `process{}`-level directives (e.g. adding a new `memory` override) invalidates
+   the resume cache for every process, not just the one being changed** — cost real,
+   already-completed fARGene work by triggering a full recompute on the next `-resume`
+   ("Unable to resume cached task" for every previously-finished task). Executor-level
+   settings (`executor.queueSize`, point 1) do **not** have this problem — only
+   `process{}`-level directives (`memory`, `cpus`, `errorStrategy`, etc.) affect the cache
+   hash. Know which kind of config change you're making before doing it mid-run.
+4. **A `memory = { task.memory * task.attempt }` retry-scaling closure recurses infinitely**
+   — Nextflow resolves `task.memory` by calling this same closure, so referencing it inside
+   its own definition is circular. Caused a real `java.lang.StackOverflowError` that aborted
+   the whole funcscan run outright (confirmed in `.nextflow.log`). Fixed: use a fixed literal
+   base value instead (`{ [16.GB * task.attempt, 128.GB].min() }`), never `task.memory`,
+   inside a directive that's scaling that same directive.
+5. **Real per-participant scale (230K-696K genes, 15-55x the curated subset) exceeds
+   funcscan's default resource labels** — hit a genuine OOM (`AMRFinderPlus`'s `tblastn` on
+   `mh_p813`, the largest participant; `status = 35072` decodes to exit 137/SIGKILL). Fixed
+   by the same per-attempt memory scaling as point 4, combined with retrying on the relevant
+   exit codes (point 6).
+6. **Some tools' own wrappers swallow SIGKILL and re-raise as a plain exit 1**, hiding the
+   real signal from Nextflow's exit-status-based retry logic entirely — MAP's `GENOMAD`
+   step (its Python `genomad` CLI wraps `mmseqs2`) did this for `mh_p398`/`mh_p584`: the
+   real cause, confirmed in `.command.err`, was `died with <Signals.SIGKILL: 9>`, but
+   Nextflow only ever saw the wrapper's own exit 1, so the original `errorStrategy` (which
+   only retried on 130-145/104/255) sent it straight to `finish` with no retry, silently
+   dropping those two participants' MGE/plasmid/virus predictions for that run. Fixed:
+   broadened `errorStrategy` to also retry on exit 1 — accepts wasting some retries on
+   genuinely-broken exit-1 failures, a reasonable cost against silently losing samples.
+7. **Loop-device exhaustion under heavy concurrent Singularity use**: `failed to find loop
+   device... resource temporarily unavailable` — transient infra contention from running
+   many containers at once, not a real task failure. Covered by the same broadened
+   `errorStrategy`/retry as point 6.
+
+## Known, accepted limitation given the deadline
+
+Some of the largest participants (`mh_p813`: 695,576 genes, `mh_p789`: 667,363,
+`mh_p292`: 449,070, `mh_p523`: 435,803) may not finish every tool before access ends —
+this is expected and accepted; partial results for the largest participants are still real,
+usable results for whatever stages did complete. Check `logs/` for per-participant status.
