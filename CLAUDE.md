@@ -310,6 +310,16 @@ once a change is validated on this pair.
   19-participant/230K-696K-gene scale, never during any subset-scale validation. Don't
   assume subset-validated resource defaults carry over to real scale without a retry/scaling
   safety net (previous points).
+- **`anvi-run-kegg-kofams`/`anvi-estimate-metabolism` mutate the contigs-db they're given
+  in place** (write KOfam/KEGG_Module/KEGG_BRITE functions directly into it) — pointing a
+  production job at a shared upstream contigs-db (as opposed to our own copy) breaks the
+  "never mutate upstream source data" convention followed everywhere else in this project.
+  Caught before any actual damage in the 19-participant production run (confirmed via both
+  log content and file mtimes that none had written yet) but cost ~3h45m of already-elapsed
+  HMM search, redone against copies under `coassembly_production/anvio_kegg/contigs_dbs/`
+  instead. Check *what a tool actually writes to, and where*, before pointing any anvi'o
+  annotation step at a path outside your own workflow directory — not just funcscan/MAP
+  which only ever read gff3/faa/fasta inputs and write to their own `results/`.
 
 ## Agent team for this directory
 

@@ -33,6 +33,15 @@ bigger than the curated 100-contig subset used for all prior validation in `../`
   runtime) that would be genuinely heavy sustained compute, which is what `sbatch` is for.
   Uses the same `anvio_kegg_data` KEGG setup built for the subset comparison (`../
   metabolism_comparison/anvio_kegg/`) — no need to redo that step, it's participant-agnostic.
+  **Operates on `anvio_kegg/contigs_dbs/mh_p{ID}.db` — our own copies, not the shared
+  upstream `spa_coassembly_all/results_coassembly_all/concoct/mh_p{ID}/mh_p{ID}.db`
+  originals.** `anvi-run-kegg-kofams` mutates the contigs-db it's given in place (writes
+  KOfam/KEGG_Module/KEGG_BRITE functions directly into it) — the first version of this job
+  was accidentally pointed at the shared originals; caught and fixed before any of the 19
+  had actually written results (confirmed via both log content and file mtimes — none had
+  reached the "added to the contigs database" point yet), costing ~3h45m of already-elapsed
+  HMM search that had to be redone against the copies instead. Same "never mutate upstream
+  source data" convention as everywhere else in this project.
 - **`funcscan_run/`** + **`map_run/`**: same patched asset checkouts, same AMR+AMP+CAZyme /
   full-scope flags as `../funcscan_run/` and `../map_run/`, one multi-sample samplesheet
   (19 rows) each instead of 19 separate invocations — lets Nextflow's own SLURM executor
