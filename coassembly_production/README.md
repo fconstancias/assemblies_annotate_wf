@@ -151,6 +151,20 @@ the full detail; summary here since they cost real time (multiple kill/relaunch 
     and `mh_p894`, back in the same run after this fix — real cache preserved for every
     unrelated already-completed task (confirmed: 0 "Unable to resume cached task" warnings).
 
+11. **`RGI_MAIN` failed (exit 140) on 8+ different participants** at the blanket 128GB cap
+    — but real, complete output already existed in the work dir (`mh_p341.json` 9.5MB,
+    `mh_p341.txt` 1.2MB, both look legitimate) before the task's own exit status came back
+    non-zero, consistent with a resource limit hit late (post-processing, or a lingering
+    RGI multiprocessing worker), not a data/logic failure. Also produces repeated,
+    non-fatal `Requested rname X does not exist! Please check your FASTA file.` warnings —
+    traced directly to `pyfaidx` inside the RGI container (`app/Base.py`'s
+    `get_part_sequence()`, used for partial-hit boundary refinement); `X` comes out as just
+    the bare sample ID rather than a real contig name, most likely RGI's own gene-ID parsing
+    assumption being broken by our `{sample}___{gene_id}` triple-underscore convention — but
+    confirmed harmless/cosmetic (real output produced despite the repeated warnings, not the
+    cause of the exit 140). Fixed with the same targeted pattern as AMPIR:
+    `withName: '.*RGI_MAIN' { memory = { [32.GB * task.attempt, 512.GB].min() } }`.
+
 ## Known, accepted limitation given the deadline
 
 Some of the largest participants (`mh_p813`: 695,576 genes, `mh_p789`: 667,363,
