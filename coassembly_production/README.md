@@ -165,6 +165,14 @@ the full detail; summary here since they cost real time (multiple kill/relaunch 
     cause of the exit 140). Fixed with the same targeted pattern as AMPIR:
     `withName: '.*RGI_MAIN' { memory = { [32.GB * task.attempt, 512.GB].min() } }`.
 
+12. **`RUNDBCAN`'s three steps (EASYCGC/EASYSUBSTRATE/CAZYMEANNOTATION) OOM'd (exit 137,
+    plain "Killed") at the 128GB blanket cap** — but only on the same two largest
+    participants (`mh_p789`/`mh_p813`, 667K/696K genes); everything else in the run had
+    already completed successfully at this point (funcscan's own summary: "Pipeline
+    completed successfully, but with errored process(es)" — 548 real successes, only these
+    7 dbCAN failures). Same targeted fix pattern: `withName: '.*RUNDBCAN.*'` with the same
+    512GB ceiling.
+
 ## Known, accepted limitation given the deadline
 
 Some of the largest participants (`mh_p813`: 695,576 genes, `mh_p789`: 667,363,
