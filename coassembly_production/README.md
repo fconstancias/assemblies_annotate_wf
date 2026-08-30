@@ -173,6 +173,13 @@ the full detail; summary here since they cost real time (multiple kill/relaunch 
     7 dbCAN failures). Same targeted fix pattern: `withName: '.*RUNDBCAN.*'` with the same
     512GB ceiling.
 
+13. **MAP's `SANNTIS` (BGC prediction) OOM'd on all 19 of 19 participants at least once** —
+    unlike AMPIR/RGI_MAIN/RUNDBCAN in funcscan (which only affected the 2-3 largest),
+    this is systemic: every participant needed meaningfully more than the blanket 16GB
+    starting point, regardless of size. Rather than let each slowly ramp through retries,
+    started it directly at a higher baseline: `withName: '.*SANNTIS' { memory = { [64.GB *
+    task.attempt, 512.GB].min() } }`.
+
 ## Known, accepted limitation given the deadline
 
 Some of the largest participants (`mh_p813`: 695,576 genes, `mh_p789`: 667,363,
