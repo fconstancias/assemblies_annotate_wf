@@ -75,10 +75,22 @@ fixed-column format Biopython's own parser rejects otherwise); (b) that placehol
 must only run when `gbk_input` is genuinely absent — a real supplied gbk file crashes if
 treated as a directory to `mkdir`/`ls` into.
 
-MAP needed no code patches — only `nextflow.config`-level `errorStrategy = 'ignore'`
+MAP additionally needed one code patch, applied the same way against the staged checkout's
+`workflows/mobilomeannotation.nf`:
+
+```bash
+cd ~/.nextflow/assets/EBI-Metagenomics/mobilome-annotation-pipeline
+# Patch 4 -- disable ICEFINDER2_LITE entirely: its internal join logic crashes whenever one
+# of its parallel branches produces no match (confirmed recurring across multiple
+# participants, not isolated) -- substituted an empty channel the existing remainder:true
+# downstream already handles, rather than excluding affected samples one at a time.
+git diff -- workflows/mobilomeannotation.nf > /path/to/coassembly_production/map_run/04_disable_broken_icefinder2_lite.patch
+```
+
+Beyond that one patch, MAP needed only `nextflow.config`-level `errorStrategy = 'ignore'`
 overrides for two upstream bugs (`DB_DOWNLOAD_VFDB`'s missing curl, geNomad's mismatched
-tarball folder name) — see `map_run/nextflow.config` and its README for the by-hand DB
-rescue each one needs.
+tarball folder name) — see `map_run/nextflow.config` for the by-hand DB rescue each one
+needs.
 
 ## 4. Reference database setup
 
@@ -161,7 +173,42 @@ anvi-estimate-metabolism -c "$DB" \
     --metagenome-mode -O "${P}_metabolism"
 ```
 
-## 9. Operational commands used repeatedly (not install/patch/run, but load-bearing)
+## 9. Run: anvi'o-KEGG for single-sample assemblies (277 groups, separate dir)
+
+Same recipe as §8, against `spa_single_all/`'s 277 single-sample contigs-dbs instead of the
+19 co-assemblies. Runs in `../spa_single_all_anvio_kegg/` (outside this repo — copies of both
+scripts kept here under `single_assembly_production/anvio_kegg/` for reference). Own copy of
+each contigs-db first (never mutate the shared upstream `spa_single_all` dbs, same convention
+as §8), array throttled to 20 concurrent tasks (`%20` — cluster has 1664 total CPUs across 13
+nodes, 277 concurrent x 32 CPUs/task would need the whole cluster to itself).
+
+```bash
+sbatch spa_single_all_anvio_kegg/run_kofams_array.sh
+sbatch spa_single_all_anvio_kegg/s3_sync_watcher.sh
+```
+Real per-group runtime for co-assembly (§8) was 7.5-15h each (230K-667K genes/participant);
+single-sample groups are smaller (132K-321K genes/group sampled) but still multi-hour, not
+minutes — full 277-group batch expected to take multiple days even with throttled
+parallelism, not something to wait on interactively.
+
+## 10. S3 incremental sync watchers
+
+Both `coassembly_production/s3_sync_watcher.sh` and
+`spa_single_all_anvio_kegg/s3_sync_watcher.sh` poll every 15 minutes for newly-finished work
+(cross-checked against `squeue` so a group mid-(re)computation is never uploaded prematurely)
+and upload it via `rclone copy --checksum`. Both run as their own long-lived SLURM batch jobs
+(`--time=7-00:00:00`), not head-node background processes, so they survive session/login
+disconnects (confirmed: a head-node Snakemake driver survived 8+ days untouched, and MAP's
+own Nextflow driver is `nohup`'d and reparented to init — a plain SSH disconnect does not
+kill either). They do **not** survive a full account suspension (job-kill), the assumed
+access-cutoff scenario for 2026-08-31 -- see `README.md`'s S3 backup section.
+
+```bash
+sbatch coassembly_production/s3_sync_watcher.sh
+sbatch spa_single_all_anvio_kegg/s3_sync_watcher.sh
+```
+
+## 11. Operational commands used repeatedly (not install/patch/run, but load-bearing)
 
 ```bash
 # Clear a stale Nextflow session lock after confirming no process actually holds it

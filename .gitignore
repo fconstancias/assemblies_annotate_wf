@@ -32,6 +32,16 @@ coassembly_production/gene_export/*.gbff
 *.log
 logs/
 
+# SLURM batch stdout/stderr and S3 sync-watcher internal state -- same category as *.log
+# above, just a different extension/dir name
+*.out
+.s3_sync_state/
+
+# anvi'o KEGG metabolism-estimate output -- large per-group data product, regeneratable via
+# single_assembly_production/anvio_kegg/run_kofams_array.sh (or coassembly_production's
+# equivalent) against the source contigs-db, same logic as the gene_export exclusions above
+*_metabolism_modules.txt
+
 # Anvi'o contigs-dbs -- binary SQLite data, regeneratable via anvi-gen-contigs-database
 # (see REPRODUCE.md) or already sourced from BINNING/01_ANVIO_DBs/ outside this repo
 *.db

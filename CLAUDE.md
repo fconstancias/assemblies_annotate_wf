@@ -402,8 +402,7 @@ comega{participant}/`). `co728`/`co894`/`cospa728`/`cospa894` under `BINNING/01_
 are explicitly an older/different run, superseded — not used going forward. Don't re-guess
 this; read the two README.md files above if it comes up again.
 
-**What's running now** (co-assemblies only so far — single assemblies, 277 groups, not
-started, likely out of scope given the deadline unless explicitly revisited):
+**What's running now**:
 19 of 25 participants (6 excluded per `CO_ASSEMBLY.md`: pending more samples). Real contigs-
 dbs already exist, gene calls already done —
 `../spa_coassembly_all/results_coassembly_all/concoct/mh_p{ID}/mh_p{ID}.db` (named
@@ -417,6 +416,37 @@ and MAP (full scope) as 19-row multi-sample Nextflow runs. AMPCOMBI2 uses the pl
 patch (real per-sample AMP hits, no cross-sample clustering) — building real per-participant
 `.gbk` was deprioritized given the deadline. Some of the largest participants may not finish
 every tool before access ends; that's accepted, not a failure.
+
+**2026-08-31 update — single-sample assemblies explicitly revisited, no longer out of
+scope**: all 277 `spa_single_all/` groups' contigs-dbs copied into a separate working dir
+(`../spa_single_all_anvio_kegg/`, never mutating the shared upstream dbs — same convention as
+co-assembly) and the same `anvi-run-kegg-kofams` + `anvi-estimate-metabolism` recipe launched
+as a 277-task SLURM array, throttled to 20 concurrent (cluster total is 1664 CPUs across 13
+nodes — full concurrency would need the whole cluster). Real per-group runtime for
+co-assembly ran 7.5-15h each; single-sample groups are smaller (132K-321K genes/group
+sampled vs. co-assembly's 230K-667K) but still multi-hour — expect the full batch to take
+multiple days, not something to wait on interactively. Scripts kept here for reference under
+`single_assembly_production/anvio_kegg/` (live/running copies are in the separate dir, not
+this repo). As of this write-up: 6/277 groups finished and synced to S3.
+
+**S3 backup, incremental and automatic**: every project directory (this repo,
+`spa_single_all/`, `spa_coassembly_all/`, `spa_assembly_comparison/`) is backed up to the
+UNIL S3 bucket via `rclone copy --checksum` + an independent `rclone check`, real hash
+verification not just size/modtime. For this repo's still-in-progress
+`coassembly_production/` pieces specifically (MAP's BGC/SANNTIS step, funcscan's CAZyme
+substrate step), a polling watcher (`coassembly_production/s3_sync_watcher.sh`, 15 min
+cycle) uploads each co-assembly group's output the moment it's genuinely complete — checked
+against `squeue`, not just file existence, so a group mid-(re)computation is never uploaded
+prematurely. A second, identical watcher (`spa_single_all_anvio_kegg/s3_sync_watcher.sh`)
+does the same for the new single-sample KEGG array. Both run as their own long-lived SLURM
+batch jobs, not head-node processes — confirmed a head-node Snakemake driver survives 8+ days
+untouched, and MAP's own Nextflow driver (`nohup`'d, reparented to init) is unaffected by a
+plain SSH disconnect, so **session-level** access loss doesn't threaten any of this. It does
+**not** protect against a full **account-level** suspension (job-kill across the whole UID),
+which is the access-cutoff scenario assumed for 2026-08-31 -- if that's what actually happens,
+everything mid-computation at that exact moment is lost and needs rerunning once access
+resumes, but everything already finished and synced to S3 is completely safe regardless of
+what happens to the compute account.
 
 ## Open items, as of 2026-08-28
 
