@@ -165,13 +165,21 @@ the full detail; summary here since they cost real time (multiple kill/relaunch 
     cause of the exit 140). Fixed with the same targeted pattern as AMPIR:
     `withName: '.*RGI_MAIN' { memory = { [32.GB * task.attempt, 512.GB].min() } }`.
 
-12. **`RUNDBCAN`'s three steps (EASYCGC/EASYSUBSTRATE/CAZYMEANNOTATION) OOM'd (exit 137,
-    plain "Killed") at the 128GB blanket cap** — but only on the same two largest
-    participants (`mh_p789`/`mh_p813`, 667K/696K genes); everything else in the run had
-    already completed successfully at this point (funcscan's own summary: "Pipeline
-    completed successfully, but with errored process(es)" — 548 real successes, only these
-    7 dbCAN failures). Same targeted fix pattern: `withName: '.*RUNDBCAN.*'` with the same
-    512GB ceiling.
+12. **`RUNDBCAN`'s `EASYSUBSTRATE` step, `mh_p789`/`mh_p813` only — turned out to be a SLURM
+    timeout, never memory, despite looking identical to the AMPIR/RGI_MAIN OOM pattern.**
+    First treated as OOM (exit 137/140, "Killed"), same fix pattern as AMPIR/RGI_MAIN:
+    targeted memory override, tried at 128GB → 256GB → 1TB across three separate resumes.
+    **All three failed at the exact identical point** ("step 1/4 CAZyme annotation...",
+    exit 140) — a real tell that memory was never the actual constraint, in hindsight.
+    Root-caused directly by checking the failed task's own timestamps
+    (`.command.begin`→`.exitcode`): ran for **exactly 8h00m** before being killed, matching
+    funcscan's default SLURM time limit (`#SBATCH -t 08:00:00`, from its own resource
+    label) precisely — a genuine wall-clock timeout. Fixed by extending `time` instead of
+    `memory`: `withName: '.*RUNDBCAN.*' { time = { 24.h * task.attempt } }`. Lesson: an
+    identical failure signature across memory levels — same exit code, same point of
+    failure — is itself the sign to check the timestamps/SLURM reason before assuming more
+    memory will help; three separate resumes were spent on this before the real cause was
+    checked directly instead of inferred from the exit code alone.
 
 13. **MAP's `SANNTIS` (BGC prediction) OOM'd on all 19 of 19 participants at least once** —
     unlike AMPIR/RGI_MAIN/RUNDBCAN in funcscan (which only affected the 2-3 largest),
