@@ -188,6 +188,14 @@ the full detail; summary here since they cost real time (multiple kill/relaunch 
     started it directly at a higher baseline: `withName: '.*SANNTIS' { memory = { [64.GB *
     task.attempt, 512.GB].min() } }`.
 
+13. **✅ funcscan fully complete, all 19 participants, 2026-09-01.** The combined
+    time+memory fix (previous entry) worked — real, complete CAZyme output confirmed for
+    both `mh_p789`/`mh_p813` (`*_overview.tsv`, ~2MB each, real HMM/diamond results
+    alongside). Final state: only 1 failure remains, `AMPCOMBI2_CLUSTER`'s already-known,
+    already-accepted gbk-content limitation (item 4 above) — a deliberate scope trade-off
+    from earlier in this project, not a bug. Every other AMR/AMP/CAZyme result, for every
+    participant, is real and complete.
+
 ## Known, accepted limitation given the deadline
 
 Some of the largest participants (`mh_p813`: 695,576 genes, `mh_p789`: 667,363,
