@@ -31,6 +31,12 @@ vs 19 — ~14x the total scope).
   independently before this MAP run started, same architecture as the co-assembly one
   (own contigs-db copies, never the shared upstream). Not duplicated here.
 
+## Status: ✅ complete, 2026-09-03
+
+All 277 groups finished MAP's full pipeline (real SANNTIS/BGC output confirmed for every
+group) and are uploaded to S3 — the sync watcher (`s3_sync_watcher.sh`) exited cleanly
+having reached "everything complete" (277/277 real `UPLOADED:` log entries, not a crash).
+
 ## Not yet started
 
 funcscan on the single-sample groups — MAP was the explicit ask; funcscan would need its

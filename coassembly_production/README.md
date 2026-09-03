@@ -196,6 +196,18 @@ the full detail; summary here since they cost real time (multiple kill/relaunch 
     from earlier in this project, not a bug. Every other AMR/AMP/CAZyme result, for every
     participant, is real and complete.
 
+14. **✅ MAP fully complete, all 19 participants, 2026-09-03.** Final state:
+    `completed=293 failed=21 cached=772`, but all 21 "failures" are retry-then-succeed
+    noise from already-documented issues (GENOMAD's own wrapper catching an internal
+    SIGKILL and re-raising as a plain exception on first attempt — same pattern as the
+    earlier `mh_p398`/`mh_p584` case; SANNTIS's OOM on the two largest participants,
+    already fixed with the memory override) — real, substantial output confirmed for
+    every participant (geNomad: 600+ rows/participant across plasmid/virus/checkv
+    summaries; SANNTIS BGC output uploaded to S3 for all 19). Both `coassembly_production/`
+    and `single_assembly_production/`'s S3 sync watchers exited cleanly having reached
+    "everything complete" — real confirmation, not a crash (both logged genuine
+    `UPLOADED:` entries for every group before exiting).
+
 ## Known, accepted limitation given the deadline
 
 Some of the largest participants (`mh_p813`: 695,576 genes, `mh_p789`: 667,363,
