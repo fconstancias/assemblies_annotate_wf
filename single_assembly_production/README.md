@@ -83,3 +83,21 @@ this one does periodic whole-tree syncs instead, gated by counting how many samp
 reached dbCAN's substrate-prediction step (the last stage of RUNDBCAN, funcscan's
 slowest tool chain) as the "worth syncing now" proxy, with a final sync once all 277
 groups reach it.
+
+### Status: ✅ complete, 2026-09-06
+
+`completed=7796 failed=1` — the one failure is
+`NFCORE_FUNCSCAN:FUNCSCAN:AMP:AMPCOMBI2_CLUSTER`, the exact same known limitation
+already documented for the co-assembly run (`KeyError: 'contig_id'` — needs real GBK
+content deliberately not built for this production run), correctly caught by
+`errorStrategy = 'ignore'` so it didn't take anything else down. Real final aggregate
+outputs confirmed on disk (`reports/hamronization_summarize/hamronization_combined_report.tsv`,
+`multiqc/multiqc_report.html`).
+
+**Real gap caught and fixed**: the watcher's own "done" gate (dbCAN substrate step
+reaching 277/277) fired before the pipeline's actual last steps (ARGNORM_DEEPARG,
+HAMRONIZATION_RGI/SUMMARIZE, MULTIQC) finished, so it exited a bit early and missed
+uploading that tail. Caught by explicitly waiting for the pipeline's own "Pipeline
+completed" line rather than trusting the watcher's exit as the true completion signal,
+then running one manual final `rclone copy --checksum` pass over the whole results tree
+(1483 new files transferred, rest already up to date from earlier watcher cycles).
