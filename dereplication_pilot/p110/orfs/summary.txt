@@ -1,0 +1,11 @@
+=== p110 / orfs ===
+total sequences pooled: 1022879  (297352858 bp/residues)
+total clusters: 323708  (singleton: 68032, multi-member: 255676)
+cross-group clusters (redundant across >=2 assemblies): 255206
+redundant sequences: 953780/1022879 (93.2% by count, 96.0% by bp)
+per-group breakdown (redundant/total, count and bp):
+  mh_p110: 273794/314810 (87.0%) by count, 83451497/90844618 (91.9%) by bp
+  spaS222: 158649/163177 (97.2%) by count, 48238980/48858148 (98.7%) by bp
+  spaS223: 150514/162607 (92.6%) by count, 44892552/47338000 (94.8%) by bp
+  spaS30: 193274/199708 (96.8%) by count, 56569703/57367291 (98.6%) by bp
+  spaS37: 177549/182577 (97.2%) by count, 52291987/52944801 (98.8%) by bp

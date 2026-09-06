@@ -1,0 +1,15 @@
+=== p97 / orfs ===
+total sequences pooled: 1286297  (382111560 bp/residues)
+total clusters: 254598  (singleton: 44164, multi-member: 210434)
+cross-group clusters (redundant across >=2 assemblies): 209893
+redundant sequences: 1240961/1286297 (96.5% by count, 98.0% by bp)
+per-group breakdown (redundant/total, count and bp):
+  mh_p97: 231321/256700 (90.1%) by count, 70812252/75628566 (93.6%) by bp
+  spaS25: 110866/114905 (96.5%) by count, 33638164/34319371 (98.0%) by bp
+  spaS250: 136357/139598 (97.7%) by count, 42030446/42556439 (98.8%) by bp
+  spaS251: 159908/162780 (98.2%) by count, 48145403/48479010 (99.3%) by bp
+  spaS252: 151480/154031 (98.3%) by count, 45747199/46051849 (99.3%) by bp
+  spaS253: 138603/140419 (98.7%) by count, 42142194/42343830 (99.5%) by bp
+  spaS29: 131429/133750 (98.3%) by count, 39233792/39498843 (99.3%) by bp
+  spaS35: 109610/111635 (98.2%) by count, 32199004/32427192 (99.3%) by bp
+  spaS43: 71387/72479 (98.5%) by count, 20675457/20806460 (99.4%) by bp
