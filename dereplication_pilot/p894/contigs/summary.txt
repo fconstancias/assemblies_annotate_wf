@@ -1,0 +1,12 @@
+=== p894 / contigs ===
+total sequences pooled: 168807  (894858422 bp/residues)
+total clusters: 128286  (singleton: 92540, multi-member: 35746)
+cross-group clusters (redundant across >=2 assemblies): 35538
+redundant sequences: 75848/168807 (44.9% by count, 72.0% by bp)
+per-group breakdown (redundant/total, count and bp):
+  mh_p894: 30293/54200 (55.9%) by count, 253885250/319049931 (79.6%) by bp
+  spaS139: 11872/30889 (38.4%) by count, 88188971/136676100 (64.5%) by bp
+  spaS157: 6325/20724 (30.5%) by count, 66738850/101828080 (65.5%) by bp
+  spaS176: 8781/23511 (37.3%) by count, 76576844/119504095 (64.1%) by bp
+  spaS197: 10144/26236 (38.7%) by count, 85778590/127245596 (67.4%) by bp
+  spaS95: 8433/13247 (63.7%) by count, 73064779/90554620 (80.7%) by bp

@@ -1,0 +1,14 @@
+=== p408 / orfs ===
+total sequences pooled: 1044062  (305256555 bp/residues)
+total clusters: 228827  (singleton: 51156, multi-member: 177671)
+cross-group clusters (redundant across >=2 assemblies): 177117
+redundant sequences: 991699/1044062 (95.0% by count, 97.0% by bp)
+per-group breakdown (redundant/total, count and bp):
+  mh_p408: 195125/230727 (84.6%) by count, 59298146/66353073 (89.4%) by bp
+  spaS109: 78948/80677 (97.9%) by count, 22555016/22769228 (99.1%) by bp
+  spaS114: 112327/114320 (98.3%) by count, 33738271/33979828 (99.3%) by bp
+  spaS119: 122180/125353 (97.5%) by count, 36774391/37235152 (98.8%) by bp
+  spaS126: 127022/129293 (98.2%) by count, 38138015/38401389 (99.3%) by bp
+  spaS135: 140882/143610 (98.1%) by count, 41779549/42097623 (99.2%) by bp
+  spaS141: 110524/113080 (97.7%) by count, 32629248/32956139 (99.0%) by bp
+  spaS150: 104691/107002 (97.8%) by count, 31173314/31464123 (99.1%) by bp

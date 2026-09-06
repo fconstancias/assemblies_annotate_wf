@@ -1,0 +1,651 @@
+=== co-assembly-unique contigs/genes (19 participants with a co-assembly) ===
+
+--- tier: contigs ---
+  p110 (mh_p110): 21912/50096 (43.7%) co-assembly-only, no single-sample match
+  p125 (mh_p125): 23848/46024 (51.8%) co-assembly-only, no single-sample match
+  p292 (mh_p292): 37813/75275 (50.2%) co-assembly-only, no single-sample match
+  p341 (mh_p341): 22937/54307 (42.2%) co-assembly-only, no single-sample match
+  p398 (mh_p398): 18049/38611 (46.7%) co-assembly-only, no single-sample match
+  p408 (mh_p408): 19466/34197 (56.9%) co-assembly-only, no single-sample match
+  p470 (mh_p470): 24534/47858 (51.3%) co-assembly-only, no single-sample match
+  p523 (mh_p523): 35775/69642 (51.4%) co-assembly-only, no single-sample match
+  p550 (mh_p550): 19719/48151 (41.0%) co-assembly-only, no single-sample match
+  p584 (mh_p584): 20781/41279 (50.3%) co-assembly-only, no single-sample match
+  p601 (mh_p601): 29515/58421 (50.5%) co-assembly-only, no single-sample match
+  p644 (mh_p644): 21409/41788 (51.2%) co-assembly-only, no single-sample match
+  p722 (mh_p722): 26319/62599 (42.0%) co-assembly-only, no single-sample match
+  p728 (mh_p728): 17386/39698 (43.8%) co-assembly-only, no single-sample match
+  p789 (mh_p789): 54785/118983 (46.0%) co-assembly-only, no single-sample match
+  p813 (mh_p813): 64633/121956 (53.0%) co-assembly-only, no single-sample match
+  p860 (mh_p860): 26820/53968 (49.7%) co-assembly-only, no single-sample match
+  p894 (mh_p894): 23907/54200 (44.1%) co-assembly-only, no single-sample match
+  p97 (mh_p97): 15720/34530 (45.5%) co-assembly-only, no single-sample match
+
+--- tier: orfs ---
+  p110 (mh_p110): 41016/314810 (13.0%) co-assembly-only, no single-sample match
+    AMR hit only found via co-assembly: mh_p110___215959 -> vanW gene in vanI cluster
+    AMR hit only found via co-assembly: mh_p110___90886 -> vanT gene in vanG cluster
+    AMR hit only found via co-assembly: mh_p110___81014 -> tet(Q)
+    AMR hit only found via co-assembly: mh_p110___90950 -> vanW gene in vanI cluster
+    AMR hit only found via co-assembly: mh_p110___91954 -> vanH gene in vanO cluster
+    AMR hit only found via co-assembly: mh_p110___156006 -> vanW gene in vanI cluster
+    AMR hit only found via co-assembly: mh_p110___29350 -> vanW gene in vanI cluster
+    AMR hit only found via co-assembly: mh_p110___197548 -> vanT gene in vanG cluster
+    AMR hit only found via co-assembly: mh_p110___139952 -> vanW gene in vanI cluster
+    AMR hit only found via co-assembly: mh_p110___26883 -> vanT gene in vanG cluster
+    AMR hit only found via co-assembly: mh_p110___129349 -> vanT gene in vanG cluster
+    AMR hit only found via co-assembly: mh_p110___210425 -> vanY gene in vanB cluster
+    AMR hit only found via co-assembly: mh_p110___288899 -> vanT gene in vanG cluster
+    AMR hit only found via co-assembly: mh_p110___277347 -> vanW gene in vanB cluster
+    AMR hit only found via co-assembly: mh_p110___187484 -> vanY gene in vanG cluster
+    AMR hit only found via co-assembly: mh_p110___258934 -> vanY gene in vanB cluster
+    AMR hit only found via co-assembly: mh_p110___133716 -> vanW gene in vanI cluster
+    AMR hit only found via co-assembly: mh_p110___217015 -> vanY gene in vanG cluster
+    AMR hit only found via co-assembly: mh_p110___217807 -> tet(Q)
+    AMR hit only found via co-assembly: mh_p110___137949 -> vanY gene in vanG cluster
+    AMR hit only found via co-assembly: mh_p110___139537 -> vanH gene in vanO cluster
+    AMR hit only found via co-assembly: mh_p110___297183 -> vanW gene in vanI cluster
+    AMR hit only found via co-assembly: mh_p110___248034 -> vanH gene in vanO cluster
+    AMR hit only found via co-assembly: mh_p110___235442 -> vanW gene in vanB cluster
+    AMR hit only found via co-assembly: mh_p110___15981 -> vanW gene in vanI cluster
+    AMR hit only found via co-assembly: mh_p110___136028 -> vanW gene in vanI cluster
+    AMR hit only found via co-assembly: mh_p110___210344 -> vanW gene in vanI cluster
+    AMR hit only found via co-assembly: mh_p110___312425 -> vanT gene in vanG cluster
+    AMR hit only found via co-assembly: mh_p110___276686 -> vanW gene in vanI cluster
+  p125 (mh_p125): 38443/294438 (13.1%) co-assembly-only, no single-sample match
+    AMR hit only found via co-assembly: mh_p125___242260 -> vanW gene in vanI cluster
+    AMR hit only found via co-assembly: mh_p125___63476 -> vanW gene in vanG cluster
+    AMR hit only found via co-assembly: mh_p125___236208 -> vanW gene in vanI cluster
+    AMR hit only found via co-assembly: mh_p125___241126 -> vanY gene in vanG cluster
+    AMR hit only found via co-assembly: mh_p125___374 -> vanW gene in vanI cluster
+    AMR hit only found via co-assembly: mh_p125___186446 -> tet(W/32/O)
+    AMR hit only found via co-assembly: mh_p125___205944 -> vanT gene in vanG cluster
+    AMR hit only found via co-assembly: mh_p125___60574 -> vanY gene in vanB cluster
+    AMR hit only found via co-assembly: mh_p125___223706 -> vanY gene in vanB cluster
+    AMR hit only found via co-assembly: mh_p125___223707 -> vanT gene in vanG cluster
+    AMR hit only found via co-assembly: mh_p125___229690 -> vanT gene in vanG cluster
+    AMR hit only found via co-assembly: mh_p125___238155 -> vanH gene in vanO cluster
+    AMR hit only found via co-assembly: mh_p125___252970 -> vanY gene in vanB cluster
+    AMR hit only found via co-assembly: mh_p125___156864 -> vanW gene in vanI cluster
+    AMR hit only found via co-assembly: mh_p125___172200 -> vanW gene in vanI cluster
+    AMR hit only found via co-assembly: mh_p125___190566 -> vanW gene in vanI cluster
+    AMR hit only found via co-assembly: mh_p125___113826 -> mdeA
+    AMR hit only found via co-assembly: mh_p125___210794 -> vanY gene in vanA cluster
+    AMR hit only found via co-assembly: mh_p125___293218 -> vanT gene in vanG cluster
+    AMR hit only found via co-assembly: mh_p125___40770 -> vanT gene in vanG cluster
+    AMR hit only found via co-assembly: mh_p125___37552 -> vanW gene in vanI cluster
+    AMR hit only found via co-assembly: mh_p125___281619 -> vanW gene in vanI cluster
+    AMR hit only found via co-assembly: mh_p125___233565 -> vanH gene in vanO cluster
+    AMR hit only found via co-assembly: mh_p125___95927 -> vanW gene in vanI cluster
+    AMR hit only found via co-assembly: mh_p125___209704 -> vanT gene in vanG cluster
+    AMR hit only found via co-assembly: mh_p125___127792 -> vanW gene in vanI cluster
+    AMR hit only found via co-assembly: mh_p125___186318 -> vanY gene in vanG cluster
+    AMR hit only found via co-assembly: mh_p125___90324 -> vanW gene in vanI cluster
+    AMR hit only found via co-assembly: mh_p125___227833 -> nimG
+    AMR hit only found via co-assembly: mh_p125___162567 -> vanW gene in vanI cluster
+    AMR hit only found via co-assembly: mh_p125___214457 -> vanW gene in vanI cluster
+  p292 (mh_p292): 54179/449018 (12.1%) co-assembly-only, no single-sample match
+    AMR hit only found via co-assembly: mh_p292___276894 -> vanY gene in vanG cluster
+    AMR hit only found via co-assembly: mh_p292___298369 -> FosXCC
+    AMR hit only found via co-assembly: mh_p292___428407 -> vanG
+    AMR hit only found via co-assembly: mh_p292___337759 -> vanW gene in vanI cluster
+    AMR hit only found via co-assembly: mh_p292___33918 -> vanY gene in vanG cluster
+    AMR hit only found via co-assembly: mh_p292___319792 -> vanH gene in vanO cluster
+    AMR hit only found via co-assembly: mh_p292___265707 -> vanY gene in vanM cluster
+    AMR hit only found via co-assembly: mh_p292___337066 -> vanT gene in vanG cluster
+    AMR hit only found via co-assembly: mh_p292___142138 -> vanY gene in vanB cluster
+    AMR hit only found via co-assembly: mh_p292___142140 -> vanT gene in vanG cluster
+    AMR hit only found via co-assembly: mh_p292___383067 -> vanT gene in vanG cluster
+    AMR hit only found via co-assembly: mh_p292___47368 -> vanG
+    AMR hit only found via co-assembly: mh_p292___186469 -> vanT gene in vanG cluster
+    AMR hit only found via co-assembly: mh_p292___84633 -> ErmF
+    AMR hit only found via co-assembly: mh_p292___341 -> vanW gene in vanI cluster
+    AMR hit only found via co-assembly: mh_p292___3442 -> vanW gene in vanI cluster
+    AMR hit only found via co-assembly: mh_p292___432055 -> vanT gene in vanG cluster
+    AMR hit only found via co-assembly: mh_p292___353353 -> vanT gene in vanG cluster
+    AMR hit only found via co-assembly: mh_p292___351631 -> vanW gene in vanI cluster
+    AMR hit only found via co-assembly: mh_p292___183778 -> vanW gene in vanB cluster
+    AMR hit only found via co-assembly: mh_p292___415121 -> vanH gene in vanF cluster
+    AMR hit only found via co-assembly: mh_p292___253269 -> vanY gene in vanB cluster
+    AMR hit only found via co-assembly: mh_p292___128401 -> vanY gene in vanG cluster
+    AMR hit only found via co-assembly: mh_p292___164575 -> vanW gene in vanG cluster
+    AMR hit only found via co-assembly: mh_p292___3590 -> vanY gene in vanG cluster
+    AMR hit only found via co-assembly: mh_p292___135072 -> vanY gene in vanB cluster
+    AMR hit only found via co-assembly: mh_p292___355321 -> vanH gene in vanO cluster
+    AMR hit only found via co-assembly: mh_p292___354725 -> tet(W/N/W)
+    AMR hit only found via co-assembly: mh_p292___354728 -> vanY gene in vanF cluster
+    AMR hit only found via co-assembly: mh_p292___430840 -> vanW gene in vanI cluster
+    AMR hit only found via co-assembly: mh_p292___213401 -> vanW gene in vanI cluster
+    AMR hit only found via co-assembly: mh_p292___90524 -> vanW gene in vanI cluster
+    AMR hit only found via co-assembly: mh_p292___419375 -> vanW gene in vanG cluster
+    AMR hit only found via co-assembly: mh_p292___190700 -> vanY gene in vanB cluster
+    AMR hit only found via co-assembly: mh_p292___446223 -> vanW gene in vanI cluster
+    AMR hit only found via co-assembly: mh_p292___427686 -> vanY gene in vanG cluster
+    AMR hit only found via co-assembly: mh_p292___265107 -> vanW gene in vanI cluster
+    AMR hit only found via co-assembly: mh_p292___128802 -> vanT gene in vanG cluster
+    AMR hit only found via co-assembly: mh_p292___435467 -> vanW gene in vanI cluster
+  p341 (mh_p341): 32199/310629 (10.4%) co-assembly-only, no single-sample match
+    AMR hit only found via co-assembly: mh_p341___71073 -> vanH gene in vanB cluster
+    AMR hit only found via co-assembly: mh_p341___145546 -> vanY gene in vanG cluster
+    AMR hit only found via co-assembly: mh_p341___282788 -> vanY gene in vanB cluster
+    AMR hit only found via co-assembly: mh_p341___297618 -> ErmX
+    AMR hit only found via co-assembly: mh_p341___274123 -> vanY gene in vanB cluster
+    AMR hit only found via co-assembly: mh_p341___247847 -> vanXY gene in vanG cluster
+    AMR hit only found via co-assembly: mh_p341___78114 -> vanY gene in vanB cluster
+    AMR hit only found via co-assembly: mh_p341___136275 -> vanY gene in vanG cluster
+    AMR hit only found via co-assembly: mh_p341___124291 -> vanW gene in vanI cluster
+    AMR hit only found via co-assembly: mh_p341___160601 -> qacG
+    AMR hit only found via co-assembly: mh_p341___355 -> vanY gene in vanB cluster
+    AMR hit only found via co-assembly: mh_p341___177707 -> qacJ
+    AMR hit only found via co-assembly: mh_p341___106736 -> poxtA
+    AMR hit only found via co-assembly: mh_p341___129469 -> vanW gene in vanG cluster
+    AMR hit only found via co-assembly: mh_p341___250182 -> vanC
+    AMR hit only found via co-assembly: mh_p341___250183 -> vanXY gene in vanC cluster
+    AMR hit only found via co-assembly: mh_p341___250184 -> vanT gene in vanC cluster
+    AMR hit only found via co-assembly: mh_p341___243063 -> vanW gene in vanI cluster
+    AMR hit only found via co-assembly: mh_p341___8424 -> vanT gene in vanC cluster
+    AMR hit only found via co-assembly: mh_p341___287358 -> vanY gene in vanB cluster
+    AMR hit only found via co-assembly: mh_p341___293073 -> vanW gene in vanI cluster
+  p398 (mh_p398): 25882/244843 (10.6%) co-assembly-only, no single-sample match
+    AMR hit only found via co-assembly: mh_p398___105667 -> vanW gene in vanG cluster
+    AMR hit only found via co-assembly: mh_p398___235487 -> vanT gene in vanG cluster
+    AMR hit only found via co-assembly: mh_p398___29429 -> nimG
+    AMR hit only found via co-assembly: mh_p398___185791 -> nimA
+    AMR hit only found via co-assembly: mh_p398___187497 -> vanY gene in vanA cluster
+    AMR hit only found via co-assembly: mh_p398___211633 -> vanW gene in vanI cluster
+    AMR hit only found via co-assembly: mh_p398___122157 -> vanW gene in vanI cluster
+    AMR hit only found via co-assembly: mh_p398___204776 -> tet(32)
+    AMR hit only found via co-assembly: mh_p398___185363 -> vanT gene in vanG cluster
+    AMR hit only found via co-assembly: mh_p398___135267 -> qacG
+    AMR hit only found via co-assembly: mh_p398___23777 -> vanY gene in vanG cluster
+    AMR hit only found via co-assembly: mh_p398___71890 -> vanW gene in vanI cluster
+    AMR hit only found via co-assembly: mh_p398___205363 -> vanT gene in vanG cluster
+    AMR hit only found via co-assembly: mh_p398___155163 -> poxtA
+    AMR hit only found via co-assembly: mh_p398___182382 -> vanG
+    AMR hit only found via co-assembly: mh_p398___185918 -> vanH gene in vanO cluster
+  p408 (mh_p408): 35602/230727 (15.4%) co-assembly-only, no single-sample match
+    AMR hit only found via co-assembly: mh_p408___96524 -> vanW gene in vanI cluster
+    AMR hit only found via co-assembly: mh_p408___75502 -> vanT gene in vanG cluster
+    AMR hit only found via co-assembly: mh_p408___131254 -> vanW gene in vanI cluster
+    AMR hit only found via co-assembly: mh_p408___105 -> vanT gene in vanG cluster
+    AMR hit only found via co-assembly: mh_p408___159862 -> nimG
+    AMR hit only found via co-assembly: mh_p408___6277 -> vanW gene in vanI cluster
+    AMR hit only found via co-assembly: mh_p408___223049 -> vanW gene in vanI cluster
+    AMR hit only found via co-assembly: mh_p408___110670 -> vanW gene in vanI cluster
+    AMR hit only found via co-assembly: mh_p408___155144 -> vanW gene in vanI cluster
+    AMR hit only found via co-assembly: mh_p408___151049 -> vanW gene in vanI cluster
+    AMR hit only found via co-assembly: mh_p408___176755 -> patB
+    AMR hit only found via co-assembly: mh_p408___192411 -> vanY gene in vanG cluster
+    AMR hit only found via co-assembly: mh_p408___225797 -> ErmB
+    AMR hit only found via co-assembly: mh_p408___217988 -> tet(M)
+    AMR hit only found via co-assembly: mh_p408___29138 -> vanT gene in vanG cluster
+    AMR hit only found via co-assembly: mh_p408___214791 -> vanW gene in vanI cluster
+    AMR hit only found via co-assembly: mh_p408___128656 -> vanT gene in vanG cluster
+    AMR hit only found via co-assembly: mh_p408___186254 -> vanW gene in vanI cluster
+    AMR hit only found via co-assembly: mh_p408___92317 -> tet(W/N/W)
+    AMR hit only found via co-assembly: mh_p408___196454 -> vanW gene in vanI cluster
+    AMR hit only found via co-assembly: mh_p408___202308 -> vanW gene in vanI cluster
+    AMR hit only found via co-assembly: mh_p408___2769 -> vanT gene in vanG cluster
+    AMR hit only found via co-assembly: mh_p408___33816 -> vanW gene in vanI cluster
+    AMR hit only found via co-assembly: mh_p408___33856 -> vanT gene in vanG cluster
+    AMR hit only found via co-assembly: mh_p408___88197 -> vanW gene in vanI cluster
+    AMR hit only found via co-assembly: mh_p408___178416 -> vanT gene in vanG cluster
+    AMR hit only found via co-assembly: mh_p408___180265 -> vanT gene in vanG cluster
+    AMR hit only found via co-assembly: mh_p408___180266 -> vanXY gene in vanG cluster
+    AMR hit only found via co-assembly: mh_p408___190408 -> vanG
+    AMR hit only found via co-assembly: mh_p408___215712 -> vanXY gene in vanG cluster
+  p470 (mh_p470): 26669/277394 (9.6%) co-assembly-only, no single-sample match
+    AMR hit only found via co-assembly: mh_p470___275094 -> fosA5
+    AMR hit only found via co-assembly: mh_p470___216164 -> vanY gene in vanM cluster
+    AMR hit only found via co-assembly: mh_p470___38803 -> vanW gene in vanI cluster
+    AMR hit only found via co-assembly: mh_p470___191565 -> vanY gene in vanG cluster
+    AMR hit only found via co-assembly: mh_p470___68413 -> vanG
+    AMR hit only found via co-assembly: mh_p470___141865 -> vanY gene in vanG cluster
+    AMR hit only found via co-assembly: mh_p470___133145 -> patB
+    AMR hit only found via co-assembly: mh_p470___118869 -> tet(W/N/W)
+    AMR hit only found via co-assembly: mh_p470___123045 -> vanY gene in vanA cluster
+    AMR hit only found via co-assembly: mh_p470___104612 -> vanT gene in vanG cluster
+    AMR hit only found via co-assembly: mh_p470___206207 -> qacG
+    AMR hit only found via co-assembly: mh_p470___157315 -> vanY gene in vanB cluster
+  p523 (mh_p523): 70496/435748 (16.2%) co-assembly-only, no single-sample match
+    AMR hit only found via co-assembly: mh_p523___423031 -> tet(M)
+    AMR hit only found via co-assembly: mh_p523___416410 -> vanT gene in vanG cluster
+    AMR hit only found via co-assembly: mh_p523___385805 -> vanY gene in vanF cluster
+    AMR hit only found via co-assembly: mh_p523___131741 -> vanW gene in vanI cluster
+    AMR hit only found via co-assembly: mh_p523___142555 -> vanY gene in vanB cluster
+    AMR hit only found via co-assembly: mh_p523___131108 -> vanY gene in vanM cluster
+    AMR hit only found via co-assembly: mh_p523___56265 -> vanT gene in vanG cluster
+    AMR hit only found via co-assembly: mh_p523___363513 -> vanH gene in vanD cluster
+    AMR hit only found via co-assembly: mh_p523___255445 -> vanW gene in vanG cluster
+    AMR hit only found via co-assembly: mh_p523___373152 -> aadS
+    AMR hit only found via co-assembly: mh_p523___72115 -> vanY gene in vanB cluster
+    AMR hit only found via co-assembly: mh_p523___314983 -> vanY gene in vanB cluster
+    AMR hit only found via co-assembly: mh_p523___382887 -> vanT gene in vanG cluster
+    AMR hit only found via co-assembly: mh_p523___300286 -> vanY gene in vanB cluster
+    AMR hit only found via co-assembly: mh_p523___303029 -> vanW gene in vanB cluster
+    AMR hit only found via co-assembly: mh_p523___330393 -> qacG
+    AMR hit only found via co-assembly: mh_p523___340766 -> tet(Q)
+    AMR hit only found via co-assembly: mh_p523___361670 -> vanW gene in vanI cluster
+    AMR hit only found via co-assembly: mh_p523___34805 -> vanY gene in vanB cluster
+    AMR hit only found via co-assembly: mh_p523___38597 -> vanW gene in vanI cluster
+    AMR hit only found via co-assembly: mh_p523___345848 -> vanW gene in vanB cluster
+    AMR hit only found via co-assembly: mh_p523___43453 -> vanW gene in vanI cluster
+    AMR hit only found via co-assembly: mh_p523___233557 -> qacG
+    AMR hit only found via co-assembly: mh_p523___234232 -> vanW gene in vanI cluster
+    AMR hit only found via co-assembly: mh_p523___17991 -> vanY gene in vanM cluster
+    AMR hit only found via co-assembly: mh_p523___105446 -> vanY gene in vanF cluster
+    AMR hit only found via co-assembly: mh_p523___276069 -> vanT gene in vanG cluster
+    AMR hit only found via co-assembly: mh_p523___161649 -> vanW gene in vanI cluster
+    AMR hit only found via co-assembly: mh_p523___365695 -> vanT gene in vanG cluster
+    AMR hit only found via co-assembly: mh_p523___208297 -> vanY gene in vanF cluster
+    AMR hit only found via co-assembly: mh_p523___270072 -> vanY gene in vanB cluster
+    AMR hit only found via co-assembly: mh_p523___397827 -> vanY gene in vanG cluster
+    AMR hit only found via co-assembly: mh_p523___339884 -> vanT gene in vanG cluster
+    AMR hit only found via co-assembly: mh_p523___339885 -> vanXY gene in vanG cluster
+    AMR hit only found via co-assembly: mh_p523___299027 -> vanY gene in vanB cluster
+    AMR hit only found via co-assembly: mh_p523___131617 -> vanG
+    AMR hit only found via co-assembly: mh_p523___267538 -> vanT gene in vanG cluster
+    AMR hit only found via co-assembly: mh_p523___27784 -> vanW gene in vanI cluster
+    AMR hit only found via co-assembly: mh_p523___193933 -> vanW gene in vanI cluster
+    AMR hit only found via co-assembly: mh_p523___182505 -> tet(W/N/W)
+    AMR hit only found via co-assembly: mh_p523___409283 -> vanT gene in vanG cluster
+    AMR hit only found via co-assembly: mh_p523___112026 -> vanW gene in vanI cluster
+    AMR hit only found via co-assembly: mh_p523___351102 -> vanW gene in vanI cluster
+    AMR hit only found via co-assembly: mh_p523___390183 -> vanH gene in vanO cluster
+    AMR hit only found via co-assembly: mh_p523___263735 -> vanT gene in vanG cluster
+    AMR hit only found via co-assembly: mh_p523___328960 -> vanT gene in vanG cluster
+    AMR hit only found via co-assembly: mh_p523___101630 -> tet(W/N/W)
+    AMR hit only found via co-assembly: mh_p523___312222 -> vanG
+    AMR hit only found via co-assembly: mh_p523___364888 -> vanT gene in vanG cluster
+    AMR hit only found via co-assembly: mh_p523___12744 -> vanG
+    AMR hit only found via co-assembly: mh_p523___407753 -> patA
+    AMR hit only found via co-assembly: mh_p523___84554 -> vanW gene in vanI cluster
+    AMR hit only found via co-assembly: mh_p523___188647 -> crxA
+    AMR hit only found via co-assembly: mh_p523___191184 -> vanW gene in vanI cluster
+    AMR hit only found via co-assembly: mh_p523___281670 -> vanT gene in vanG cluster
+    AMR hit only found via co-assembly: mh_p523___357011 -> vanH gene in vanO cluster
+    AMR hit only found via co-assembly: mh_p523___352415 -> vanW gene in vanI cluster
+    AMR hit only found via co-assembly: mh_p523___166237 -> vanY gene in vanB cluster
+  p550 (mh_p550): 21919/285549 (7.7%) co-assembly-only, no single-sample match
+    AMR hit only found via co-assembly: mh_p550___182441 -> vanW gene in vanI cluster
+    AMR hit only found via co-assembly: mh_p550___46567 -> vanY gene in vanB cluster
+    AMR hit only found via co-assembly: mh_p550___53960 -> vanG
+    AMR hit only found via co-assembly: mh_p550___23898 -> vanW gene in vanI cluster
+    AMR hit only found via co-assembly: mh_p550___242138 -> vanT gene in vanG cluster
+    AMR hit only found via co-assembly: mh_p550___224555 -> vanW gene in vanG cluster
+    AMR hit only found via co-assembly: mh_p550___215223 -> vanY gene in vanA cluster
+    AMR hit only found via co-assembly: mh_p550___104217 -> vanW gene in vanI cluster
+    AMR hit only found via co-assembly: mh_p550___220690 -> vanY gene in vanB cluster
+    AMR hit only found via co-assembly: mh_p550___137735 -> Haemophilus influenzae PBP3 conferring resistance to beta-lactam antibiotics
+    AMR hit only found via co-assembly: mh_p550___227996 -> vanW gene in vanI cluster
+    AMR hit only found via co-assembly: mh_p550___195122 -> nimG
+  p584 (mh_p584): 24192/261858 (9.2%) co-assembly-only, no single-sample match
+    AMR hit only found via co-assembly: mh_p584___242049 -> vanW gene in vanI cluster
+    AMR hit only found via co-assembly: mh_p584___161300 -> vanT gene in vanG cluster
+    AMR hit only found via co-assembly: mh_p584___242336 -> vanW gene in vanI cluster
+    AMR hit only found via co-assembly: mh_p584___645 -> vanY gene in vanB cluster
+    AMR hit only found via co-assembly: mh_p584___1447 -> vanW gene in vanI cluster
+    AMR hit only found via co-assembly: mh_p584___187869 -> catQ
+    AMR hit only found via co-assembly: mh_p584___194271 -> vanT gene in vanG cluster
+    AMR hit only found via co-assembly: mh_p584___247242 -> vanY gene in vanG cluster
+    AMR hit only found via co-assembly: mh_p584___73906 -> tet(M)
+    AMR hit only found via co-assembly: mh_p584___2645 -> vanT gene in vanG cluster
+    AMR hit only found via co-assembly: mh_p584___212050 -> vanW gene in vanI cluster
+    AMR hit only found via co-assembly: mh_p584___116140 -> vanW gene in vanI cluster
+    AMR hit only found via co-assembly: mh_p584___175274 -> vanT gene in vanG cluster
+    AMR hit only found via co-assembly: mh_p584___73106 -> vanY gene in vanG cluster
+    AMR hit only found via co-assembly: mh_p584___101519 -> vanY gene in vanB cluster
+  p601 (mh_p601): 55516/388945 (14.3%) co-assembly-only, no single-sample match
+    AMR hit only found via co-assembly: mh_p601___221068 -> vanW gene in vanI cluster
+    AMR hit only found via co-assembly: mh_p601___288601 -> vanY gene in vanB cluster
+    AMR hit only found via co-assembly: mh_p601___233094 -> vanH gene in vanO cluster
+    AMR hit only found via co-assembly: mh_p601___229069 -> vanY gene in vanM cluster
+    AMR hit only found via co-assembly: mh_p601___295105 -> vanW gene in vanI cluster
+    AMR hit only found via co-assembly: mh_p601___336439 -> vanS gene in vanC cluster
+    AMR hit only found via co-assembly: mh_p601___239616 -> vanW gene in vanI cluster
+    AMR hit only found via co-assembly: mh_p601___68369 -> vanH gene in vanF cluster
+    AMR hit only found via co-assembly: mh_p601___378747 -> vanG
+    AMR hit only found via co-assembly: mh_p601___378748 -> vanXY gene in vanG cluster
+    AMR hit only found via co-assembly: mh_p601___378749 -> vanT gene in vanG cluster
+    AMR hit only found via co-assembly: mh_p601___53759 -> vanT gene in vanG cluster
+    AMR hit only found via co-assembly: mh_p601___142553 -> vanG
+    AMR hit only found via co-assembly: mh_p601___142554 -> vanXY gene in vanG cluster
+    AMR hit only found via co-assembly: mh_p601___249465 -> vanT gene in vanG cluster
+    AMR hit only found via co-assembly: mh_p601___229346 -> nimB
+    AMR hit only found via co-assembly: mh_p601___285610 -> vanY gene in vanB cluster
+    AMR hit only found via co-assembly: mh_p601___134110 -> vanG
+    AMR hit only found via co-assembly: mh_p601___75085 -> vanG
+    AMR hit only found via co-assembly: mh_p601___133681 -> tet(M)
+    AMR hit only found via co-assembly: mh_p601___310227 -> vanW gene in vanI cluster
+    AMR hit only found via co-assembly: mh_p601___264997 -> tet(M)
+    AMR hit only found via co-assembly: mh_p601___264511 -> tet(W)
+    AMR hit only found via co-assembly: mh_p601___234673 -> vanY gene in vanF cluster
+    AMR hit only found via co-assembly: mh_p601___286101 -> vanXY gene in vanC cluster
+    AMR hit only found via co-assembly: mh_p601___286102 -> vanT gene in vanC cluster
+    AMR hit only found via co-assembly: mh_p601___339611 -> vanT gene in vanG cluster
+    AMR hit only found via co-assembly: mh_p601___384413 -> vanY gene in vanB cluster
+    AMR hit only found via co-assembly: mh_p601___352462 -> vanH gene in vanO cluster
+    AMR hit only found via co-assembly: mh_p601___370902 -> poxtA
+    AMR hit only found via co-assembly: mh_p601___287621 -> vanT gene in vanG cluster
+    AMR hit only found via co-assembly: mh_p601___294128 -> nimG
+    AMR hit only found via co-assembly: mh_p601___324802 -> vanW gene in vanI cluster
+    AMR hit only found via co-assembly: mh_p601___226949 -> vanY gene in vanB cluster
+    AMR hit only found via co-assembly: mh_p601___17793 -> vanY gene in vanF cluster
+    AMR hit only found via co-assembly: mh_p601___95616 -> vanT gene in vanG cluster
+    AMR hit only found via co-assembly: mh_p601___346633 -> tet(M)
+    AMR hit only found via co-assembly: mh_p601___61353 -> vanT gene in vanG cluster
+    AMR hit only found via co-assembly: mh_p601___287556 -> vanY gene in vanG cluster
+    AMR hit only found via co-assembly: mh_p601___381608 -> vanY gene in vanM cluster
+    AMR hit only found via co-assembly: mh_p601___205988 -> vanY gene in vanM cluster
+    AMR hit only found via co-assembly: mh_p601___244599 -> vanT gene in vanG cluster
+  p644 (mh_p644): 39592/300940 (13.2%) co-assembly-only, no single-sample match
+    AMR hit only found via co-assembly: mh_p644___180533 -> vanT gene in vanG cluster
+    AMR hit only found via co-assembly: mh_p644___250330 -> vanT gene in vanG cluster
+    AMR hit only found via co-assembly: mh_p644___180285 -> LnuP
+    AMR hit only found via co-assembly: mh_p644___54180 -> vanY gene in vanM cluster
+    AMR hit only found via co-assembly: mh_p644___268650 -> vanY gene in vanA cluster
+    AMR hit only found via co-assembly: mh_p644___16927 -> tet(32)
+    AMR hit only found via co-assembly: mh_p644___63144 -> vanY gene in vanM cluster
+    AMR hit only found via co-assembly: mh_p644___173933 -> vanT gene in vanG cluster
+    AMR hit only found via co-assembly: mh_p644___131135 -> vanY gene in vanG cluster
+    AMR hit only found via co-assembly: mh_p644___169302 -> vanW gene in vanI cluster
+    AMR hit only found via co-assembly: mh_p644___187030 -> vanT gene in vanG cluster
+    AMR hit only found via co-assembly: mh_p644___124148 -> vanW gene in vanI cluster
+    AMR hit only found via co-assembly: mh_p644___139918 -> tet(W)
+    AMR hit only found via co-assembly: mh_p644___115209 -> vanW gene in vanI cluster
+    AMR hit only found via co-assembly: mh_p644___51562 -> vanY gene in vanG cluster
+    AMR hit only found via co-assembly: mh_p644___233297 -> vanY gene in vanG cluster
+    AMR hit only found via co-assembly: mh_p644___291918 -> vanW gene in vanI cluster
+    AMR hit only found via co-assembly: mh_p644___141635 -> vanW gene in vanI cluster
+    AMR hit only found via co-assembly: mh_p644___267929 -> vanW gene in vanI cluster
+    AMR hit only found via co-assembly: mh_p644___3514 -> vanT gene in vanG cluster
+    AMR hit only found via co-assembly: mh_p644___97948 -> vanW gene in vanI cluster
+    AMR hit only found via co-assembly: mh_p644___89291 -> vanG
+    AMR hit only found via co-assembly: mh_p644___168286 -> vanW gene in vanI cluster
+    AMR hit only found via co-assembly: mh_p644___94543 -> vanY gene in vanF cluster
+    AMR hit only found via co-assembly: mh_p644___290328 -> tet(W/N/W)
+  p722 (mh_p722): 31455/368056 (8.5%) co-assembly-only, no single-sample match
+    AMR hit only found via co-assembly: mh_p722___32626 -> vanY gene in vanB cluster
+    AMR hit only found via co-assembly: mh_p722___217774 -> vanT gene in vanG cluster
+    AMR hit only found via co-assembly: mh_p722___105700 -> Klebsiella pneumoniae KpnF
+    AMR hit only found via co-assembly: mh_p722___34896 -> dfrF
+    AMR hit only found via co-assembly: mh_p722___222338 -> tet(M)
+    AMR hit only found via co-assembly: mh_p722___198974 -> poxtA
+    AMR hit only found via co-assembly: mh_p722___31705 -> vanW gene in vanI cluster
+    AMR hit only found via co-assembly: mh_p722___306768 -> vanY gene in vanB cluster
+    AMR hit only found via co-assembly: mh_p722___222840 -> vanW gene in vanI cluster
+    AMR hit only found via co-assembly: mh_p722___205693 -> vanT gene in vanG cluster
+    AMR hit only found via co-assembly: mh_p722___85815 -> tet(M)
+    AMR hit only found via co-assembly: mh_p722___255616 -> vanY gene in vanB cluster
+    AMR hit only found via co-assembly: mh_p722___333480 -> vanT gene in vanG cluster
+    AMR hit only found via co-assembly: mh_p722___357805 -> vanY gene in vanB cluster
+    AMR hit only found via co-assembly: mh_p722___254887 -> vanY gene in vanF cluster
+    AMR hit only found via co-assembly: mh_p722___57684 -> tet(W/N/W)
+    AMR hit only found via co-assembly: mh_p722___268046 -> emrR
+    AMR hit only found via co-assembly: mh_p722___366605 -> FosA2
+    AMR hit only found via co-assembly: mh_p722___139597 -> vanW gene in vanI cluster
+    AMR hit only found via co-assembly: mh_p722___125802 -> vanW gene in vanI cluster
+    AMR hit only found via co-assembly: mh_p722___339005 -> poxtA
+    AMR hit only found via co-assembly: mh_p722___286592 -> vanT gene in vanG cluster
+    AMR hit only found via co-assembly: mh_p722___71954 -> qacG
+    AMR hit only found via co-assembly: mh_p722___254331 -> qacG
+    AMR hit only found via co-assembly: mh_p722___332883 -> vanW gene in vanI cluster
+    AMR hit only found via co-assembly: mh_p722___333115 -> Escherichia coli soxS with mutation conferring antibiotic resistance
+    AMR hit only found via co-assembly: mh_p722___105699 -> Klebsiella pneumoniae KpnE
+    AMR hit only found via co-assembly: mh_p722___352773 -> vanY gene in vanB cluster
+    AMR hit only found via co-assembly: mh_p722___57227 -> tetB(P)
+    AMR hit only found via co-assembly: mh_p722___57228 -> tetB(P)
+    AMR hit only found via co-assembly: mh_p722___351116 -> vanY gene in vanG cluster
+  p728 (mh_p728): 17041/303608 (5.6%) co-assembly-only, no single-sample match
+    AMR hit only found via co-assembly: mh_p728___169313 -> vanY gene in vanB cluster
+    AMR hit only found via co-assembly: mh_p728___283236 -> tet(32)
+    AMR hit only found via co-assembly: mh_p728___158025 -> vanW gene in vanI cluster
+    AMR hit only found via co-assembly: mh_p728___170149 -> vanY gene in vanB cluster
+    AMR hit only found via co-assembly: mh_p728___298689 -> CDD-1
+    AMR hit only found via co-assembly: mh_p728___206008 -> vanT gene in vanG cluster
+    AMR hit only found via co-assembly: mh_p728___35706 -> tet(W/N/W)
+    AMR hit only found via co-assembly: mh_p728___302369 -> ErmX
+    AMR hit only found via co-assembly: mh_p728___162624 -> nimG
+    AMR hit only found via co-assembly: mh_p728___217163 -> tet(M)
+    AMR hit only found via co-assembly: mh_p728___302408 -> vanY gene in vanB cluster
+  p789 (mh_p789): 86471/667264 (13.0%) co-assembly-only, no single-sample match
+    AMR hit only found via co-assembly: mh_p789___520859 -> vanY gene in vanF cluster
+    AMR hit only found via co-assembly: mh_p789___387807 -> vanW gene in vanI cluster
+    AMR hit only found via co-assembly: mh_p789___498651 -> vanT gene in vanG cluster
+    AMR hit only found via co-assembly: mh_p789___309154 -> vanH gene in vanB cluster
+    AMR hit only found via co-assembly: mh_p789___314726 -> vanW gene in vanI cluster
+    AMR hit only found via co-assembly: mh_p789___28502 -> vanY gene in vanB cluster
+    AMR hit only found via co-assembly: mh_p789___10007 -> ErmG
+    AMR hit only found via co-assembly: mh_p789___664301 -> vanW gene in vanI cluster
+    AMR hit only found via co-assembly: mh_p789___233935 -> vanW gene in vanI cluster
+    AMR hit only found via co-assembly: mh_p789___546543 -> nimB
+    AMR hit only found via co-assembly: mh_p789___234470 -> vanY gene in vanA cluster
+    AMR hit only found via co-assembly: mh_p789___98098 -> vanY gene in vanB cluster
+    AMR hit only found via co-assembly: mh_p789___351619 -> tet(36)
+    AMR hit only found via co-assembly: mh_p789___267815 -> vanW gene in vanI cluster
+    AMR hit only found via co-assembly: mh_p789___549038 -> vanT gene in vanG cluster
+    AMR hit only found via co-assembly: mh_p789___162134 -> vanT gene in vanG cluster
+    AMR hit only found via co-assembly: mh_p789___335223 -> vanT gene in vanG cluster
+    AMR hit only found via co-assembly: mh_p789___344030 -> vanT gene in vanG cluster
+    AMR hit only found via co-assembly: mh_p789___26682 -> vanY gene in vanA cluster
+    AMR hit only found via co-assembly: mh_p789___540492 -> vanT gene in vanG cluster
+    AMR hit only found via co-assembly: mh_p789___557169 -> vanY gene in vanB cluster
+    AMR hit only found via co-assembly: mh_p789___301288 -> vanH gene in vanB cluster
+    AMR hit only found via co-assembly: mh_p789___311199 -> vanT gene in vanG cluster
+    AMR hit only found via co-assembly: mh_p789___449103 -> vanW gene in vanI cluster
+    AMR hit only found via co-assembly: mh_p789___602663 -> vanW gene in vanI cluster
+    AMR hit only found via co-assembly: mh_p789___480673 -> vanW gene in vanI cluster
+    AMR hit only found via co-assembly: mh_p789___576759 -> vanT gene in vanG cluster
+    AMR hit only found via co-assembly: mh_p789___263722 -> vanY gene in vanA cluster
+    AMR hit only found via co-assembly: mh_p789___275082 -> vanW gene in vanI cluster
+    AMR hit only found via co-assembly: mh_p789___419936 -> vanY gene in vanM cluster
+    AMR hit only found via co-assembly: mh_p789___88472 -> vanY gene in vanB cluster
+    AMR hit only found via co-assembly: mh_p789___230864 -> vanT gene in vanG cluster
+    AMR hit only found via co-assembly: mh_p789___369461 -> vanW gene in vanI cluster
+    AMR hit only found via co-assembly: mh_p789___600934 -> vanH gene in vanO cluster
+    AMR hit only found via co-assembly: mh_p789___545431 -> vanW gene in vanI cluster
+    AMR hit only found via co-assembly: mh_p789___563704 -> vanT gene in vanG cluster
+    AMR hit only found via co-assembly: mh_p789___624570 -> vanW gene in vanI cluster
+    AMR hit only found via co-assembly: mh_p789___635611 -> vanW gene in vanI cluster
+    AMR hit only found via co-assembly: mh_p789___625330 -> vanY gene in vanB cluster
+    AMR hit only found via co-assembly: mh_p789___625331 -> vanY gene in vanF cluster
+    AMR hit only found via co-assembly: mh_p789___418758 -> vanG
+    AMR hit only found via co-assembly: mh_p789___575314 -> vanW gene in vanI cluster
+    AMR hit only found via co-assembly: mh_p789___164423 -> vanW gene in vanI cluster
+    AMR hit only found via co-assembly: mh_p789___414883 -> vanY gene in vanA cluster
+    AMR hit only found via co-assembly: mh_p789___213768 -> tet(36)
+    AMR hit only found via co-assembly: mh_p789___586991 -> vanY gene in vanG cluster
+    AMR hit only found via co-assembly: mh_p789___663943 -> vanG
+    AMR hit only found via co-assembly: mh_p789___71745 -> vanT gene in vanG cluster
+    AMR hit only found via co-assembly: mh_p789___73356 -> vanG
+    AMR hit only found via co-assembly: mh_p789___596343 -> vanT gene in vanG cluster
+    AMR hit only found via co-assembly: mh_p789___470805 -> vanW gene in vanI cluster
+    AMR hit only found via co-assembly: mh_p789___490850 -> vanT gene in vanG cluster
+    AMR hit only found via co-assembly: mh_p789___570965 -> vanW gene in vanI cluster
+    AMR hit only found via co-assembly: mh_p789___360997 -> vanW gene in vanI cluster
+    AMR hit only found via co-assembly: mh_p789___160706 -> vanW gene in vanI cluster
+    AMR hit only found via co-assembly: mh_p789___635480 -> vanT gene in vanG cluster
+    AMR hit only found via co-assembly: mh_p789___537376 -> vanY gene in vanG cluster
+    AMR hit only found via co-assembly: mh_p789___108700 -> vanW gene in vanI cluster
+    AMR hit only found via co-assembly: mh_p789___443845 -> vanY gene in vanB cluster
+    AMR hit only found via co-assembly: mh_p789___272539 -> vanY gene in vanB cluster
+    AMR hit only found via co-assembly: mh_p789___634492 -> vanW gene in vanI cluster
+    AMR hit only found via co-assembly: mh_p789___400021 -> vanY gene in vanG cluster
+    AMR hit only found via co-assembly: mh_p789___304572 -> vanG
+    AMR hit only found via co-assembly: mh_p789___319358 -> vanW gene in vanI cluster
+    AMR hit only found via co-assembly: mh_p789___285072 -> vanY gene in vanF cluster
+    AMR hit only found via co-assembly: mh_p789___291266 -> vanW gene in vanI cluster
+    AMR hit only found via co-assembly: mh_p789___334751 -> vanW gene in vanI cluster
+    AMR hit only found via co-assembly: mh_p789___128563 -> vanY gene in vanG cluster
+    AMR hit only found via co-assembly: mh_p789___321969 -> vanT gene in vanG cluster
+    AMR hit only found via co-assembly: mh_p789___623052 -> vanW gene in vanI cluster
+    AMR hit only found via co-assembly: mh_p789___295193 -> vanY gene in vanB cluster
+    AMR hit only found via co-assembly: mh_p789___413773 -> vanY gene in vanM cluster
+    AMR hit only found via co-assembly: mh_p789___472440 -> vanW gene in vanI cluster
+    AMR hit only found via co-assembly: mh_p789___189975 -> vanW gene in vanI cluster
+    AMR hit only found via co-assembly: mh_p789___637456 -> vanY gene in vanB cluster
+    AMR hit only found via co-assembly: mh_p789___379687 -> vanT gene in vanG cluster
+    AMR hit only found via co-assembly: mh_p789___177358 -> vanY gene in vanB cluster
+    AMR hit only found via co-assembly: mh_p789___343807 -> vanG
+    AMR hit only found via co-assembly: mh_p789___353642 -> vanT gene in vanG cluster
+    AMR hit only found via co-assembly: mh_p789___562116 -> vanH gene in vanO cluster
+    AMR hit only found via co-assembly: mh_p789___291158 -> vanW gene in vanI cluster
+    AMR hit only found via co-assembly: mh_p789___597906 -> vanY gene in vanB cluster
+  p813 (mh_p813): 98068/695499 (14.1%) co-assembly-only, no single-sample match
+    AMR hit only found via co-assembly: mh_p813___598037 -> vanY gene in vanG cluster
+    AMR hit only found via co-assembly: mh_p813___137788 -> vanY gene in vanB cluster
+    AMR hit only found via co-assembly: mh_p813___189399 -> vanW gene in vanI cluster
+    AMR hit only found via co-assembly: mh_p813___637194 -> vanTr gene in vanL cluster
+    AMR hit only found via co-assembly: mh_p813___645178 -> vanW gene in vanI cluster
+    AMR hit only found via co-assembly: mh_p813___29875 -> vanW gene in vanI cluster
+    AMR hit only found via co-assembly: mh_p813___452358 -> Escherichia coli emrE
+    AMR hit only found via co-assembly: mh_p813___84686 -> vanT gene in vanG cluster
+    AMR hit only found via co-assembly: mh_p813___823 -> qacG
+    AMR hit only found via co-assembly: mh_p813___358822 -> vanW gene in vanI cluster
+    AMR hit only found via co-assembly: mh_p813___585467 -> vanT gene in vanG cluster
+    AMR hit only found via co-assembly: mh_p813___435253 -> vanW gene in vanI cluster
+    AMR hit only found via co-assembly: mh_p813___17610 -> vanY gene in vanG cluster
+    AMR hit only found via co-assembly: mh_p813___688327 -> vanW gene in vanI cluster
+    AMR hit only found via co-assembly: mh_p813___273465 -> vanT gene in vanG cluster
+    AMR hit only found via co-assembly: mh_p813___293027 -> vanW gene in vanB cluster
+    AMR hit only found via co-assembly: mh_p813___540660 -> vanY gene in vanB cluster
+    AMR hit only found via co-assembly: mh_p813___336343 -> tet(O)
+    AMR hit only found via co-assembly: mh_p813___400766 -> vanG
+    AMR hit only found via co-assembly: mh_p813___575050 -> vanY gene in vanB cluster
+    AMR hit only found via co-assembly: mh_p813___280402 -> vanT gene in vanG cluster
+    AMR hit only found via co-assembly: mh_p813___589550 -> vanT gene in vanG cluster
+    AMR hit only found via co-assembly: mh_p813___521235 -> vanW gene in vanI cluster
+    AMR hit only found via co-assembly: mh_p813___433296 -> vanT gene in vanG cluster
+    AMR hit only found via co-assembly: mh_p813___682959 -> vanW gene in vanI cluster
+    AMR hit only found via co-assembly: mh_p813___286999 -> vanW gene in vanI cluster
+    AMR hit only found via co-assembly: mh_p813___411018 -> vanW gene in vanI cluster
+    AMR hit only found via co-assembly: mh_p813___64874 -> vanW gene in vanG cluster
+    AMR hit only found via co-assembly: mh_p813___219992 -> vanW gene in vanI cluster
+    AMR hit only found via co-assembly: mh_p813___431539 -> vanW gene in vanI cluster
+    AMR hit only found via co-assembly: mh_p813___190788 -> vanT gene in vanG cluster
+    AMR hit only found via co-assembly: mh_p813___85010 -> vanY gene in vanM cluster
+    AMR hit only found via co-assembly: mh_p813___491607 -> vanY gene in vanB cluster
+    AMR hit only found via co-assembly: mh_p813___296038 -> vanY gene in vanG cluster
+    AMR hit only found via co-assembly: mh_p813___108687 -> vanY gene in vanB cluster
+    AMR hit only found via co-assembly: mh_p813___417056 -> vanY gene in vanM cluster
+    AMR hit only found via co-assembly: mh_p813___246084 -> vanW gene in vanI cluster
+    AMR hit only found via co-assembly: mh_p813___464605 -> vanW gene in vanI cluster
+    AMR hit only found via co-assembly: mh_p813___557088 -> poxtA
+    AMR hit only found via co-assembly: mh_p813___156266 -> vanT gene in vanG cluster
+    AMR hit only found via co-assembly: mh_p813___477381 -> vanW gene in vanI cluster
+    AMR hit only found via co-assembly: mh_p813___136759 -> vanY gene in vanM cluster
+    AMR hit only found via co-assembly: mh_p813___142869 -> vanT gene in vanG cluster
+    AMR hit only found via co-assembly: mh_p813___407743 -> tet(Q)
+    AMR hit only found via co-assembly: mh_p813___410153 -> patA
+    AMR hit only found via co-assembly: mh_p813___33112 -> vanY gene in vanF cluster
+    AMR hit only found via co-assembly: mh_p813___33113 -> vanT gene in vanG cluster
+    AMR hit only found via co-assembly: mh_p813___492892 -> vanW gene in vanI cluster
+    AMR hit only found via co-assembly: mh_p813___498565 -> vanW gene in vanI cluster
+    AMR hit only found via co-assembly: mh_p813___133575 -> vanT gene in vanG cluster
+    AMR hit only found via co-assembly: mh_p813___51979 -> vanW gene in vanI cluster
+    AMR hit only found via co-assembly: mh_p813___253608 -> vanG
+    AMR hit only found via co-assembly: mh_p813___445301 -> vanY gene in vanB cluster
+    AMR hit only found via co-assembly: mh_p813___620333 -> vanW gene in vanI cluster
+    AMR hit only found via co-assembly: mh_p813___282413 -> vanT gene in vanG cluster
+    AMR hit only found via co-assembly: mh_p813___627519 -> vanT gene in vanC cluster
+    AMR hit only found via co-assembly: mh_p813___477994 -> vanY gene in vanG cluster
+    AMR hit only found via co-assembly: mh_p813___122682 -> vanT gene in vanG cluster
+    AMR hit only found via co-assembly: mh_p813___645306 -> vanY gene in vanG cluster
+    AMR hit only found via co-assembly: mh_p813___277489 -> Vibrio anguillarum chloramphenicol acetyltransferase
+    AMR hit only found via co-assembly: mh_p813___163278 -> vanXY gene in vanG cluster
+    AMR hit only found via co-assembly: mh_p813___163279 -> vanG
+    AMR hit only found via co-assembly: mh_p813___615844 -> vanY gene in vanB cluster
+    AMR hit only found via co-assembly: mh_p813___624364 -> vanT gene in vanG cluster
+    AMR hit only found via co-assembly: mh_p813___567851 -> vanW gene in vanI cluster
+    AMR hit only found via co-assembly: mh_p813___472329 -> vanT gene in vanG cluster
+    AMR hit only found via co-assembly: mh_p813___573291 -> vanT gene in vanG cluster
+    AMR hit only found via co-assembly: mh_p813___578375 -> vanY gene in vanG cluster
+    AMR hit only found via co-assembly: mh_p813___683893 -> vanY gene in vanB cluster
+    AMR hit only found via co-assembly: mh_p813___616621 -> vanW gene in vanG cluster
+    AMR hit only found via co-assembly: mh_p813___418 -> vanW gene in vanI cluster
+    AMR hit only found via co-assembly: mh_p813___109894 -> vanY gene in vanB cluster
+    AMR hit only found via co-assembly: mh_p813___124213 -> nimA
+    AMR hit only found via co-assembly: mh_p813___488399 -> vanW gene in vanI cluster
+    AMR hit only found via co-assembly: mh_p813___233109 -> vanT gene in vanG cluster
+  p860 (mh_p860): 35931/340496 (10.6%) co-assembly-only, no single-sample match
+    AMR hit only found via co-assembly: mh_p860___134772 -> vanT gene in vanG cluster
+    AMR hit only found via co-assembly: mh_p860___8460 -> vanW gene in vanI cluster
+    AMR hit only found via co-assembly: mh_p860___216685 -> vanY gene in vanF cluster
+    AMR hit only found via co-assembly: mh_p860___125246 -> vanY gene in vanB cluster
+    AMR hit only found via co-assembly: mh_p860___275172 -> vanT gene in vanG cluster
+    AMR hit only found via co-assembly: mh_p860___25083 -> vanY gene in vanM cluster
+    AMR hit only found via co-assembly: mh_p860___304393 -> vanW gene in vanI cluster
+    AMR hit only found via co-assembly: mh_p860___250633 -> vanW gene in vanI cluster
+    AMR hit only found via co-assembly: mh_p860___294845 -> vanT gene in vanG cluster
+    AMR hit only found via co-assembly: mh_p860___299823 -> vanY gene in vanG cluster
+    AMR hit only found via co-assembly: mh_p860___301680 -> vanG
+    AMR hit only found via co-assembly: mh_p860___301681 -> vanT gene in vanG cluster
+    AMR hit only found via co-assembly: mh_p860___115761 -> vanY gene in vanG cluster
+    AMR hit only found via co-assembly: mh_p860___5802 -> vanY gene in vanA cluster
+    AMR hit only found via co-assembly: mh_p860___205763 -> vanT gene in vanG cluster
+    AMR hit only found via co-assembly: mh_p860___319439 -> vanH gene in vanD cluster
+    AMR hit only found via co-assembly: mh_p860___105543 -> poxtA
+    AMR hit only found via co-assembly: mh_p860___330276 -> vanW gene in vanI cluster
+    AMR hit only found via co-assembly: mh_p860___215087 -> vanY gene in vanF cluster
+    AMR hit only found via co-assembly: mh_p860___249333 -> vanY gene in vanM cluster
+    AMR hit only found via co-assembly: mh_p860___249335 -> vanT gene in vanG cluster
+    AMR hit only found via co-assembly: mh_p860___38186 -> vanY gene in vanF cluster
+    AMR hit only found via co-assembly: mh_p860___281777 -> nimJ
+    AMR hit only found via co-assembly: mh_p860___138522 -> vanY gene in vanM cluster
+    AMR hit only found via co-assembly: mh_p860___138536 -> vanW gene in vanI cluster
+    AMR hit only found via co-assembly: mh_p860___196764 -> vanG
+    AMR hit only found via co-assembly: mh_p860___206684 -> vanH gene in vanM cluster
+  p894 (mh_p894): 42204/326022 (12.9%) co-assembly-only, no single-sample match
+    AMR hit only found via co-assembly: mh_p894___118116 -> vanY gene in vanG cluster
+    AMR hit only found via co-assembly: mh_p894___147999 -> vanT gene in vanG cluster
+    AMR hit only found via co-assembly: mh_p894___290160 -> vanT gene in vanG cluster
+    AMR hit only found via co-assembly: mh_p894___294159 -> vanW gene in vanI cluster
+    AMR hit only found via co-assembly: mh_p894___277747 -> vanY gene in vanB cluster
+    AMR hit only found via co-assembly: mh_p894___80566 -> ErmG
+    AMR hit only found via co-assembly: mh_p894___191213 -> vanY gene in vanB cluster
+    AMR hit only found via co-assembly: mh_p894___169255 -> vanH gene in vanO cluster
+    AMR hit only found via co-assembly: mh_p894___323379 -> vanT gene in vanG cluster
+    AMR hit only found via co-assembly: mh_p894___20293 -> nimB
+    AMR hit only found via co-assembly: mh_p894___57871 -> vanY gene in vanB cluster
+    AMR hit only found via co-assembly: mh_p894___65781 -> vanW gene in vanI cluster
+    AMR hit only found via co-assembly: mh_p894___305569 -> qacG
+    AMR hit only found via co-assembly: mh_p894___72131 -> vanW gene in vanI cluster
+    AMR hit only found via co-assembly: mh_p894___289667 -> tet(Q)
+    AMR hit only found via co-assembly: mh_p894___263144 -> vanY gene in vanM cluster
+    AMR hit only found via co-assembly: mh_p894___241361 -> vanW gene in vanI cluster
+    AMR hit only found via co-assembly: mh_p894___314584 -> vanY gene in vanM cluster
+    AMR hit only found via co-assembly: mh_p894___174932 -> vanW gene in vanI cluster
+    AMR hit only found via co-assembly: mh_p894___53243 -> vanY gene in vanB cluster
+    AMR hit only found via co-assembly: mh_p894___289485 -> vanW gene in vanI cluster
+    AMR hit only found via co-assembly: mh_p894___230315 -> vanT gene in vanG cluster
+    AMR hit only found via co-assembly: mh_p894___167488 -> vanW gene in vanG cluster
+    AMR hit only found via co-assembly: mh_p894___289275 -> vanW gene in vanI cluster
+    AMR hit only found via co-assembly: mh_p894___6123 -> vanT gene in vanG cluster
+    AMR hit only found via co-assembly: mh_p894___218966 -> vanW gene in vanI cluster
+    AMR hit only found via co-assembly: mh_p894___91306 -> vanH gene in vanB cluster
+    AMR hit only found via co-assembly: mh_p894___169195 -> vanW gene in vanI cluster
+    AMR hit only found via co-assembly: mh_p894___82580 -> vanY gene in vanG cluster
+    AMR hit only found via co-assembly: mh_p894___84966 -> tet(W)
+  p97 (mh_p97): 25379/256700 (9.9%) co-assembly-only, no single-sample match
+    AMR hit only found via co-assembly: mh_p97___116635 -> vanY gene in vanG cluster
+    AMR hit only found via co-assembly: mh_p97___253048 -> vanY gene in vanA cluster
+    AMR hit only found via co-assembly: mh_p97___233334 -> vanG
+    AMR hit only found via co-assembly: mh_p97___158899 -> vanW gene in vanI cluster
+    AMR hit only found via co-assembly: mh_p97___40513 -> evgS
+    AMR hit only found via co-assembly: mh_p97___222077 -> vanY gene in vanB cluster
+    AMR hit only found via co-assembly: mh_p97___244661 -> patA
+    AMR hit only found via co-assembly: mh_p97___211584 -> vanY gene in vanB cluster
+    AMR hit only found via co-assembly: mh_p97___203197 -> vanT gene in vanG cluster
+    AMR hit only found via co-assembly: mh_p97___205525 -> vanY gene in vanG cluster
+    AMR hit only found via co-assembly: mh_p97___191928 -> tet(M)
+    AMR hit only found via co-assembly: mh_p97___215936 -> vanT gene in vanG cluster
+    AMR hit only found via co-assembly: mh_p97___229654 -> CDD-1
+    AMR hit only found via co-assembly: mh_p97___176809 -> vanT gene in vanG cluster
+    AMR hit only found via co-assembly: mh_p97___207971 -> vanT gene in vanG cluster
+    AMR hit only found via co-assembly: mh_p97___219 -> vanW gene in vanI cluster
+    AMR hit only found via co-assembly: mh_p97___201050 -> vanT gene in vanG cluster
+    AMR hit only found via co-assembly: mh_p97___122169 -> vanY gene in vanB cluster
+    AMR hit only found via co-assembly: mh_p97___92766 -> vanY gene in vanA cluster
+    AMR hit only found via co-assembly: mh_p97___9034 -> vanY gene in vanB cluster
+    AMR hit only found via co-assembly: mh_p97___94617 -> vanW gene in vanI cluster
+

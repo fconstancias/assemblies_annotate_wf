@@ -1,0 +1,282 @@
+=== cross-participant orfs: within- vs. between-participant sharing ===
+total second-level clusters: 2594504
+within-participant only (single participant, even after cross-participant pass): 1446992 (55.8%)
+between-participant (shared across >=2 people): 1147512 (44.2%)
+
+histogram: n_participants_in_cluster -> n_clusters
+  1: 1446992
+  2: 343161
+  3: 182793
+  4: 114033
+  5: 75886
+  6: 58403
+  7: 45323
+  8: 39177
+  9: 29220
+  10: 28499
+  11: 21611
+  12: 23263
+  13: 18185
+  14: 17073
+  15: 18687
+  16: 16165
+  17: 17013
+  18: 16300
+  19: 10925
+  20: 10445
+  21: 9094
+  22: 13268
+  23: 11998
+  24: 14899
+  25: 12091
+
+AMR genes shared across DIFFERENT participants (real cross-person sharing, up to 30):
+  cluster spaS118___50058:
+    participant p151 (spaS118:spaS118___50058) -> adeF
+    participant p601 (mh_p601:mh_p601___380625) -> adeF
+  cluster mh_p292___286051:
+    participant p292 (mh_p292:mh_p292___286051) -> adeF
+    participant p729 (spaS138:spaS138___75804) -> adeF
+  cluster spaS156___83583:
+    participant p431 (spaS156:spaS156___83583) -> vanW gene in vanB cluster
+    participant p550 (spaS256:spaS256___112934) -> vanW gene in vanB cluster
+  cluster mh_p644___82345:
+    participant p644 (mh_p644:mh_p644___82345) -> vanY gene in vanB cluster
+    participant p550 (spaS33:spaS33___60184) -> vanY gene in vanB cluster
+    participant p722 (mh_p722:mh_p722___4274) -> vanY gene in vanB cluster
+    participant p813 (spaS68:spaS68___58801) -> vanY gene in vanB cluster
+    participant p142 (spaS259:spaS259___55) -> vanY gene in vanB cluster
+    participant p151 (spaS184:spaS184___1935) -> vanY gene in vanB cluster
+    participant p729 (spaS216:spaS216___3196) -> vanY gene in vanB cluster
+    participant p894 (mh_p894:mh_p894___231285) -> vanY gene in vanB cluster
+    participant p292 (mh_p292:mh_p292___217523) -> vanY gene in vanB cluster
+  cluster spaS268___62876:
+    participant p142 (spaS268:spaS268___62876) -> fosA5
+    participant p729 (spaS148:spaS148___11439) -> fosA5
+    participant p813 (mh_p813:mh_p813___12884) -> fosA5
+  cluster spaS259___166726:
+    participant p142 (spaS259:spaS259___166726) -> ErmX
+    participant p292 (spaS7:spaS7___84405) -> ErmX
+    participant p341 (mh_p341:mh_p341___297618) -> ErmX
+    participant p470 (spaS17:spaS17___97168) -> ErmX
+    participant p550 (mh_p550:mh_p550___195953) -> ErmX
+    participant p584 (mh_p584:mh_p584___159630) -> ErmX
+    participant p601 (mh_p601:mh_p601___188993) -> ErmX
+    participant p644 (mh_p644:mh_p644___170658) -> ErmX
+    participant p722 (mh_p722:mh_p722___174921) -> ErmX
+    participant p728 (mh_p728:mh_p728___302369) -> ErmX
+    participant p813 (spaS224:spaS224___73945) -> ErmX
+    participant p860 (mh_p860:mh_p860___293883) -> ErmX
+  cluster mh_p523___360260:
+    participant p523 (mh_p523:mh_p523___360260) -> vanG
+    participant p789 (mh_p789:mh_p789___311135) -> vanG
+    participant p813 (mh_p813:mh_p813___530453) -> vanG
+  cluster spaS149___73577:
+    participant p151 (spaS149:spaS149___73577) -> mdtO
+    participant p292 (mh_p292:mh_p292___385619) -> mdtO
+    participant p341 (mh_p341:mh_p341___79187) -> mdtO
+    participant p373 (spaS205:spaS205___16289) -> mdtO
+    participant p398 (mh_p398:mh_p398___238900) -> mdtO
+    participant p431 (spaS3:spaS3___23432) -> mdtO
+    participant p470 (mh_p470:mh_p470___19225) -> mdtO
+    participant p523 (spaS50:spaS50___9303) -> mdtO
+    participant p550 (mh_p550:mh_p550___233871) -> mdtO
+    participant p584 (mh_p584:mh_p584___121523) -> mdtO
+    participant p601 (mh_p601:mh_p601___60425) -> mdtO
+    participant p644 (mh_p644:mh_p644___135446) -> mdtO
+    participant p654 (spaS278:spaS278___32972) -> mdtO
+    participant p722 (mh_p722:mh_p722___362689) -> mdtO
+    participant p728 (mh_p728:mh_p728___158467) -> mdtO
+    participant p729 (spaS106:spaS106___1590) -> mdtO
+    participant p789 (spaS286:spaS286___165330) -> mdtO
+    participant p813 (spaS48:spaS48___132059) -> mdtO
+    participant p860 (mh_p860:mh_p860___330020) -> mdtO
+    participant p894 (mh_p894:mh_p894___191084) -> mdtO
+    participant p97 (mh_p97:mh_p97___35820) -> mdtO
+    participant p431 (spaS242:spaS242___18422) -> mdtO
+  cluster spaS149___110516:
+    participant p110 (mh_p110:mh_p110___208007) -> CblA-1
+    participant p125 (mh_p125:mh_p125___16247) -> CblA-1
+    participant p142 (spaS258:spaS258___38522) -> CblA-1
+    participant p292 (mh_p292:mh_p292___226232) -> CblA-1
+    participant p398 (mh_p398:mh_p398___159864) -> CblA-1
+    participant p408 (mh_p408:mh_p408___95854) -> CblA-1
+    participant p431 (spaS10:spaS10___24643) -> CblA-1
+    participant p470 (mh_p470:mh_p470___113994) -> CblA-1
+    participant p523 (mh_p523:mh_p523___310371) -> CblA-1
+    participant p550 (mh_p550:mh_p550___197548) -> CblA-1
+    participant p722 (mh_p722:mh_p722___290155) -> CblA-1
+    participant p728 (mh_p728:mh_p728___93089) -> CblA-1
+    participant p729 (spaS122:spaS122___37569) -> CblA-1
+    participant p789 (mh_p789:mh_p789___96829) -> CblA-1
+    participant p813 (mh_p813:mh_p813___120802) -> CblA-1
+    participant p860 (mh_p860:mh_p860___247731) -> CblA-1
+    participant p894 (mh_p894:mh_p894___28813) -> CblA-1
+    participant p97 (mh_p97:mh_p97___208641) -> CblA-1
+  cluster spaS215___110435:
+    participant p151 (spaS215:spaS215___110435) -> vanY gene in vanF cluster
+    participant p789 (spaS296:spaS296___152517) -> vanY gene in vanF cluster
+    participant p813 (spaS88:spaS88___144601) -> vanY gene in vanF cluster
+  cluster mh_p523___236106:
+    participant p523 (mh_p523:mh_p523___236106) -> OXA-347
+    participant p550 (mh_p550:mh_p550___261417) -> OXA-347
+    participant p789 (mh_p789:mh_p789___304342) -> OXA-347
+  cluster mh_p789___664301:
+    participant p789 (mh_p789:mh_p789___664301) -> vanW gene in vanI cluster
+    participant p292 (mh_p292:mh_p292___196895) -> vanW gene in vanI cluster
+  cluster spaS223___31436:
+    participant p110 (spaS223:spaS223___31436) -> vanY gene in vanF cluster
+    participant p151 (spaS184:spaS184___147268) -> vanY gene in vanF cluster
+    participant p292 (mh_p292:mh_p292___215478) -> vanY gene in vanF cluster
+    participant p523 (mh_p523:mh_p523___59887) -> vanY gene in vanF cluster
+    participant p644 (mh_p644:mh_p644___156642) -> vanY gene in vanF cluster
+    participant p729 (spaS122:spaS122___29975) -> vanY gene in vanF cluster
+    participant p813 (mh_p813:mh_p813___112582) -> vanY gene in vanF cluster
+    participant p601 (mh_p601:mh_p601___186712) -> vanY gene in vanF cluster
+    participant p654 (spaS285:spaS285___27788) -> vanY gene in vanF cluster
+    participant p789 (mh_p789:mh_p789___118636) -> vanY gene in vanF cluster
+    participant p860 (mh_p860:mh_p860___284720) -> vanY gene in vanF cluster
+  cluster spaS223___31464:
+    participant p110 (spaS223:spaS223___31464) -> vanY gene in vanB cluster
+    participant p142 (spaS257:spaS257___49490) -> vanY gene in vanB cluster
+    participant p151 (spaS184:spaS184___156120) -> vanY gene in vanB cluster
+    participant p292 (mh_p292:mh_p292___215450) -> vanY gene in vanB cluster
+    participant p523 (mh_p523:mh_p523___59915) -> vanY gene in vanB cluster
+    participant p601 (mh_p601:mh_p601___186684) -> vanY gene in vanB cluster
+    participant p654 (spaS285:spaS285___27816) -> vanY gene in vanB cluster
+    participant p729 (spaS122:spaS122___30003) -> vanY gene in vanB cluster
+    participant p789 (mh_p789:mh_p789___118664) -> vanY gene in vanB cluster
+    participant p813 (mh_p813:mh_p813___112554) -> vanY gene in vanB cluster
+    participant p860 (mh_p860:mh_p860___284748) -> vanY gene in vanB cluster
+  cluster spaS258___170222:
+    participant p142 (spaS258:spaS258___170222) -> vanXY gene in vanG cluster
+    participant p431 (spaS204:spaS204___141982) -> vanY gene in vanF cluster
+  cluster mh_p523___330056:
+    participant p523 (mh_p523:mh_p523___330056) -> vanT gene in vanG cluster
+    participant p860 (spaS206:spaS206___144302) -> vanT gene in vanG cluster
+  cluster spaS257___189876:
+    participant p142 (spaS257:spaS257___189876) -> vanW gene in vanI cluster
+    participant p110 (spaS37:spaS37___138446) -> vanW gene in vanI cluster
+    participant p292 (mh_p292:mh_p292___4836) -> vanW gene in vanI cluster
+    participant p341 (spaS272:spaS272___68560) -> vanW gene in vanI cluster
+    participant p408 (mh_p408:mh_p408___54592) -> vanW gene in vanI cluster
+    participant p431 (spaS65:spaS65___71066) -> vanW gene in vanI cluster
+    participant p523 (mh_p523:mh_p523___202649) -> vanW gene in vanI cluster
+    participant p584 (mh_p584:mh_p584___137011) -> vanW gene in vanI cluster
+    participant p789 (spaS294:spaS294___233450) -> vanW gene in vanI cluster
+    participant p860 (mh_p860:mh_p860___338388) -> vanW gene in vanI cluster
+    participant p894 (mh_p894:mh_p894___319659) -> vanW gene in vanI cluster
+  cluster spaS59___94408:
+    participant p813 (spaS59:spaS59___94408) -> vanW gene in vanI cluster
+    participant p142 (spaS282:spaS282___135290) -> vanW gene in vanI cluster
+    participant p151 (spaS184:spaS184___44425) -> vanW gene in vanI cluster
+    participant p292 (mh_p292:mh_p292___243434) -> vanW gene in vanI cluster
+    participant p341 (mh_p341:mh_p341___184954) -> vanW gene in vanI cluster
+    participant p373 (spaS202:spaS202___66103) -> vanW gene in vanI cluster
+    participant p398 (mh_p398:mh_p398___112479) -> vanW gene in vanI cluster
+    participant p408 (mh_p408:mh_p408___15630) -> vanW gene in vanI cluster
+    participant p431 (spaS66:spaS66___67945) -> vanW gene in vanI cluster
+    participant p523 (mh_p523:mh_p523___246448) -> vanW gene in vanI cluster
+    participant p722 (mh_p722:mh_p722___170906) -> vanW gene in vanI cluster
+    participant p728 (mh_p728:mh_p728___73861) -> vanW gene in vanI cluster
+    participant p729 (spaS183:spaS183___99894) -> vanW gene in vanI cluster
+    participant p789 (mh_p789:mh_p789___152056) -> vanW gene in vanI cluster
+    participant p860 (mh_p860:mh_p860___323127) -> vanW gene in vanI cluster
+    participant p97 (spaS252:spaS252___135328) -> vanW gene in vanI cluster
+  cluster mh_p341___16021:
+    participant p341 (mh_p341:mh_p341___16021) -> AAC(6')-Ii
+    participant p550 (spaS53:spaS53___96723) -> AAC(6')-Ii
+    participant p729 (spaS183:spaS183___69910) -> AAC(6')-Ii
+  cluster mh_p341___184234:
+    participant p341 (mh_p341:mh_p341___184234) -> vanW gene in vanI cluster
+    participant p601 (spaS161:spaS161___135871) -> vanW gene in vanI cluster
+    participant p728 (mh_p728:mh_p728___188036) -> vanW gene in vanI cluster
+    participant p789 (spaS287:spaS287___258617) -> vanW gene in vanI cluster
+  cluster spaS24___98152:
+    participant p813 (spaS24:spaS24___98152) -> vanY gene in vanB cluster
+    participant p125 (mh_p125:mh_p125___223706) -> vanY gene in vanB cluster
+    participant p292 (mh_p292:mh_p292___448240) -> vanY gene in vanB cluster
+    participant p341 (mh_p341:mh_p341___291186) -> vanY gene in vanB cluster
+    participant p398 (mh_p398:mh_p398___244461) -> vanY gene in vanB cluster
+    participant p470 (mh_p470:mh_p470___123045) -> vanY gene in vanA cluster
+    participant p550 (mh_p550:mh_p550___46567) -> vanY gene in vanB cluster
+    participant p584 (spaS266:spaS266___116960) -> vanY gene in vanB cluster
+    participant p601 (mh_p601:mh_p601___232178) -> vanY gene in vanB cluster
+    participant p728 (spaS160:spaS160___98597) -> vanY gene in vanB cluster
+    participant p894 (mh_p894:mh_p894___141554) -> vanY gene in vanB cluster
+    participant p97 (spaS253:spaS253___132749) -> vanY gene in vanB cluster
+  cluster mh_p125___249462:
+    participant p125 (mh_p125:mh_p125___249462) -> vanY gene in vanF cluster
+    participant p151 (spaS215:spaS215___25519) -> vanY gene in vanF cluster
+    participant p813 (spaS194:spaS194___88826) -> vanY gene in vanF cluster
+  cluster spaS259___135376:
+    participant p142 (spaS259:spaS259___135376) -> vanT gene in vanC cluster
+    participant p110 (mh_p110:mh_p110___77997) -> vanT gene in vanC cluster
+    participant p292 (mh_p292:mh_p292___92078) -> vanT gene in vanC cluster
+    participant p373 (spaS205:spaS205___76463) -> vanT gene in vanC cluster
+    participant p431 (spaS186:spaS186___125309) -> vanT gene in vanC cluster
+    participant p523 (mh_p523:mh_p523___272302) -> vanT gene in vanC cluster
+    participant p601 (mh_p601:mh_p601___170993) -> vanT gene in vanC cluster
+    participant p644 (mh_p644:mh_p644___248432) -> vanT gene in vanC cluster
+    participant p789 (spaS294:spaS294___144529) -> vanT gene in vanC cluster
+    participant p813 (spaS59:spaS59___93822) -> vanT gene in vanC cluster
+    participant p860 (mh_p860:mh_p860___309457) -> vanT gene in vanC cluster
+  cluster spaS140___103664:
+    participant p601 (spaS140:spaS140___103664) -> vanW gene in vanI cluster
+    participant p110 (mh_p110:mh_p110___222944) -> vanW gene in vanI cluster
+    participant p125 (mh_p125:mh_p125___242260) -> vanW gene in vanI cluster
+    participant p142 (spaS257:spaS257___153023) -> vanW gene in vanI cluster
+    participant p151 (spaS149:spaS149___93804) -> vanW gene in vanI cluster
+    participant p151 (spaS154:spaS154___104325) -> vanW gene in vanI cluster
+    participant p292 (mh_p292:mh_p292___47120) -> vanW gene in vanI cluster
+    participant p341 (mh_p341:mh_p341___78174) -> vanW gene in vanI cluster
+    participant p373 (spaS202:spaS202___52246) -> vanW gene in vanI cluster
+    participant p408 (mh_p408:mh_p408___229000) -> vanW gene in vanI cluster
+    participant p431 (spaS65:spaS65___47443) -> vanW gene in vanI cluster
+    participant p470 (mh_p470:mh_p470___167040) -> vanW gene in vanI cluster
+    participant p523 (mh_p523:mh_p523___313677) -> vanW gene in vanI cluster
+    participant p550 (mh_p550:mh_p550___14894) -> vanW gene in vanI cluster
+    participant p584 (mh_p584:mh_p584___245834) -> vanW gene in vanI cluster
+    participant p644 (mh_p644:mh_p644___286967) -> vanW gene in vanI cluster
+    participant p654 (spaS281:spaS281___77229) -> vanW gene in vanI cluster
+    participant p722 (mh_p722:mh_p722___330546) -> vanW gene in vanI cluster
+    participant p728 (mh_p728:mh_p728___38909) -> vanW gene in vanI cluster
+    participant p729 (spaS183:spaS183___67842) -> vanW gene in vanI cluster
+    participant p789 (mh_p789:mh_p789___266074) -> vanW gene in vanI cluster
+    participant p813 (mh_p813:mh_p813___151095) -> vanW gene in vanI cluster
+    participant p860 (mh_p860:mh_p860___208763) -> vanW gene in vanI cluster
+    participant p894 (mh_p894:mh_p894___6098) -> vanW gene in vanI cluster
+    participant p97 (mh_p97:mh_p97___187461) -> vanW gene in vanI cluster
+  cluster spaS171___63481:
+    participant p373 (spaS171:spaS171___63481) -> ANT(2'')-Ia
+    participant p728 (mh_p728:mh_p728___241310) -> ANT(2'')-Ia
+    participant p860 (mh_p860:mh_p860___194810) -> ANT(2'')-Ia
+  cluster spaS257___174063:
+    participant p142 (spaS257:spaS257___174063) -> nimJ
+    participant p398 (mh_p398:mh_p398___185791) -> nimA
+    participant p584 (mh_p584:mh_p584___154628) -> nimA
+    participant p601 (mh_p601:mh_p601___166557) -> nimJ
+    participant p654 (spaS278:spaS278___67030) -> nimA
+    participant p722 (mh_p722:mh_p722___329174) -> nimJ
+    participant p728 (mh_p728:mh_p728___297621) -> nimJ
+    participant p860 (mh_p860:mh_p860___281777) -> nimJ
+    participant p894 (mh_p894:mh_p894___31463) -> nimJ
+  cluster spaS266___125037:
+    participant p584 (spaS266:spaS266___125037) -> vanW gene in vanI cluster
+    participant p654 (spaS278:spaS278___87981) -> vanW gene in vanI cluster
+    participant p97 (mh_p97:mh_p97___201383) -> vanW gene in vanI cluster
+  cluster spaS215___168220:
+    participant p151 (spaS215:spaS215___168220) -> vanT gene in vanG cluster
+    participant p789 (mh_p789:mh_p789___7711) -> vanT gene in vanG cluster
+    participant p813 (mh_p813:mh_p813___402930) -> vanT gene in vanG cluster
+  cluster mh_p341___250182:
+    participant p341 (mh_p341:mh_p341___250182) -> vanC
+    participant p601 (mh_p601:mh_p601___378323) -> vanC
+    participant p722 (mh_p722:mh_p722___274686) -> vanC
+    participant p729 (spaS106:spaS106___29522) -> vanC
+  cluster mh_p341___250183:
+    participant p341 (mh_p341:mh_p341___250183) -> vanXY gene in vanC cluster
+    participant p601 (mh_p601:mh_p601___286101) -> vanXY gene in vanC cluster
+    participant p654 (spaS280:spaS280___103035) -> vanXY gene in vanC cluster
+    participant p722 (mh_p722:mh_p722___274687) -> vanXY gene in vanC cluster
+    participant p729 (spaS106:spaS106___29521) -> vanXY gene in vanC cluster

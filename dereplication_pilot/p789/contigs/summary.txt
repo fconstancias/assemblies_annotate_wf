@@ -1,0 +1,14 @@
+=== p789 / contigs ===
+total sequences pooled: 559284  (2765795478 bp/residues)
+total clusters: 422465  (singleton: 320155, multi-member: 102310)
+cross-group clusters (redundant across >=2 assemblies): 101829
+redundant sequences: 238157/559284 (42.6% by count, 68.0% by bp)
+per-group breakdown (redundant/total, count and bp):
+  mh_p789: 64198/118983 (54.0%) by count, 506477265/646049028 (78.4%) by bp
+  spaS286: 21748/49340 (44.1%) by count, 188772992/280912627 (67.2%) by bp
+  spaS287: 23686/59717 (39.7%) by count, 188288140/287286783 (65.5%) by bp
+  spaS294: 23264/62222 (37.4%) by count, 202818348/313956442 (64.6%) by bp
+  spaS295: 28236/71784 (39.3%) by count, 208944799/334650292 (62.4%) by bp
+  spaS296: 27924/74906 (37.3%) by count, 239037140/360664998 (66.3%) by bp
+  spaS297: 27812/69489 (40.0%) by count, 217739687/338489765 (64.3%) by bp
+  spaS300: 21289/52843 (40.3%) by count, 127287260/203785543 (62.5%) by bp

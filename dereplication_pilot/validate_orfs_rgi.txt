@@ -1,0 +1,185 @@
+=== propagation validation: RGI (Best_Hit_ARO), tier=orfs ===
+participants covered: 25
+testable clusters (>=2 members independently hit by the tool): 9411
+consistent (all members agree): 9075 (96.4%)
+inconsistent (members disagree): 336 (3.6%)
+
+per-participant breakdown (testable, consistent, inconsistent):
+  p110: 291, 286, 5
+  p125: 273, 258, 15
+  p142: 406, 398, 8
+  p151: 178, 173, 5
+  p292: 461, 446, 15
+  p341: 398, 386, 12
+  p373: 319, 316, 3
+  p398: 260, 253, 7
+  p408: 220, 215, 5
+  p431: 461, 427, 34
+  p470: 318, 305, 13
+  p523: 419, 404, 15
+  p550: 377, 366, 11
+  p584: 356, 351, 5
+  p601: 420, 405, 15
+  p644: 399, 377, 22
+  p654: 235, 227, 8
+  p722: 443, 432, 11
+  p728: 356, 344, 12
+  p729: 327, 317, 10
+  p789: 683, 666, 17
+  p813: 783, 723, 60
+  p860: 376, 363, 13
+  p894: 338, 331, 7
+  p97: 314, 306, 8
+
+disagreement examples (up to 25):
+  [p110] cluster mh_p110___54250:
+    mh_p110:mh_p110___54250 -> vanY gene in vanA cluster
+    mh_p110:mh_p110___191066 -> vanY gene in vanB cluster
+    spaS37:spaS37___180046 -> vanY gene in vanB cluster
+    spaS222:spaS222___13776 -> vanY gene in vanA cluster
+    spaS223:spaS223___113610 -> vanY gene in vanA cluster
+  [p110] cluster mh_p110___130666:
+    mh_p110:mh_p110___130666 -> vanY gene in vanF cluster
+    spaS30:spaS30___177792 -> vanY gene in vanA cluster
+    spaS222:spaS222___95371 -> vanY gene in vanF cluster
+    spaS223:spaS223___108237 -> vanY gene in vanF cluster
+  [p110] cluster spaS223___141508:
+    spaS223:spaS223___141508 -> vanY gene in vanG cluster
+    mh_p110:mh_p110___38069 -> vanY gene in vanB cluster
+    spaS37:spaS37___161359 -> vanY gene in vanG cluster
+  [p110] cluster spaS30___15794:
+    spaS30:spaS30___15794 -> tet(W)
+    mh_p110:mh_p110___3044 -> tet(W)
+    mh_p110:mh_p110___3572 -> tet(W)
+    mh_p110:mh_p110___88201 -> tet(O/W)
+    spaS37:spaS37___154867 -> tet(W)
+    spaS222:spaS222___141604 -> tet(W)
+    spaS223:spaS223___51118 -> tet(W)
+    mh_p110:mh_p110___254820 -> tet(W)
+  [p110] cluster mh_p110___274133:
+    mh_p110:mh_p110___274133 -> tetB(P)
+    spaS37:spaS37___124686 -> tet(Q)
+  [p125] cluster spaS19___108415:
+    spaS19:spaS19___108415 -> vanXY gene in vanG cluster
+    mh_p125:mh_p125___239967 -> vanXY gene in vanG cluster
+    spaS15:spaS15___89932 -> vanXY gene in vanG cluster
+    spaS40:spaS40___46577 -> vanXY gene in vanG cluster
+    spaS40:spaS40___57743 -> vanY gene in vanA cluster
+    spaS51:spaS51___39885 -> vanXY gene in vanG cluster
+  [p125] cluster mh_p125___291164:
+    mh_p125:mh_p125___291164 -> CfxA2
+    spaS15:spaS15___30898 -> CfxA2
+    spaS19:spaS19___60264 -> CfxA2
+    spaS44:spaS44___51636 -> CfxA2
+    spaS74:spaS74___77502 -> CfxA3
+  [p125] cluster spaS74___83659:
+    spaS74:spaS74___83659 -> vanY gene in vanG cluster
+    mh_p125:mh_p125___173124 -> vanY gene in vanM cluster
+  [p125] cluster spaS102___28344:
+    spaS102:spaS102___28344 -> vanY gene in vanG cluster
+    mh_p125:mh_p125___59504 -> vanY gene in vanM cluster
+  [p125] cluster mh_p125___65366:
+    mh_p125:mh_p125___65366 -> vanY gene in vanG cluster
+    mh_p125:mh_p125___147742 -> vanY gene in vanA cluster
+    spaS15:spaS15___51588 -> vanY gene in vanG cluster
+    spaS19:spaS19___104648 -> vanY gene in vanG cluster
+    spaS22:spaS22___45967 -> vanY gene in vanG cluster
+    spaS40:spaS40___49471 -> vanY gene in vanG cluster
+    spaS44:spaS44___70252 -> vanY gene in vanG cluster
+    spaS51:spaS51___48596 -> vanY gene in vanG cluster
+    spaS102:spaS102___61821 -> vanY gene in vanG cluster
+    spaS104:spaS104___79246 -> vanY gene in vanG cluster
+  [p125] cluster spaS102___78222:
+    spaS15:spaS15___45476 -> vanT gene in vanC cluster
+    spaS51:spaS51___69662 -> vanT gene in vanG cluster
+    spaS104:spaS104___85929 -> vanT gene in vanC cluster
+  [p125] cluster mh_p125___118024:
+    mh_p125:mh_p125___118024 -> vanY gene in vanG cluster
+    spaS19:spaS19___79034 -> vanY gene in vanG cluster
+    spaS22:spaS22___63788 -> vanY gene in vanB cluster
+  [p125] cluster spaS15___20395:
+    spaS15:spaS15___20395 -> tet(W)
+    mh_p125:mh_p125___16982 -> tet(W)
+    mh_p125:mh_p125___129387 -> tet(W)
+    spaS19:spaS19___124316 -> tet(W)
+    spaS22:spaS22___37477 -> tet(W)
+    spaS22:spaS22___52715 -> tet(W)
+    spaS40:spaS40___4830 -> tet(W)
+    spaS44:spaS44___46633 -> tet(W)
+    spaS44:spaS44___86668 -> tet(W)
+    spaS51:spaS51___41831 -> tet(W)
+    spaS74:spaS74___107070 -> tet(O/W)
+    spaS102:spaS102___79646 -> tet(W)
+    spaS104:spaS104___474 -> tet(W)
+  [p125] cluster mh_p125___74067:
+    mh_p125:mh_p125___74067 -> vanY gene in vanF cluster
+    spaS15:spaS15___83442 -> vanY gene in vanA cluster
+    spaS19:spaS19___43481 -> vanY gene in vanF cluster
+    spaS22:spaS22___35965 -> vanY gene in vanA cluster
+    spaS40:spaS40___34069 -> vanY gene in vanF cluster
+    spaS44:spaS44___16531 -> vanY gene in vanF cluster
+    spaS51:spaS51___17326 -> vanY gene in vanF cluster
+    spaS74:spaS74___30583 -> vanY gene in vanF cluster
+    spaS102:spaS102___54878 -> vanY gene in vanF cluster
+    spaS104:spaS104___26733 -> vanY gene in vanF cluster
+  [p125] cluster mh_p125___9111:
+    mh_p125:mh_p125___9111 -> vanY gene in vanB cluster
+    spaS15:spaS15___29966 -> vanY gene in vanB cluster
+    spaS19:spaS19___26647 -> vanY gene in vanB cluster
+    spaS22:spaS22___48120 -> vanY gene in vanB cluster
+    spaS40:spaS40___8727 -> vanY gene in vanB cluster
+    spaS44:spaS44___9718 -> vanY gene in vanB cluster
+    spaS51:spaS51___24664 -> vanY gene in vanB cluster
+    spaS74:spaS74___112804 -> vanY gene in vanG cluster
+    spaS102:spaS102___91742 -> vanY gene in vanG cluster
+  [p125] cluster mh_p125___183919:
+    mh_p125:mh_p125___183919 -> vanY gene in vanB cluster
+    spaS19:spaS19___68225 -> vanY gene in vanB cluster
+    spaS22:spaS22___44874 -> vanY gene in vanB cluster
+    spaS40:spaS40___62588 -> vanY gene in vanB cluster
+    spaS44:spaS44___26407 -> vanY gene in vanM cluster
+    spaS44:spaS44___76093 -> vanY gene in vanG cluster
+    spaS51:spaS51___12515 -> vanY gene in vanB cluster
+    spaS74:spaS74___27017 -> vanY gene in vanB cluster
+    spaS102:spaS102___16537 -> vanY gene in vanB cluster
+    spaS104:spaS104___20613 -> vanY gene in vanB cluster
+  [p125] cluster mh_p125___60249:
+    mh_p125:mh_p125___60249 -> vanXY gene in vanG cluster
+    spaS74:spaS74___124589 -> vanY gene in vanM cluster
+  [p125] cluster mh_p125___225480:
+    mh_p125:mh_p125___225480 -> qacG
+    spaS15:spaS15___84549 -> qacJ
+    spaS40:spaS40___61643 -> qacG
+  [p125] cluster mh_p125___55492:
+    mh_p125:mh_p125___55492 -> vanY gene in vanG cluster
+    spaS19:spaS19___99663 -> vanY gene in vanG cluster
+    spaS22:spaS22___60059 -> vanY gene in vanB cluster
+    spaS51:spaS51___41075 -> vanY gene in vanG cluster
+    spaS102:spaS102___91770 -> vanY gene in vanG cluster
+    spaS104:spaS104___48624 -> vanY gene in vanG cluster
+  [p125] cluster mh_p125___230037:
+    mh_p125:mh_p125___230037 -> vanY gene in vanF cluster
+    spaS102:spaS102___99204 -> vanY gene in vanA cluster
+    spaS104:spaS104___71320 -> vanY gene in vanF cluster
+  [p142] cluster spaS257___52108:
+    spaS257:spaS257___52108 -> tet(36)
+    spaS258:spaS258___192537 -> tet(Q)
+    spaS269:spaS269___204034 -> tet(Q)
+  [p142] cluster spaS259___132980:
+    spaS259:spaS259___132980 -> vanY gene in vanG cluster
+    spaS258:spaS258___127655 -> vanY gene in vanM cluster
+    spaS267:spaS267___162563 -> vanY gene in vanG cluster
+    spaS268:spaS268___73055 -> vanY gene in vanG cluster
+    spaS269:spaS269___29414 -> vanY gene in vanG cluster
+    spaS282:spaS282___33137 -> vanY gene in vanG cluster
+  [p142] cluster spaS258___67383:
+    spaS258:spaS258___67383 -> vanW gene in vanG cluster
+    spaS259:spaS259___202072 -> vanW gene in vanB cluster
+  [p142] cluster spaS268___247274:
+    spaS268:spaS268___247274 -> vanY gene in vanG cluster
+    spaS257:spaS257___213833 -> vanY gene in vanB cluster
+  [p142] cluster spaS257___22728:
+    spaS257:spaS257___22728 -> vanY gene in vanG cluster
+    spaS258:spaS258___92300 -> vanY gene in vanB cluster
+    spaS268:spaS268___122299 -> vanY gene in vanB cluster
+    spaS282:spaS282___34596 -> vanY gene in vanB cluster

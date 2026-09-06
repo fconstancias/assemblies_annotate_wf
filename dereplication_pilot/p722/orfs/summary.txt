@@ -1,0 +1,15 @@
+=== p722 / orfs ===
+total sequences pooled: 1186746  (342350950 bp/residues)
+total clusters: 368676  (singleton: 63428, multi-member: 305248)
+cross-group clusters (redundant across >=2 assemblies): 304505
+redundant sequences: 1121739/1186746 (94.5% by count, 96.9% by bp)
+per-group breakdown (redundant/total, count and bp):
+  mh_p722: 336601/368056 (91.5%) by count, 99597140/105181457 (94.7%) by bp
+  spaS132: 91402/95423 (95.8%) by count, 27422884/28144648 (97.4%) by bp
+  spaS136: 82094/83729 (98.0%) by count, 24137059/24336667 (99.2%) by bp
+  spaS147: 89370/91409 (97.8%) by count, 26430314/26696641 (99.0%) by bp
+  spaS192: 132330/137547 (96.2%) by count, 39008049/39724814 (98.2%) by bp
+  spaS240: 111815/121851 (91.8%) by count, 32088951/33662485 (95.3%) by bp
+  spaS241: 87464/89139 (98.1%) by count, 25961720/26172262 (99.2%) by bp
+  spaS85: 120823/127230 (95.0%) by count, 36584370/37579767 (97.4%) by bp
+  spaS92: 69840/72362 (96.5%) by count, 20460530/20852209 (98.1%) by bp

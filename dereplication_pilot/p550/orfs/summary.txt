@@ -1,0 +1,14 @@
+=== p550 / orfs ===
+total sequences pooled: 1047675  (301494349 bp/residues)
+total clusters: 296459  (singleton: 63186, multi-member: 233273)
+cross-group clusters (redundant across >=2 assemblies): 232691
+redundant sequences: 983219/1047675 (93.8% by count, 95.9% by bp)
+per-group breakdown (redundant/total, count and bp):
+  mh_p550: 263630/285549 (92.3%) by count, 78068144/81994541 (95.2%) by bp
+  spaS254: 161506/166438 (97.0%) by count, 48720225/49466232 (98.5%) by bp
+  spaS255: 59521/64462 (92.3%) by count, 17412268/18417991 (94.5%) by bp
+  spaS256: 130513/132853 (98.2%) by count, 40180929/40469274 (99.3%) by bp
+  spaS33: 74906/76599 (97.8%) by count, 21592717/21812483 (99.0%) by bp
+  spaS47: 75147/77075 (97.5%) by count, 21092705/21333342 (98.9%) by bp
+  spaS53: 105894/129139 (82.0%) by count, 30171065/35755767 (84.4%) by bp
+  spaS58: 112102/115560 (97.0%) by count, 31789971/32244719 (98.6%) by bp

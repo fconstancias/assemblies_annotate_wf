@@ -1,0 +1,15 @@
+=== p398 / contigs ===
+total sequences pooled: 158607  (1006877448 bp/residues)
+total clusters: 117958  (singleton: 87928, multi-member: 30030)
+cross-group clusters (redundant across >=2 assemblies): 29798
+redundant sequences: 70211/158607 (44.3% by count, 72.6% by bp)
+per-group breakdown (redundant/total, count and bp):
+  mh_p398: 20562/38611 (53.3%) by count, 185043047/237235129 (78.0%) by bp
+  spaS155: 5397/11444 (47.2%) by count, 44514198/65854335 (67.6%) by bp
+  spaS167: 4981/15493 (32.2%) by count, 60199043/90173987 (66.8%) by bp
+  spaS172: 4689/13432 (34.9%) by count, 56591370/79780115 (70.9%) by bp
+  spaS191: 5973/15713 (38.0%) by count, 74008700/102583010 (72.1%) by bp
+  spaS200: 5097/13893 (36.7%) by count, 67746478/99920531 (67.8%) by bp
+  spaS203: 7517/15293 (49.2%) by count, 85478463/115477071 (74.0%) by bp
+  spaS208: 9376/19374 (48.4%) by count, 98040420/131917337 (74.3%) by bp
+  spaS218: 6619/15354 (43.1%) by count, 59100421/83935933 (70.4%) by bp

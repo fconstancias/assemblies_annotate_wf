@@ -1,0 +1,16 @@
+=== p523 / orfs ===
+total sequences pooled: 2027566  (579556554 bp/residues)
+total clusters: 444318  (singleton: 112468, multi-member: 331850)
+cross-group clusters (redundant across >=2 assemblies): 330499
+redundant sequences: 1912271/2027566 (94.3% by count, 96.4% by bp)
+per-group breakdown (redundant/total, count and bp):
+  mh_p523: 365252/435748 (83.8%) by count, 111255696/125781241 (88.5%) by bp
+  spaS231: 217132/222103 (97.8%) by count, 63008429/63603523 (99.1%) by bp
+  spaS237: 153745/158313 (97.1%) by count, 43630384/44226392 (98.7%) by bp
+  spaS239: 122516/125324 (97.8%) by count, 34089393/34418373 (99.0%) by bp
+  spaS245: 100132/102803 (97.4%) by count, 28445460/28803576 (98.8%) by bp
+  spaS32: 212621/217001 (98.0%) by count, 62513966/63010522 (99.2%) by bp
+  spaS5: 211617/217635 (97.2%) by count, 63024846/63828886 (98.7%) by bp
+  spaS50: 171342/179405 (95.5%) by count, 49273690/50841401 (96.9%) by bp
+  spaS52: 220760/225844 (97.7%) by count, 64443086/65068287 (99.0%) by bp
+  spaS67: 137154/143390 (95.7%) by count, 38908462/39974353 (97.3%) by bp

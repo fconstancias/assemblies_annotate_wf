@@ -1,0 +1,12 @@
+=== p894 / orfs ===
+total sequences pooled: 925185  (262917253 bp/residues)
+total clusters: 323304  (singleton: 64166, multi-member: 259138)
+cross-group clusters (redundant across >=2 assemblies): 258483
+redundant sequences: 859624/925185 (92.9% by count, 95.7% by bp)
+per-group breakdown (redundant/total, count and bp):
+  mh_p894: 283818/326022 (87.1%) by count, 85458142/93655769 (91.2%) by bp
+  spaS139: 140129/146859 (95.4%) by count, 39276179/40223092 (97.6%) by bp
+  spaS157: 102620/105562 (97.2%) by count, 29666111/30042713 (98.7%) by bp
+  spaS176: 119969/123837 (96.9%) by count, 34651795/35165223 (98.5%) by bp
+  spaS197: 125688/130842 (96.1%) by count, 36535737/37239872 (98.1%) by bp
+  spaS95: 87400/92063 (94.9%) by count, 25902612/26590584 (97.4%) by bp

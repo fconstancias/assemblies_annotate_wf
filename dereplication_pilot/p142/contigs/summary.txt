@@ -1,0 +1,13 @@
+=== p142 / contigs ===
+total sequences pooled: 316663  (1634977864 bp/residues)
+total clusters: 240051  (singleton: 185890, multi-member: 54161)
+cross-group clusters (redundant across >=2 assemblies): 53837
+redundant sequences: 130124/316663 (41.1% by count, 68.9% by bp)
+per-group breakdown (redundant/total, count and bp):
+  spaS257: 19107/46340 (41.2%) by count, 178368227/248688627 (71.7%) by bp
+  spaS258: 18120/47522 (38.1%) by count, 144347640/226587781 (63.7%) by bp
+  spaS259: 16338/40253 (40.6%) by count, 156168361/218315029 (71.5%) by bp
+  spaS267: 15869/43783 (36.2%) by count, 124244667/209724070 (59.2%) by bp
+  spaS268: 22430/52008 (43.1%) by count, 189001629/264544632 (71.4%) by bp
+  spaS269: 20529/46443 (44.2%) by count, 165593146/231860087 (71.4%) by bp
+  spaS282: 17731/40314 (44.0%) by count, 168417781/235257638 (71.6%) by bp

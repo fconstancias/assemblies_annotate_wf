@@ -1,0 +1,14 @@
+=== p408 / contigs ===
+total sequences pooled: 158291  (1035846861 bp/residues)
+total clusters: 119941  (singleton: 94145, multi-member: 25796)
+cross-group clusters (redundant across >=2 assemblies): 25633
+redundant sequences: 63814/158291 (40.3% by count, 72.7% by bp)
+per-group breakdown (redundant/total, count and bp):
+  mh_p408: 14731/34197 (43.1%) by count, 174646115/226008761 (77.3%) by bp
+  spaS109: 4466/12791 (34.9%) by count, 54121843/77597015 (69.7%) by bp
+  spaS114: 6513/16881 (38.6%) by count, 82069916/114924156 (71.4%) by bp
+  spaS119: 6693/17695 (37.8%) by count, 84301872/126101937 (66.9%) by bp
+  spaS126: 8069/18766 (43.0%) by count, 100187206/130077324 (77.0%) by bp
+  spaS135: 8761/22957 (38.2%) by count, 101201892/142455800 (71.0%) by bp
+  spaS141: 7999/18255 (43.8%) by count, 81809523/111992244 (73.0%) by bp
+  spaS150: 6582/16749 (39.3%) by count, 75219632/106689624 (70.5%) by bp

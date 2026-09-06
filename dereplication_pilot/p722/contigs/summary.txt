@@ -1,0 +1,15 @@
+=== p722 / contigs ===
+total sequences pooled: 193435  (1161813930 bp/residues)
+total clusters: 142833  (singleton: 98887, multi-member: 43946)
+cross-group clusters (redundant across >=2 assemblies): 43732
+redundant sequences: 94118/193435 (48.7% by count, 74.0% by bp)
+per-group breakdown (redundant/total, count and bp):
+  mh_p722: 36280/62599 (58.0%) by count, 272317774/357329850 (76.2%) by bp
+  spaS132: 5705/12715 (44.9%) by count, 71724063/95618329 (75.0%) by bp
+  spaS136: 4284/12781 (33.5%) by count, 50205961/82345518 (61.0%) by bp
+  spaS147: 5085/12364 (41.1%) by count, 66669060/90694706 (73.5%) by bp
+  spaS192: 9618/23028 (41.8%) by count, 97202421/134545261 (72.2%) by bp
+  spaS240: 14022/30362 (46.2%) by count, 74642600/113805382 (65.6%) by bp
+  spaS241: 5731/12251 (46.8%) by count, 70880708/89154784 (79.5%) by bp
+  spaS85: 8757/18290 (47.9%) by count, 98454272/127003088 (77.5%) by bp
+  spaS92: 4636/9045 (51.3%) by count, 58154284/71317012 (81.5%) by bp

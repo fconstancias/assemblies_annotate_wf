@@ -1,0 +1,20 @@
+=== p292 / orfs ===
+total sequences pooled: 1891875  (541789593 bp/residues)
+total clusters: 469192  (singleton: 117620, multi-member: 351572)
+cross-group clusters (redundant across >=2 assemblies): 350435
+redundant sequences: 1771812/1891875 (93.7% by count, 95.9% by bp)
+per-group breakdown (redundant/total, count and bp):
+  mh_p292: 394839/449018 (87.9%) by count, 118227853/128632116 (91.9%) by bp
+  spaS12: 121250/123561 (98.1%) by count, 36481251/36761068 (99.2%) by bp
+  spaS130: 221619/231588 (95.7%) by count, 66949408/68356139 (97.9%) by bp
+  spaS20: 79049/80292 (98.5%) by count, 22651016/22780936 (99.4%) by bp
+  spaS225: 74286/75811 (98.0%) by count, 21447933/21631877 (99.1%) by bp
+  spaS228: 73390/84837 (86.5%) by count, 20778513/23165823 (89.7%) by bp
+  spaS23: 87513/106740 (82.0%) by count, 25046675/29500476 (84.9%) by bp
+  spaS232: 66162/67519 (98.0%) by count, 19043616/19223598 (99.1%) by bp
+  spaS39: 62509/63610 (98.3%) by count, 17865627/18008410 (99.2%) by bp
+  spaS49: 77599/79134 (98.1%) by count, 21894145/22058646 (99.3%) by bp
+  spaS55: 133740/137046 (97.6%) by count, 39679855/40085287 (99.0%) by bp
+  spaS7: 113037/119094 (94.9%) by count, 33141897/34441275 (96.2%) by bp
+  spaS97: 143320/147394 (97.2%) by count, 40892054/41402101 (98.8%) by bp
+  spaS99: 123499/126231 (97.8%) by count, 35445882/35741841 (99.2%) by bp

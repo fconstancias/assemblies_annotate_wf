@@ -1,0 +1,15 @@
+=== p398 / orfs ===
+total sequences pooled: 1024662  (296297103 bp/residues)
+total clusters: 247199  (singleton: 50272, multi-member: 196927)
+cross-group clusters (redundant across >=2 assemblies): 196431
+redundant sequences: 973324/1024662 (95.0% by count, 96.9% by bp)
+per-group breakdown (redundant/total, count and bp):
+  mh_p398: 218961/244843 (89.4%) by count, 64597987/69777916 (92.6%) by bp
+  spaS155: 65398/67983 (96.2%) by count, 18909181/19274942 (98.1%) by bp
+  spaS167: 86818/93244 (93.1%) by count, 25297637/26574862 (95.2%) by bp
+  spaS172: 81255/82709 (98.2%) by count, 23368968/23519692 (99.4%) by bp
+  spaS191: 102878/104760 (98.2%) by count, 29998383/30206407 (99.3%) by bp
+  spaS200: 96324/99819 (96.5%) by count, 28786758/29416479 (97.9%) by bp
+  spaS203: 111221/113077 (98.4%) by count, 33751554/33971838 (99.4%) by bp
+  spaS208: 128318/132127 (97.1%) by count, 38237658/38779376 (98.6%) by bp
+  spaS218: 82151/86100 (95.4%) by count, 24204927/24775591 (97.7%) by bp

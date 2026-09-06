@@ -1,0 +1,18 @@
+=== p860 / orfs ===
+total sequences pooled: 1741929  (511665265 bp/residues)
+total clusters: 361786  (singleton: 82330, multi-member: 279456)
+cross-group clusters (redundant across >=2 assemblies): 278739
+redundant sequences: 1658105/1741929 (95.2% by count, 97.1% by bp)
+per-group breakdown (redundant/total, count and bp):
+  mh_p860: 304565/340496 (89.4%) by count, 91798805/98575986 (93.1%) by bp
+  spaS163: 90801/92735 (97.9%) by count, 26858908/27100213 (99.1%) by bp
+  spaS166: 92620/94567 (97.9%) by count, 27547299/27765736 (99.2%) by bp
+  spaS170: 98590/107382 (91.8%) by count, 30239494/32072309 (94.3%) by bp
+  spaS175: 95896/97303 (98.6%) by count, 28902740/29068598 (99.4%) by bp
+  spaS195: 80787/83305 (97.0%) by count, 23238875/23589911 (98.5%) by bp
+  spaS199: 153842/159876 (96.2%) by count, 46646700/47648087 (97.9%) by bp
+  spaS201: 159643/162513 (98.2%) by count, 48274166/48585707 (99.4%) by bp
+  spaS206: 166815/170583 (97.8%) by count, 49191657/49652504 (99.1%) by bp
+  spaS213: 140762/144032 (97.7%) by count, 42266546/42659368 (99.1%) by bp
+  spaS217: 124331/135707 (91.6%) by count, 36903353/39289896 (93.9%) by bp
+  spaS220: 149453/153430 (97.4%) by count, 45087749/45656950 (98.8%) by bp

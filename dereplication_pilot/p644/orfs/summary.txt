@@ -1,0 +1,21 @@
+=== p644 / orfs ===
+total sequences pooled: 1675641  (478322262 bp/residues)
+total clusters: 332427  (singleton: 82944, multi-member: 249483)
+cross-group clusters (redundant across >=2 assemblies): 248855
+redundant sequences: 1591351/1675641 (95.0% by count, 96.7% by bp)
+per-group breakdown (redundant/total, count and bp):
+  mh_p644: 261348/300940 (86.8%) by count, 79719711/87836284 (90.8%) by bp
+  spaS101: 57139/58658 (97.4%) by count, 16707484/16927789 (98.7%) by bp
+  spaS105: 83607/85612 (97.7%) by count, 22568029/22776116 (99.1%) by bp
+  spaS112: 65086/66088 (98.5%) by count, 18783814/18898606 (99.4%) by bp
+  spaS145: 123824/128902 (96.1%) by count, 35737258/36648000 (97.5%) by bp
+  spaS152: 118686/120688 (98.3%) by count, 35175195/35403253 (99.4%) by bp
+  spaS173: 155434/162319 (95.8%) by count, 45342109/46380953 (97.8%) by bp
+  spaS179: 129286/138748 (93.2%) by count, 37384321/39350310 (95.0%) by bp
+  spaS182: 110854/112828 (98.3%) by count, 33127346/33347036 (99.3%) by bp
+  spaS246: 61364/62346 (98.4%) by count, 17214165/17320330 (99.4%) by bp
+  spaS80: 95257/101437 (93.9%) by count, 26883803/28225669 (95.2%) by bp
+  spaS84: 77806/79059 (98.4%) by count, 22064573/22200030 (99.4%) by bp
+  spaS86: 70000/73023 (95.9%) by count, 19722878/20238604 (97.5%) by bp
+  spaS87: 70426/72089 (97.7%) by count, 19605850/19843929 (98.8%) by bp
+  spaS94: 111234/112904 (98.5%) by count, 32723038/32925353 (99.4%) by bp

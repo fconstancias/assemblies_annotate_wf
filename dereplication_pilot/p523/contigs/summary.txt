@@ -1,0 +1,16 @@
+=== p523 / contigs ===
+total sequences pooled: 384468  (1962668632 bp/residues)
+total clusters: 295540  (singleton: 232243, multi-member: 63297)
+cross-group clusters (redundant across >=2 assemblies): 62956
+redundant sequences: 151536/384468 (39.4% by count, 68.2% by bp)
+per-group breakdown (redundant/total, count and bp):
+  mh_p523: 33867/69642 (48.6%) by count, 337066292/426719109 (79.0%) by bp
+  spaS231: 16619/42962 (38.7%) by count, 135060891/215162726 (62.8%) by bp
+  spaS237: 11596/36543 (31.7%) by count, 88526289/149636155 (59.2%) by bp
+  spaS239: 9111/28582 (31.9%) by count, 71205270/116858149 (60.9%) by bp
+  spaS245: 8905/19727 (45.1%) by count, 72009505/98239124 (73.3%) by bp
+  spaS32: 15024/41758 (36.0%) by count, 133231735/212399126 (62.7%) by bp
+  spaS5: 16365/38527 (42.5%) by count, 145793485/215260128 (67.7%) by bp
+  spaS50: 12344/35574 (34.7%) by count, 110592758/172135409 (64.2%) by bp
+  spaS52: 17954/43273 (41.5%) by count, 149802215/220395563 (68.0%) by bp
+  spaS67: 9751/27880 (35.0%) by count, 94661008/135863143 (69.7%) by bp

@@ -1,0 +1,14 @@
+=== p789 / orfs ===
+total sequences pooled: 2851725  (819013227 bp/residues)
+total clusters: 692667  (singleton: 163962, multi-member: 528705)
+cross-group clusters (redundant across >=2 assemblies): 527069
+redundant sequences: 2684209/2851725 (94.1% by count, 96.3% by bp)
+per-group breakdown (redundant/total, count and bp):
+  mh_p789: 580793/667264 (87.0%) by count, 173882521/191000828 (91.0%) by bp
+  spaS286: 270987/278479 (97.3%) by count, 82623698/83575783 (98.9%) by bp
+  spaS287: 289138/296257 (97.6%) by count, 84120846/84964409 (99.0%) by bp
+  spaS294: 307817/320946 (95.9%) by count, 90503493/92972338 (97.3%) by bp
+  spaS295: 339055/346293 (97.9%) by count, 98316700/99179794 (99.1%) by bp
+  spaS296: 346276/373652 (92.7%) by count, 101499235/106617009 (95.2%) by bp
+  spaS297: 341083/349344 (97.6%) by count, 99315988/100335418 (99.0%) by bp
+  spaS300: 209060/219490 (95.2%) by count, 58841054/60367648 (97.5%) by bp

@@ -56,10 +56,28 @@ logs/
 # via dereplication_pilot/run_pilot.sh (or run_sweep.sh, for parameter-sensitivity
 # reruns under sweep_*/ subdirs -- one directory level deeper than the first pass,
 # hence **/ here rather than the single */*/ that covered only the first pass) against
-# the real upstream assemblies/gene_export. Keep only the real analysis deliverables
-# (cluster_membership.tsv, summary.txt) tracked.
+# the real upstream assemblies/gene_export.
 dereplication_pilot/**/pooled*.fa
 dereplication_pilot/**/pooled*.faa
 dereplication_pilot/**/clu_*.fasta
 dereplication_pilot/**/clu_cluster.tsv
 dereplication_pilot/**/tmp/
+
+# cluster_membership.tsv itself -- fine at 2-participant pilot scale (kept in git
+# then, ~2-55MB each), NOT fine at full 25-participant scale: several real files
+# now exceed GitHub's HARD 100MB per-file limit (p813 orfs alone is 267MB; 2.36GB
+# total across all 25 participants x 2 tiers) -- pushing these would fail outright,
+# not just warn. Regeneratable via analyze_clusters.py against the (already
+# gitignored) clu_cluster.tsv. Backed up to S3 instead (see README) for durability;
+# only the small derived report_*.tsv summaries stay tracked in git.
+dereplication_pilot/**/cluster_membership.tsv
+
+# Python bytecode cache -- never belongs in git, regenerated automatically
+__pycache__/
+*.pyc
+
+# Raw per-cluster plasmid x AMR join (one row per contig cluster, ~5.5M rows,
+# 250MB) -- regeneratable via plasmid_amr_join.py against already-computed
+# cluster_membership.tsv + geNomad/RGI output. Keep only the small aggregated
+# summary (report_plasmid_amr.tsv) tracked.
+dereplication_pilot/plasmid_amr_join.tsv

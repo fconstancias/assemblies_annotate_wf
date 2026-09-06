@@ -1,0 +1,22 @@
+=== p470 / contigs ===
+total sequences pooled: 277388  (1554436445 bp/residues)
+total clusters: 208601  (singleton: 160179, multi-member: 48422)
+cross-group clusters (redundant across >=2 assemblies): 48079
+redundant sequences: 116516/277388 (42.0% by count, 70.7% by bp)
+per-group breakdown (redundant/total, count and bp):
+  mh_p470: 23324/47858 (48.7%) by count, 199896502/269063527 (74.3%) by bp
+  spaS120: 5246/10345 (50.7%) by count, 48865720/64429456 (75.8%) by bp
+  spaS13: 5037/14540 (34.6%) by count, 55851798/80964390 (69.0%) by bp
+  spaS14: 8697/23180 (37.5%) by count, 72963963/110320742 (66.1%) by bp
+  spaS143: 5315/16502 (32.2%) by count, 51542562/78517017 (65.6%) by bp
+  spaS151: 5642/12132 (46.5%) by count, 56062071/74433156 (75.3%) by bp
+  spaS17: 7836/17897 (43.8%) by count, 68888237/102464889 (67.2%) by bp
+  spaS21: 5997/15830 (37.9%) by count, 58689169/84725082 (69.3%) by bp
+  spaS230: 8303/16350 (50.8%) by count, 85370915/115660141 (73.8%) by bp
+  spaS234: 7364/17612 (41.8%) by count, 71384224/102566963 (69.6%) by bp
+  spaS38: 8331/18224 (45.7%) by count, 74920763/101898077 (73.5%) by bp
+  spaS45: 6305/19149 (32.9%) by count, 55941623/86884352 (64.4%) by bp
+  spaS56: 4340/9853 (44.0%) by count, 35709155/50321695 (71.0%) by bp
+  spaS60: 4697/11115 (42.3%) by count, 58527377/78782371 (74.3%) by bp
+  spaS64: 4824/9152 (52.7%) by count, 51562201/67386701 (76.5%) by bp
+  spaS8: 5258/17649 (29.8%) by count, 52279217/86017886 (60.8%) by bp

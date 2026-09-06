@@ -1,0 +1,14 @@
+=== p550 / contigs ===
+total sequences pooled: 184904  (1024552789 bp/residues)
+total clusters: 135994  (singleton: 98058, multi-member: 37936)
+cross-group clusters (redundant across >=2 assemblies): 37537
+redundant sequences: 86035/184904 (46.5% by count, 71.7% by bp)
+per-group breakdown (redundant/total, count and bp):
+  mh_p550: 28432/48151 (59.0%) by count, 218984182/278352998 (78.7%) by bp
+  spaS254: 14631/26326 (55.6%) by count, 134648346/166894591 (80.7%) by bp
+  spaS255: 3879/11989 (32.4%) by count, 39995702/62620462 (63.9%) by bp
+  spaS256: 9252/19769 (46.8%) by count, 96729588/136452093 (70.9%) by bp
+  spaS33: 6194/12550 (49.4%) by count, 59535366/74983807 (79.4%) by bp
+  spaS47: 6930/14669 (47.2%) by count, 49671141/73402384 (67.7%) by bp
+  spaS53: 7628/25724 (29.7%) by count, 72366934/122172420 (59.2%) by bp
+  spaS58: 9089/25726 (35.3%) by count, 62833028/109674034 (57.3%) by bp

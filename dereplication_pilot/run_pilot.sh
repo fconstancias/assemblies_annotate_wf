@@ -1,17 +1,24 @@
 #!/bin/bash
 #SBATCH --job-name=derep_pilot
-#SBATCH --cpus-per-task=8
-#SBATCH --mem=16G
-#SBATCH --time=4:00:00
+#SBATCH --cpus-per-task=16
+#SBATCH --mem=64G
+#SBATCH --time=12:00:00
 #SBATCH --partition=standardqueue
 #SBATCH --account=cbmr
 #SBATCH --output=/maps/projects/hansen_ol-AUDIT/scratch/NILU/metagenomes/assembly_annotation_wf/dereplication_pilot/logs/%x_%j.log
 
 # Dereplication pilot -- see ../dereplication_brainstorm.md for the design rationale
 # and /home/ljc444/.claude/plans/happy-moseying-clarke.md for the pilot plan itself.
+# Resources bumped (8->16 CPU, 16->64GB, 4h->12h) for the full 25-participant run --
+# the original 2-participant pilot (4/8 single-samples) was smaller than the real
+# range (up to participant 813's 35 single-sample assemblies), so sizing generously
+# for the largest participants rather than re-tuning per participant.
 #
-# Usage: sbatch run_pilot.sh <participant_tag> <coassembly_group> <single_group1> [single_group2 ...]
+# Usage: sbatch run_pilot.sh <participant_tag> <coassembly_group_or_empty> <single_group1> [single_group2 ...]
 # e.g.:  sbatch run_pilot.sh p110 mh_p110 spaS30 spaS37 spaS222 spaS223
+# For the 6 participants with no co-assembly (142,151,373,431,654,729 -- excluded from
+# co-assembly per CO_ASSEMBLY.md, "more samples expected"), pass "" for coassembly_group
+# to pool single-sample assemblies only.
 
 set -euo pipefail
 
@@ -31,7 +38,10 @@ source /opt/software/mamba/23.3.1/etc/profile.d/conda.sh
 mkdir -p "$BASE/contigs/tmp" "$BASE/orfs/tmp"
 
 echo "=== [$PARTICIPANT] Tier 1: pooling contigs ($COASSEMBLY + ${SINGLE_GROUPS[*]}) ==="
-cat "$CA_CONTIGS/$COASSEMBLY/final.contigs.reformatted.fa" > "$BASE/contigs/pooled.fa"
+: > "$BASE/contigs/pooled.fa"
+if [ -n "$COASSEMBLY" ]; then
+  cat "$CA_CONTIGS/$COASSEMBLY/final.contigs.reformatted.fa" >> "$BASE/contigs/pooled.fa"
+fi
 for g in "${SINGLE_GROUPS[@]}"; do
   cat "$SA_CONTIGS/$g/final.contigs.reformatted.fa" >> "$BASE/contigs/pooled.fa"
 done
@@ -49,7 +59,10 @@ mmseqs easy-cluster "$BASE/contigs/pooled.min1kb.fa" "$BASE/contigs/clu" "$BASE/
   --min-seq-id 0.95 -c 0.8 --cov-mode 2 --cluster-mode 2 --threads "$SLURM_CPUS_PER_TASK"
 
 echo "=== [$PARTICIPANT] Tier 2: pooling ORFs ==="
-cat "$CA_FAA/$COASSEMBLY.faa" > "$BASE/orfs/pooled.faa"
+: > "$BASE/orfs/pooled.faa"
+if [ -n "$COASSEMBLY" ]; then
+  cat "$CA_FAA/$COASSEMBLY.faa" >> "$BASE/orfs/pooled.faa"
+fi
 for g in "${SINGLE_GROUPS[@]}"; do
   cat "$SA_FAA/$g.faa" >> "$BASE/orfs/pooled.faa"
 done

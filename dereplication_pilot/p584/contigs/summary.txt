@@ -1,0 +1,13 @@
+=== p584 / contigs ===
+total sequences pooled: 157910  (975590539 bp/residues)
+total clusters: 117857  (singleton: 88272, multi-member: 29585)
+cross-group clusters (redundant across >=2 assemblies): 29318
+redundant sequences: 69098/157910 (43.8% by count, 71.8% by bp)
+per-group breakdown (redundant/total, count and bp):
+  mh_p584: 20498/41279 (49.7%) by count, 193167570/253885269 (76.1%) by bp
+  spaS264: 8217/18360 (44.8%) by count, 82921420/118468125 (70.0%) by bp
+  spaS265: 2752/6547 (42.0%) by count, 17738038/28130263 (63.1%) by bp
+  spaS266: 9047/23758 (38.1%) by count, 111494570/155826833 (71.6%) by bp
+  spaS275: 10090/25158 (40.1%) by count, 89371049/132281958 (67.6%) by bp
+  spaS276: 8538/19292 (44.3%) by count, 97593030/132401978 (73.7%) by bp
+  spaS277: 9956/23516 (42.3%) by count, 108340047/154596113 (70.1%) by bp

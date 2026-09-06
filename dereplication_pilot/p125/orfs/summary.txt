@@ -1,0 +1,16 @@
+=== p125 / orfs ===
+total sequences pooled: 1220786  (351091825 bp/residues)
+total clusters: 307271  (singleton: 73284, multi-member: 233987)
+cross-group clusters (redundant across >=2 assemblies): 233419
+redundant sequences: 1146298/1220786 (93.9% by count, 96.0% by bp)
+per-group breakdown (redundant/total, count and bp):
+  mh_p125: 255995/294438 (86.9%) by count, 77491835/85237848 (90.9%) by bp
+  spaS102: 98853/109891 (90.0%) by count, 29269863/31788903 (92.1%) by bp
+  spaS104: 105447/108339 (97.3%) by count, 31400101/31814704 (98.7%) by bp
+  spaS15: 101690/104172 (97.6%) by count, 28654285/28963558 (98.9%) by bp
+  spaS19: 143685/147202 (97.6%) by count, 43474187/43934697 (99.0%) by bp
+  spaS22: 66143/70465 (93.9%) by count, 18548495/19353980 (95.8%) by bp
+  spaS40: 77135/78521 (98.2%) by count, 21376280/21536472 (99.3%) by bp
+  spaS44: 102667/108775 (94.4%) by count, 30038927/31150280 (96.4%) by bp
+  spaS51: 72810/74071 (98.3%) by count, 20415204/20573346 (99.2%) by bp
+  spaS74: 121873/124912 (97.6%) by count, 36317644/36738037 (98.9%) by bp

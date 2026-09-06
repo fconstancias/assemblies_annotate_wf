@@ -1,0 +1,337 @@
+---
+title: "Dereplication feasibility -- all 25 participants"
+date: "`r Sys.Date()`"
+output:
+  html_document:
+    toc: true
+    toc_float: true
+    theme: flatly
+    code_folding: hide
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE, fig.width = 9)
+library(dplyr)
+library(tidyr)
+library(ggplot2)
+library(knitr)
+
+DP <- "/maps/projects/hansen_ol-AUDIT/scratch/NILU/metagenomes/assembly_annotation_wf/dereplication_pilot"
+
+overview <- read.delim(file.path(DP, "report_overview.tsv"))
+per_group <- read.delim(file.path(DP, "report_per_group.tsv"))
+sweep <- read.delim(file.path(DP, "report_sweep.tsv"))
+validation <- read.delim(file.path(DP, "report_validation.tsv"))
+amr_redundancy <- read.delim(file.path(DP, "report_amr_redundancy.tsv"))
+coassembly_unique <- read.delim(file.path(DP, "report_coassembly_unique.tsv"))
+amr_coassembly_unique <- read.delim(file.path(DP, "report_amr_coassembly_unique.tsv"))
+cross_participant <- read.delim(file.path(DP, "report_cross_participant.tsv"))
+plasmid_amr <- read.delim(file.path(DP, "report_plasmid_amr.tsv"))
+longitudinal <- read.delim(file.path(DP, "longitudinal_similarity.tsv"))
+
+pal <- c(contigs = "#2c7fb8", orfs = "#e34a33")
+```
+
+## Context
+
+Same-participant longitudinal metagenomics (25 participants: 19 with both a
+pooled co-assembly and multiple single-sample assemblies, 6 with single-sample
+assemblies only) means a lot of the sequence assembled and annotated across
+samples is likely near-identical repeat, not independent new information. This
+report tests that directly with `mmseqs2` clustering at two levels -- contigs
+(Tier 1, feeds geNomad/MAP's contig-level tools) and ORFs/genes (Tier 2, feeds
+funcscan's AMR/AMP/CAZyme tools) -- across all 25 participants, then
+cross-checks the core assumption (that clustered = safe to annotate once and
+propagate) against already-computed real production annotation (RGI, geNomad),
+with no new annotation compute. See `dereplication_brainstorm.md` for the
+original design and `dereplication_pilot_results.md` for the 2-participant
+pilot this scales up.
+
+## 1. Redundancy overview, all 25 participants
+
+```{r overview-table}
+overview %>%
+  mutate(tier = factor(tier, levels = c("contigs", "orfs"))) %>%
+  arrange(tier, participant) %>%
+  transmute(
+    Participant = participant, Tier = tier,
+    `Total sequences` = format(total_seqs, big.mark = ","),
+    `Redundant (count %)` = redundant_pct,
+    `Redundant (bp %)` = redundant_bp_pct
+  ) %>%
+  kable(digits = 1)
+```
+
+```{r overview-plot, fig.height=5}
+ggplot(overview, aes(x = reorder(participant, redundant_pct), y = redundant_pct, fill = tier)) +
+  geom_col(position = "dodge") +
+  scale_fill_manual(values = pal) +
+  coord_flip() +
+  labs(x = NULL, y = "Redundant sequences (% by count)", fill = "Tier",
+       title = "Redundancy is high and consistent across all 25 participants") +
+  theme_minimal()
+```
+
+Gene-level (Tier 2) redundancy sits at 90%+ for essentially every participant;
+contig-level (Tier 1) redundancy is lower and more variable (roughly 40-45%),
+consistent with contigs being longer, structurally-specific sequences while
+genes are shorter, more conserved units.
+
+## 2. Gene cluster: co-assembly vs. single-sample
+
+```{r gene-coassembly-vs-single}
+per_group %>%
+  filter(tier == "orfs") %>%
+  ggplot(aes(x = is_coassembly, y = redundant_pct, fill = is_coassembly)) +
+  geom_boxplot() +
+  geom_jitter(width = 0.15, alpha = 0.4) +
+  scale_x_discrete(labels = c(`FALSE` = "Single-sample", `TRUE` = "Co-assembly")) +
+  scale_fill_manual(values = c(`FALSE` = "#e34a33", `TRUE` = "#2c7fb8"), guide = "none") +
+  labs(x = NULL, y = "Redundant genes (%)",
+       title = "Co-assembly's own genes are more often redundant with single-samples\nthan the reverse (expected -- co-assembly IS the pooled single-samples)") +
+  theme_minimal()
+```
+
+## 3. Contig cluster: co-assembly vs. single-sample
+
+```{r contig-coassembly-vs-single}
+per_group %>%
+  filter(tier == "contigs") %>%
+  ggplot(aes(x = is_coassembly, y = redundant_pct, fill = is_coassembly)) +
+  geom_boxplot() +
+  geom_jitter(width = 0.15, alpha = 0.4) +
+  scale_x_discrete(labels = c(`FALSE` = "Single-sample", `TRUE` = "Co-assembly")) +
+  scale_fill_manual(values = c(`FALSE` = "#e34a33", `TRUE` = "#2c7fb8"), guide = "none") +
+  labs(x = NULL, y = "Redundant contigs (%)",
+       title = "Same pattern at the contig level, more spread") +
+  theme_minimal()
+```
+
+## 4. Co-assembly-unique contribution
+
+Contigs/genes in a cluster with **no single-sample member at all** -- only
+recoverable by pooling reads across timepoints, not by any individual
+single-sample assembly.
+
+```{r coassembly-unique-plot}
+ggplot(coassembly_unique, aes(x = reorder(participant, unique_pct), y = unique_pct, fill = tier)) +
+  geom_col(position = "dodge") +
+  scale_fill_manual(values = pal) +
+  coord_flip() +
+  labs(x = NULL, y = "Co-assembly-only (%)", fill = "Tier",
+       title = "What would be lost without co-assembly") +
+  theme_minimal()
+```
+
+**Caveat**: a co-assembly-only cluster could reflect genuinely novel sequence
+only assemblable with pooled coverage (the real win) -- or a chimeric
+misassembly artifact from stitching together similar-but-distinct strain
+variants across timepoints (a known risk of pooled co-assembly). This number
+doesn't distinguish the two.
+
+**Concretely, for AMR genes specifically**: `r nrow(amr_coassembly_unique)` real
+resistance gene hits across all 19 co-assembly participants were found *only*
+via the co-assembly -- no single-sample assembly recovered them independently.
+
+```{r amr-coassembly-unique-table}
+amr_coassembly_unique %>%
+  count(aro_call, sort = TRUE) %>%
+  head(15) %>%
+  kable(col.names = c("ARO call", "count"),
+        caption = "Most frequent co-assembly-only AMR gene calls")
+```
+
+## 5. AMR gene redundancy
+
+```{r amr-redundancy}
+total_raw <- sum(amr_redundancy$raw_hits)
+total_distinct <- sum(amr_redundancy$distinct_clusters)
+pct_redundant <- 100 * (total_raw - total_distinct) / total_raw
+```
+
+Across all 296 assemblies, RGI reported **`r format(total_raw, big.mark=",")`**
+raw AMR gene hits, collapsing to **`r format(total_distinct, big.mark=",")`**
+truly distinct AMR genes once dereplicated (**`r round(pct_redundant, 1)`%**
+redundant) -- notably *lower* than the general gene-level redundancy (90%+),
+meaning AMR genes show more real diversity across timepoints/samples than a
+typical core gene.
+
+```{r amr-redundancy-plot}
+amr_redundancy %>%
+  pivot_longer(c(raw_hits, distinct_clusters), names_to = "type", values_to = "n") %>%
+  mutate(type = factor(type, levels = c("raw_hits", "distinct_clusters"),
+                        labels = c("Raw RGI hits", "Distinct AMR genes"))) %>%
+  ggplot(aes(x = reorder(participant, n), y = n, fill = type)) +
+  geom_col(position = "dodge") +
+  coord_flip() +
+  labs(x = NULL, y = "Count", fill = NULL,
+       title = "AMR gene redundancy per participant") +
+  theme_minimal()
+```
+
+## 6. Parameter sensitivity sweep
+
+```{r sweep-table}
+kable(sweep, digits = 1,
+      col.names = c("Participant", "Tier", "Setting", "Redundant (count %)", "Redundant (bp %)"))
+```
+
+Tier 2 (genes) is **robust** to identity threshold (95%->99% barely moves the
+number) -- the gene-level redundancy signal is real, not a loose-threshold
+artifact. Tier 1 (contigs) is **highly sensitive** to `--cov-mode`: switching
+from containment-aware (query-coverage) to bidirectional coverage roughly
+halves the redundancy fraction -- expected, since bidirectional coverage
+misses the "same region assembled to different lengths at different depths"
+scenario this analysis targets. The original settings (cov-mode 2,
+min-seq-id 0.95) were kept.
+
+## 7. Propagation validation: does clustering predict identical annotation?
+
+For clusters where >=2 members independently received a real hit from RGI
+(genes) or geNomad (contigs), do they agree?
+
+```{r validation-summary}
+validation %>%
+  group_by(tool) %>%
+  summarise(testable = sum(testable), consistent = sum(consistent), inconsistent = sum(inconsistent)) %>%
+  mutate(pct_consistent = round(100 * consistent / testable, 1)) %>%
+  kable(col.names = c("Tool", "Testable clusters", "Consistent", "Inconsistent", "% consistent"))
+```
+
+```{r validation-plot}
+validation %>%
+  group_by(tool) %>%
+  summarise(consistent = sum(consistent), inconsistent = sum(inconsistent)) %>%
+  pivot_longer(c(consistent, inconsistent), names_to = "outcome", values_to = "n") %>%
+  ggplot(aes(x = tool, y = n, fill = outcome)) +
+  geom_col(position = "fill") +
+  scale_y_continuous(labels = scales::percent) +
+  scale_fill_manual(values = c(consistent = "#2c7fb8", inconsistent = "#e34a33")) +
+  labs(x = NULL, y = "Share of testable clusters", fill = NULL,
+       title = "Propagation assumption holds >96% of the time for both tools") +
+  theme_minimal()
+```
+
+Both tools show strong (96-98%) agreement. The disagreements are **not
+random** -- inspection of individual cases showed:
+
+- RGI disagreements concentrate almost entirely on `vanY`/`vanT`/`vanXY` genes
+  assigned to *different van-operon subtypes* (vanA vs vanB vs vanG vs vanM) --
+  a known CARD/RGI database ambiguity for this highly homologous gene family,
+  not a dereplication failure.
+- geNomad disagreements are plasmid-vs-virus classification flips, consistent
+  with genuine prophage-plasmid hybrid mobile elements the classifier finds
+  genuinely borderline.
+
+## 8. Gene cluster longitudinal similarity within participant
+
+For every pair of a participant's own single-sample timepoints: what fraction
+of gene clusters do they share (Jaccard), vs. real calendar days between them?
+
+```{r longitudinal-plot}
+ggplot(longitudinal, aes(x = days_between, y = jaccard)) +
+  geom_point(aes(color = participant), alpha = 0.6, show.legend = FALSE) +
+  geom_smooth(method = "loess", color = "black", se = TRUE) +
+  labs(x = "Days between timepoints", y = "Jaccard similarity (shared gene clusters)",
+       title = "Gene-sharing between two timepoints of the same participant decays with time") +
+  theme_minimal()
+```
+
+Similarity is highest (~0.6-0.8) for timepoints ~1-2 weeks apart and drops
+substantially (~0.2-0.3) for timepoints roughly a year apart -- real strain
+turnover, not noise. This matters directly for the propagation design: an
+"annotate once" representative may not stay valid indefinitely over a long
+study and could need periodic refresh.
+
+## 9. Within- vs. between-participant sharing (second-level clustering)
+
+Each participant's own already-deduplicated representatives, clustered again
+across all 25 participants -- a cluster with members from >1 participant means
+that sequence is shared across *different people*, not just across one
+person's timepoints.
+
+```{r cross-participant-summary}
+cross_participant %>%
+  group_by(tier) %>%
+  summarise(
+    within_only = sum(n_clusters[n_participants_in_cluster == 1]),
+    between = sum(n_clusters[n_participants_in_cluster > 1]),
+    total = sum(n_clusters)
+  ) %>%
+  mutate(pct_between = round(100 * between / total, 1)) %>%
+  kable(col.names = c("Tier", "Within-participant only", "Between-participant", "Total", "% between"))
+```
+
+```{r cross-participant-hist}
+cross_participant %>%
+  mutate(n_participants_in_cluster = pmin(n_participants_in_cluster, 10)) %>%
+  group_by(tier, n_participants_in_cluster) %>%
+  summarise(n_clusters = sum(n_clusters), .groups = "drop") %>%
+  ggplot(aes(x = factor(n_participants_in_cluster), y = n_clusters, fill = tier)) +
+  geom_col(position = "dodge") +
+  scale_fill_manual(values = pal) +
+  scale_y_log10() +
+  labs(x = "Participants sharing a cluster (10 = 10+)", y = "Number of clusters (log scale)",
+       fill = "Tier", title = "Most clusters are participant-specific, but a large tail is shared") +
+  theme_minimal()
+```
+
+Genes are shared across participants far more than contigs (44% vs. 30% of
+clusters span >=2 people) -- genes are smaller, more conserved units that
+recombine/transfer more readily, while contigs carry more
+participant/strain-specific structural context. This means the *full* cohort
+dereplication opportunity is larger than the within-participant numbers above
+suggest -- including real, concrete cases of the same AMR gene (e.g. `adeF`)
+recurring in different, unrelated participants.
+
+## 10. Contig cluster x plasmid classification x AMR genes
+
+```{r plasmid-amr-table}
+plasmid_amr %>%
+  mutate(pct_amr = round(100 * n_amr_carrying / n_clusters, 2)) %>%
+  kable(col.names = c("Category", "N clusters", "N AMR-carrying", "% AMR-carrying"))
+```
+
+```{r plasmid-amr-plot}
+plasmid_amr %>%
+  mutate(pct_amr = 100 * n_amr_carrying / n_clusters,
+         category = factor(category, levels = c("other", "virus", "plasmid"))) %>%
+  ggplot(aes(x = category, y = pct_amr, fill = category)) +
+  geom_col() +
+  scale_fill_manual(values = c(other = "grey70", virus = "#66c2a5", plasmid = "#fc8d62"), guide = "none") +
+  labs(x = NULL, y = "AMR-carrying clusters (%)",
+       title = "Plasmid-classified contig clusters carry AMR genes at ~4x background rate") +
+  theme_minimal()
+```
+
+Plasmid-classified contig clusters carry an AMR gene at roughly **4x** the
+background rate; virus-classified clusters show no enrichment over background
+-- matches expected mobile-genetic-element biology (plasmids as a classic AMR
+reservoir/vector, unlike phages), recovered here from real, cluster-deduplicated
+data rather than assumed.
+
+## Conclusions
+
+1. **Real, large, robust redundancy at both tiers, across all 25
+   participants** -- not just the original 2-participant pilot. Gene-level
+   redundancy (90%+) is essentially uniform; contig-level redundancy (~40-45%)
+   is more variable but still substantial.
+2. **The core propagation assumption holds** (96-98% consistent for both a
+   gene-level and a contig-level tool), with disagreements traceable to known,
+   specific classifier ambiguities rather than random noise -- a real
+   annotate-representative-and-propagate pipeline is justified.
+3. **Co-assembly earns its computational cost**: recovers real AMR genes
+   (607 instances) and substantial contig/gene content that no single-sample
+   assembly would have, though a fraction of that may be pooling artifact
+   rather than genuine novel sequence.
+4. **Cross-participant sharing is real and non-trivial**, especially for
+   genes (44%) -- a full cohort-wide dereplication (not just within-participant)
+   would capture meaningfully more redundancy than reported here.
+5. **Time matters**: gene-sharing between timepoints decays with real
+   calendar time -- an eventual production pipeline should account for this
+   rather than treat "annotate once" as valid indefinitely.
+
+Not yet done: per-tool propagation-safety audit beyond RGI/geNomad (the
+brainstorm's original open question), and no representative-annotation +
+propagation pipeline has been built yet -- this report is the evidence base
+for deciding whether to build one.

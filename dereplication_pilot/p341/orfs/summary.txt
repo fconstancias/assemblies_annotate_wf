@@ -1,0 +1,17 @@
+=== p341 / orfs ===
+total sequences pooled: 1400430  (406498361 bp/residues)
+total clusters: 338009  (singleton: 82567, multi-member: 255442)
+cross-group clusters (redundant across >=2 assemblies): 254905
+redundant sequences: 1316719/1400430 (94.0% by count, 95.9% by bp)
+per-group breakdown (redundant/total, count and bp):
+  mh_p341: 278430/310629 (89.6%) by count, 82598683/88656891 (93.2%) by bp
+  spaS260: 71108/73127 (97.2%) by count, 21242927/21478560 (98.9%) by bp
+  spaS261: 93725/95812 (97.8%) by count, 27641631/27937322 (98.9%) by bp
+  spaS262: 90357/101858 (88.7%) by count, 26540498/29234901 (90.8%) by bp
+  spaS263: 90664/92401 (98.1%) by count, 27016294/27269812 (99.1%) by bp
+  spaS270: 97606/99325 (98.3%) by count, 28496323/28711020 (99.3%) by bp
+  spaS271: 98029/100196 (97.8%) by count, 28755900/29061234 (98.9%) by bp
+  spaS272: 132103/147195 (89.7%) by count, 39749554/43495028 (91.4%) by bp
+  spaS273: 121058/123166 (98.3%) by count, 35523296/35762652 (99.3%) by bp
+  spaS274: 108228/115277 (93.9%) by count, 32623680/34229809 (95.3%) by bp
+  spaS298: 135411/141444 (95.7%) by count, 39742763/40661132 (97.7%) by bp
