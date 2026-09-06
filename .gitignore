@@ -53,10 +53,13 @@ logs/
 *_databases/
 
 # Dereplication pilot -- large pooled input fasta and mmseqs raw output, regeneratable
-# via dereplication_pilot/run_pilot.sh against the real upstream assemblies/gene_export.
-# Keep only the real analysis deliverables (cluster_membership.tsv, summary.txt) tracked.
-dereplication_pilot/*/contigs/pooled*.fa
-dereplication_pilot/*/orfs/pooled*.faa
-dereplication_pilot/*/*/clu_*.fasta
-dereplication_pilot/*/*/clu_cluster.tsv
-dereplication_pilot/*/*/tmp/
+# via dereplication_pilot/run_pilot.sh (or run_sweep.sh, for parameter-sensitivity
+# reruns under sweep_*/ subdirs -- one directory level deeper than the first pass,
+# hence **/ here rather than the single */*/ that covered only the first pass) against
+# the real upstream assemblies/gene_export. Keep only the real analysis deliverables
+# (cluster_membership.tsv, summary.txt) tracked.
+dereplication_pilot/**/pooled*.fa
+dereplication_pilot/**/pooled*.faa
+dereplication_pilot/**/clu_*.fasta
+dereplication_pilot/**/clu_cluster.tsv
+dereplication_pilot/**/tmp/

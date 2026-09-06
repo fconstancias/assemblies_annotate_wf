@@ -57,6 +57,47 @@ a participant's own co-assembly + single-sample assemblies are near-identical
 copies of each other, not just similar. Every single-sample group individually
 shows 92-99% redundancy against the rest of that participant's own data.
 
+## Parameter sensitivity sweep (2026-09-06)
+
+Reran clustering against the already-pooled fasta (no re-pooling needed) at
+alternate settings, per `dereplication_pilot/run_sweep.sh`, to check whether the
+above numbers depend heavily on the specific thresholds chosen:
+
+**Tier 1 — `--cov-mode 0` (bidirectional, mmseqs's own default) vs. the original
+`--cov-mode 2` (query-coverage/containment-aware)**:
+
+| Participant | cov-mode 2 (original) | cov-mode 0 (bidirectional) |
+|---|---|---|
+| 110 | 43.9% count / 71.4% bp | 20.8% count / 34.4% bp |
+| 97 | 42.0% count / 73.3% bp | 25.1% count / 47.8% bp |
+
+Roughly halves. Expected, not a red flag: bidirectional coverage requires *both*
+sequences to be well-covered, so a short single-sample contig fully contained
+within a much longer co-assembly contig of the same region fails that test even
+though it's a genuine match. Since "the same region assembles to different
+lengths at different depths" is exactly the real scenario this pilot targets,
+`--cov-mode 2` is the deliberately-correct choice, not an inflated one — but the
+Tier 1 number is conditional on treating containment as redundancy; cov-mode 0's
+result is the more conservative "near-full-length reciprocal match only"
+baseline.
+
+**Tier 2 — `--min-seq-id 0.99` (stricter) vs. the original `0.95`**:
+
+| Participant | 0.95 (original) | 0.99 (stricter) |
+|---|---|---|
+| 110 | 93.2% count / 96.0% bp | 90.6% count / 94.0% bp |
+| 97 | 96.5% count / 98.0% bp | 94.4% count / 96.4% bp |
+
+Only a 2-3 point drop under a much stricter identity cutoff — **the gene-level
+redundancy signal is robust**, not an artifact of a loose threshold. Genes really
+are near-identical (>99%) copies across a participant's own assemblies, not just
+family-level similar.
+
+**Conclusion: keep the original settings.** Tier 2's finding holds regardless of
+identity threshold; Tier 1's containment-aware setting matches the actual
+motivating use case rather than being an arbitrary inflation. Sweep output lives
+alongside the main results at `dereplication_pilot/{p110,p97}/{contigs,orfs}/sweep_*/`.
+
 ## Interpretation / recommendation
 
 **Real, large redundancy confirmed at both tiers — strong case for building the

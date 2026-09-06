@@ -1,0 +1,11 @@
+=== p110_covmode0 / contigs ===
+total sequences pooled: 174051  (1008479590 bp/residues)
+total clusters: 154139  (singleton: 137611, multi-member: 16528)
+cross-group clusters (redundant across >=2 assemblies): 16432
+redundant sequences: 36248/174051 (20.8% by count, 34.4% by bp)
+per-group breakdown (redundant/total, count and bp):
+  mh_p110: 11738/50096 (23.4%) by count, 92676814/308974220 (30.0%) by bp
+  spaS222: 5934/25122 (23.6%) by count, 63588950/165098114 (38.5%) by bp
+  spaS223: 4209/31297 (13.4%) by count, 49694768/159931457 (31.1%) by bp
+  spaS30: 7433/36599 (20.3%) by count, 70865677/194693070 (36.4%) by bp
+  spaS37: 6934/30937 (22.4%) by count, 69799263/179782729 (38.8%) by bp

@@ -1,0 +1,15 @@
+=== p97_covmode0 / contigs ===
+total sequences pooled: 191613  (1292972617 bp/residues)
+total clusters: 161756  (singleton: 143123, multi-member: 18633)
+cross-group clusters (redundant across >=2 assemblies): 18481
+redundant sequences: 48184/191613 (25.1% by count, 47.8% by bp)
+per-group breakdown (redundant/total, count and bp):
+  mh_p97: 7695/34530 (22.3%) by count, 87530482/256838240 (34.1%) by bp
+  spaS25: 3831/17717 (21.6%) by count, 54951297/116010423 (47.4%) by bp
+  spaS250: 5363/17527 (30.6%) by count, 81164086/143609003 (56.5%) by bp
+  spaS251: 6384/24690 (25.9%) by count, 80432028/164028738 (49.0%) by bp
+  spaS252: 6055/22969 (26.4%) by count, 81580725/155725825 (52.4%) by bp
+  spaS253: 6627/20412 (32.5%) by count, 79112085/142683319 (55.4%) by bp
+  spaS29: 5086/22126 (23.0%) by count, 63424514/133501683 (47.5%) by bp
+  spaS35: 4674/20520 (22.8%) by count, 55051024/109799394 (50.1%) by bp
+  spaS43: 2469/11122 (22.2%) by count, 34237525/70775992 (48.4%) by bp
