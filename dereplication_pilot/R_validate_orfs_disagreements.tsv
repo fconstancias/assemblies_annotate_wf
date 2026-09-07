@@ -1,0 +1,2167 @@
+cluster_id	source_group	member_id	call	participant
+mh_p110___54250	mh_p110	mh_p110___54250	vanY gene in vanA cluster	p110
+mh_p110___54250	mh_p110	mh_p110___191066	vanY gene in vanB cluster	p110
+mh_p110___54250	spaS37	spaS37___180046	vanY gene in vanB cluster	p110
+mh_p110___54250	spaS222	spaS222___13776	vanY gene in vanA cluster	p110
+mh_p110___54250	spaS223	spaS223___113610	vanY gene in vanA cluster	p110
+mh_p110___130666	mh_p110	mh_p110___130666	vanY gene in vanF cluster	p110
+mh_p110___130666	spaS30	spaS30___177792	vanY gene in vanA cluster	p110
+mh_p110___130666	spaS222	spaS222___95371	vanY gene in vanF cluster	p110
+mh_p110___130666	spaS223	spaS223___108237	vanY gene in vanF cluster	p110
+spaS223___141508	spaS223	spaS223___141508	vanY gene in vanG cluster	p110
+spaS223___141508	mh_p110	mh_p110___38069	vanY gene in vanB cluster	p110
+spaS223___141508	spaS37	spaS37___161359	vanY gene in vanG cluster	p110
+spaS30___15794	spaS30	spaS30___15794	tet(W)	p110
+spaS30___15794	mh_p110	mh_p110___3044	tet(W)	p110
+spaS30___15794	mh_p110	mh_p110___3572	tet(W)	p110
+spaS30___15794	mh_p110	mh_p110___88201	tet(O/W)	p110
+spaS30___15794	spaS37	spaS37___154867	tet(W)	p110
+spaS30___15794	spaS222	spaS222___141604	tet(W)	p110
+spaS30___15794	spaS223	spaS223___51118	tet(W)	p110
+spaS30___15794	mh_p110	mh_p110___254820	tet(W)	p110
+mh_p110___274133	mh_p110	mh_p110___274133	tetB(P)	p110
+mh_p110___274133	spaS37	spaS37___124686	tet(Q)	p110
+spaS19___108415	spaS19	spaS19___108415	vanXY gene in vanG cluster	p125
+spaS19___108415	mh_p125	mh_p125___239967	vanXY gene in vanG cluster	p125
+spaS19___108415	spaS15	spaS15___89932	vanXY gene in vanG cluster	p125
+spaS19___108415	spaS40	spaS40___46577	vanXY gene in vanG cluster	p125
+spaS19___108415	spaS40	spaS40___57743	vanY gene in vanA cluster	p125
+spaS19___108415	spaS51	spaS51___39885	vanXY gene in vanG cluster	p125
+mh_p125___291164	mh_p125	mh_p125___291164	CfxA2	p125
+mh_p125___291164	spaS15	spaS15___30898	CfxA2	p125
+mh_p125___291164	spaS19	spaS19___60264	CfxA2	p125
+mh_p125___291164	spaS44	spaS44___51636	CfxA2	p125
+mh_p125___291164	spaS74	spaS74___77502	CfxA3	p125
+spaS74___83659	spaS74	spaS74___83659	vanY gene in vanG cluster	p125
+spaS74___83659	mh_p125	mh_p125___173124	vanY gene in vanM cluster	p125
+spaS102___28344	spaS102	spaS102___28344	vanY gene in vanG cluster	p125
+spaS102___28344	mh_p125	mh_p125___59504	vanY gene in vanM cluster	p125
+mh_p125___65366	mh_p125	mh_p125___65366	vanY gene in vanG cluster	p125
+mh_p125___65366	mh_p125	mh_p125___147742	vanY gene in vanA cluster	p125
+mh_p125___65366	spaS15	spaS15___51588	vanY gene in vanG cluster	p125
+mh_p125___65366	spaS19	spaS19___104648	vanY gene in vanG cluster	p125
+mh_p125___65366	spaS22	spaS22___45967	vanY gene in vanG cluster	p125
+mh_p125___65366	spaS40	spaS40___49471	vanY gene in vanG cluster	p125
+mh_p125___65366	spaS44	spaS44___70252	vanY gene in vanG cluster	p125
+mh_p125___65366	spaS51	spaS51___48596	vanY gene in vanG cluster	p125
+mh_p125___65366	spaS102	spaS102___61821	vanY gene in vanG cluster	p125
+mh_p125___65366	spaS104	spaS104___79246	vanY gene in vanG cluster	p125
+spaS102___78222	spaS15	spaS15___45476	vanT gene in vanC cluster	p125
+spaS102___78222	spaS51	spaS51___69662	vanT gene in vanG cluster	p125
+spaS102___78222	spaS104	spaS104___85929	vanT gene in vanC cluster	p125
+mh_p125___118024	mh_p125	mh_p125___118024	vanY gene in vanG cluster	p125
+mh_p125___118024	spaS19	spaS19___79034	vanY gene in vanG cluster	p125
+mh_p125___118024	spaS22	spaS22___63788	vanY gene in vanB cluster	p125
+spaS15___20395	spaS15	spaS15___20395	tet(W)	p125
+spaS15___20395	mh_p125	mh_p125___16982	tet(W)	p125
+spaS15___20395	mh_p125	mh_p125___129387	tet(W)	p125
+spaS15___20395	spaS19	spaS19___124316	tet(W)	p125
+spaS15___20395	spaS22	spaS22___37477	tet(W)	p125
+spaS15___20395	spaS22	spaS22___52715	tet(W)	p125
+spaS15___20395	spaS40	spaS40___4830	tet(W)	p125
+spaS15___20395	spaS44	spaS44___46633	tet(W)	p125
+spaS15___20395	spaS44	spaS44___86668	tet(W)	p125
+spaS15___20395	spaS51	spaS51___41831	tet(W)	p125
+spaS15___20395	spaS74	spaS74___107070	tet(O/W)	p125
+spaS15___20395	spaS102	spaS102___79646	tet(W)	p125
+spaS15___20395	spaS104	spaS104___474	tet(W)	p125
+mh_p125___74067	mh_p125	mh_p125___74067	vanY gene in vanF cluster	p125
+mh_p125___74067	spaS15	spaS15___83442	vanY gene in vanA cluster	p125
+mh_p125___74067	spaS19	spaS19___43481	vanY gene in vanF cluster	p125
+mh_p125___74067	spaS22	spaS22___35965	vanY gene in vanA cluster	p125
+mh_p125___74067	spaS40	spaS40___34069	vanY gene in vanF cluster	p125
+mh_p125___74067	spaS44	spaS44___16531	vanY gene in vanF cluster	p125
+mh_p125___74067	spaS51	spaS51___17326	vanY gene in vanF cluster	p125
+mh_p125___74067	spaS74	spaS74___30583	vanY gene in vanF cluster	p125
+mh_p125___74067	spaS102	spaS102___54878	vanY gene in vanF cluster	p125
+mh_p125___74067	spaS104	spaS104___26733	vanY gene in vanF cluster	p125
+mh_p125___9111	mh_p125	mh_p125___9111	vanY gene in vanB cluster	p125
+mh_p125___9111	spaS15	spaS15___29966	vanY gene in vanB cluster	p125
+mh_p125___9111	spaS19	spaS19___26647	vanY gene in vanB cluster	p125
+mh_p125___9111	spaS22	spaS22___48120	vanY gene in vanB cluster	p125
+mh_p125___9111	spaS40	spaS40___8727	vanY gene in vanB cluster	p125
+mh_p125___9111	spaS44	spaS44___9718	vanY gene in vanB cluster	p125
+mh_p125___9111	spaS51	spaS51___24664	vanY gene in vanB cluster	p125
+mh_p125___9111	spaS74	spaS74___112804	vanY gene in vanG cluster	p125
+mh_p125___9111	spaS102	spaS102___91742	vanY gene in vanG cluster	p125
+mh_p125___183919	mh_p125	mh_p125___183919	vanY gene in vanB cluster	p125
+mh_p125___183919	spaS19	spaS19___68225	vanY gene in vanB cluster	p125
+mh_p125___183919	spaS22	spaS22___44874	vanY gene in vanB cluster	p125
+mh_p125___183919	spaS40	spaS40___62588	vanY gene in vanB cluster	p125
+mh_p125___183919	spaS44	spaS44___26407	vanY gene in vanM cluster	p125
+mh_p125___183919	spaS44	spaS44___76093	vanY gene in vanG cluster	p125
+mh_p125___183919	spaS51	spaS51___12515	vanY gene in vanB cluster	p125
+mh_p125___183919	spaS74	spaS74___27017	vanY gene in vanB cluster	p125
+mh_p125___183919	spaS102	spaS102___16537	vanY gene in vanB cluster	p125
+mh_p125___183919	spaS104	spaS104___20613	vanY gene in vanB cluster	p125
+mh_p125___60249	mh_p125	mh_p125___60249	vanXY gene in vanG cluster	p125
+mh_p125___60249	spaS74	spaS74___124589	vanY gene in vanM cluster	p125
+mh_p125___225480	mh_p125	mh_p125___225480	qacG	p125
+mh_p125___225480	spaS15	spaS15___84549	qacJ	p125
+mh_p125___225480	spaS40	spaS40___61643	qacG	p125
+mh_p125___55492	mh_p125	mh_p125___55492	vanY gene in vanG cluster	p125
+mh_p125___55492	spaS19	spaS19___99663	vanY gene in vanG cluster	p125
+mh_p125___55492	spaS22	spaS22___60059	vanY gene in vanB cluster	p125
+mh_p125___55492	spaS51	spaS51___41075	vanY gene in vanG cluster	p125
+mh_p125___55492	spaS102	spaS102___91770	vanY gene in vanG cluster	p125
+mh_p125___55492	spaS104	spaS104___48624	vanY gene in vanG cluster	p125
+mh_p125___230037	mh_p125	mh_p125___230037	vanY gene in vanF cluster	p125
+mh_p125___230037	spaS102	spaS102___99204	vanY gene in vanA cluster	p125
+mh_p125___230037	spaS104	spaS104___71320	vanY gene in vanF cluster	p125
+spaS257___52108	spaS257	spaS257___52108	tet(36)	p142
+spaS257___52108	spaS258	spaS258___192537	tet(Q)	p142
+spaS257___52108	spaS269	spaS269___204034	tet(Q)	p142
+spaS259___132980	spaS259	spaS259___132980	vanY gene in vanG cluster	p142
+spaS259___132980	spaS258	spaS258___127655	vanY gene in vanM cluster	p142
+spaS259___132980	spaS267	spaS267___162563	vanY gene in vanG cluster	p142
+spaS259___132980	spaS268	spaS268___73055	vanY gene in vanG cluster	p142
+spaS259___132980	spaS269	spaS269___29414	vanY gene in vanG cluster	p142
+spaS259___132980	spaS282	spaS282___33137	vanY gene in vanG cluster	p142
+spaS258___67383	spaS258	spaS258___67383	vanW gene in vanG cluster	p142
+spaS258___67383	spaS259	spaS259___202072	vanW gene in vanB cluster	p142
+spaS268___247274	spaS268	spaS268___247274	vanY gene in vanG cluster	p142
+spaS268___247274	spaS257	spaS257___213833	vanY gene in vanB cluster	p142
+spaS257___22728	spaS257	spaS257___22728	vanY gene in vanG cluster	p142
+spaS257___22728	spaS258	spaS258___92300	vanY gene in vanB cluster	p142
+spaS257___22728	spaS268	spaS268___122299	vanY gene in vanB cluster	p142
+spaS257___22728	spaS282	spaS282___34596	vanY gene in vanB cluster	p142
+spaS269___162555	spaS269	spaS269___162555	vanY gene in vanB cluster	p142
+spaS269___162555	spaS268	spaS268___247120	vanY gene in vanA cluster	p142
+spaS269___162555	spaS282	spaS282___229183	vanY gene in vanB cluster	p142
+spaS257___151670	spaS257	spaS257___151670	vanY gene in vanF cluster	p142
+spaS257___151670	spaS258	spaS258___213328	vanY gene in vanF cluster	p142
+spaS257___151670	spaS259	spaS259___214196	vanY gene in vanF cluster	p142
+spaS257___151670	spaS268	spaS268___219692	vanY gene in vanM cluster	p142
+spaS257___151670	spaS282	spaS282___207945	vanY gene in vanF cluster	p142
+spaS267___121373	spaS267	spaS267___121373	tet(36)	p142
+spaS267___121373	spaS269	spaS269___156800	tet(36)	p142
+spaS267___121373	spaS282	spaS282___134814	tet(Q)	p142
+spaS184___8804	spaS184	spaS184___8804	vanH gene in vanO cluster	p151
+spaS184___8804	spaS215	spaS215___89078	vanH gene in vanP cluster	p151
+spaS98___26541	spaS98	spaS98___26541	vanY gene in vanM cluster	p151
+spaS98___26541	spaS103	spaS103___29800	vanY gene in vanG cluster	p151
+spaS98___26541	spaS107	spaS107___35956	vanY gene in vanG cluster	p151
+spaS184___126942	spaS184	spaS184___126942	nimA	p151
+spaS184___126942	spaS215	spaS215___159278	nimG	p151
+spaS103___17203	spaS103	spaS103___17203	EC-14	p151
+spaS103___17203	spaS149	spaS149___100113	Escherichia coli ampC beta-lactamase	p151
+spaS98___15903	spaS98	spaS98___15903	vanY gene in vanF cluster	p151
+spaS98___15903	spaS103	spaS103___12105	vanY gene in vanF cluster	p151
+spaS98___15903	spaS107	spaS107___16113	vanY gene in vanF cluster	p151
+spaS98___15903	spaS154	spaS154___19339	vanY gene in vanF cluster	p151
+spaS98___15903	spaS184	spaS184___172204	vanY gene in vanB cluster	p151
+mh_p292___20400	mh_p292	mh_p292___20400	vanY gene in vanG cluster	p292
+mh_p292___20400	spaS7	spaS7___27313	vanY gene in vanG cluster	p292
+mh_p292___20400	spaS12	spaS12___98175	vanY gene in vanG cluster	p292
+mh_p292___20400	spaS20	spaS20___65507	vanY gene in vanG cluster	p292
+mh_p292___20400	spaS23	spaS23___57131	vanY gene in vanB cluster	p292
+mh_p292___20400	spaS39	spaS39___62557	vanY gene in vanA cluster	p292
+mh_p292___20400	spaS55	spaS55___135784	vanY gene in vanA cluster	p292
+mh_p292___20400	spaS225	spaS225___62582	vanY gene in vanG cluster	p292
+mh_p292___20400	spaS228	spaS228___58301	vanY gene in vanG cluster	p292
+mh_p292___20400	spaS232	spaS232___38790	vanY gene in vanG cluster	p292
+mh_p292___279815	mh_p292	mh_p292___279815	vanY gene in vanG cluster	p292
+mh_p292___279815	spaS23	spaS23___65382	vanY gene in vanG cluster	p292
+mh_p292___279815	spaS49	spaS49___26070	vanY gene in vanG cluster	p292
+mh_p292___279815	spaS97	spaS97___128214	vanY gene in vanB cluster	p292
+spaS130___203788	spaS130	spaS130___203788	vanXY gene in vanG cluster	p292
+spaS130___203788	mh_p292	mh_p292___145436	vanY gene in vanM cluster	p292
+spaS99___125721	spaS99	spaS99___125721	vanY gene in vanB cluster	p292
+spaS99___125721	mh_p292	mh_p292___241515	vanY gene in vanB cluster	p292
+spaS99___125721	spaS49	spaS49___20387	vanY gene in vanB cluster	p292
+spaS99___125721	spaS55	spaS55___9081	vanY gene in vanB cluster	p292
+spaS99___125721	spaS97	spaS97___83536	vanY gene in vanB cluster	p292
+spaS99___125721	spaS130	spaS130___186763	vanY gene in vanM cluster	p292
+spaS99___125721	spaS130	spaS130___201237	vanY gene in vanB cluster	p292
+spaS232___40914	spaS232	spaS232___40914	vanY gene in vanM cluster	p292
+spaS232___40914	spaS49	spaS49___78974	vanY gene in vanG cluster	p292
+mh_p292___217606	mh_p292	mh_p292___217606	vanY gene in vanM cluster	p292
+mh_p292___217606	spaS97	spaS97___118273	vanY gene in vanF cluster	p292
+mh_p292___217606	spaS99	spaS99___79678	vanY gene in vanM cluster	p292
+mh_p292___217606	spaS130	spaS130___194372	vanY gene in vanM cluster	p292
+spaS97___44597	spaS97	spaS97___44597	tet(36)	p292
+spaS97___44597	spaS7	spaS7___8401	tet(Q)	p292
+spaS97___44597	spaS12	spaS12___7413	tet(Q)	p292
+mh_p292___232417	mh_p292	mh_p292___232417	vanY gene in vanB cluster	p292
+mh_p292___232417	spaS55	spaS55___42228	vanY gene in vanB cluster	p292
+mh_p292___232417	spaS130	spaS130___138980	vanY gene in vanF cluster	p292
+spaS55___32729	spaS55	spaS55___32729	vanY gene in vanB cluster	p292
+spaS55___32729	mh_p292	mh_p292___379424	vanY gene in vanB cluster	p292
+spaS55___32729	spaS7	spaS7___77894	vanY gene in vanG cluster	p292
+spaS55___32729	spaS130	spaS130___62154	vanY gene in vanB cluster	p292
+spaS55___32729	spaS23	spaS23___99064	vanY gene in vanB cluster	p292
+spaS55___32729	mh_p292	mh_p292___104808	vanY gene in vanB cluster	p292
+mh_p292___112218	mh_p292	mh_p292___112218	vanY gene in vanB cluster	p292
+mh_p292___112218	spaS97	spaS97___82628	vanY gene in vanB cluster	p292
+mh_p292___112218	spaS99	spaS99___105575	vanY gene in vanM cluster	p292
+mh_p292___355100	mh_p292	mh_p292___355100	vanY gene in vanF cluster	p292
+mh_p292___355100	spaS20	spaS20___51918	vanY gene in vanF cluster	p292
+mh_p292___355100	spaS23	spaS23___30333	vanY gene in vanF cluster	p292
+mh_p292___355100	spaS49	spaS49___20145	vanY gene in vanF cluster	p292
+mh_p292___355100	spaS97	spaS97___48683	vanY gene in vanF cluster	p292
+mh_p292___355100	spaS99	spaS99___48802	vanY gene in vanF cluster	p292
+mh_p292___355100	spaS130	spaS130___209625	vanY gene in vanB cluster	p292
+mh_p292___231151	mh_p292	mh_p292___231151	vanY gene in vanG cluster	p292
+mh_p292___231151	spaS97	spaS97___131753	vanY gene in vanM cluster	p292
+spaS7___105482	spaS7	spaS7___105482	vanW gene in vanB cluster	p292
+spaS7___105482	mh_p292	mh_p292___22669	vanW gene in vanB cluster	p292
+spaS7___105482	spaS225	spaS225___59435	vanW gene in vanG cluster	p292
+spaS7___105482	spaS225	spaS225___67982	vanW gene in vanB cluster	p292
+spaS130___179254	spaS130	spaS130___179254	nimA	p292
+spaS130___179254	mh_p292	mh_p292___305708	nimG	p292
+spaS130___152369	spaS130	spaS130___152369	nimE	p292
+spaS130___152369	mh_p292	mh_p292___70875	nimE	p292
+spaS130___152369	spaS12	spaS12___118412	nimG	p292
+mh_p341___138500	mh_p341	mh_p341___138500	vanW gene in vanG cluster	p341
+mh_p341___138500	spaS260	spaS260___61518	vanW gene in vanB cluster	p341
+mh_p341___138500	spaS262	spaS262___70190	vanW gene in vanB cluster	p341
+mh_p341___138500	spaS263	spaS263___29850	vanW gene in vanG cluster	p341
+mh_p341___138500	spaS270	spaS270___29254	vanW gene in vanG cluster	p341
+mh_p341___138500	spaS271	spaS271___29224	vanW gene in vanG cluster	p341
+mh_p341___138500	spaS272	spaS272___15086	vanW gene in vanG cluster	p341
+mh_p341___138500	spaS273	spaS273___84977	vanW gene in vanG cluster	p341
+mh_p341___138500	spaS274	spaS274___107479	vanW gene in vanG cluster	p341
+mh_p341___138500	spaS298	spaS298___140566	vanW gene in vanG cluster	p341
+spaS260___23893	spaS260	spaS260___23893	oqxB	p341
+spaS260___23893	mh_p341	mh_p341___120982	adeF	p341
+spaS262___66719	spaS262	spaS262___66719	vanY gene in vanB cluster	p341
+spaS262___66719	mh_p341	mh_p341___273374	vanY gene in vanM cluster	p341
+spaS262___19564	spaS262	spaS262___19564	vanY gene in vanG cluster	p341
+spaS262___19564	spaS263	spaS263___89986	vanY gene in vanM cluster	p341
+spaS262___19564	mh_p341	mh_p341___98390	vanY gene in vanG cluster	p341
+spaS273___102371	spaS273	spaS273___102371	vanY gene in vanM cluster	p341
+spaS273___102371	mh_p341	mh_p341___112706	vanY gene in vanA cluster	p341
+spaS271___81763	spaS271	spaS271___81763	vanXY gene in vanG cluster	p341
+spaS271___81763	mh_p341	mh_p341___149212	vanY gene in vanA cluster	p341
+mh_p341___151973	mh_p341	mh_p341___151973	vanY gene in vanF cluster	p341
+mh_p341___151973	spaS260	spaS260___52384	vanY gene in vanF cluster	p341
+mh_p341___151973	spaS261	spaS261___64215	vanY gene in vanF cluster	p341
+mh_p341___151973	spaS262	spaS262___22522	vanY gene in vanF cluster	p341
+mh_p341___151973	spaS263	spaS263___66541	vanY gene in vanF cluster	p341
+mh_p341___151973	spaS270	spaS270___70401	vanY gene in vanF cluster	p341
+mh_p341___151973	spaS272	spaS272___90459	vanY gene in vanF cluster	p341
+mh_p341___151973	spaS273	spaS273___110370	vanY gene in vanB cluster	p341
+mh_p341___151973	spaS274	spaS274___113923	vanY gene in vanB cluster	p341
+mh_p341___36627	mh_p341	mh_p341___36627	vanY gene in vanB cluster	p341
+mh_p341___36627	spaS260	spaS260___63395	vanY gene in vanA cluster	p341
+mh_p341___36627	spaS262	spaS262___79356	vanY gene in vanB cluster	p341
+mh_p341___36627	spaS263	spaS263___55691	vanY gene in vanA cluster	p341
+mh_p341___36627	spaS270	spaS270___61693	vanY gene in vanB cluster	p341
+mh_p341___36627	spaS271	spaS271___60906	vanY gene in vanB cluster	p341
+mh_p341___36627	spaS272	spaS272___68761	vanY gene in vanB cluster	p341
+mh_p341___36627	spaS273	spaS273___115909	vanY gene in vanA cluster	p341
+mh_p341___36627	spaS298	spaS298___97370	vanY gene in vanA cluster	p341
+mh_p341___36627	spaS261	spaS261___89373	vanY gene in vanA cluster	p341
+mh_p341___42690	mh_p341	mh_p341___42690	vanY gene in vanB cluster	p341
+mh_p341___42690	spaS270	spaS270___92417	vanY gene in vanF cluster	p341
+spaS262___49013	spaS262	spaS262___49013	vanY gene in vanM cluster	p341
+spaS262___49013	spaS261	spaS261___83790	vanY gene in vanG cluster	p341
+spaS261___72905	spaS261	spaS261___72905	vanY gene in vanG cluster	p341
+spaS261___72905	spaS273	spaS273___115966	vanY gene in vanG cluster	p341
+spaS261___72905	mh_p341	mh_p341___257286	vanY gene in vanM cluster	p341
+spaS261___72905	spaS272	spaS272___138717	vanY gene in vanG cluster	p341
+spaS261___72905	mh_p341	mh_p341___306218	vanY gene in vanG cluster	p341
+spaS261___72905	spaS263	spaS263___74480	vanY gene in vanG cluster	p341
+spaS261___72905	mh_p341	mh_p341___56621	vanY gene in vanG cluster	p341
+mh_p341___265991	mh_p341	mh_p341___265991	tet(Q)	p341
+mh_p341___265991	spaS261	spaS261___48314	tet(36)	p341
+mh_p341___265991	spaS263	spaS263___62712	tet(36)	p341
+mh_p341___265991	spaS272	spaS272___84833	tet(Q)	p341
+mh_p341___265991	spaS273	spaS273___76384	tet(Q)	p341
+mh_p341___265991	spaS274	spaS274___54708	tet(Q)	p341
+spaS171___31872	spaS171	spaS171___31872	vanY gene in vanB cluster	p373
+spaS171___31872	spaS185	spaS185___79331	vanY gene in vanM cluster	p373
+spaS171___31872	spaS209	spaS209___79689	vanY gene in vanB cluster	p373
+spaS171___27948	spaS171	spaS171___27948	vanY gene in vanB cluster	p373
+spaS171___27948	spaS177	spaS177___71237	vanY gene in vanF cluster	p373
+spaS171___27948	spaS185	spaS185___75329	vanY gene in vanF cluster	p373
+spaS171___27948	spaS209	spaS209___35289	vanY gene in vanF cluster	p373
+spaS177___76920	spaS177	spaS177___76920	vanY gene in vanB cluster	p373
+spaS177___76920	spaS171	spaS171___86414	vanY gene in vanA cluster	p373
+spaS177___76920	spaS185	spaS185___74863	vanY gene in vanB cluster	p373
+mh_p398___35975	mh_p398	mh_p398___35975	vanH gene in vanO cluster	p398
+mh_p398___35975	spaS208	spaS208___126737	vanH gene in vanF cluster	p398
+mh_p398___203279	mh_p398	mh_p398___203279	vanY gene in vanG cluster	p398
+mh_p398___203279	spaS167	spaS167___71904	vanY gene in vanB cluster	p398
+mh_p398___36743	mh_p398	mh_p398___36743	vanH gene in vanP cluster	p398
+mh_p398___36743	spaS155	spaS155___43450	vanH gene in vanO cluster	p398
+mh_p398___36743	spaS167	spaS167___10909	vanH gene in vanP cluster	p398
+mh_p398___36743	spaS172	spaS172___14215	vanH gene in vanP cluster	p398
+mh_p398___36743	spaS191	spaS191___14767	vanH gene in vanP cluster	p398
+mh_p398___36743	spaS200	spaS200___10203	vanH gene in vanP cluster	p398
+mh_p398___36743	spaS203	spaS203___10918	vanH gene in vanP cluster	p398
+mh_p398___36743	spaS208	spaS208___15377	vanH gene in vanP cluster	p398
+mh_p398___48128	mh_p398	mh_p398___48128	emrB	p398
+mh_p398___48128	spaS155	spaS155___33507	emrB	p398
+mh_p398___48128	spaS191	spaS191___82083	Klebsiella pneumoniae KpnH	p398
+mh_p398___212874	mh_p398	mh_p398___212874	vanXY gene in vanG cluster	p398
+mh_p398___212874	spaS191	spaS191___93171	vanXY gene in vanE cluster	p398
+mh_p398___212874	spaS208	spaS208___112793	vanXY gene in vanG cluster	p398
+mh_p398___219153	mh_p398	mh_p398___219153	vanY gene in vanB cluster	p398
+mh_p398___219153	spaS208	spaS208___122326	vanY gene in vanB cluster	p398
+mh_p398___219153	spaS208	spaS208___127678	vanY gene in vanM cluster	p398
+mh_p398___219153	spaS218	spaS218___35611	vanY gene in vanB cluster	p398
+mh_p398___88096	mh_p398	mh_p398___88096	vanY gene in vanB cluster	p398
+mh_p398___88096	spaS155	spaS155___16737	vanY gene in vanB cluster	p398
+mh_p398___88096	spaS167	spaS167___63915	vanY gene in vanB cluster	p398
+mh_p398___88096	spaS172	spaS172___72309	vanY gene in vanG cluster	p398
+mh_p398___88096	spaS191	spaS191___80957	vanY gene in vanB cluster	p398
+mh_p408___25113	mh_p408	mh_p408___25113	tet(Q)	p408
+mh_p408___25113	spaS119	spaS119___48302	tet(36)	p408
+mh_p408___25113	spaS126	spaS126___106697	tet(Q)	p408
+mh_p408___218430	mh_p408	mh_p408___218430	vanY gene in vanM cluster	p408
+mh_p408___218430	spaS114	spaS114___14887	vanY gene in vanM cluster	p408
+mh_p408___218430	spaS119	spaS119___13036	vanY gene in vanM cluster	p408
+mh_p408___218430	spaS126	spaS126___21160	vanY gene in vanM cluster	p408
+mh_p408___218430	spaS135	spaS135___114441	vanY gene in vanB cluster	p408
+mh_p408___114823	mh_p408	mh_p408___114823	vanXY gene in vanG cluster	p408
+mh_p408___114823	spaS135	spaS135___130203	vanY gene in vanB cluster	p408
+mh_p408___114823	spaS141	spaS141___111495	vanXY gene in vanG cluster	p408
+spaS126___118607	spaS126	spaS126___118607	vanY gene in vanB cluster	p408
+spaS126___118607	mh_p408	mh_p408___186674	vanY gene in vanG cluster	p408
+mh_p408___206322	mh_p408	mh_p408___206322	vanY gene in vanB cluster	p408
+mh_p408___206322	spaS135	spaS135___130995	vanY gene in vanG cluster	p408
+mh_p408___206322	spaS150	spaS150___92518	vanY gene in vanB cluster	p408
+spaS100___78872	spaS100	spaS100___78872	vanY gene in vanB cluster	p431
+spaS100___78872	spaS3	spaS3___68178	vanY gene in vanA cluster	p431
+spaS100___78872	spaS10	spaS10___76132	vanY gene in vanB cluster	p431
+spaS100___78872	spaS16	spaS16___76159	vanY gene in vanB cluster	p431
+spaS100___78872	spaS65	spaS65___56862	vanY gene in vanB cluster	p431
+spaS100___78872	spaS66	spaS66___46874	vanY gene in vanA cluster	p431
+spaS100___78872	spaS70	spaS70___98568	vanY gene in vanB cluster	p431
+spaS100___78872	spaS77	spaS77___56166	vanY gene in vanA cluster	p431
+spaS100___78872	spaS78	spaS78___145807	vanY gene in vanA cluster	p431
+spaS100___78872	spaS81	spaS81___51836	vanY gene in vanB cluster	p431
+spaS100___78872	spaS83	spaS83___41354	vanY gene in vanB cluster	p431
+spaS100___78872	spaS96	spaS96___45652	vanY gene in vanA cluster	p431
+spaS100___78872	spaS110	spaS110___73562	vanY gene in vanB cluster	p431
+spaS100___78872	spaS115	spaS115___135832	vanY gene in vanA cluster	p431
+spaS100___78872	spaS123	spaS123___121373	vanY gene in vanA cluster	p431
+spaS100___78872	spaS127	spaS127___93992	vanY gene in vanB cluster	p431
+spaS100___78872	spaS142	spaS142___60281	vanY gene in vanB cluster	p431
+spaS100___78872	spaS156	spaS156___70822	vanY gene in vanB cluster	p431
+spaS100___78872	spaS233	spaS233___43433	vanY gene in vanA cluster	p431
+spaS100___78872	spaS236	spaS236___47161	vanY gene in vanA cluster	p431
+spaS100___78872	spaS238	spaS238___87626	vanY gene in vanA cluster	p431
+spaS100___78872	spaS243	spaS243___53527	vanY gene in vanA cluster	p431
+spaS100___78872	spaS158	spaS158___118892	vanY gene in vanB cluster	p431
+spaS2___31668	spaS2	spaS2___31668	vanW gene in vanG cluster	p431
+spaS2___31668	spaS3	spaS3___41176	vanW gene in vanG cluster	p431
+spaS2___31668	spaS26	spaS26___64185	vanW gene in vanG cluster	p431
+spaS2___31668	spaS65	spaS65___24411	vanW gene in vanG cluster	p431
+spaS2___31668	spaS66	spaS66___26753	vanW gene in vanG cluster	p431
+spaS2___31668	spaS70	spaS70___14229	vanW gene in vanG cluster	p431
+spaS2___31668	spaS77	spaS77___20703	vanW gene in vanG cluster	p431
+spaS2___31668	spaS78	spaS78___30822	vanW gene in vanG cluster	p431
+spaS2___31668	spaS204	spaS204___107093	vanW gene in vanB cluster	p431
+spaS2___31668	spaS210	spaS210___23995	vanW gene in vanG cluster	p431
+spaS2___31668	spaS211	spaS211___34775	vanW gene in vanG cluster	p431
+spaS2___31668	spaS242	spaS242___14817	vanW gene in vanG cluster	p431
+spaS2___31668	spaS243	spaS243___24040	vanW gene in vanG cluster	p431
+spaS2___31668	spaS244	spaS244___31557	vanW gene in vanG cluster	p431
+spaS65___80668	spaS65	spaS65___80668	vanY gene in vanG cluster	p431
+spaS65___80668	spaS16	spaS16___20787	vanY gene in vanG cluster	p431
+spaS65___80668	spaS26	spaS26___14369	vanY gene in vanG cluster	p431
+spaS65___80668	spaS78	spaS78___118270	vanY gene in vanG cluster	p431
+spaS65___80668	spaS115	spaS115___89243	vanY gene in vanB cluster	p431
+spaS65___80668	spaS123	spaS123___108711	vanY gene in vanG cluster	p431
+spaS65___80668	spaS127	spaS127___61707	vanY gene in vanG cluster	p431
+spaS65___80668	spaS156	spaS156___154301	vanY gene in vanB cluster	p431
+spaS65___80668	spaS158	spaS158___100205	vanY gene in vanG cluster	p431
+spaS65___80668	spaS186	spaS186___177471	vanY gene in vanG cluster	p431
+spaS65___80668	spaS210	spaS210___56504	vanY gene in vanG cluster	p431
+spaS65___80668	spaS211	spaS211___148760	vanY gene in vanG cluster	p431
+spaS65___80668	spaS233	spaS233___73491	vanY gene in vanG cluster	p431
+spaS65___80668	spaS236	spaS236___94738	vanY gene in vanG cluster	p431
+spaS65___132067	spaS65	spaS65___132067	vanY gene in vanB cluster	p431
+spaS65___132067	spaS70	spaS70___54131	vanY gene in vanG cluster	p431
+spaS16___10941	spaS16	spaS16___10941	vanY gene in vanB cluster	p431
+spaS16___10941	spaS26	spaS26___12875	vanY gene in vanB cluster	p431
+spaS16___10941	spaS65	spaS65___120654	vanY gene in vanB cluster	p431
+spaS16___10941	spaS77	spaS77___126573	vanY gene in vanB cluster	p431
+spaS16___10941	spaS81	spaS81___120051	vanY gene in vanB cluster	p431
+spaS16___10941	spaS115	spaS115___114551	vanY gene in vanB cluster	p431
+spaS16___10941	spaS123	spaS123___135293	vanY gene in vanG cluster	p431
+spaS16___10941	spaS127	spaS127___84906	vanY gene in vanB cluster	p431
+spaS16___10941	spaS156	spaS156___126073	vanY gene in vanB cluster	p431
+spaS16___10941	spaS204	spaS204___110192	vanY gene in vanB cluster	p431
+spaS16___10941	spaS210	spaS210___41067	vanY gene in vanB cluster	p431
+spaS16___10941	spaS211	spaS211___116818	vanY gene in vanB cluster	p431
+spaS16___10941	spaS229	spaS229___70080	vanY gene in vanB cluster	p431
+spaS16___10941	spaS233	spaS233___87651	vanY gene in vanB cluster	p431
+spaS16___10941	spaS236	spaS236___79880	vanY gene in vanB cluster	p431
+spaS2___64846	spaS2	spaS2___64846	vanY gene in vanG cluster	p431
+spaS2___64846	spaS26	spaS26___108688	vanY gene in vanG cluster	p431
+spaS2___64846	spaS65	spaS65___107143	vanY gene in vanG cluster	p431
+spaS2___64846	spaS77	spaS77___113482	vanY gene in vanG cluster	p431
+spaS2___64846	spaS78	spaS78___86387	vanY gene in vanG cluster	p431
+spaS2___64846	spaS110	spaS110___53150	vanY gene in vanG cluster	p431
+spaS2___64846	spaS123	spaS123___72182	vanY gene in vanG cluster	p431
+spaS2___64846	spaS142	spaS142___96496	vanY gene in vanB cluster	p431
+spaS2___64846	spaS226	spaS226___53414	vanY gene in vanG cluster	p431
+spaS2___64846	spaS233	spaS233___64917	vanY gene in vanG cluster	p431
+spaS2___64846	spaS236	spaS236___66051	vanY gene in vanG cluster	p431
+spaS2___64846	spaS238	spaS238___56868	vanY gene in vanG cluster	p431
+spaS2___64846	spaS242	spaS242___63198	vanY gene in vanG cluster	p431
+spaS2___64846	spaS243	spaS243___85653	vanY gene in vanG cluster	p431
+spaS2___64846	spaS244	spaS244___94115	vanY gene in vanA cluster	p431
+spaS2___16203	spaS2	spaS2___16203	tet(36)	p431
+spaS2___16203	spaS66	spaS66___255	tet(36)	p431
+spaS2___16203	spaS83	spaS83___67810	tet(Q)	p431
+spaS2___16203	spaS123	spaS123___61376	tet(36)	p431
+spaS2___16203	spaS158	spaS158___107723	tet(36)	p431
+spaS2___16203	spaS243	spaS243___53033	tet(Q)	p431
+spaS2___50627	spaS2	spaS2___50627	vanH gene in vanP cluster	p431
+spaS2___50627	spaS16	spaS16___17127	vanH gene in vanP cluster	p431
+spaS2___50627	spaS204	spaS204___15001	vanH gene in vanO cluster	p431
+spaS2___50627	spaS211	spaS211___15148	vanH gene in vanO cluster	p431
+spaS2___50627	spaS238	spaS238___58699	vanH gene in vanP cluster	p431
+spaS2___50627	spaS242	spaS242___42722	vanH gene in vanP cluster	p431
+spaS2___50627	spaS244	spaS244___45826	vanH gene in vanP cluster	p431
+spaS127___111986	spaS127	spaS127___111986	vanY gene in vanG cluster	p431
+spaS127___111986	spaS81	spaS81___75911	vanY gene in vanA cluster	p431
+spaS127___111986	spaS156	spaS156___130438	vanY gene in vanG cluster	p431
+spaS78___114654	spaS78	spaS78___114654	vanY gene in vanB cluster	p431
+spaS78___114654	spaS3	spaS3___132158	vanY gene in vanB cluster	p431
+spaS78___114654	spaS81	spaS81___92600	vanY gene in vanB cluster	p431
+spaS78___114654	spaS83	spaS83___69674	vanY gene in vanB cluster	p431
+spaS78___114654	spaS96	spaS96___70423	vanY gene in vanB cluster	p431
+spaS78___114654	spaS100	spaS100___66441	vanY gene in vanB cluster	p431
+spaS78___114654	spaS110	spaS110___48727	vanY gene in vanB cluster	p431
+spaS78___114654	spaS115	spaS115___106596	vanY gene in vanB cluster	p431
+spaS78___114654	spaS123	spaS123___108614	vanY gene in vanB cluster	p431
+spaS78___114654	spaS127	spaS127___91833	vanY gene in vanB cluster	p431
+spaS78___114654	spaS142	spaS142___79333	vanY gene in vanB cluster	p431
+spaS78___114654	spaS156	spaS156___78702	vanY gene in vanB cluster	p431
+spaS78___114654	spaS158	spaS158___140265	vanY gene in vanB cluster	p431
+spaS78___114654	spaS186	spaS186___171100	vanY gene in vanF cluster	p431
+spaS78___114654	spaS211	spaS211___116462	vanY gene in vanB cluster	p431
+spaS2___23448	spaS2	spaS2___23448	vanY gene in vanG cluster	p431
+spaS2___23448	spaS65	spaS65___50674	vanY gene in vanG cluster	p431
+spaS2___23448	spaS66	spaS66___9853	vanY gene in vanG cluster	p431
+spaS2___23448	spaS77	spaS77___22146	vanY gene in vanG cluster	p431
+spaS2___23448	spaS78	spaS78___50071	vanY gene in vanG cluster	p431
+spaS2___23448	spaS81	spaS81___103345	vanY gene in vanG cluster	p431
+spaS2___23448	spaS83	spaS83___29979	vanY gene in vanG cluster	p431
+spaS2___23448	spaS96	spaS96___5266	vanY gene in vanG cluster	p431
+spaS2___23448	spaS100	spaS100___28897	vanY gene in vanG cluster	p431
+spaS2___23448	spaS115	spaS115___25687	vanY gene in vanG cluster	p431
+spaS2___23448	spaS123	spaS123___113369	vanY gene in vanG cluster	p431
+spaS2___23448	spaS127	spaS127___128571	vanY gene in vanA cluster	p431
+spaS2___23448	spaS186	spaS186___90877	vanY gene in vanG cluster	p431
+spaS3___59815	spaS3	spaS3___59815	vanW gene in vanG cluster	p431
+spaS3___59815	spaS10	spaS10___64729	vanW gene in vanG cluster	p431
+spaS3___59815	spaS16	spaS16___72808	vanW gene in vanG cluster	p431
+spaS3___59815	spaS65	spaS65___27526	vanW gene in vanG cluster	p431
+spaS3___59815	spaS66	spaS66___25330	vanW gene in vanG cluster	p431
+spaS3___59815	spaS77	spaS77___21084	vanW gene in vanG cluster	p431
+spaS3___59815	spaS81	spaS81___16926	vanW gene in vanG cluster	p431
+spaS3___59815	spaS83	spaS83___11343	vanW gene in vanG cluster	p431
+spaS3___59815	spaS96	spaS96___53433	vanW gene in vanG cluster	p431
+spaS3___59815	spaS100	spaS100___70012	vanW gene in vanG cluster	p431
+spaS3___59815	spaS110	spaS110___60007	vanW gene in vanG cluster	p431
+spaS3___59815	spaS115	spaS115___141650	vanW gene in vanG cluster	p431
+spaS3___59815	spaS123	spaS123___128510	vanW gene in vanG cluster	p431
+spaS3___59815	spaS127	spaS127___70160	vanW gene in vanG cluster	p431
+spaS3___59815	spaS142	spaS142___85517	vanW gene in vanG cluster	p431
+spaS3___59815	spaS156	spaS156___23929	vanW gene in vanG cluster	p431
+spaS3___59815	spaS158	spaS158___143752	vanW gene in vanG cluster	p431
+spaS3___59815	spaS229	spaS229___83761	vanW gene in vanB cluster	p431
+spaS3___59815	spaS233	spaS233___32551	vanW gene in vanG cluster	p431
+spaS3___59815	spaS236	spaS236___53220	vanW gene in vanG cluster	p431
+spaS3___59815	spaS243	spaS243___59796	vanW gene in vanG cluster	p431
+spaS186___175392	spaS186	spaS186___175392	vanY gene in vanG cluster	p431
+spaS186___175392	spaS3	spaS3___97186	vanY gene in vanB cluster	p431
+spaS186___175392	spaS3	spaS3___127988	vanY gene in vanM cluster	p431
+spaS186___175392	spaS65	spaS65___77423	vanY gene in vanG cluster	p431
+spaS186___175392	spaS66	spaS66___133033	vanY gene in vanG cluster	p431
+spaS186___175392	spaS77	spaS77___114155	vanY gene in vanG cluster	p431
+spaS186___175392	spaS78	spaS78___124997	vanY gene in vanG cluster	p431
+spaS186___175392	spaS81	spaS81___80899	vanY gene in vanG cluster	p431
+spaS186___175392	spaS83	spaS83___53808	vanY gene in vanB cluster	p431
+spaS186___175392	spaS83	spaS83___104389	vanY gene in vanF cluster	p431
+spaS186___175392	spaS96	spaS96___27968	vanY gene in vanG cluster	p431
+spaS186___175392	spaS100	spaS100___34189	vanY gene in vanG cluster	p431
+spaS186___175392	spaS110	spaS110___46602	vanY gene in vanB cluster	p431
+spaS186___175392	spaS110	spaS110___74409	vanY gene in vanF cluster	p431
+spaS186___175392	spaS123	spaS123___48457	vanY gene in vanG cluster	p431
+spaS186___175392	spaS127	spaS127___52864	vanY gene in vanG cluster	p431
+spaS186___175392	spaS142	spaS142___75853	vanY gene in vanG cluster	p431
+spaS186___175392	spaS156	spaS156___20168	vanY gene in vanG cluster	p431
+spaS186___175392	spaS158	spaS158___146319	vanY gene in vanG cluster	p431
+spaS186___175392	spaS211	spaS211___101411	vanY gene in vanG cluster	p431
+spaS10___36153	spaS10	spaS10___36153	vanY gene in vanG cluster	p431
+spaS10___36153	spaS16	spaS16___94376	vanY gene in vanG cluster	p431
+spaS10___36153	spaS26	spaS26___98344	vanY gene in vanG cluster	p431
+spaS10___36153	spaS81	spaS81___70970	vanY gene in vanG cluster	p431
+spaS10___36153	spaS226	spaS226___31470	vanY gene in vanG cluster	p431
+spaS10___36153	spaS229	spaS229___49767	vanY gene in vanG cluster	p431
+spaS10___36153	spaS229	spaS229___89479	vanY gene in vanA cluster	p431
+spaS10___36153	spaS233	spaS233___119155	vanY gene in vanG cluster	p431
+spaS10___36153	spaS236	spaS236___36451	vanY gene in vanG cluster	p431
+spaS10___36153	spaS238	spaS238___61062	vanY gene in vanG cluster	p431
+spaS3___50856	spaS3	spaS3___50856	vanY gene in vanA cluster	p431
+spaS3___50856	spaS10	spaS10___89522	vanY gene in vanA cluster	p431
+spaS3___50856	spaS16	spaS16___70374	vanY gene in vanA cluster	p431
+spaS3___50856	spaS65	spaS65___24012	vanY gene in vanA cluster	p431
+spaS3___50856	spaS66	spaS66___48535	vanY gene in vanA cluster	p431
+spaS3___50856	spaS70	spaS70___75200	vanY gene in vanB cluster	p431
+spaS3___50856	spaS77	spaS77___57295	vanY gene in vanA cluster	p431
+spaS3___50856	spaS81	spaS81___18006	vanY gene in vanA cluster	p431
+spaS3___50856	spaS83	spaS83___9599	vanY gene in vanA cluster	p431
+spaS3___50856	spaS96	spaS96___48286	vanY gene in vanA cluster	p431
+spaS3___50856	spaS100	spaS100___81508	vanY gene in vanA cluster	p431
+spaS3___50856	spaS110	spaS110___64894	vanY gene in vanA cluster	p431
+spaS3___50856	spaS123	spaS123___128571	vanY gene in vanA cluster	p431
+spaS3___50856	spaS127	spaS127___77257	vanY gene in vanA cluster	p431
+spaS3___50856	spaS142	spaS142___76383	vanY gene in vanA cluster	p431
+spaS3___50856	spaS156	spaS156___44604	vanY gene in vanA cluster	p431
+spaS3___50856	spaS158	spaS158___139520	vanY gene in vanA cluster	p431
+spaS3___50856	spaS226	spaS226___78324	vanY gene in vanA cluster	p431
+spaS3___50856	spaS233	spaS233___36393	vanY gene in vanA cluster	p431
+spaS3___50856	spaS236	spaS236___57065	vanY gene in vanA cluster	p431
+spaS3___50856	spaS243	spaS243___41174	vanY gene in vanA cluster	p431
+spaS2___53988	spaS2	spaS2___53988	vanY gene in vanG cluster	p431
+spaS2___53988	spaS3	spaS3___83877	vanY gene in vanG cluster	p431
+spaS2___53988	spaS10	spaS10___58286	vanY gene in vanG cluster	p431
+spaS2___53988	spaS16	spaS16___66298	vanY gene in vanG cluster	p431
+spaS2___53988	spaS26	spaS26___63108	vanY gene in vanG cluster	p431
+spaS2___53988	spaS66	spaS66___87984	vanY gene in vanG cluster	p431
+spaS2___53988	spaS70	spaS70___58352	vanY gene in vanG cluster	p431
+spaS2___53988	spaS77	spaS77___85992	vanY gene in vanG cluster	p431
+spaS2___53988	spaS81	spaS81___118399	vanY gene in vanG cluster	p431
+spaS2___53988	spaS83	spaS83___72353	vanY gene in vanA cluster	p431
+spaS2___53988	spaS96	spaS96___53921	vanY gene in vanG cluster	p431
+spaS2___53988	spaS100	spaS100___56405	vanY gene in vanG cluster	p431
+spaS2___53988	spaS115	spaS115___79484	vanY gene in vanA cluster	p431
+spaS2___53988	spaS127	spaS127___141058	vanY gene in vanG cluster	p431
+spaS2___53988	spaS142	spaS142___79813	vanY gene in vanG cluster	p431
+spaS2___53988	spaS158	spaS158___37049	vanY gene in vanG cluster	p431
+spaS2___53988	spaS186	spaS186___93563	vanY gene in vanG cluster	p431
+spaS2___53988	spaS210	spaS210___102183	vanY gene in vanG cluster	p431
+spaS2___53988	spaS233	spaS233___61898	vanY gene in vanG cluster	p431
+spaS2___53988	spaS238	spaS238___36004	vanY gene in vanG cluster	p431
+spaS2___53988	spaS243	spaS243___119804	vanY gene in vanG cluster	p431
+spaS77___88715	spaS77	spaS77___88715	vanY gene in vanG cluster	p431
+spaS77___88715	spaS3	spaS3___126332	vanY gene in vanB cluster	p431
+spaS77___88715	spaS83	spaS83___36210	vanY gene in vanG cluster	p431
+spaS77___88715	spaS186	spaS186___105372	vanY gene in vanG cluster	p431
+spaS77___88715	spaS243	spaS243___102661	vanY gene in vanM cluster	p431
+spaS16___85411	spaS16	spaS16___85411	vanH gene in vanO cluster	p431
+spaS16___85411	spaS3	spaS3___90035	vanH gene in vanO cluster	p431
+spaS16___85411	spaS65	spaS65___68964	vanH gene in vanO cluster	p431
+spaS16___85411	spaS66	spaS66___44425	vanH gene in vanO cluster	p431
+spaS16___85411	spaS70	spaS70___76822	vanH gene in vanO cluster	p431
+spaS16___85411	spaS77	spaS77___121297	vanH gene in vanO cluster	p431
+spaS16___85411	spaS78	spaS78___145136	vanH gene in vanO cluster	p431
+spaS16___85411	spaS81	spaS81___31391	vanH gene in vanO cluster	p431
+spaS16___85411	spaS83	spaS83___28585	vanH gene in vanO cluster	p431
+spaS16___85411	spaS96	spaS96___77021	vanH gene in vanO cluster	p431
+spaS16___85411	spaS123	spaS123___139198	vanH gene in vanO cluster	p431
+spaS16___85411	spaS127	spaS127___113303	vanH gene in vanO cluster	p431
+spaS16___85411	spaS142	spaS142___87036	vanH gene in vanO cluster	p431
+spaS16___85411	spaS156	spaS156___63192	vanH gene in vanO cluster	p431
+spaS16___85411	spaS233	spaS233___69297	vanH gene in vanO cluster	p431
+spaS16___85411	spaS236	spaS236___69168	vanH gene in vanO cluster	p431
+spaS16___85411	spaS243	spaS243___84218	vanH gene in vanA cluster	p431
+spaS3___58391	spaS3	spaS3___58391	vanY gene in vanM cluster	p431
+spaS3___58391	spaS16	spaS16___78955	vanY gene in vanM cluster	p431
+spaS3___58391	spaS65	spaS65___125140	vanY gene in vanM cluster	p431
+spaS3___58391	spaS66	spaS66___105491	vanY gene in vanM cluster	p431
+spaS3___58391	spaS81	spaS81___91641	vanY gene in vanM cluster	p431
+spaS3___58391	spaS81	spaS81___117122	vanY gene in vanM cluster	p431
+spaS3___58391	spaS83	spaS83___86271	vanY gene in vanM cluster	p431
+spaS3___58391	spaS123	spaS123___108321	vanY gene in vanM cluster	p431
+spaS3___58391	spaS142	spaS142___42857	vanY gene in vanM cluster	p431
+spaS3___58391	spaS186	spaS186___134415	vanY gene in vanM cluster	p431
+spaS3___58391	spaS211	spaS211___155466	vanY gene in vanF cluster	p431
+spaS3___58391	spaS243	spaS243___83710	vanY gene in vanM cluster	p431
+spaS156___83583	spaS156	spaS156___83583	vanW gene in vanB cluster	p431
+spaS156___83583	spaS186	spaS186___119673	vanW gene in vanG cluster	p431
+spaS156___83583	spaS210	spaS210___65356	vanW gene in vanB cluster	p431
+spaS156___83583	spaS211	spaS211___59197	vanW gene in vanB cluster	p431
+spaS83___30505	spaS83	spaS83___30505	vanY gene in vanM cluster	p431
+spaS83___30505	spaS100	spaS100___80355	vanY gene in vanB cluster	p431
+spaS83___30505	spaS110	spaS110___4625	vanY gene in vanM cluster	p431
+spaS83___30505	spaS115	spaS115___22997	vanY gene in vanM cluster	p431
+spaS83___30505	spaS123	spaS123___15899	vanY gene in vanM cluster	p431
+spaS83___30505	spaS127	spaS127___14143	vanY gene in vanM cluster	p431
+spaS83___30505	spaS142	spaS142___4751	vanY gene in vanM cluster	p431
+spaS83___30505	spaS156	spaS156___12457	vanY gene in vanM cluster	p431
+spaS83___30505	spaS158	spaS158___27635	vanY gene in vanM cluster	p431
+spaS83___30505	spaS186	spaS186___25569	vanY gene in vanM cluster	p431
+spaS83___30505	spaS204	spaS204___33868	vanY gene in vanM cluster	p431
+spaS83___30505	spaS210	spaS210___22652	vanY gene in vanM cluster	p431
+spaS83___30505	spaS211	spaS211___15425	vanY gene in vanM cluster	p431
+spaS66___107746	spaS66	spaS66___107746	vanY gene in vanG cluster	p431
+spaS66___107746	spaS16	spaS16___93767	vanY gene in vanG cluster	p431
+spaS66___107746	spaS65	spaS65___114938	vanY gene in vanB cluster	p431
+spaS66___107746	spaS226	spaS226___88577	vanY gene in vanG cluster	p431
+spaS66___107746	spaS229	spaS229___78823	vanY gene in vanB cluster	p431
+spaS66___107746	spaS233	spaS233___65677	vanY gene in vanG cluster	p431
+spaS66___107746	spaS236	spaS236___62843	vanY gene in vanG cluster	p431
+spaS66___107746	spaS238	spaS238___54819	vanY gene in vanG cluster	p431
+spaS210___161994	spaS210	spaS210___161994	vanW gene in vanG cluster	p431
+spaS210___161994	spaS3	spaS3___27155	vanW gene in vanG cluster	p431
+spaS210___161994	spaS16	spaS16___74573	vanW gene in vanG cluster	p431
+spaS210___161994	spaS26	spaS26___85119	vanW gene in vanG cluster	p431
+spaS210___161994	spaS65	spaS65___60400	vanW gene in vanG cluster	p431
+spaS210___161994	spaS66	spaS66___82401	vanW gene in vanG cluster	p431
+spaS210___161994	spaS70	spaS70___95774	vanW gene in vanG cluster	p431
+spaS210___161994	spaS78	spaS78___116221	vanW gene in vanG cluster	p431
+spaS210___161994	spaS81	spaS81___134586	vanW gene in vanG cluster	p431
+spaS210___161994	spaS83	spaS83___99737	vanW gene in vanG cluster	p431
+spaS210___161994	spaS123	spaS123___128439	vanW gene in vanB cluster	p431
+spaS210___161994	spaS127	spaS127___119657	vanW gene in vanG cluster	p431
+spaS210___161994	spaS142	spaS142___108914	vanW gene in vanG cluster	p431
+spaS210___161994	spaS156	spaS156___75407	vanW gene in vanG cluster	p431
+spaS210___161994	spaS204	spaS204___82362	vanW gene in vanG cluster	p431
+spaS210___161994	spaS211	spaS211___138954	vanW gene in vanG cluster	p431
+spaS142___108183	spaS142	spaS142___108183	vanY gene in vanG cluster	p431
+spaS142___108183	spaS26	spaS26___120757	vanY gene in vanG cluster	p431
+spaS142___108183	spaS110	spaS110___70935	vanY gene in vanM cluster	p431
+spaS2___16936	spaS2	spaS2___16936	vanH gene in vanD cluster	p431
+spaS2___16936	spaS3	spaS3___15836	vanH gene in vanD cluster	p431
+spaS2___16936	spaS10	spaS10___92022	vanH gene in vanD cluster	p431
+spaS2___16936	spaS16	spaS16___75007	vanH gene in vanD cluster	p431
+spaS2___16936	spaS26	spaS26___23197	vanH gene in vanD cluster	p431
+spaS2___16936	spaS65	spaS65___31229	vanH gene in vanD cluster	p431
+spaS2___16936	spaS66	spaS66___51202	vanH gene in vanD cluster	p431
+spaS2___16936	spaS77	spaS77___26399	vanH gene in vanD cluster	p431
+spaS2___16936	spaS81	spaS81___64273	vanH gene in vanD cluster	p431
+spaS2___16936	spaS83	spaS83___17303	vanH gene in vanD cluster	p431
+spaS2___16936	spaS96	spaS96___18322	vanH gene in vanD cluster	p431
+spaS2___16936	spaS100	spaS100___49903	vanH gene in vanD cluster	p431
+spaS2___16936	spaS110	spaS110___28182	vanH gene in vanD cluster	p431
+spaS2___16936	spaS123	spaS123___38322	vanH gene in vanD cluster	p431
+spaS2___16936	spaS127	spaS127___91665	vanH gene in vanD cluster	p431
+spaS2___16936	spaS229	spaS229___78719	vanH gene in vanD cluster	p431
+spaS2___16936	spaS233	spaS233___19090	vanH gene in vanD cluster	p431
+spaS2___16936	spaS236	spaS236___65599	vanH gene in vanD cluster	p431
+spaS2___16936	spaS242	spaS242___43818	vanH gene in vanD cluster	p431
+spaS2___16936	spaS243	spaS243___19979	vanH gene in vanD cluster	p431
+spaS2___16936	spaS78	spaS78___45697	vanH gene in vanF cluster	p431
+spaS2___16936	spaS210	spaS210___159326	vanH gene in vanF cluster	p431
+spaS3___59452	spaS3	spaS3___59452	tet(36)	p431
+spaS3___59452	spaS65	spaS65___134811	tet(Q)	p431
+spaS3___59452	spaS66	spaS66___116683	tet(Q)	p431
+spaS3___59452	spaS77	spaS77___104281	tet(Q)	p431
+spaS3___59452	spaS81	spaS81___89363	tet(36)	p431
+spaS3___59452	spaS96	spaS96___63343	tet(36)	p431
+spaS3___59452	spaS100	spaS100___33466	tet(36)	p431
+spaS3___59452	spaS110	spaS110___42355	tet(36)	p431
+spaS3___59452	spaS115	spaS115___87860	tet(Q)	p431
+spaS3___59452	spaS123	spaS123___36483	tet(36)	p431
+spaS3___59452	spaS127	spaS127___70760	tet(36)	p431
+spaS3___59452	spaS142	spaS142___59680	tet(36)	p431
+spaS3___59452	spaS156	spaS156___24889	tet(36)	p431
+spaS3___59452	spaS158	spaS158___120017	tet(Q)	p431
+spaS186___102830	spaS186	spaS186___102830	vanY gene in vanM cluster	p431
+spaS186___102830	spaS115	spaS115___104718	vanY gene in vanM cluster	p431
+spaS186___102830	spaS127	spaS127___149252	vanY gene in vanM cluster	p431
+spaS186___102830	spaS210	spaS210___88244	vanY gene in vanM cluster	p431
+spaS186___102830	spaS211	spaS211___149899	vanY gene in vanB cluster	p431
+spaS3___40381	spaS3	spaS3___40381	EC-8	p431
+spaS3___40381	spaS10	spaS10___26775	EC-14	p431
+spaS3___40381	spaS16	spaS16___123020	CMY-136	p431
+spaS3___40381	spaS26	spaS26___70045	EC-8	p431
+spaS3___40381	spaS65	spaS65___81111	EC-5	p431
+spaS3___40381	spaS77	spaS77___40436	CMY-132	p431
+spaS3___40381	spaS78	spaS78___7077	EC-8	p431
+spaS3___40381	spaS81	spaS81___26533	EC-14	p431
+spaS3___40381	spaS96	spaS96___39594	EC-5	p431
+spaS3___40381	spaS115	spaS115___74643	EC-8	p431
+spaS3___40381	spaS123	spaS123___42901	CMY-132	p431
+spaS3___40381	spaS127	spaS127___64427	CMY-132	p431
+spaS3___40381	spaS142	spaS142___50276	EC-8	p431
+spaS3___40381	spaS186	spaS186___46130	EC-5	p431
+spaS3___40381	spaS204	spaS204___110092	EC-5	p431
+spaS3___40381	spaS204	spaS204___110099	EC-5	p431
+spaS3___40381	spaS226	spaS226___38595	EC-5	p431
+spaS3___40381	spaS229	spaS229___37914	EC-5	p431
+spaS3___40381	spaS242	spaS242___13482	EC-14	p431
+spaS3___40381	spaS243	spaS243___24827	EC-14	p431
+spaS3___40381	spaS244	spaS244___74632	EC-15	p431
+spaS2___3517	spaS2	spaS2___3517	vanT gene in vanG cluster	p431
+spaS2___3517	spaS3	spaS3___8863	vanT gene in vanG cluster	p431
+spaS2___3517	spaS10	spaS10___85539	vanTr gene in vanL cluster	p431
+spaS2___3517	spaS26	spaS26___75994	vanT gene in vanG cluster	p431
+spaS2___3517	spaS65	spaS65___13944	vanT gene in vanG cluster	p431
+spaS2___3517	spaS66	spaS66___3876	vanT gene in vanG cluster	p431
+spaS2___3517	spaS70	spaS70___8499	vanT gene in vanG cluster	p431
+spaS2___3517	spaS77	spaS77___9612	vanT gene in vanG cluster	p431
+spaS2___3517	spaS78	spaS78___20898	vanT gene in vanG cluster	p431
+spaS2___3517	spaS83	spaS83___11255	vanT gene in vanG cluster	p431
+spaS2___3517	spaS236	spaS236___72767	vanT gene in vanG cluster	p431
+spaS2___3517	spaS238	spaS238___18344	vanT gene in vanG cluster	p431
+spaS2___3517	spaS242	spaS242___3710	vanT gene in vanG cluster	p431
+spaS2___3517	spaS243	spaS243___8697	vanT gene in vanG cluster	p431
+spaS2___3517	spaS244	spaS244___27086	vanT gene in vanG cluster	p431
+spaS3___95504	spaS3	spaS3___95504	vanY gene in vanF cluster	p431
+spaS3___95504	spaS2	spaS2___60502	vanY gene in vanA cluster	p431
+spaS3___95504	spaS65	spaS65___93683	vanY gene in vanF cluster	p431
+spaS3___95504	spaS66	spaS66___92651	vanY gene in vanF cluster	p431
+spaS3___95504	spaS78	spaS78___126870	vanY gene in vanF cluster	p431
+spaS3___95504	spaS81	spaS81___135753	vanY gene in vanF cluster	p431
+spaS3___95504	spaS83	spaS83___75838	vanY gene in vanF cluster	p431
+spaS3___95504	spaS96	spaS96___91569	vanY gene in vanF cluster	p431
+spaS3___95504	spaS100	spaS100___19595	vanY gene in vanF cluster	p431
+spaS3___95504	spaS123	spaS123___104860	vanY gene in vanF cluster	p431
+spaS3___95504	spaS127	spaS127___89136	vanY gene in vanF cluster	p431
+spaS3___95504	spaS142	spaS142___84837	vanY gene in vanF cluster	p431
+spaS3___95504	spaS210	spaS210___173813	vanY gene in vanF cluster	p431
+spaS3___95504	spaS226	spaS226___78145	vanY gene in vanF cluster	p431
+spaS3___95504	spaS233	spaS233___87524	vanY gene in vanF cluster	p431
+spaS3___95504	spaS236	spaS236___67255	vanY gene in vanF cluster	p431
+spaS3___95504	spaS243	spaS243___78159	vanY gene in vanF cluster	p431
+spaS186___155518	spaS186	spaS186___155518	vanXY gene in vanG cluster	p431
+spaS186___155518	spaS244	spaS244___85428	vanY gene in vanM cluster	p431
+spaS186___155518	spaS2	spaS2___22014	vanXY gene in vanG cluster	p431
+spaS186___155518	spaS3	spaS3___23939	vanXY gene in vanG cluster	p431
+spaS186___155518	spaS10	spaS10___66727	vanXY gene in vanG cluster	p431
+spaS186___155518	spaS16	spaS16___42972	vanXY gene in vanG cluster	p431
+spaS186___155518	spaS26	spaS26___43716	vanXY gene in vanG cluster	p431
+spaS186___155518	spaS65	spaS65___40084	vanXY gene in vanG cluster	p431
+spaS186___155518	spaS66	spaS66___28747	vanXY gene in vanG cluster	p431
+spaS186___155518	spaS70	spaS70___23311	vanXY gene in vanG cluster	p431
+spaS186___155518	spaS77	spaS77___32566	vanXY gene in vanG cluster	p431
+spaS186___155518	spaS78	spaS78___46500	vanXY gene in vanG cluster	p431
+spaS186___155518	spaS81	spaS81___74615	vanXY gene in vanG cluster	p431
+spaS186___155518	spaS83	spaS83___23577	vanXY gene in vanG cluster	p431
+spaS186___155518	spaS96	spaS96___24330	vanXY gene in vanG cluster	p431
+spaS186___155518	spaS100	spaS100___35298	vanXY gene in vanG cluster	p431
+spaS186___155518	spaS110	spaS110___14110	vanXY gene in vanG cluster	p431
+spaS186___155518	spaS123	spaS123___20138	vanXY gene in vanG cluster	p431
+spaS186___155518	spaS127	spaS127___52263	vanXY gene in vanG cluster	p431
+spaS186___155518	spaS142	spaS142___73824	vanXY gene in vanG cluster	p431
+spaS186___155518	spaS211	spaS211___131132	vanXY gene in vanG cluster	p431
+spaS186___155518	spaS226	spaS226___64479	vanXY gene in vanG cluster	p431
+spaS186___155518	spaS229	spaS229___95639	vanXY gene in vanG cluster	p431
+spaS186___155518	spaS233	spaS233___22008	vanXY gene in vanG cluster	p431
+spaS186___155518	spaS236	spaS236___55327	vanXY gene in vanG cluster	p431
+spaS186___155518	spaS242	spaS242___70122	vanXY gene in vanG cluster	p431
+spaS186___155518	spaS243	spaS243___25768	vanXY gene in vanG cluster	p431
+spaS186___155518	spaS156	spaS156___147956	vanXY gene in vanG cluster	p431
+spaS186___155518	spaS244	spaS244___106721	vanXY gene in vanG cluster	p431
+spaS10___52199	spaS10	spaS10___52199	vanY gene in vanB cluster	p431
+spaS10___52199	spaS2	spaS2___48249	vanY gene in vanB cluster	p431
+spaS10___52199	spaS3	spaS3___142943	vanY gene in vanG cluster	p431
+spaS10___52199	spaS16	spaS16___20257	vanY gene in vanB cluster	p431
+spaS10___52199	spaS65	spaS65___98937	vanY gene in vanB cluster	p431
+spaS10___52199	spaS78	spaS78___120728	vanY gene in vanB cluster	p431
+spaS10___52199	spaS127	spaS127___135898	vanY gene in vanB cluster	p431
+spaS10___52199	spaS204	spaS204___17101	vanY gene in vanB cluster	p431
+spaS10___52199	spaS211	spaS211___19593	vanY gene in vanB cluster	p431
+spaS10___52199	spaS238	spaS238___52931	vanY gene in vanB cluster	p431
+spaS10___52199	spaS242	spaS242___43540	vanY gene in vanB cluster	p431
+spaS10___52199	spaS244	spaS244___29439	vanY gene in vanB cluster	p431
+spaS2___10385	spaS2	spaS2___10385	vanY gene in vanB cluster	p431
+spaS2___10385	spaS3	spaS3___37935	vanY gene in vanB cluster	p431
+spaS2___10385	spaS10	spaS10___97929	vanY gene in vanB cluster	p431
+spaS2___10385	spaS16	spaS16___53318	vanY gene in vanB cluster	p431
+spaS2___10385	spaS26	spaS26___22020	vanY gene in vanB cluster	p431
+spaS2___10385	spaS65	spaS65___22133	vanY gene in vanB cluster	p431
+spaS2___10385	spaS66	spaS66___21233	vanY gene in vanB cluster	p431
+spaS2___10385	spaS70	spaS70___16339	vanY gene in vanB cluster	p431
+spaS2___10385	spaS77	spaS77___17295	vanY gene in vanB cluster	p431
+spaS2___10385	spaS78	spaS78___28070	vanY gene in vanB cluster	p431
+spaS2___10385	spaS81	spaS81___89542	vanY gene in vanB cluster	p431
+spaS2___10385	spaS83	spaS83___21843	vanY gene in vanB cluster	p431
+spaS2___10385	spaS96	spaS96___82350	vanY gene in vanB cluster	p431
+spaS2___10385	spaS100	spaS100___10845	vanY gene in vanB cluster	p431
+spaS2___10385	spaS110	spaS110___31033	vanY gene in vanB cluster	p431
+spaS2___10385	spaS115	spaS115___133498	vanY gene in vanG cluster	p431
+spaS2___10385	spaS123	spaS123___49273	vanY gene in vanB cluster	p431
+spaS2___10385	spaS127	spaS127___143848	vanY gene in vanB cluster	p431
+spaS2___10385	spaS142	spaS142___12586	vanY gene in vanB cluster	p431
+spaS2___10385	spaS156	spaS156___31487	vanY gene in vanB cluster	p431
+spaS2___10385	spaS158	spaS158___114237	vanY gene in vanG cluster	p431
+spaS2___10385	spaS186	spaS186___122106	vanY gene in vanB cluster	p431
+spaS2___10385	spaS186	spaS186___146401	vanY gene in vanG cluster	p431
+spaS2___10385	spaS210	spaS210___138425	vanY gene in vanG cluster	p431
+spaS2___10385	spaS210	spaS210___141306	vanY gene in vanB cluster	p431
+spaS2___10385	spaS211	spaS211___130398	vanY gene in vanB cluster	p431
+spaS2___10385	spaS242	spaS242___51728	vanY gene in vanB cluster	p431
+spaS2___10385	spaS243	spaS243___12196	vanY gene in vanB cluster	p431
+spaS2___10385	spaS244	spaS244___75595	vanY gene in vanG cluster	p431
+spaS3___34060	spaS3	spaS3___34060	vanY gene in vanG cluster	p431
+spaS3___34060	spaS96	spaS96___94039	vanY gene in vanG cluster	p431
+spaS3___34060	spaS115	spaS115___130927	vanY gene in vanB cluster	p431
+spaS3___34060	spaS123	spaS123___12888	vanY gene in vanB cluster	p431
+spaS3___34060	spaS158	spaS158___125872	vanY gene in vanB cluster	p431
+mh_p470___45130	mh_p470	mh_p470___45130	vanY gene in vanM cluster	p470
+mh_p470___45130	spaS38	spaS38___97269	vanY gene in vanM cluster	p470
+mh_p470___45130	spaS60	spaS60___66951	vanY gene in vanG cluster	p470
+mh_p470___51114	mh_p470	mh_p470___51114	vanW gene in vanB cluster	p470
+mh_p470___51114	spaS8	spaS8___78869	vanW gene in vanB cluster	p470
+mh_p470___51114	spaS13	spaS13___60483	vanW gene in vanB cluster	p470
+mh_p470___51114	spaS14	spaS14___85502	vanW gene in vanB cluster	p470
+mh_p470___51114	spaS21	spaS21___68851	vanW gene in vanB cluster	p470
+mh_p470___51114	spaS38	spaS38___80733	vanW gene in vanB cluster	p470
+mh_p470___51114	spaS60	spaS60___63682	vanW gene in vanB cluster	p470
+mh_p470___51114	spaS230	spaS230___71325	vanW gene in vanG cluster	p470
+mh_p470___51114	spaS230	spaS230___106479	vanW gene in vanB cluster	p470
+spaS64___31018	spaS64	spaS64___31018	EC-14	p470
+spaS64___31018	mh_p470	mh_p470___192393	CMY-132	p470
+spaS64___31018	spaS13	spaS13___11115	CMY-132	p470
+spaS64___31018	spaS17	spaS17___72080	CMY-136	p470
+spaS64___31018	spaS120	spaS120___17732	EC-15	p470
+spaS64___31018	spaS151	spaS151___4168	EC-8	p470
+spaS64___31018	spaS230	spaS230___22700	EC-14	p470
+spaS120___52562	spaS120	spaS120___52562	vanY gene in vanG cluster	p470
+spaS120___52562	spaS151	spaS151___71413	vanY gene in vanA cluster	p470
+mh_p470___232797	mh_p470	mh_p470___232797	vanY gene in vanG cluster	p470
+mh_p470___232797	spaS230	spaS230___112306	vanY gene in vanM cluster	p470
+spaS14___74704	spaS14	spaS14___74704	vanY gene in vanF cluster	p470
+spaS14___74704	mh_p470	mh_p470___195065	vanY gene in vanF cluster	p470
+spaS14___74704	spaS13	spaS13___81612	vanY gene in vanF cluster	p470
+spaS14___74704	spaS17	spaS17___78308	vanY gene in vanF cluster	p470
+spaS14___74704	spaS56	spaS56___11828	vanY gene in vanF cluster	p470
+spaS14___74704	spaS60	spaS60___50109	vanY gene in vanF cluster	p470
+spaS14___74704	spaS64	spaS64___53610	vanY gene in vanF cluster	p470
+spaS14___74704	spaS230	spaS230___77602	vanY gene in vanF cluster	p470
+spaS14___74704	spaS234	spaS234___103546	vanY gene in vanG cluster	p470
+mh_p470___38453	mh_p470	mh_p470___38453	tet(36)	p470
+mh_p470___38453	spaS14	spaS14___76571	tet(Q)	p470
+mh_p470___38453	spaS56	spaS56___6929	tet(36)	p470
+mh_p470___38453	spaS60	spaS60___35012	tet(36)	p470
+mh_p470___38453	spaS64	spaS64___55862	tet(Q)	p470
+mh_p470___38453	spaS230	spaS230___28537	tet(36)	p470
+mh_p470___108888	mh_p470	mh_p470___108888	TEM-30	p470
+mh_p470___108888	spaS13	spaS13___14245	TEM-30	p470
+mh_p470___108888	spaS14	spaS14___76481	TEM-30	p470
+mh_p470___108888	spaS64	spaS64___60593	TEM-1	p470
+mh_p470___108888	spaS120	spaS120___43508	TEM-1	p470
+mh_p470___118192	mh_p470	mh_p470___118192	vanY gene in vanF cluster	p470
+mh_p470___118192	spaS13	spaS13___46921	vanY gene in vanF cluster	p470
+mh_p470___118192	spaS14	spaS14___87060	vanY gene in vanF cluster	p470
+mh_p470___118192	spaS56	spaS56___11478	vanY gene in vanF cluster	p470
+mh_p470___118192	spaS60	spaS60___15525	vanY gene in vanF cluster	p470
+mh_p470___118192	spaS64	spaS64___3618	vanY gene in vanF cluster	p470
+mh_p470___118192	spaS120	spaS120___29301	vanY gene in vanF cluster	p470
+mh_p470___118192	spaS143	spaS143___62411	vanY gene in vanF cluster	p470
+mh_p470___118192	spaS151	spaS151___72010	vanY gene in vanB cluster	p470
+mh_p470___118192	spaS230	spaS230___88418	vanY gene in vanF cluster	p470
+mh_p470___118192	spaS234	spaS234___50130	vanY gene in vanF cluster	p470
+mh_p470___183398	mh_p470	mh_p470___183398	vanY gene in vanG cluster	p470
+mh_p470___183398	spaS13	spaS13___67572	vanY gene in vanG cluster	p470
+mh_p470___183398	spaS14	spaS14___40008	vanY gene in vanG cluster	p470
+mh_p470___183398	spaS17	spaS17___85455	vanY gene in vanG cluster	p470
+mh_p470___183398	spaS38	spaS38___80959	vanY gene in vanG cluster	p470
+mh_p470___183398	spaS56	spaS56___440	vanY gene in vanG cluster	p470
+mh_p470___183398	spaS60	spaS60___55322	vanY gene in vanG cluster	p470
+mh_p470___183398	spaS64	spaS64___36370	vanY gene in vanG cluster	p470
+mh_p470___183398	spaS151	spaS151___57462	vanY gene in vanB cluster	p470
+mh_p470___183398	spaS230	spaS230___51305	vanY gene in vanG cluster	p470
+mh_p470___141742	mh_p470	mh_p470___141742	cepA	p470
+mh_p470___141742	spaS8	spaS8___47455	CepA-44	p470
+mh_p470___141742	spaS13	spaS13___28713	CepA-44	p470
+mh_p470___141742	spaS14	spaS14___31697	CepA-44	p470
+mh_p470___141742	spaS17	spaS17___33286	CepA-44	p470
+mh_p470___141742	spaS45	spaS45___43062	CepA-44	p470
+mh_p470___141742	spaS230	spaS230___5403	cepA	p470
+mh_p470___141742	spaS234	spaS234___45854	cepA	p470
+mh_p470___113715	mh_p470	mh_p470___113715	tet(36)	p470
+mh_p470___113715	spaS17	spaS17___24407	tet(36)	p470
+mh_p470___113715	spaS56	spaS56___25204	tet(36)	p470
+mh_p470___113715	spaS60	spaS60___45838	tet(Q)	p470
+mh_p470___8469	mh_p470	mh_p470___8469	vanXY gene in vanG cluster	p470
+mh_p470___8469	spaS13	spaS13___39046	vanXY gene in vanG cluster	p470
+mh_p470___8469	spaS21	spaS21___62331	vanXY gene in vanG cluster	p470
+mh_p470___8469	spaS38	spaS38___95363	vanXY gene in vanG cluster	p470
+mh_p470___8469	spaS45	spaS45___81589	vanXY gene in vanG cluster	p470
+mh_p470___8469	spaS143	spaS143___65228	vanXY gene in vanG cluster	p470
+mh_p470___8469	spaS234	spaS234___101113	vanY gene in vanB cluster	p470
+mh_p523___219440	mh_p523	mh_p523___219440	vanY gene in vanG cluster	p523
+mh_p523___219440	spaS32	spaS32___157579	vanY gene in vanG cluster	p523
+mh_p523___219440	spaS50	spaS50___166223	vanY gene in vanB cluster	p523
+spaS245___96572	spaS245	spaS245___96572	vanY gene in vanG cluster	p523
+spaS245___96572	spaS50	spaS50___163995	vanY gene in vanA cluster	p523
+mh_p523___340239	mh_p523	mh_p523___340239	vanY gene in vanG cluster	p523
+mh_p523___340239	spaS50	spaS50___93531	vanY gene in vanG cluster	p523
+mh_p523___340239	spaS67	spaS67___139425	vanY gene in vanB cluster	p523
+mh_p523___264715	mh_p523	mh_p523___264715	CfxA2	p523
+mh_p523___264715	spaS5	spaS5___199187	CfxA2	p523
+mh_p523___264715	spaS32	spaS32___136230	CfxA3	p523
+mh_p523___264715	spaS50	spaS50___144766	CfxA2	p523
+mh_p523___264715	spaS52	spaS52___152773	CfxA2	p523
+mh_p523___264715	spaS231	spaS231___53905	CfxA2	p523
+mh_p523___264715	spaS237	spaS237___118271	CfxA2	p523
+mh_p523___105447	mh_p523	mh_p523___105447	vanY gene in vanF cluster	p523
+mh_p523___105447	spaS32	spaS32___190150	vanY gene in vanG cluster	p523
+mh_p523___42079	mh_p523	mh_p523___42079	vanY gene in vanB cluster	p523
+mh_p523___42079	spaS5	spaS5___209356	vanY gene in vanB cluster	p523
+mh_p523___42079	spaS32	spaS32___149437	vanY gene in vanB cluster	p523
+mh_p523___42079	spaS50	spaS50___43364	vanY gene in vanB cluster	p523
+mh_p523___42079	spaS52	spaS52___220973	vanY gene in vanB cluster	p523
+mh_p523___42079	spaS67	spaS67___67457	vanY gene in vanB cluster	p523
+mh_p523___42079	spaS231	spaS231___219168	vanY gene in vanB cluster	p523
+mh_p523___42079	spaS239	spaS239___122978	vanY gene in vanG cluster	p523
+mh_p523___42079	spaS245	spaS245___97450	vanY gene in vanB cluster	p523
+mh_p523___42079	spaS237	spaS237___148302	vanY gene in vanG cluster	p523
+mh_p523___109999	mh_p523	mh_p523___109999	vanW gene in vanB cluster	p523
+mh_p523___109999	spaS5	spaS5___143281	vanW gene in vanB cluster	p523
+mh_p523___109999	spaS32	spaS32___48300	vanW gene in vanB cluster	p523
+mh_p523___109999	spaS50	spaS50___93936	vanW gene in vanB cluster	p523
+mh_p523___109999	spaS52	spaS52___222585	vanW gene in vanB cluster	p523
+mh_p523___109999	spaS52	spaS52___222586	vanW gene in vanG cluster	p523
+mh_p523___109999	spaS231	spaS231___42983	vanW gene in vanB cluster	p523
+mh_p523___19743	mh_p523	mh_p523___19743	vanY gene in vanB cluster	p523
+mh_p523___19743	spaS32	spaS32___52793	vanY gene in vanG cluster	p523
+mh_p523___19743	spaS50	spaS50___151487	vanY gene in vanA cluster	p523
+mh_p523___19743	spaS52	spaS52___171001	vanY gene in vanG cluster	p523
+mh_p523___19743	spaS67	spaS67___92607	vanY gene in vanG cluster	p523
+mh_p523___19743	spaS237	spaS237___84259	vanY gene in vanG cluster	p523
+mh_p523___19743	spaS239	spaS239___95505	vanY gene in vanG cluster	p523
+mh_p523___159322	mh_p523	mh_p523___159322	vanXY gene in vanG cluster	p523
+mh_p523___159322	spaS5	spaS5___157651	vanY gene in vanF cluster	p523
+mh_p523___159322	spaS32	spaS32___92557	vanXY gene in vanG cluster	p523
+mh_p523___159322	spaS50	spaS50___91014	vanXY gene in vanG cluster	p523
+mh_p523___159322	spaS52	spaS52___203175	vanXY gene in vanG cluster	p523
+mh_p523___159322	spaS67	spaS67___65588	vanXY gene in vanG cluster	p523
+mh_p523___159322	spaS231	spaS231___188794	vanXY gene in vanG cluster	p523
+mh_p523___333270	mh_p523	mh_p523___333270	vanY gene in vanG cluster	p523
+mh_p523___333270	spaS5	spaS5___53455	vanY gene in vanG cluster	p523
+mh_p523___333270	spaS32	spaS32___80661	vanY gene in vanG cluster	p523
+mh_p523___333270	spaS50	spaS50___123750	vanY gene in vanG cluster	p523
+mh_p523___333270	spaS52	spaS52___16007	vanY gene in vanG cluster	p523
+mh_p523___333270	spaS237	spaS237___131466	vanY gene in vanG cluster	p523
+mh_p523___333270	spaS239	spaS239___110864	vanY gene in vanG cluster	p523
+mh_p523___333270	spaS239	spaS239___110863	vanY gene in vanB cluster	p523
+mh_p523___30786	mh_p523	mh_p523___30786	vanY gene in vanB cluster	p523
+mh_p523___30786	spaS32	spaS32___212427	vanY gene in vanG cluster	p523
+mh_p523___30786	spaS231	spaS231___33261	vanY gene in vanB cluster	p523
+mh_p523___236105	mh_p523	mh_p523___236105	tet(X)	p523
+mh_p523___236105	spaS5	spaS5___30034	tet(X4)	p523
+mh_p523___24067	mh_p523	mh_p523___24067	vanY gene in vanB cluster	p523
+mh_p523___24067	spaS32	spaS32___196410	vanY gene in vanB cluster	p523
+mh_p523___24067	spaS231	spaS231___176273	vanY gene in vanF cluster	p523
+mh_p523___87685	mh_p523	mh_p523___87685	vanY gene in vanM cluster	p523
+mh_p523___87685	spaS32	spaS32___12845	vanY gene in vanM cluster	p523
+mh_p523___87685	spaS32	spaS32___60561	vanY gene in vanM cluster	p523
+mh_p523___87685	spaS67	spaS67___106048	vanY gene in vanG cluster	p523
+mh_p523___73944	mh_p523	mh_p523___73944	vanXY gene in vanG cluster	p523
+mh_p523___73944	spaS5	spaS5___137538	vanXY gene in vanG cluster	p523
+mh_p523___73944	spaS50	spaS50___138799	vanY gene in vanF cluster	p523
+mh_p523___73944	spaS67	spaS67___122513	vanXY gene in vanG cluster	p523
+spaS33___3735	spaS33	spaS33___3735	tet(W)	p550
+spaS33___3735	mh_p550	mh_p550___76897	tet(W)	p550
+spaS33___3735	spaS33	spaS33___40171	tet(W)	p550
+spaS33___3735	spaS47	spaS47___4716	tet(W)	p550
+spaS33___3735	spaS47	spaS47___15161	tet(W/N/W)	p550
+spaS33___3735	spaS53	spaS53___120187	tet(W)	p550
+spaS33___3735	spaS53	spaS53___120873	tet(W)	p550
+spaS33___3735	spaS254	spaS254___138135	tet(W)	p550
+spaS33___3735	spaS256	spaS256___74484	tet(W)	p550
+spaS33___55123	spaS33	spaS33___55123	vanY gene in vanG cluster	p550
+spaS33___55123	mh_p550	mh_p550___81239	vanY gene in vanM cluster	p550
+mh_p550___164281	mh_p550	mh_p550___164281	vanY gene in vanB cluster	p550
+mh_p550___164281	spaS47	spaS47___37679	vanY gene in vanG cluster	p550
+mh_p550___164281	spaS53	spaS53___84395	vanY gene in vanG cluster	p550
+mh_p550___164281	spaS58	spaS58___77064	vanY gene in vanG cluster	p550
+mh_p550___222146	mh_p550	mh_p550___222146	oqxB	p550
+mh_p550___222146	mh_p550	mh_p550___154458	adeF	p550
+mh_p550___222146	spaS254	spaS254___44854	oqxB	p550
+mh_p550___222146	spaS254	spaS254___121162	adeF	p550
+mh_p550___54363	mh_p550	mh_p550___54363	CfxA3	p550
+mh_p550___54363	spaS33	spaS33___40340	CfxA2	p550
+mh_p550___54363	spaS58	spaS58___40886	CfxA2	p550
+mh_p550___54363	spaS254	spaS254___42506	CfxA3	p550
+mh_p550___54363	spaS255	spaS255___34368	CfxA3	p550
+mh_p550___54363	spaS256	spaS256___82103	CfxA3	p550
+mh_p550___106953	mh_p550	mh_p550___106953	vanXY gene in vanG cluster	p550
+mh_p550___106953	spaS254	spaS254___122805	vanY gene in vanB cluster	p550
+mh_p550___106953	spaS256	spaS256___79631	vanXY gene in vanG cluster	p550
+mh_p550___237584	mh_p550	mh_p550___237584	emrB	p550
+mh_p550___237584	spaS254	spaS254___135854	Klebsiella pneumoniae KpnH	p550
+mh_p550___243598	mh_p550	mh_p550___243598	tet(36)	p550
+mh_p550___243598	spaS33	spaS33___14073	tet(36)	p550
+mh_p550___243598	spaS53	spaS53___69823	tet(36)	p550
+mh_p550___243598	spaS255	spaS255___36256	tet(Q)	p550
+mh_p550___106522	mh_p550	mh_p550___106522	TEM-1	p550
+mh_p550___106522	spaS254	spaS254___152663	TEM-214	p550
+mh_p550___106522	spaS256	spaS256___39231	TEM-1	p550
+mh_p550___59010	mh_p550	mh_p550___59010	EC-5	p550
+mh_p550___59010	spaS53	spaS53___46389	EC-5	p550
+mh_p550___59010	spaS58	spaS58___75269	Escherichia coli ampC beta-lactamase	p550
+mh_p550___59010	spaS255	spaS255___9982	EC-5	p550
+mh_p550___59010	spaS256	spaS256___24096	EC-5	p550
+spaS47___46737	spaS47	spaS47___46737	vanY gene in vanM cluster	p550
+spaS47___46737	mh_p550	mh_p550___39378	vanY gene in vanA cluster	p550
+spaS264___85783	spaS264	spaS264___85783	vanY gene in vanG cluster	p584
+spaS264___85783	mh_p584	mh_p584___222780	vanY gene in vanM cluster	p584
+spaS264___85783	spaS265	spaS265___12355	vanY gene in vanG cluster	p584
+spaS264___85783	spaS266	spaS266___94133	vanY gene in vanG cluster	p584
+spaS264___85783	spaS277	spaS277___136550	vanY gene in vanM cluster	p584
+mh_p584___17524	mh_p584	mh_p584___17524	vanY gene in vanB cluster	p584
+mh_p584___17524	spaS264	spaS264___89690	vanY gene in vanB cluster	p584
+mh_p584___17524	spaS266	spaS266___69370	vanY gene in vanB cluster	p584
+mh_p584___17524	spaS276	spaS276___89896	vanY gene in vanA cluster	p584
+mh_p584___11208	mh_p584	mh_p584___11208	EC-13	p584
+mh_p584___11208	spaS264	spaS264___56732	EC-13	p584
+mh_p584___11208	spaS266	spaS266___18449	EC-5	p584
+spaS266___91239	spaS266	spaS266___91239	vanY gene in vanG cluster	p584
+spaS266___91239	mh_p584	mh_p584___27663	vanY gene in vanM cluster	p584
+spaS266___130468	spaS266	spaS266___130468	CfxA3	p584
+spaS266___130468	mh_p584	mh_p584___102266	CfxA2	p584
+spaS266___130468	spaS275	spaS275___67648	CfxA2	p584
+spaS266___130468	spaS276	spaS276___79079	CfxA2	p584
+spaS266___130468	spaS277	spaS277___86410	CfxA2	p584
+mh_p601___245631	mh_p601	mh_p601___245631	vanY gene in vanB cluster	p601
+mh_p601___245631	spaS6	spaS6___40996	vanY gene in vanB cluster	p601
+mh_p601___245631	spaS108	spaS108___23944	vanY gene in vanB cluster	p601
+mh_p601___245631	spaS116	spaS116___15058	vanY gene in vanB cluster	p601
+mh_p601___245631	spaS124	spaS124___26377	vanY gene in vanB cluster	p601
+mh_p601___245631	spaS131	spaS131___60967	vanY gene in vanB cluster	p601
+mh_p601___245631	spaS140	spaS140___14298	vanY gene in vanB cluster	p601
+mh_p601___245631	spaS144	spaS144___14704	vanY gene in vanB cluster	p601
+mh_p601___245631	spaS159	spaS159___65412	vanY gene in vanB cluster	p601
+mh_p601___245631	spaS161	spaS161___55265	vanY gene in vanB cluster	p601
+mh_p601___245631	spaS164	spaS164___87806	vanY gene in vanB cluster	p601
+mh_p601___245631	spaS168	spaS168___66484	vanY gene in vanB cluster	p601
+mh_p601___245631	spaS178	spaS178___95093	vanY gene in vanG cluster	p601
+mh_p601___165707	mh_p601	mh_p601___165707	vanTr gene in vanL cluster	p601
+mh_p601___165707	spaS108	spaS108___44631	vanTr gene in vanL cluster	p601
+mh_p601___165707	spaS124	spaS124___2051	vanTr gene in vanL cluster	p601
+mh_p601___165707	spaS159	spaS159___106558	vanT gene in vanG cluster	p601
+mh_p601___165707	spaS161	spaS161___29539	vanTr gene in vanL cluster	p601
+mh_p601___165707	spaS164	spaS164___8143	vanTr gene in vanL cluster	p601
+mh_p601___165707	spaS168	spaS168___3282	vanTr gene in vanL cluster	p601
+mh_p601___165707	spaS178	spaS178___4831	vanTr gene in vanL cluster	p601
+spaS116___62230	spaS116	spaS116___62230	vanY gene in vanB cluster	p601
+spaS116___62230	mh_p601	mh_p601___272005	vanY gene in vanA cluster	p601
+spaS116___62230	spaS124	spaS124___100300	vanY gene in vanB cluster	p601
+spaS116___62230	spaS140	spaS140___99809	vanY gene in vanB cluster	p601
+spaS6___95744	spaS6	spaS6___95744	vanY gene in vanG cluster	p601
+spaS6___95744	spaS116	spaS116___24771	vanY gene in vanG cluster	p601
+spaS6___95744	spaS131	spaS131___65964	vanY gene in vanG cluster	p601
+spaS6___95744	spaS140	spaS140___53884	vanY gene in vanG cluster	p601
+spaS6___95744	spaS144	spaS144___53923	vanY gene in vanG cluster	p601
+spaS6___95744	spaS159	spaS159___43868	vanY gene in vanG cluster	p601
+spaS6___95744	spaS161	spaS161___114657	vanY gene in vanB cluster	p601
+spaS6___95744	spaS164	spaS164___71381	vanY gene in vanG cluster	p601
+spaS6___95744	spaS168	spaS168___59949	vanY gene in vanG cluster	p601
+spaS6___95744	spaS219	spaS219___77041	vanY gene in vanG cluster	p601
+mh_p601___60491	mh_p601	mh_p601___60491	EC-14	p601
+mh_p601___60491	spaS6	spaS6___10246	EC-14	p601
+mh_p601___60491	spaS108	spaS108___60412	CMY-136	p601
+mh_p601___60491	spaS116	spaS116___37938	EC-5	p601
+mh_p601___60491	spaS131	spaS131___6748	EC-14	p601
+mh_p601___60491	spaS159	spaS159___59381	EC-14	p601
+mh_p601___60491	spaS161	spaS161___60796	EC-14	p601
+mh_p601___302551	mh_p601	mh_p601___302551	qacG	p601
+mh_p601___302551	spaS6	spaS6___110182	qacJ	p601
+mh_p601___302551	spaS131	spaS131___67213	qacJ	p601
+mh_p601___302551	spaS140	spaS140___31213	qacG	p601
+mh_p601___302551	spaS168	spaS168___143993	qacG	p601
+mh_p601___201762	mh_p601	mh_p601___201762	vanY gene in vanG cluster	p601
+mh_p601___201762	spaS116	spaS116___78540	vanY gene in vanG cluster	p601
+mh_p601___201762	spaS124	spaS124___114350	vanY gene in vanB cluster	p601
+mh_p601___201762	spaS140	spaS140___120047	vanY gene in vanB cluster	p601
+mh_p601___44282	mh_p601	mh_p601___44282	vanY gene in vanB cluster	p601
+mh_p601___44282	spaS6	spaS6___49660	vanY gene in vanB cluster	p601
+mh_p601___44282	spaS108	spaS108___91401	vanY gene in vanB cluster	p601
+mh_p601___44282	spaS116	spaS116___65221	vanY gene in vanF cluster	p601
+mh_p601___44282	spaS116	spaS116___78672	vanY gene in vanB cluster	p601
+mh_p601___44282	spaS131	spaS131___84872	vanY gene in vanG cluster	p601
+mh_p601___44282	spaS140	spaS140___92554	vanY gene in vanB cluster	p601
+mh_p601___63742	mh_p601	mh_p601___63742	vanH gene in vanD cluster	p601
+mh_p601___63742	spaS6	spaS6___76996	vanH gene in vanO cluster	p601
+mh_p601___63742	spaS116	spaS116___39679	vanH gene in vanD cluster	p601
+mh_p601___63742	spaS161	spaS161___105212	vanH gene in vanD cluster	p601
+mh_p601___164326	mh_p601	mh_p601___164326	nimG	p601
+mh_p601___164326	spaS6	spaS6___30733	nimG	p601
+mh_p601___164326	spaS108	spaS108___65616	nimG	p601
+mh_p601___164326	spaS116	spaS116___29448	nimG	p601
+mh_p601___164326	spaS124	spaS124___47586	nimG	p601
+mh_p601___164326	spaS140	spaS140___30559	nimG	p601
+mh_p601___164326	spaS144	spaS144___30374	nimG	p601
+mh_p601___164326	spaS159	spaS159___75732	nimG	p601
+mh_p601___164326	spaS161	spaS161___79072	nimG	p601
+mh_p601___164326	spaS168	spaS168___114133	nimA	p601
+mh_p601___164326	spaS178	spaS178___97070	nimG	p601
+mh_p601___165928	mh_p601	mh_p601___165928	vanY gene in vanB cluster	p601
+mh_p601___165928	spaS108	spaS108___7158	vanY gene in vanB cluster	p601
+mh_p601___165928	spaS124	spaS124___2272	vanY gene in vanB cluster	p601
+mh_p601___165928	spaS161	spaS161___9097	vanY gene in vanB cluster	p601
+mh_p601___165928	spaS164	spaS164___37907	vanY gene in vanB cluster	p601
+mh_p601___165928	spaS168	spaS168___3503	vanY gene in vanB cluster	p601
+mh_p601___165928	spaS178	spaS178___28762	vanY gene in vanB cluster	p601
+mh_p601___165928	spaS159	spaS159___107862	vanY gene in vanA cluster	p601
+spaS116___9745	spaS116	spaS116___9745	vanY gene in vanG cluster	p601
+spaS116___9745	mh_p601	mh_p601___17449	vanY gene in vanG cluster	p601
+spaS116___9745	spaS6	spaS6___116606	vanY gene in vanG cluster	p601
+spaS116___9745	spaS164	spaS164___105069	vanY gene in vanM cluster	p601
+spaS116___9745	spaS140	spaS140___83004	vanY gene in vanM cluster	p601
+mh_p601___283276	mh_p601	mh_p601___283276	vanY gene in vanG cluster	p601
+mh_p601___283276	spaS6	spaS6___103674	vanY gene in vanG cluster	p601
+mh_p601___283276	spaS108	spaS108___88456	vanY gene in vanB cluster	p601
+mh_p601___283276	spaS116	spaS116___54784	vanY gene in vanG cluster	p601
+mh_p601___283276	spaS124	spaS124___101859	vanY gene in vanG cluster	p601
+mh_p601___283276	spaS131	spaS131___50421	vanY gene in vanG cluster	p601
+mh_p601___108438	mh_p601	mh_p601___108438	tet(36)	p601
+mh_p601___108438	spaS116	spaS116___52986	tet(36)	p601
+mh_p601___108438	spaS124	spaS124___65141	tet(36)	p601
+mh_p601___108438	spaS159	spaS159___79291	tet(Q)	p601
+mh_p601___213079	mh_p601	mh_p601___213079	vanY gene in vanB cluster	p601
+mh_p601___213079	spaS6	spaS6___120628	vanY gene in vanB cluster	p601
+mh_p601___213079	spaS116	spaS116___26959	vanY gene in vanB cluster	p601
+mh_p601___213079	spaS124	spaS124___79949	vanY gene in vanB cluster	p601
+mh_p601___213079	spaS131	spaS131___60034	vanY gene in vanB cluster	p601
+mh_p601___213079	spaS159	spaS159___99947	vanY gene in vanB cluster	p601
+mh_p601___213079	spaS161	spaS161___132137	vanY gene in vanM cluster	p601
+spaS173___124136	spaS173	spaS173___124136	vanY gene in vanB cluster	p644
+spaS173___124136	mh_p644	mh_p644___243106	vanY gene in vanA cluster	p644
+mh_p644___26166	mh_p644	mh_p644___26166	vanY gene in vanF cluster	p644
+mh_p644___26166	spaS80	spaS80___47543	vanY gene in vanF cluster	p644
+mh_p644___26166	spaS84	spaS84___33087	vanY gene in vanF cluster	p644
+mh_p644___26166	spaS86	spaS86___9406	vanY gene in vanF cluster	p644
+mh_p644___26166	spaS87	spaS87___55395	vanY gene in vanF cluster	p644
+mh_p644___26166	spaS94	spaS94___15483	vanY gene in vanF cluster	p644
+mh_p644___26166	spaS105	spaS105___61402	vanY gene in vanA cluster	p644
+mh_p644___26166	spaS112	spaS112___4884	vanY gene in vanF cluster	p644
+mh_p644___26166	spaS145	spaS145___9565	vanY gene in vanF cluster	p644
+mh_p644___26166	spaS152	spaS152___14630	vanY gene in vanF cluster	p644
+mh_p644___26166	spaS246	spaS246___48534	vanY gene in vanF cluster	p644
+spaS173___91615	spaS173	spaS173___91615	vanY gene in vanG cluster	p644
+spaS173___91615	mh_p644	mh_p644___214631	vanY gene in vanG cluster	p644
+spaS173___91615	spaS152	spaS152___112002	vanY gene in vanG cluster	p644
+spaS173___91615	spaS179	spaS179___122227	vanY gene in vanB cluster	p644
+mh_p644___1693	mh_p644	mh_p644___1693	vanT gene in vanC cluster	p644
+mh_p644___1693	spaS173	spaS173___106330	vanT gene in vanG cluster	p644
+mh_p644___61277	mh_p644	mh_p644___61277	vanY gene in vanG cluster	p644
+mh_p644___61277	spaS80	spaS80___51428	vanY gene in vanB cluster	p644
+mh_p644___61277	spaS84	spaS84___61056	vanY gene in vanG cluster	p644
+mh_p644___61277	spaS86	spaS86___36455	vanY gene in vanB cluster	p644
+mh_p644___61277	spaS87	spaS87___37815	vanY gene in vanB cluster	p644
+mh_p644___61277	spaS94	spaS94___74132	vanY gene in vanB cluster	p644
+mh_p644___61277	spaS105	spaS105___75759	vanY gene in vanG cluster	p644
+mh_p644___61277	spaS112	spaS112___36980	vanY gene in vanG cluster	p644
+mh_p644___61277	spaS152	spaS152___75442	vanY gene in vanG cluster	p644
+mh_p644___61277	spaS173	spaS173___107068	vanY gene in vanG cluster	p644
+mh_p644___61277	spaS246	spaS246___29623	vanY gene in vanG cluster	p644
+mh_p644___162607	mh_p644	mh_p644___162607	vanH gene in vanD cluster	p644
+mh_p644___162607	spaS80	spaS80___26710	vanH gene in vanD cluster	p644
+mh_p644___162607	spaS86	spaS86___60591	vanH gene in vanF cluster	p644
+mh_p644___162607	spaS87	spaS87___29200	vanH gene in vanD cluster	p644
+mh_p644___162607	spaS94	spaS94___30750	vanH gene in vanD cluster	p644
+mh_p644___162607	spaS101	spaS101___33892	vanH gene in vanD cluster	p644
+mh_p644___162607	spaS105	spaS105___46440	vanH gene in vanO cluster	p644
+mh_p644___162607	spaS112	spaS112___52407	vanH gene in vanD cluster	p644
+mh_p644___162607	spaS246	spaS246___21276	vanH gene in vanD cluster	p644
+mh_p644___128473	mh_p644	mh_p644___128473	vanXY gene in vanG cluster	p644
+mh_p644___128473	spaS152	spaS152___95898	vanXY gene in vanG cluster	p644
+mh_p644___128473	spaS179	spaS179___90053	vanY gene in vanB cluster	p644
+mh_p644___128473	spaS182	spaS182___76827	vanXY gene in vanG cluster	p644
+mh_p644___197018	mh_p644	mh_p644___197018	vanXY gene in vanG cluster	p644
+mh_p644___197018	spaS80	spaS80___73513	vanY gene in vanF cluster	p644
+mh_p644___197018	spaS80	spaS80___79596	vanY gene in vanA cluster	p644
+mh_p644___197018	spaS86	spaS86___61482	vanXY gene in vanG cluster	p644
+mh_p644___197018	spaS94	spaS94___78830	vanXY gene in vanG cluster	p644
+mh_p644___197018	spaS105	spaS105___77816	vanXY gene in vanG cluster	p644
+mh_p644___197018	spaS152	spaS152___86955	vanXY gene in vanG cluster	p644
+mh_p644___197018	spaS246	spaS246___53521	vanXY gene in vanG cluster	p644
+mh_p644___23475	mh_p644	mh_p644___23475	vanY gene in vanB cluster	p644
+mh_p644___23475	spaS84	spaS84___65027	vanY gene in vanB cluster	p644
+mh_p644___23475	spaS94	spaS94___95866	vanY gene in vanB cluster	p644
+mh_p644___23475	spaS105	spaS105___56375	vanY gene in vanF cluster	p644
+mh_p644___23475	spaS246	spaS246___51970	vanY gene in vanF cluster	p644
+mh_p644___296729	mh_p644	mh_p644___296729	vanY gene in vanB cluster	p644
+mh_p644___296729	spaS80	spaS80___53642	vanY gene in vanB cluster	p644
+mh_p644___296729	spaS94	spaS94___79738	vanY gene in vanG cluster	p644
+spaS87___32638	spaS87	spaS87___32638	vanY gene in vanG cluster	p644
+spaS87___32638	spaS86	spaS86___45346	vanY gene in vanG cluster	p644
+spaS87___32638	spaS94	spaS94___60069	vanY gene in vanG cluster	p644
+spaS87___32638	spaS105	spaS105___72447	vanY gene in vanM cluster	p644
+mh_p644___199067	mh_p644	mh_p644___199067	vanY gene in vanM cluster	p644
+mh_p644___199067	spaS145	spaS145___67868	vanY gene in vanB cluster	p644
+mh_p644___199067	spaS182	spaS182___2981	vanY gene in vanM cluster	p644
+mh_p644___251069	mh_p644	mh_p644___251069	vanY gene in vanB cluster	p644
+mh_p644___251069	spaS173	spaS173___161040	vanY gene in vanF cluster	p644
+mh_p644___251069	spaS182	spaS182___61660	vanY gene in vanB cluster	p644
+mh_p644___28945	mh_p644	mh_p644___28945	vanY gene in vanA cluster	p644
+mh_p644___28945	spaS87	spaS87___49256	vanY gene in vanA cluster	p644
+mh_p644___28945	spaS94	spaS94___99047	vanY gene in vanA cluster	p644
+mh_p644___28945	spaS152	spaS152___119066	vanY gene in vanB cluster	p644
+mh_p644___28945	spaS246	spaS246___51900	vanY gene in vanA cluster	p644
+spaS84___51902	spaS84	spaS84___51902	EC-8	p644
+spaS84___51902	mh_p644	mh_p644___36279	EC-15	p644
+spaS84___51902	spaS86	spaS86___34252	CMY-132	p644
+spaS84___51902	spaS94	spaS94___38822	EC-15	p644
+spaS84___51902	spaS112	spaS112___33194	EC-8	p644
+mh_p644___277941	mh_p644	mh_p644___277941	vanY gene in vanB cluster	p644
+mh_p644___277941	spaS152	spaS152___79622	vanY gene in vanB cluster	p644
+mh_p644___277941	spaS173	spaS173___99676	vanY gene in vanB cluster	p644
+mh_p644___277941	spaS173	spaS173___107299	vanY gene in vanG cluster	p644
+mh_p644___277941	spaS179	spaS179___125588	vanY gene in vanB cluster	p644
+mh_p644___73720	mh_p644	mh_p644___73720	vanT gene in vanG cluster	p644
+mh_p644___73720	spaS80	spaS80___80666	vanT gene in vanN cluster	p644
+mh_p644___73720	spaS87	spaS87___55205	vanT gene in vanG cluster	p644
+mh_p644___73720	spaS94	spaS94___104695	vanT gene in vanN cluster	p644
+mh_p644___136758	mh_p644	mh_p644___136758	vanY gene in vanG cluster	p644
+mh_p644___136758	spaS80	spaS80___82922	vanY gene in vanG cluster	p644
+mh_p644___136758	spaS94	spaS94___88637	vanY gene in vanG cluster	p644
+mh_p644___136758	spaS105	spaS105___63506	vanY gene in vanB cluster	p644
+mh_p644___136758	spaS105	spaS105___85124	vanY gene in vanM cluster	p644
+mh_p644___136758	spaS246	spaS246___55052	vanY gene in vanM cluster	p644
+mh_p644___172012	mh_p644	mh_p644___172012	vanY gene in vanG cluster	p644
+mh_p644___172012	spaS80	spaS80___52471	vanY gene in vanG cluster	p644
+mh_p644___172012	spaS84	spaS84___51784	vanY gene in vanG cluster	p644
+mh_p644___172012	spaS86	spaS86___68842	vanY gene in vanA cluster	p644
+mh_p644___172012	spaS105	spaS105___64430	vanY gene in vanG cluster	p644
+mh_p644___172012	spaS145	spaS145___109087	vanY gene in vanG cluster	p644
+mh_p644___172012	spaS152	spaS152___80153	vanY gene in vanG cluster	p644
+mh_p644___172012	spaS173	spaS173___81594	vanY gene in vanG cluster	p644
+mh_p644___172012	spaS179	spaS179___121608	vanY gene in vanG cluster	p644
+mh_p644___271686	mh_p644	mh_p644___271686	vanY gene in vanB cluster	p644
+mh_p644___271686	spaS152	spaS152___115206	vanY gene in vanG cluster	p644
+mh_p644___271686	spaS179	spaS179___60686	vanY gene in vanB cluster	p644
+mh_p644___271686	spaS182	spaS182___45898	vanY gene in vanB cluster	p644
+mh_p644___262303	mh_p644	mh_p644___262303	vanY gene in vanB cluster	p644
+mh_p644___262303	spaS80	spaS80___25521	vanY gene in vanB cluster	p644
+mh_p644___262303	spaS84	spaS84___58854	vanY gene in vanB cluster	p644
+mh_p644___262303	spaS86	spaS86___45233	vanY gene in vanB cluster	p644
+mh_p644___262303	spaS87	spaS87___16852	vanY gene in vanB cluster	p644
+mh_p644___262303	spaS94	spaS94___33080	vanY gene in vanB cluster	p644
+mh_p644___262303	spaS101	spaS101___29945	vanY gene in vanB cluster	p644
+mh_p644___262303	spaS105	spaS105___50747	vanY gene in vanB cluster	p644
+mh_p644___262303	spaS112	spaS112___46811	vanY gene in vanB cluster	p644
+mh_p644___262303	spaS152	spaS152___103708	vanY gene in vanM cluster	p644
+mh_p644___262303	spaS246	spaS246___16916	vanY gene in vanB cluster	p644
+spaS86___35427	spaS86	spaS86___35427	vanY gene in vanG cluster	p644
+spaS86___35427	spaS87	spaS87___39024	vanY gene in vanG cluster	p644
+spaS86___35427	spaS94	spaS94___75034	vanY gene in vanG cluster	p644
+spaS86___35427	mh_p644	mh_p644___240356	vanY gene in vanG cluster	p644
+spaS86___35427	spaS80	spaS80___87925	vanY gene in vanM cluster	p644
+spaS283___91893	spaS283	spaS283___91893	vanY gene in vanF cluster	p654
+spaS283___91893	spaS281	spaS281___14010	vanY gene in vanA cluster	p654
+spaS283___91893	spaS284	spaS284___81210	vanY gene in vanA cluster	p654
+spaS284___13991	spaS284	spaS284___13991	vanY gene in vanG cluster	p654
+spaS284___13991	spaS278	spaS278___102111	vanY gene in vanG cluster	p654
+spaS284___13991	spaS279	spaS279___107681	vanY gene in vanA cluster	p654
+spaS284___13991	spaS281	spaS281___94685	vanY gene in vanG cluster	p654
+spaS284___13991	spaS285	spaS285___121693	vanY gene in vanG cluster	p654
+spaS279___117455	spaS279	spaS279___117455	vanY gene in vanG cluster	p654
+spaS279___117455	spaS281	spaS281___113271	vanY gene in vanB cluster	p654
+spaS279___117455	spaS284	spaS284___124554	vanY gene in vanG cluster	p654
+spaS278___66690	spaS278	spaS278___66690	EC-5	p654
+spaS278___66690	spaS279	spaS279___14876	EC-5	p654
+spaS278___66690	spaS280	spaS280___64573	EC-8	p654
+spaS278___66690	spaS284	spaS284___60667	EC-5	p654
+spaS278___66690	spaS285	spaS285___96591	EC-5	p654
+spaS278___34683	spaS278	spaS278___34683	vanH gene in vanD cluster	p654
+spaS278___34683	spaS279	spaS279___31037	vanH gene in vanD cluster	p654
+spaS278___34683	spaS280	spaS280___26186	vanH gene in vanD cluster	p654
+spaS278___34683	spaS281	spaS281___112053	vanH gene in vanO cluster	p654
+spaS278___34683	spaS283	spaS283___75690	vanH gene in vanF cluster	p654
+spaS278___102504	spaS278	spaS278___102504	vanY gene in vanB cluster	p654
+spaS278___102504	spaS279	spaS279___112037	vanY gene in vanF cluster	p654
+spaS278___13156	spaS278	spaS278___13156	vanY gene in vanG cluster	p654
+spaS278___13156	spaS285	spaS285___100712	vanY gene in vanB cluster	p654
+spaS278___96490	spaS278	spaS278___96490	vanY gene in vanG cluster	p654
+spaS278___96490	spaS279	spaS279___70673	vanY gene in vanG cluster	p654
+spaS278___96490	spaS280	spaS280___83797	vanY gene in vanB cluster	p654
+spaS278___96490	spaS281	spaS281___60270	vanY gene in vanG cluster	p654
+spaS278___96490	spaS283	spaS283___50675	vanY gene in vanG cluster	p654
+spaS278___96490	spaS284	spaS284___101595	vanY gene in vanG cluster	p654
+spaS240___63763	spaS240	spaS240___63763	vanT gene in vanG cluster	p722
+spaS240___63763	mh_p722	mh_p722___165706	vanTr gene in vanL cluster	p722
+mh_p722___188358	mh_p722	mh_p722___188358	EC-5	p722
+mh_p722___188358	spaS92	spaS92___46603	EC-5	p722
+mh_p722___188358	spaS132	spaS132___51773	EC-15	p722
+mh_p722___188358	spaS136	spaS136___35517	EC-5	p722
+mh_p722___188358	spaS192	spaS192___99329	Escherichia coli ampC beta-lactamase	p722
+mh_p722___224116	mh_p722	mh_p722___224116	vanXY gene in vanG cluster	p722
+mh_p722___224116	spaS132	spaS132___52184	vanXY gene in vanG cluster	p722
+mh_p722___224116	spaS136	spaS136___71552	vanXY gene in vanG cluster	p722
+mh_p722___224116	spaS147	spaS147___62937	vanXY gene in vanG cluster	p722
+mh_p722___224116	spaS241	spaS241___81566	vanY gene in vanB cluster	p722
+mh_p722___224116	spaS241	spaS241___85095	vanY gene in vanA cluster	p722
+mh_p722___153019	mh_p722	mh_p722___153019	emrB	p722
+mh_p722___153019	spaS85	spaS85___44471	emrB	p722
+mh_p722___153019	spaS92	spaS92___31183	emrB	p722
+mh_p722___153019	spaS136	spaS136___36911	Klebsiella pneumoniae KpnH	p722
+mh_p722___325432	mh_p722	mh_p722___325432	vanY gene in vanG cluster	p722
+mh_p722___325432	spaS92	spaS92___67230	vanY gene in vanG cluster	p722
+mh_p722___325432	spaS132	spaS132___73339	vanY gene in vanG cluster	p722
+mh_p722___325432	spaS136	spaS136___81072	vanY gene in vanG cluster	p722
+mh_p722___325432	spaS147	spaS147___62220	vanY gene in vanG cluster	p722
+mh_p722___325432	spaS241	spaS241___82232	vanY gene in vanB cluster	p722
+mh_p722___267224	mh_p722	mh_p722___267224	vanY gene in vanF cluster	p722
+mh_p722___267224	spaS85	spaS85___28333	vanY gene in vanF cluster	p722
+mh_p722___267224	spaS92	spaS92___29964	vanY gene in vanF cluster	p722
+mh_p722___267224	spaS132	spaS132___44744	vanY gene in vanF cluster	p722
+mh_p722___267224	spaS147	spaS147___49093	vanY gene in vanF cluster	p722
+mh_p722___267224	spaS192	spaS192___72288	vanY gene in vanB cluster	p722
+mh_p722___267224	spaS240	spaS240___96144	vanY gene in vanG cluster	p722
+mh_p722___267224	spaS241	spaS241___32572	vanY gene in vanF cluster	p722
+spaS132___17857	spaS132	spaS132___17857	emrB	p722
+spaS132___17857	mh_p722	mh_p722___242308	emrB	p722
+spaS132___17857	spaS92	spaS92___37596	emrB	p722
+spaS132___17857	spaS136	spaS136___44255	emrB	p722
+spaS132___17857	mh_p722	mh_p722___313212	Klebsiella pneumoniae KpnH	p722
+mh_p722___99767	mh_p722	mh_p722___99767	vanW gene in vanG cluster	p722
+mh_p722___99767	spaS92	spaS92___17601	vanW gene in vanG cluster	p722
+mh_p722___99767	spaS132	spaS132___2522	vanW gene in vanB cluster	p722
+mh_p722___99767	spaS136	spaS136___33543	vanW gene in vanB cluster	p722
+mh_p722___99767	spaS147	spaS147___43263	vanW gene in vanG cluster	p722
+mh_p722___99767	spaS241	spaS241___2234	vanW gene in vanB cluster	p722
+mh_p722___99767	spaS85	spaS85___113524	vanW gene in vanB cluster	p722
+mh_p722___244678	mh_p722	mh_p722___244678	vanY gene in vanB cluster	p722
+mh_p722___244678	spaS85	spaS85___32778	vanY gene in vanB cluster	p722
+mh_p722___244678	spaS240	spaS240___85821	vanY gene in vanG cluster	p722
+mh_p722___244678	spaS240	spaS240___109290	vanY gene in vanB cluster	p722
+mh_p722___280020	mh_p722	mh_p722___280020	vanY gene in vanB cluster	p722
+mh_p722___280020	spaS136	spaS136___61366	vanY gene in vanB cluster	p722
+mh_p722___280020	spaS147	spaS147___18435	vanY gene in vanB cluster	p722
+mh_p722___280020	spaS192	spaS192___21562	vanY gene in vanB cluster	p722
+mh_p722___280020	spaS240	spaS240___50662	vanY gene in vanM cluster	p722
+spaS132___41031	spaS132	spaS132___41031	vanY gene in vanA cluster	p722
+spaS132___41031	mh_p722	mh_p722___42550	vanY gene in vanB cluster	p722
+spaS132___41031	spaS136	spaS136___38551	vanY gene in vanA cluster	p722
+spaS132___41031	spaS241	spaS241___39504	vanY gene in vanA cluster	p722
+mh_p728___80967	mh_p728	mh_p728___80967	vanT gene in vanG cluster	p728
+mh_p728___80967	spaS111	spaS111___25825	vanT gene in vanG cluster	p728
+mh_p728___80967	spaS117	spaS117___29334	vanT gene in vanG cluster	p728
+mh_p728___80967	spaS121	spaS121___62580	vanT gene in vanG cluster	p728
+mh_p728___80967	spaS128	spaS128___40986	vanT gene in vanG cluster	p728
+mh_p728___80967	spaS137	spaS137___82504	vanT gene in vanN cluster	p728
+mh_p728___80967	spaS146	spaS146___32542	vanT gene in vanG cluster	p728
+mh_p728___80967	spaS160	spaS160___21706	vanT gene in vanG cluster	p728
+spaS165___55788	spaS165	spaS165___55788	vanY gene in vanG cluster	p728
+spaS165___55788	mh_p728	mh_p728___139159	vanY gene in vanA cluster	p728
+spaS165___55788	spaS137	spaS137___86669	vanY gene in vanF cluster	p728
+mh_p728___77350	mh_p728	mh_p728___77350	vanY gene in vanF cluster	p728
+mh_p728___77350	spaS111	spaS111___52278	vanY gene in vanB cluster	p728
+mh_p728___77350	spaS117	spaS117___54860	vanY gene in vanF cluster	p728
+mh_p728___77350	spaS121	spaS121___33888	vanY gene in vanF cluster	p728
+mh_p728___77350	spaS128	spaS128___47496	vanY gene in vanF cluster	p728
+mh_p728___77350	spaS137	spaS137___42657	vanY gene in vanF cluster	p728
+mh_p728___77350	spaS146	spaS146___51589	vanY gene in vanF cluster	p728
+mh_p728___77350	spaS160	spaS160___40417	vanY gene in vanF cluster	p728
+mh_p728___77350	spaS162	spaS162___4076	vanY gene in vanF cluster	p728
+mh_p728___77350	spaS165	spaS165___26437	vanY gene in vanF cluster	p728
+mh_p728___77350	spaS187	spaS187___48569	vanY gene in vanF cluster	p728
+mh_p728___77350	spaS193	spaS193___83365	vanY gene in vanF cluster	p728
+mh_p728___77350	spaS196	spaS196___92373	vanY gene in vanF cluster	p728
+mh_p728___77350	spaS198	spaS198___60461	vanY gene in vanF cluster	p728
+mh_p728___78437	mh_p728	mh_p728___78437	vanXY gene in vanG cluster	p728
+mh_p728___78437	spaS111	spaS111___61490	vanY gene in vanB cluster	p728
+mh_p728___78437	spaS117	spaS117___72025	vanXY gene in vanG cluster	p728
+mh_p728___78437	spaS121	spaS121___77789	vanXY gene in vanG cluster	p728
+mh_p728___78437	spaS146	spaS146___98978	vanXY gene in vanG cluster	p728
+mh_p728___78437	spaS160	spaS160___77062	vanXY gene in vanG cluster	p728
+mh_p728___78437	spaS187	spaS187___57551	vanXY gene in vanG cluster	p728
+mh_p728___78437	spaS193	spaS193___83394	vanXY gene in vanG cluster	p728
+mh_p728___78437	spaS196	spaS196___66409	vanXY gene in vanG cluster	p728
+mh_p728___123061	mh_p728	mh_p728___123061	vanY gene in vanG cluster	p728
+mh_p728___123061	spaS121	spaS121___57288	vanY gene in vanG cluster	p728
+mh_p728___123061	spaS137	spaS137___88467	vanY gene in vanA cluster	p728
+mh_p728___123061	spaS146	spaS146___2952	vanY gene in vanG cluster	p728
+mh_p728___123061	spaS160	spaS160___104835	vanY gene in vanA cluster	p728
+mh_p728___123061	spaS165	spaS165___72842	vanY gene in vanG cluster	p728
+spaS111___37365	spaS111	spaS111___37365	vanY gene in vanB cluster	p728
+spaS111___37365	mh_p728	mh_p728___46115	vanY gene in vanA cluster	p728
+spaS111___37365	spaS117	spaS117___42291	vanY gene in vanB cluster	p728
+spaS111___37365	spaS121	spaS121___79867	vanY gene in vanB cluster	p728
+spaS111___37365	spaS146	spaS146___36077	vanY gene in vanA cluster	p728
+spaS111___37365	spaS160	spaS160___51899	vanY gene in vanA cluster	p728
+spaS128___21840	spaS128	spaS128___21840	tet(O/32/O)	p728
+spaS128___21840	spaS146	spaS146___123495	tet(32)	p728
+spaS128___21840	spaS160	spaS160___21381	tet(32)	p728
+mh_p728___56933	mh_p728	mh_p728___56933	EC-15	p728
+mh_p728___56933	spaS117	spaS117___35850	EC-14	p728
+mh_p728___56933	spaS146	spaS146___80410	EC-15	p728
+mh_p728___56933	spaS187	spaS187___56556	EC-14	p728
+mh_p728___56933	spaS193	spaS193___75898	EC-5	p728
+mh_p728___56933	spaS196	spaS196___13498	EC-5	p728
+mh_p728___121602	mh_p728	mh_p728___121602	vanH gene in vanD cluster	p728
+mh_p728___121602	spaS117	spaS117___53795	vanH gene in vanD cluster	p728
+mh_p728___121602	spaS121	spaS121___34005	vanH gene in vanD cluster	p728
+mh_p728___121602	spaS128	spaS128___53240	vanH gene in vanO cluster	p728
+mh_p728___121602	spaS137	spaS137___54286	vanH gene in vanD cluster	p728
+mh_p728___121602	spaS146	spaS146___34161	vanH gene in vanD cluster	p728
+mh_p728___121602	spaS160	spaS160___68027	vanH gene in vanO cluster	p728
+mh_p728___121602	spaS162	spaS162___21062	vanH gene in vanD cluster	p728
+mh_p728___121602	spaS165	spaS165___50606	vanH gene in vanD cluster	p728
+mh_p728___121602	spaS187	spaS187___69523	vanH gene in vanD cluster	p728
+mh_p728___121602	spaS193	spaS193___83333	vanH gene in vanD cluster	p728
+mh_p728___121602	spaS196	spaS196___99411	vanH gene in vanD cluster	p728
+mh_p728___121602	spaS198	spaS198___66158	vanH gene in vanD cluster	p728
+mh_p728___174391	mh_p728	mh_p728___174391	vanH gene in vanP cluster	p728
+mh_p728___174391	spaS193	spaS193___12069	vanH gene in vanP cluster	p728
+mh_p728___174391	spaS198	spaS198___20695	vanH gene in vanB cluster	p728
+mh_p728___21977	mh_p728	mh_p728___21977	vanW gene in vanB cluster	p728
+mh_p728___21977	spaS117	spaS117___70509	vanW gene in vanB cluster	p728
+mh_p728___21977	spaS121	spaS121___51814	vanW gene in vanB cluster	p728
+mh_p728___21977	spaS137	spaS137___70146	vanW gene in vanG cluster	p728
+mh_p728___21977	spaS146	spaS146___72148	vanW gene in vanB cluster	p728
+mh_p728___21977	spaS160	spaS160___70038	vanW gene in vanB cluster	p728
+mh_p728___21977	spaS187	spaS187___62917	vanW gene in vanB cluster	p728
+mh_p728___21977	spaS193	spaS193___105547	vanW gene in vanB cluster	p728
+mh_p728___21977	spaS196	spaS196___55184	vanW gene in vanB cluster	p728
+mh_p728___274615	mh_p728	mh_p728___274615	vanY gene in vanA cluster	p728
+mh_p728___274615	spaS111	spaS111___37068	vanY gene in vanA cluster	p728
+mh_p728___274615	spaS117	spaS117___40943	vanY gene in vanA cluster	p728
+mh_p728___274615	spaS121	spaS121___51809	vanY gene in vanA cluster	p728
+mh_p728___274615	spaS137	spaS137___79291	vanY gene in vanA cluster	p728
+mh_p728___274615	spaS146	spaS146___41182	vanY gene in vanA cluster	p728
+mh_p728___274615	spaS160	spaS160___36149	vanY gene in vanA cluster	p728
+mh_p728___274615	spaS187	spaS187___96101	vanY gene in vanA cluster	p728
+mh_p728___274615	spaS196	spaS196___77616	vanY gene in vanA cluster	p728
+mh_p728___274615	spaS128	spaS128___25450	vanY gene in vanB cluster	p728
+spaS138___90769	spaS138	spaS138___90769	vanY gene in vanA cluster	p729
+spaS138___90769	spaS129	spaS129___45165	vanY gene in vanB cluster	p729
+spaS138___90769	spaS148	spaS148___120878	vanY gene in vanF cluster	p729
+spaS122___11926	spaS122	spaS122___11926	vanH gene in vanB cluster	p729
+spaS122___11926	spaS133	spaS133___30084	vanH gene in vanB cluster	p729
+spaS122___11926	spaS138	spaS138___71797	vanH gene in vanB cluster	p729
+spaS122___11926	spaS148	spaS148___80799	vanH gene in vanB cluster	p729
+spaS122___11926	spaS180	spaS180___38490	vanH gene in vanB cluster	p729
+spaS122___11926	spaS216	spaS216___7892	vanH gene in vanP cluster	p729
+spaS122___11926	spaS221	spaS221___126790	vanH gene in vanO cluster	p729
+spaS106___25272	spaS106	spaS106___25272	vanY gene in vanB cluster	p729
+spaS106___25272	spaS122	spaS122___73423	vanY gene in vanG cluster	p729
+spaS106___25272	spaS129	spaS129___28100	vanY gene in vanG cluster	p729
+spaS106___25272	spaS133	spaS133___58373	vanY gene in vanG cluster	p729
+spaS106___25272	spaS138	spaS138___68756	vanY gene in vanG cluster	p729
+spaS106___25272	spaS148	spaS148___54786	vanY gene in vanG cluster	p729
+spaS106___25272	spaS247	spaS247___13007	vanY gene in vanB cluster	p729
+spaS106___15163	spaS106	spaS106___15163	emrB	p729
+spaS106___15163	spaS138	spaS138___82356	Klebsiella pneumoniae KpnH	p729
+spaS106___15163	spaS247	spaS247___11576	emrB	p729
+spaS180___72366	spaS180	spaS180___72366	vanY gene in vanB cluster	p729
+spaS180___72366	spaS183	spaS183___113676	vanY gene in vanB cluster	p729
+spaS180___72366	spaS183	spaS183___135464	vanY gene in vanG cluster	p729
+spaS180___72366	spaS216	spaS216___143173	vanY gene in vanG cluster	p729
+spaS180___72366	spaS221	spaS221___151168	vanY gene in vanB cluster	p729
+spaS138___80287	spaS138	spaS138___80287	vanT gene in vanG cluster	p729
+spaS138___80287	spaS148	spaS148___118098	vanT gene in vanN cluster	p729
+spaS183___100884	spaS183	spaS183___100884	tet(X)	p729
+spaS183___100884	spaS148	spaS148___119401	tet(X4)	p729
+spaS122___51336	spaS122	spaS122___51336	vanY gene in vanB cluster	p729
+spaS122___51336	spaS133	spaS133___33644	vanY gene in vanB cluster	p729
+spaS122___51336	spaS138	spaS138___101379	vanY gene in vanG cluster	p729
+spaS122___51336	spaS148	spaS148___74331	vanY gene in vanB cluster	p729
+spaS148___18655	spaS148	spaS148___18655	vanY gene in vanM cluster	p729
+spaS148___18655	spaS106	spaS106___38592	vanY gene in vanM cluster	p729
+spaS148___18655	spaS122	spaS122___109584	vanY gene in vanM cluster	p729
+spaS148___18655	spaS133	spaS133___88943	vanY gene in vanM cluster	p729
+spaS148___18655	spaS138	spaS138___112242	vanY gene in vanM cluster	p729
+spaS148___18655	spaS247	spaS247___24214	vanY gene in vanG cluster	p729
+spaS122___49492	spaS122	spaS122___49492	tet(W)	p729
+spaS122___49492	spaS129	spaS129___53216	tet(W/N/W)	p729
+spaS122___49492	spaS133	spaS133___72604	tet(W)	p729
+spaS122___49492	spaS138	spaS138___78143	tet(W)	p729
+spaS122___49492	spaS138	spaS138___100868	tet(W)	p729
+spaS122___49492	spaS148	spaS148___39874	tet(W)	p729
+spaS122___49492	spaS216	spaS216___150963	tet(W)	p729
+spaS122___49492	spaS221	spaS221___158215	tet(W)	p729
+mh_p789___373929	mh_p789	mh_p789___373929	vanY gene in vanF cluster	p789
+mh_p789___373929	spaS297	spaS297___296300	vanY gene in vanB cluster	p789
+mh_p789___373929	spaS300	spaS300___181467	vanY gene in vanA cluster	p789
+mh_p789___386128	mh_p789	mh_p789___386128	vanY gene in vanG cluster	p789
+mh_p789___386128	spaS287	spaS287___240301	vanY gene in vanB cluster	p789
+mh_p789___253047	mh_p789	mh_p789___253047	vanY gene in vanG cluster	p789
+mh_p789___253047	spaS286	spaS286___271986	vanY gene in vanB cluster	p789
+mh_p789___253047	spaS287	spaS287___219159	vanY gene in vanG cluster	p789
+mh_p789___517096	mh_p789	mh_p789___517096	vanXY gene in vanG cluster	p789
+mh_p789___517096	spaS294	spaS294___310656	vanY gene in vanA cluster	p789
+mh_p789___517096	spaS296	spaS296___232752	vanXY gene in vanG cluster	p789
+mh_p789___622111	mh_p789	mh_p789___622111	tet(W/32/O)	p789
+mh_p789___622111	spaS287	spaS287___75000	tet(W/32/O)	p789
+mh_p789___622111	spaS294	spaS294___163604	tet(W/N/W)	p789
+mh_p789___622111	spaS294	spaS294___170975	tet(W/N/W)	p789
+mh_p789___622111	spaS295	spaS295___132617	tet(W/32/O)	p789
+mh_p789___622111	spaS296	spaS296___172445	tet(W/32/O)	p789
+mh_p789___622111	spaS297	spaS297___160631	tet(W/32/O)	p789
+mh_p789___622111	spaS300	spaS300___24025	tet(W/32/O)	p789
+mh_p789___449194	mh_p789	mh_p789___449194	vanY gene in vanM cluster	p789
+mh_p789___449194	spaS287	spaS287___157767	vanY gene in vanM cluster	p789
+mh_p789___449194	spaS294	spaS294___255504	vanY gene in vanM cluster	p789
+mh_p789___449194	spaS295	spaS295___186623	vanY gene in vanB cluster	p789
+mh_p789___449194	spaS297	spaS297___158776	vanY gene in vanM cluster	p789
+spaS294___144529	spaS294	spaS294___144529	vanT gene in vanC cluster	p789
+spaS294___144529	mh_p789	mh_p789___73143	vanT gene in vanC cluster	p789
+spaS294___144529	spaS287	spaS287___269921	vanT gene in vanG cluster	p789
+spaS294___144529	spaS295	spaS295___143721	vanT gene in vanC cluster	p789
+spaS294___144529	spaS297	spaS297___151893	vanT gene in vanC cluster	p789
+mh_p789___374464	mh_p789	mh_p789___374464	vanW gene in vanB cluster	p789
+mh_p789___374464	spaS294	spaS294___178544	vanW gene in vanB cluster	p789
+mh_p789___374464	spaS295	spaS295___251110	vanW gene in vanB cluster	p789
+mh_p789___374464	spaS296	spaS296___311282	vanW gene in vanG cluster	p789
+mh_p789___422254	mh_p789	mh_p789___422254	vanY gene in vanB cluster	p789
+mh_p789___422254	spaS286	spaS286___117458	vanY gene in vanB cluster	p789
+mh_p789___422254	spaS296	spaS296___319041	vanY gene in vanA cluster	p789
+mh_p789___175738	mh_p789	mh_p789___175738	vanY gene in vanG cluster	p789
+mh_p789___175738	spaS294	spaS294___267358	vanY gene in vanG cluster	p789
+mh_p789___175738	spaS295	spaS295___281852	vanY gene in vanB cluster	p789
+mh_p789___175738	spaS295	spaS295___327566	vanY gene in vanM cluster	p789
+mh_p789___175738	spaS297	spaS297___286457	vanY gene in vanG cluster	p789
+spaS294___192526	spaS294	spaS294___192526	vanY gene in vanB cluster	p789
+spaS294___192526	mh_p789	mh_p789___415685	vanY gene in vanB cluster	p789
+spaS294___192526	spaS287	spaS287___4506	vanY gene in vanB cluster	p789
+spaS294___192526	spaS294	spaS294___107700	vanY gene in vanB cluster	p789
+spaS294___192526	spaS295	spaS295___174061	vanY gene in vanG cluster	p789
+spaS294___192526	spaS296	spaS296___45523	vanY gene in vanG cluster	p789
+spaS294___192526	spaS297	spaS297___190652	vanY gene in vanB cluster	p789
+mh_p789___163385	mh_p789	mh_p789___163385	vanY gene in vanB cluster	p789
+mh_p789___163385	spaS294	spaS294___212544	vanY gene in vanB cluster	p789
+mh_p789___163385	spaS295	spaS295___195521	vanY gene in vanB cluster	p789
+mh_p789___163385	spaS296	spaS296___186916	vanY gene in vanB cluster	p789
+mh_p789___163385	spaS297	spaS297___222626	vanY gene in vanB cluster	p789
+mh_p789___163385	spaS297	spaS297___232747	vanY gene in vanM cluster	p789
+mh_p789___303900	mh_p789	mh_p789___303900	vanY gene in vanM cluster	p789
+mh_p789___303900	spaS286	spaS286___264075	vanY gene in vanF cluster	p789
+mh_p789___424480	mh_p789	mh_p789___424480	vanT gene in vanG cluster	p789
+mh_p789___424480	spaS286	spaS286___56988	vanT gene in vanC cluster	p789
+mh_p789___424480	spaS287	spaS287___72676	vanT gene in vanC cluster	p789
+mh_p789___424480	spaS296	spaS296___80574	vanT gene in vanG cluster	p789
+mh_p789___424480	spaS297	spaS297___71621	vanT gene in vanG cluster	p789
+mh_p789___425461	mh_p789	mh_p789___425461	vanW gene in vanB cluster	p789
+mh_p789___425461	spaS286	spaS286___20844	vanW gene in vanB cluster	p789
+mh_p789___425461	spaS287	spaS287___150527	vanW gene in vanB cluster	p789
+mh_p789___425461	spaS294	spaS294___248184	vanW gene in vanB cluster	p789
+mh_p789___425461	spaS295	spaS295___123326	vanW gene in vanB cluster	p789
+mh_p789___425461	spaS297	spaS297___200883	vanW gene in vanB cluster	p789
+mh_p789___425461	spaS300	spaS300___202790	vanW gene in vanG cluster	p789
+mh_p789___273600	mh_p789	mh_p789___273600	vanY gene in vanB cluster	p789
+mh_p789___273600	spaS286	spaS286___111836	vanY gene in vanB cluster	p789
+mh_p789___273600	spaS296	spaS296___325310	vanY gene in vanF cluster	p789
+mh_p789___278990	mh_p789	mh_p789___278990	CfxA4	p789
+mh_p789___278990	spaS286	spaS286___151986	CfxA2	p789
+mh_p789___278990	spaS287	spaS287___232013	CfxA4	p789
+mh_p789___278990	spaS294	spaS294___268027	CfxA4	p789
+mh_p789___278990	spaS295	spaS295___145113	CfxA4	p789
+mh_p789___278990	spaS296	spaS296___273315	CfxA2	p789
+mh_p789___278990	spaS297	spaS297___151817	CfxA4	p789
+mh_p789___278990	spaS300	spaS300___138259	CfxA4	p789
+spaS188___181805	spaS188	spaS188___181805	vanY gene in vanB cluster	p813
+spaS188___181805	mh_p813	mh_p813___527882	vanY gene in vanB cluster	p813
+spaS188___181805	spaS34	spaS34___116138	vanY gene in vanB cluster	p813
+spaS188___181805	spaS42	spaS42___94527	vanY gene in vanF cluster	p813
+spaS188___181805	spaS48	spaS48___64972	vanY gene in vanB cluster	p813
+spaS188___181805	spaS73	spaS73___166935	vanY gene in vanB cluster	p813
+spaS188___181805	spaS88	spaS88___162436	vanY gene in vanF cluster	p813
+spaS188___181805	spaS89	spaS89___180596	vanY gene in vanB cluster	p813
+spaS188___181805	spaS174	spaS174___99652	vanY gene in vanB cluster	p813
+mh_p813___196572	mh_p813	mh_p813___196572	vanW gene in vanI cluster	p813
+mh_p813___196572	spaS4	spaS4___87160	vanW gene in vanI cluster	p813
+mh_p813___196572	spaS134	spaS134___104041	vanW gene in vanG cluster	p813
+mh_p813___196572	spaS248	spaS248___126623	vanW gene in vanG cluster	p813
+mh_p813___583828	mh_p813	mh_p813___583828	vanY gene in vanG cluster	p813
+mh_p813___583828	spaS75	spaS75___98715	vanY gene in vanB cluster	p813
+mh_p813___583828	spaS89	spaS89___197150	vanY gene in vanB cluster	p813
+mh_p813___583828	spaS134	spaS134___81352	vanY gene in vanG cluster	p813
+mh_p813___583828	spaS153	spaS153___107075	vanY gene in vanG cluster	p813
+mh_p813___583828	spaS194	spaS194___256965	vanY gene in vanB cluster	p813
+mh_p813___583828	spaS248	spaS248___122108	vanY gene in vanG cluster	p813
+mh_p813___514496	mh_p813	mh_p813___514496	vanH gene in vanF cluster	p813
+mh_p813___514496	spaS54	spaS54___117698	vanH gene in vanF cluster	p813
+mh_p813___514496	spaS61	spaS61___180166	vanH gene in vanF cluster	p813
+mh_p813___514496	spaS63	spaS63___119337	vanH gene in vanD cluster	p813
+mh_p813___514496	spaS153	spaS153___166561	vanH gene in vanF cluster	p813
+mh_p813___350935	mh_p813	mh_p813___350935	vanXY gene in vanG cluster	p813
+mh_p813___350935	spaS11	spaS11___53724	vanXY gene in vanG cluster	p813
+mh_p813___350935	spaS48	spaS48___151542	vanY gene in vanA cluster	p813
+mh_p813___350935	spaS59	spaS59___141477	vanXY gene in vanG cluster	p813
+mh_p813___350935	spaS71	spaS71___117659	vanXY gene in vanG cluster	p813
+mh_p813___350935	spaS224	spaS224___75685	vanXY gene in vanG cluster	p813
+mh_p813___453373	mh_p813	mh_p813___453373	vanY gene in vanF cluster	p813
+mh_p813___453373	mh_p813	mh_p813___585570	vanY gene in vanF cluster	p813
+mh_p813___453373	spaS4	spaS4___36762	vanY gene in vanM cluster	p813
+mh_p813___453373	spaS4	spaS4___90305	vanY gene in vanF cluster	p813
+mh_p813___453373	spaS18	spaS18___59083	vanY gene in vanF cluster	p813
+mh_p813___453373	spaS24	spaS24___37460	vanY gene in vanF cluster	p813
+mh_p813___453373	spaS27	spaS27___47849	vanY gene in vanF cluster	p813
+mh_p813___453373	spaS34	spaS34___67942	vanY gene in vanF cluster	p813
+mh_p813___453373	spaS42	spaS42___45483	vanY gene in vanF cluster	p813
+mh_p813___453373	spaS48	spaS48___68481	vanY gene in vanF cluster	p813
+mh_p813___453373	spaS54	spaS54___41852	vanY gene in vanF cluster	p813
+mh_p813___453373	spaS57	spaS57___45683	vanY gene in vanF cluster	p813
+mh_p813___453373	spaS59	spaS59___65294	vanY gene in vanF cluster	p813
+mh_p813___453373	spaS61	spaS61___45668	vanY gene in vanF cluster	p813
+mh_p813___453373	spaS63	spaS63___59081	vanY gene in vanF cluster	p813
+mh_p813___453373	spaS68	spaS68___80429	vanY gene in vanF cluster	p813
+mh_p813___453373	spaS69	spaS69___63431	vanY gene in vanF cluster	p813
+mh_p813___453373	spaS71	spaS71___63824	vanY gene in vanM cluster	p813
+mh_p813___453373	spaS71	spaS71___164825	vanY gene in vanF cluster	p813
+mh_p813___453373	spaS72	spaS72___58705	vanY gene in vanM cluster	p813
+mh_p813___453373	spaS72	spaS72___94602	vanY gene in vanF cluster	p813
+mh_p813___453373	spaS72	spaS72___108328	vanY gene in vanF cluster	p813
+mh_p813___453373	spaS73	spaS73___82457	vanY gene in vanF cluster	p813
+mh_p813___453373	spaS75	spaS75___44438	vanY gene in vanF cluster	p813
+mh_p813___453373	spaS79	spaS79___62623	vanY gene in vanF cluster	p813
+mh_p813___453373	spaS88	spaS88___79646	vanY gene in vanF cluster	p813
+mh_p813___453373	spaS89	spaS89___85073	vanY gene in vanF cluster	p813
+mh_p813___453373	spaS113	spaS113___62339	vanY gene in vanF cluster	p813
+mh_p813___453373	spaS134	spaS134___47342	vanY gene in vanF cluster	p813
+mh_p813___453373	spaS153	spaS153___60018	vanY gene in vanF cluster	p813
+mh_p813___453373	spaS169	spaS169___49937	vanY gene in vanF cluster	p813
+mh_p813___453373	spaS174	spaS174___63938	vanY gene in vanF cluster	p813
+mh_p813___453373	spaS188	spaS188___48528	vanY gene in vanF cluster	p813
+mh_p813___453373	spaS194	spaS194___83458	vanY gene in vanF cluster	p813
+mh_p813___453373	spaS248	spaS248___58214	vanY gene in vanF cluster	p813
+mh_p813___453373	spaS249	spaS249___46625	vanY gene in vanF cluster	p813
+mh_p813___388796	mh_p813	mh_p813___388796	vanXY gene in vanG cluster	p813
+mh_p813___388796	spaS18	spaS18___114522	vanXY gene in vanG cluster	p813
+mh_p813___388796	spaS54	spaS54___118387	vanXY gene in vanG cluster	p813
+mh_p813___388796	spaS59	spaS59___143820	vanY gene in vanA cluster	p813
+mh_p813___51193	mh_p813	mh_p813___51193	emrB	p813
+mh_p813___51193	spaS11	spaS11___50900	Klebsiella pneumoniae KpnH	p813
+mh_p813___51193	spaS48	spaS48___49511	emrB	p813
+mh_p813___51193	spaS57	spaS57___55837	emrB	p813
+mh_p813___51193	spaS59	spaS59___128547	emrB	p813
+mh_p813___51193	spaS63	spaS63___43577	emrB	p813
+mh_p813___51193	spaS71	spaS71___43625	emrB	p813
+mh_p813___51193	spaS75	spaS75___32531	emrB	p813
+mh_p813___51193	spaS153	spaS153___39980	emrB	p813
+mh_p813___51193	spaS169	spaS169___112492	emrB	p813
+mh_p813___51193	spaS188	spaS188___106410	emrB	p813
+mh_p813___51193	spaS249	spaS249___35296	emrB	p813
+mh_p813___236094	mh_p813	mh_p813___236094	nimA	p813
+mh_p813___236094	spaS18	spaS18___35607	nimA	p813
+mh_p813___236094	spaS27	spaS27___27675	nimA	p813
+mh_p813___236094	spaS34	spaS34___38791	nimA	p813
+mh_p813___236094	spaS48	spaS48___56158	nimA	p813
+mh_p813___236094	spaS54	spaS54___67228	nimA	p813
+mh_p813___236094	spaS59	spaS59___85553	nimA	p813
+mh_p813___236094	spaS63	spaS63___76264	nimA	p813
+mh_p813___236094	spaS68	spaS68___38751	nimA	p813
+mh_p813___236094	spaS69	spaS69___78892	nimA	p813
+mh_p813___236094	spaS71	spaS71___27521	nimA	p813
+mh_p813___236094	spaS72	spaS72___119388	nimA	p813
+mh_p813___236094	spaS73	spaS73___139884	nimA	p813
+mh_p813___236094	spaS75	spaS75___61903	nimA	p813
+mh_p813___236094	spaS79	spaS79___111063	nimA	p813
+mh_p813___236094	spaS88	spaS88___129033	nimG	p813
+mh_p813___236094	spaS89	spaS89___132904	nimG	p813
+mh_p813___236094	spaS174	spaS174___151961	nimG	p813
+mh_p813___236094	spaS248	spaS248___89558	nimA	p813
+mh_p813___236094	spaS249	spaS249___136108	nimA	p813
+mh_p813___245997	mh_p813	mh_p813___245997	vanW gene in vanB cluster	p813
+mh_p813___245997	spaS68	spaS68___53069	vanW gene in vanB cluster	p813
+mh_p813___245997	spaS88	spaS88___148694	vanW gene in vanB cluster	p813
+mh_p813___245997	spaS89	spaS89___99645	vanW gene in vanB cluster	p813
+mh_p813___245997	spaS174	spaS174___174253	vanW gene in vanG cluster	p813
+mh_p813___245997	spaS188	spaS188___67237	vanW gene in vanG cluster	p813
+mh_p813___130156	mh_p813	mh_p813___130156	vanY gene in vanB cluster	p813
+mh_p813___130156	spaS4	spaS4___93170	vanY gene in vanG cluster	p813
+mh_p813___130156	spaS59	spaS59___112240	vanY gene in vanG cluster	p813
+mh_p813___130156	spaS63	spaS63___74166	vanY gene in vanB cluster	p813
+mh_p813___130156	spaS69	spaS69___145689	vanY gene in vanB cluster	p813
+mh_p813___130156	spaS72	spaS72___96003	vanY gene in vanB cluster	p813
+mh_p813___130156	spaS73	spaS73___100180	vanY gene in vanB cluster	p813
+mh_p813___130156	spaS153	spaS153___162253	vanY gene in vanG cluster	p813
+mh_p813___437370	mh_p813	mh_p813___437370	vanY gene in vanB cluster	p813
+mh_p813___437370	spaS72	spaS72___92757	vanY gene in vanB cluster	p813
+mh_p813___437370	spaS73	spaS73___154216	vanY gene in vanA cluster	p813
+mh_p813___437370	spaS169	spaS169___46004	vanY gene in vanB cluster	p813
+mh_p813___31672	mh_p813	mh_p813___31672	vanY gene in vanG cluster	p813
+mh_p813___31672	spaS27	spaS27___82451	vanY gene in vanG cluster	p813
+mh_p813___31672	spaS34	spaS34___140500	vanY gene in vanG cluster	p813
+mh_p813___31672	spaS42	spaS42___103783	vanY gene in vanG cluster	p813
+mh_p813___31672	spaS88	spaS88___76112	vanY gene in vanG cluster	p813
+mh_p813___31672	spaS89	spaS89___198414	vanY gene in vanG cluster	p813
+mh_p813___31672	spaS113	spaS113___177825	vanY gene in vanG cluster	p813
+mh_p813___31672	spaS169	spaS169___189650	vanY gene in vanB cluster	p813
+mh_p813___31672	spaS169	spaS169___224729	vanY gene in vanG cluster	p813
+mh_p813___31672	spaS194	spaS194___239980	vanY gene in vanG cluster	p813
+mh_p813___363220	mh_p813	mh_p813___363220	vanY gene in vanF cluster	p813
+mh_p813___363220	spaS18	spaS18___59478	vanY gene in vanF cluster	p813
+mh_p813___363220	spaS27	spaS27___93743	vanY gene in vanG cluster	p813
+spaS11___47948	spaS11	spaS11___47948	vanY gene in vanB cluster	p813
+spaS11___47948	mh_p813	mh_p813___353395	vanY gene in vanM cluster	p813
+spaS11___47948	mh_p813	mh_p813___447034	vanY gene in vanM cluster	p813
+spaS11___47948	mh_p813	mh_p813___514464	vanY gene in vanM cluster	p813
+spaS11___47948	spaS227	spaS227___64927	vanY gene in vanB cluster	p813
+mh_p813___627326	mh_p813	mh_p813___627326	vanY gene in vanB cluster	p813
+mh_p813___627326	spaS169	spaS169___182357	vanY gene in vanM cluster	p813
+mh_p813___379781	mh_p813	mh_p813___379781	vanY gene in vanB cluster	p813
+mh_p813___379781	spaS9	spaS9___17696	vanY gene in vanB cluster	p813
+mh_p813___379781	spaS11	spaS11___8963	vanY gene in vanB cluster	p813
+mh_p813___379781	spaS18	spaS18___54008	vanY gene in vanB cluster	p813
+mh_p813___379781	spaS24	spaS24___21264	vanY gene in vanB cluster	p813
+mh_p813___379781	spaS27	spaS27___83157	vanY gene in vanB cluster	p813
+mh_p813___379781	spaS34	spaS34___65163	vanY gene in vanB cluster	p813
+mh_p813___379781	spaS42	spaS42___84094	vanY gene in vanF cluster	p813
+mh_p813___379781	spaS48	spaS48___113439	vanY gene in vanB cluster	p813
+mh_p813___379781	spaS54	spaS54___119208	vanY gene in vanB cluster	p813
+mh_p813___379781	spaS59	spaS59___58727	vanY gene in vanB cluster	p813
+mh_p813___379781	spaS61	spaS61___60383	vanY gene in vanB cluster	p813
+mh_p813___379781	spaS63	spaS63___32500	vanY gene in vanB cluster	p813
+mh_p813___379781	spaS69	spaS69___164145	vanY gene in vanB cluster	p813
+mh_p813___379781	spaS73	spaS73___109335	vanY gene in vanB cluster	p813
+mh_p813___379781	spaS75	spaS75___95604	vanY gene in vanB cluster	p813
+mh_p813___379781	spaS169	spaS169___122924	vanY gene in vanB cluster	p813
+mh_p813___379781	spaS224	spaS224___17144	vanY gene in vanB cluster	p813
+mh_p813___379781	spaS227	spaS227___27378	vanY gene in vanB cluster	p813
+mh_p813___379781	spaS235	spaS235___9947	vanY gene in vanB cluster	p813
+mh_p813___379781	spaS249	spaS249___105338	vanY gene in vanB cluster	p813
+mh_p813___112554	mh_p813	mh_p813___112554	vanY gene in vanB cluster	p813
+mh_p813___112554	mh_p813	mh_p813___466699	vanY gene in vanG cluster	p813
+mh_p813___112554	spaS68	spaS68___60010	vanY gene in vanB cluster	p813
+mh_p813___112554	spaS79	spaS79___125108	vanY gene in vanB cluster	p813
+mh_p813___112554	spaS88	spaS88___153530	vanY gene in vanG cluster	p813
+mh_p813___112554	spaS88	spaS88___176457	vanY gene in vanB cluster	p813
+mh_p813___112554	spaS113	spaS113___200928	vanY gene in vanB cluster	p813
+mh_p813___112554	spaS188	spaS188___143968	vanY gene in vanB cluster	p813
+mh_p813___112554	spaS248	spaS248___104666	vanY gene in vanB cluster	p813
+spaS18___23209	spaS18	spaS18___23209	tet(O/32/O)	p813
+spaS18___23209	spaS57	spaS57___87030	tet(O)	p813
+spaS18___23209	spaS72	spaS72___119056	tet(O)	p813
+mh_p813___237705	mh_p813	mh_p813___237705	vanY gene in vanG cluster	p813
+mh_p813___237705	spaS18	spaS18___106053	vanY gene in vanB cluster	p813
+mh_p813___237705	spaS224	spaS224___54107	vanY gene in vanG cluster	p813
+mh_p813___237705	spaS227	spaS227___76422	vanY gene in vanG cluster	p813
+spaS248___122716	mh_p813	mh_p813___120882	CfxA3	p813
+spaS248___122716	spaS61	spaS61___38301	CfxA4	p813
+spaS248___122716	spaS68	spaS68___108204	CfxA2	p813
+spaS248___122716	spaS69	spaS69___130665	CfxA2	p813
+spaS248___122716	spaS71	spaS71___88577	CfxA4	p813
+spaS248___122716	spaS79	spaS79___111094	CfxA3	p813
+spaS248___122716	spaS153	spaS153___177466	CfxA4	p813
+spaS248___122716	spaS169	spaS169___178623	CfxA4	p813
+mh_p813___373417	mh_p813	mh_p813___373417	vanW gene in vanG cluster	p813
+mh_p813___373417	spaS18	spaS18___121899	vanW gene in vanB cluster	p813
+mh_p813___373417	spaS73	spaS73___167666	vanW gene in vanG cluster	p813
+spaS169___173529	spaS169	spaS169___173529	vanY gene in vanG cluster	p813
+spaS169___173529	mh_p813	mh_p813___46321	vanY gene in vanB cluster	p813
+spaS169___173529	mh_p813	mh_p813___78169	vanY gene in vanG cluster	p813
+spaS169___173529	spaS73	spaS73___184441	vanY gene in vanG cluster	p813
+spaS169___173529	spaS248	spaS248___134148	vanY gene in vanG cluster	p813
+spaS9___32541	spaS9	spaS9___32541	FosA6	p813
+spaS9___32541	mh_p813	mh_p813___511930	fosA5	p813
+spaS9___32541	mh_p813	mh_p813___621253	FosA8	p813
+spaS9___32541	mh_p813	mh_p813___626992	FosA8	p813
+spaS9___32541	spaS224	spaS224___66396	fosA5	p813
+spaS9___32541	spaS227	spaS227___45489	FosA6	p813
+spaS9___32541	spaS235	spaS235___50421	fosA5	p813
+spaS9___32541	spaS248	spaS248___24500	FosA6	p813
+spaS9___32541	spaS249	spaS249___1826	FosA6	p813
+mh_p813___175244	mh_p813	mh_p813___175244	ACT-23	p813
+mh_p813___175244	spaS11	spaS11___56241	ACT-8	p813
+mh_p813___175244	spaS48	spaS48___47885	ACT-23	p813
+mh_p813___175244	spaS57	spaS57___40868	ACT-23	p813
+mh_p813___175244	spaS59	spaS59___95445	ACT-23	p813
+mh_p813___175244	spaS61	spaS61___129036	ACT-38	p813
+mh_p813___175244	spaS63	spaS63___12808	ACT-23	p813
+mh_p813___175244	spaS69	spaS69___153835	ACT-8	p813
+mh_p813___175244	spaS71	spaS71___10855	ACT-23	p813
+mh_p813___175244	spaS75	spaS75___8708	ACT-23	p813
+mh_p813___175244	spaS153	spaS153___38219	ACT-23	p813
+mh_p813___175244	spaS169	spaS169___55779	ACT-23	p813
+mh_p813___175244	spaS248	spaS248___103850	ACT-17	p813
+mh_p813___175244	spaS249	spaS249___36910	ACT-23	p813
+mh_p813___302975	mh_p813	mh_p813___302975	vanY gene in vanB cluster	p813
+mh_p813___302975	spaS63	spaS63___103812	vanY gene in vanB cluster	p813
+mh_p813___302975	spaS69	spaS69___153425	vanY gene in vanG cluster	p813
+mh_p813___302975	spaS71	spaS71___180173	vanY gene in vanB cluster	p813
+mh_p813___302975	spaS73	spaS73___175212	vanY gene in vanG cluster	p813
+mh_p813___302975	spaS174	spaS174___132140	vanY gene in vanB cluster	p813
+mh_p813___302975	spaS249	spaS249___138576	vanY gene in vanB cluster	p813
+mh_p813___164310	mh_p813	mh_p813___164310	tet(Q)	p813
+mh_p813___164310	spaS54	spaS54___58190	tet(Q)	p813
+mh_p813___164310	spaS59	spaS59___63475	tet(36)	p813
+mh_p813___164310	spaS69	spaS69___125314	tet(36)	p813
+mh_p813___164310	spaS72	spaS72___30068	tet(Q)	p813
+mh_p813___164310	spaS248	spaS248___34007	tet(Q)	p813
+mh_p813___188763	mh_p813	mh_p813___188763	emrB	p813
+mh_p813___188763	mh_p813	mh_p813___458371	Klebsiella pneumoniae KpnH	p813
+mh_p813___188763	spaS9	spaS9___52420	Klebsiella pneumoniae KpnH	p813
+mh_p813___188763	spaS169	spaS169___105684	emrB	p813
+mh_p813___188763	spaS224	spaS224___41209	emrB	p813
+mh_p813___188763	spaS227	spaS227___42377	Klebsiella pneumoniae KpnH	p813
+mh_p813___188763	spaS235	spaS235___38510	Klebsiella pneumoniae KpnH	p813
+mh_p813___188763	spaS248	spaS248___30911	Klebsiella pneumoniae KpnH	p813
+mh_p813___188763	spaS248	spaS248___71682	emrB	p813
+mh_p813___188763	spaS249	spaS249___2796	Klebsiella pneumoniae KpnH	p813
+mh_p813___188763	spaS249	spaS249___57632	emrB	p813
+mh_p813___188763	spaS11	spaS11___44498	Klebsiella pneumoniae KpnH	p813
+mh_p813___324608	mh_p813	mh_p813___324608	vanY gene in vanG cluster	p813
+mh_p813___324608	spaS4	spaS4___91563	vanY gene in vanG cluster	p813
+mh_p813___324608	spaS79	spaS79___163402	vanY gene in vanB cluster	p813
+mh_p813___324608	spaS88	spaS88___146731	vanY gene in vanG cluster	p813
+mh_p813___324608	spaS89	spaS89___150654	vanY gene in vanG cluster	p813
+mh_p813___324608	spaS113	spaS113___171390	vanY gene in vanB cluster	p813
+mh_p813___324608	spaS134	spaS134___74315	vanY gene in vanG cluster	p813
+mh_p813___324608	spaS153	spaS153___137742	vanY gene in vanG cluster	p813
+mh_p813___324608	spaS169	spaS169___189468	vanY gene in vanB cluster	p813
+mh_p813___324608	spaS174	spaS174___164971	vanY gene in vanB cluster	p813
+mh_p813___324608	spaS174	spaS174___199783	vanY gene in vanG cluster	p813
+mh_p813___324608	spaS194	spaS194___185700	vanY gene in vanG cluster	p813
+mh_p813___324608	spaS249	spaS249___123857	vanY gene in vanB cluster	p813
+mh_p813___334722	mh_p813	mh_p813___334722	vanXY gene in vanG cluster	p813
+mh_p813___334722	spaS79	spaS79___174610	vanY gene in vanG cluster	p813
+mh_p813___334722	spaS88	spaS88___22103	vanXY gene in vanG cluster	p813
+mh_p813___334722	spaS89	spaS89___168825	vanXY gene in vanG cluster	p813
+mh_p813___334722	spaS153	spaS153___122605	vanXY gene in vanG cluster	p813
+mh_p813___334722	spaS174	spaS174___68318	vanY gene in vanF cluster	p813
+mh_p813___334722	spaS188	spaS188___27495	vanXY gene in vanG cluster	p813
+mh_p813___268447	mh_p813	mh_p813___268447	vanH gene in vanD cluster	p813
+mh_p813___268447	spaS71	spaS71___167476	vanH gene in vanO cluster	p813
+spaS54___79428	spaS54	spaS54___79428	vanY gene in vanG cluster	p813
+spaS54___79428	mh_p813	mh_p813___188627	vanY gene in vanA cluster	p813
+spaS54___79428	spaS57	spaS57___75922	vanY gene in vanG cluster	p813
+spaS54___79428	spaS59	spaS59___139494	vanY gene in vanG cluster	p813
+spaS54___79428	spaS61	spaS61___181051	vanY gene in vanG cluster	p813
+spaS54___79428	spaS63	spaS63___113783	vanY gene in vanG cluster	p813
+spaS54___79428	spaS63	spaS63___118404	vanY gene in vanG cluster	p813
+spaS54___79428	spaS71	spaS71___178632	vanY gene in vanG cluster	p813
+spaS54___79428	spaS73	spaS73___149559	vanY gene in vanG cluster	p813
+spaS54___79428	spaS88	spaS88___204321	vanY gene in vanG cluster	p813
+spaS54___79428	spaS113	spaS113___200660	vanY gene in vanM cluster	p813
+mh_p813___432629	mh_p813	mh_p813___432629	vanY gene in vanB cluster	p813
+mh_p813___432629	mh_p813	mh_p813___174355	vanY gene in vanG cluster	p813
+mh_p813___432629	spaS4	spaS4___57676	vanY gene in vanG cluster	p813
+mh_p813___432629	spaS24	spaS24___49028	vanY gene in vanG cluster	p813
+mh_p813___432629	spaS27	spaS27___68963	vanY gene in vanG cluster	p813
+mh_p813___432629	spaS34	spaS34___105980	vanY gene in vanG cluster	p813
+mh_p813___432629	spaS42	spaS42___87129	vanY gene in vanG cluster	p813
+mh_p813___432629	spaS48	spaS48___111537	vanY gene in vanG cluster	p813
+mh_p813___432629	spaS54	spaS54___73337	vanY gene in vanB cluster	p813
+mh_p813___432629	spaS59	spaS59___138860	vanY gene in vanB cluster	p813
+mh_p813___432629	spaS63	spaS63___33268	vanY gene in vanG cluster	p813
+mh_p813___432629	spaS68	spaS68___94047	vanY gene in vanG cluster	p813
+mh_p813___432629	spaS69	spaS69___36701	vanY gene in vanG cluster	p813
+mh_p813___432629	spaS71	spaS71___34377	vanY gene in vanG cluster	p813
+mh_p813___432629	spaS72	spaS72___113045	vanY gene in vanG cluster	p813
+mh_p813___432629	spaS88	spaS88___111709	vanY gene in vanG cluster	p813
+mh_p813___432629	spaS153	spaS153___100236	vanY gene in vanG cluster	p813
+mh_p813___432629	spaS169	spaS169___92202	vanY gene in vanG cluster	p813
+mh_p813___432629	spaS194	spaS194___173755	vanY gene in vanG cluster	p813
+mh_p813___432629	spaS248	spaS248___113040	vanY gene in vanG cluster	p813
+mh_p813___432629	spaS249	spaS249___82118	vanY gene in vanG cluster	p813
+mh_p813___595079	mh_p813	mh_p813___595079	vanY gene in vanB cluster	p813
+mh_p813___595079	spaS169	spaS169___54060	vanY gene in vanB cluster	p813
+mh_p813___595079	spaS174	spaS174___11248	vanY gene in vanB cluster	p813
+mh_p813___595079	spaS188	spaS188___153118	vanY gene in vanA cluster	p813
+mh_p813___595079	spaS194	spaS194___15147	vanY gene in vanB cluster	p813
+mh_p813___76323	mh_p813	mh_p813___76323	vanY gene in vanG cluster	p813
+mh_p813___76323	spaS9	spaS9___32389	vanY gene in vanG cluster	p813
+mh_p813___76323	spaS11	spaS11___24586	vanY gene in vanG cluster	p813
+mh_p813___76323	spaS18	spaS18___92285	vanY gene in vanG cluster	p813
+mh_p813___76323	spaS48	spaS48___55016	vanY gene in vanG cluster	p813
+mh_p813___76323	spaS54	spaS54___45510	vanY gene in vanG cluster	p813
+mh_p813___76323	spaS57	spaS57___31361	vanY gene in vanG cluster	p813
+mh_p813___76323	spaS59	spaS59___69832	vanY gene in vanG cluster	p813
+mh_p813___76323	spaS61	spaS61___71282	vanY gene in vanG cluster	p813
+mh_p813___76323	spaS71	spaS71___77893	vanY gene in vanG cluster	p813
+mh_p813___76323	spaS72	spaS72___60861	vanY gene in vanG cluster	p813
+mh_p813___76323	spaS73	spaS73___99547	vanY gene in vanG cluster	p813
+mh_p813___76323	spaS75	spaS75___48832	vanY gene in vanG cluster	p813
+mh_p813___76323	spaS79	spaS79___100748	vanY gene in vanB cluster	p813
+mh_p813___76323	spaS224	spaS224___30960	vanY gene in vanG cluster	p813
+mh_p813___76323	spaS227	spaS227___38215	vanY gene in vanG cluster	p813
+mh_p813___76323	spaS235	spaS235___26779	vanY gene in vanG cluster	p813
+mh_p813___76323	spaS249	spaS249___80290	vanY gene in vanG cluster	p813
+mh_p813___579848	mh_p813	mh_p813___579848	vanY gene in vanF cluster	p813
+mh_p813___579848	spaS11	spaS11___35420	vanY gene in vanF cluster	p813
+mh_p813___579848	spaS71	spaS71___138310	vanY gene in vanA cluster	p813
+mh_p813___579848	spaS72	spaS72___122542	vanY gene in vanB cluster	p813
+mh_p813___579848	spaS73	spaS73___178352	vanY gene in vanF cluster	p813
+mh_p813___229954	mh_p813	mh_p813___229954	vanY gene in vanF cluster	p813
+mh_p813___229954	spaS48	spaS48___144237	vanY gene in vanF cluster	p813
+mh_p813___229954	spaS59	spaS59___114922	vanY gene in vanF cluster	p813
+mh_p813___229954	spaS63	spaS63___67664	vanY gene in vanF cluster	p813
+mh_p813___229954	spaS69	spaS69___170617	vanY gene in vanB cluster	p813
+mh_p813___229954	spaS73	spaS73___96641	vanY gene in vanF cluster	p813
+mh_p813___229954	spaS75	spaS75___80424	vanY gene in vanF cluster	p813
+mh_p813___229954	spaS71	spaS71___173903	vanY gene in vanA cluster	p813
+mh_p813___93376	mh_p813	mh_p813___93376	vanW gene in vanB cluster	p813
+mh_p813___93376	spaS4	spaS4___65159	vanW gene in vanB cluster	p813
+mh_p813___93376	spaS63	spaS63___84725	vanW gene in vanB cluster	p813
+mh_p813___93376	spaS68	spaS68___138305	vanW gene in vanB cluster	p813
+mh_p813___93376	spaS71	spaS71___100937	vanW gene in vanB cluster	p813
+mh_p813___93376	spaS72	spaS72___80101	vanW gene in vanB cluster	p813
+mh_p813___93376	spaS73	spaS73___112377	vanW gene in vanB cluster	p813
+mh_p813___93376	spaS75	spaS75___59645	vanW gene in vanB cluster	p813
+mh_p813___93376	spaS79	spaS79___107611	vanW gene in vanB cluster	p813
+mh_p813___93376	spaS88	spaS88___157355	vanW gene in vanB cluster	p813
+mh_p813___93376	spaS89	spaS89___137631	vanW gene in vanB cluster	p813
+mh_p813___93376	spaS153	spaS153___106365	vanW gene in vanB cluster	p813
+mh_p813___93376	spaS169	spaS169___171902	vanW gene in vanG cluster	p813
+mh_p813___93376	spaS249	spaS249___74330	vanW gene in vanB cluster	p813
+mh_p813___630009	mh_p813	mh_p813___630009	OXY-2-7	p813
+mh_p813___630009	spaS57	spaS57___91631	OXY-2-7	p813
+mh_p813___630009	spaS59	spaS59___125895	OXY-2-12	p813
+mh_p813___173843	mh_p813	mh_p813___173843	vanY gene in vanM cluster	p813
+mh_p813___173843	spaS194	spaS194___248659	vanY gene in vanB cluster	p813
+mh_p813___538987	mh_p813	mh_p813___538987	vanY gene in vanB cluster	p813
+mh_p813___538987	spaS9	spaS9___69032	vanY gene in vanB cluster	p813
+mh_p813___538987	spaS11	spaS11___16541	vanY gene in vanB cluster	p813
+mh_p813___538987	spaS18	spaS18___121779	vanY gene in vanF cluster	p813
+mh_p813___538987	spaS18	spaS18___121921	vanY gene in vanB cluster	p813
+mh_p813___538987	spaS24	spaS24___57387	vanY gene in vanB cluster	p813
+mh_p813___538987	spaS224	spaS224___60145	vanY gene in vanB cluster	p813
+mh_p813___538987	spaS227	spaS227___38665	vanY gene in vanB cluster	p813
+mh_p813___538987	spaS235	spaS235___40961	vanY gene in vanB cluster	p813
+mh_p813___71971	mh_p813	mh_p813___71971	CMY-48	p813
+mh_p813___71971	spaS24	spaS24___90911	CMY-132	p813
+mh_p813___71971	spaS248	spaS248___50865	CMY-67	p813
+mh_p813___71971	spaS249	spaS249___41167	CMY-48	p813
+mh_p813___559172	mh_p813	mh_p813___559172	vanY gene in vanF cluster	p813
+mh_p813___559172	spaS88	spaS88___7204	vanY gene in vanF cluster	p813
+mh_p813___559172	spaS89	spaS89___169995	vanY gene in vanF cluster	p813
+mh_p813___559172	spaS169	spaS169___128880	vanY gene in vanA cluster	p813
+mh_p813___559172	spaS174	spaS174___67284	vanY gene in vanF cluster	p813
+mh_p813___559172	spaS188	spaS188___51908	vanY gene in vanF cluster	p813
+mh_p813___543497	mh_p813	mh_p813___543497	vanY gene in vanM cluster	p813
+mh_p813___543497	spaS18	spaS18___51597	vanY gene in vanM cluster	p813
+mh_p813___543497	spaS34	spaS34___25684	vanY gene in vanM cluster	p813
+mh_p813___543497	spaS42	spaS42___105575	vanY gene in vanM cluster	p813
+mh_p813___543497	spaS79	spaS79___173919	vanY gene in vanM cluster	p813
+mh_p813___543497	spaS113	spaS113___130633	vanY gene in vanM cluster	p813
+mh_p813___543497	spaS174	spaS174___4234	vanY gene in vanM cluster	p813
+mh_p813___543497	spaS227	spaS227___63304	vanY gene in vanB cluster	p813
+spaS48___37085	spaS48	spaS48___37085	vanY gene in vanG cluster	p813
+spaS48___37085	spaS61	spaS61___76188	vanY gene in vanM cluster	p813
+spaS48___37085	spaS75	spaS75___14576	vanY gene in vanM cluster	p813
+spaS48___37085	spaS71	spaS71___86947	vanY gene in vanM cluster	p813
+spaS48___37085	spaS73	spaS73___166304	vanY gene in vanM cluster	p813
+spaS48___37085	spaS224	spaS224___10525	vanY gene in vanM cluster	p813
+spaS48___37085	spaS227	spaS227___23580	vanY gene in vanM cluster	p813
+spaS194___55701	spaS194	spaS194___55701	vanW gene in vanB cluster	p813
+spaS194___55701	mh_p813	mh_p813___29359	vanW gene in vanB cluster	p813
+spaS194___55701	mh_p813	mh_p813___545479	vanW gene in vanG cluster	p813
+spaS194___55701	mh_p813	mh_p813___544701	vanW gene in vanG cluster	p813
+mh_p813___188808	mh_p813	mh_p813___188808	oqxB	p813
+mh_p813___188808	mh_p813	mh_p813___201041	oqxB	p813
+mh_p813___188808	spaS9	spaS9___22225	oqxB	p813
+mh_p813___188808	spaS48	spaS48___55724	oqxB	p813
+mh_p813___188808	spaS57	spaS57___39149	oqxB	p813
+mh_p813___188808	spaS61	spaS61___126177	adeF	p813
+mh_p813___188808	spaS63	spaS63___16444	oqxB	p813
+mh_p813___188808	spaS71	spaS71___14221	oqxB	p813
+mh_p813___188808	spaS75	spaS75___2866	oqxB	p813
+mh_p813___188808	spaS153	spaS153___12957	oqxB	p813
+mh_p813___188808	spaS227	spaS227___51660	adeF	p813
+mh_p813___188808	spaS235	spaS235___42418	oqxB	p813
+mh_p813___188808	spaS248	spaS248___30866	oqxB	p813
+mh_p813___188808	spaS249	spaS249___2751	oqxB	p813
+mh_p813___188808	spaS249	spaS249___39105	oqxB	p813
+mh_p813___196632	mh_p813	mh_p813___196632	vanY gene in vanF cluster	p813
+mh_p813___196632	spaS75	spaS75___91355	vanY gene in vanB cluster	p813
+mh_p813___196632	spaS134	spaS134___114985	vanY gene in vanF cluster	p813
+mh_p813___106363	mh_p813	mh_p813___106363	vanY gene in vanG cluster	p813
+mh_p813___106363	spaS4	spaS4___62314	vanY gene in vanG cluster	p813
+mh_p813___106363	spaS42	spaS42___111378	vanY gene in vanM cluster	p813
+mh_p813___106363	spaS54	spaS54___57075	vanY gene in vanG cluster	p813
+mh_p813___106363	spaS57	spaS57___68116	vanY gene in vanG cluster	p813
+mh_p813___106363	spaS59	spaS59___136367	vanY gene in vanG cluster	p813
+mh_p813___106363	spaS61	spaS61___148040	vanY gene in vanG cluster	p813
+mh_p813___106363	spaS88	spaS88___133132	vanY gene in vanG cluster	p813
+mh_p813___106363	spaS134	spaS134___71004	vanY gene in vanG cluster	p813
+mh_p813___106363	spaS188	spaS188___172239	vanY gene in vanG cluster	p813
+mh_p813___106363	spaS169	spaS169___125328	vanY gene in vanG cluster	p813
+mh_p813___290530	mh_p813	mh_p813___290530	SHV-11	p813
+mh_p813___290530	spaS9	spaS9___65820	SHV-11	p813
+mh_p813___290530	spaS227	spaS227___50562	SHV-11	p813
+mh_p813___290530	spaS235	spaS235___51008	LEN-14	p813
+mh_p813___290530	spaS248	spaS248___3847	SHV-11	p813
+mh_p813___290530	spaS249	spaS249___3822	SHV-11	p813
+mh_p813___199559	mh_p813	mh_p813___199559	vanY gene in vanM cluster	p813
+mh_p813___199559	spaS134	spaS134___27747	vanY gene in vanM cluster	p813
+mh_p813___199559	spaS153	spaS153___40421	vanY gene in vanM cluster	p813
+mh_p813___199559	spaS169	spaS169___100476	vanY gene in vanM cluster	p813
+mh_p813___199559	spaS188	spaS188___150963	vanY gene in vanB cluster	p813
+mh_p813___170333	mh_p813	mh_p813___170333	vanW gene in vanG cluster	p813
+mh_p813___170333	spaS4	spaS4___33448	vanW gene in vanG cluster	p813
+mh_p813___170333	spaS54	spaS54___37513	vanW gene in vanG cluster	p813
+mh_p813___170333	spaS57	spaS57___25474	vanW gene in vanG cluster	p813
+mh_p813___170333	spaS59	spaS59___54028	vanW gene in vanG cluster	p813
+mh_p813___170333	spaS61	spaS61___30980	vanW gene in vanG cluster	p813
+mh_p813___170333	spaS63	spaS63___41397	vanW gene in vanG cluster	p813
+mh_p813___170333	spaS68	spaS68___64997	vanW gene in vanG cluster	p813
+mh_p813___170333	spaS69	spaS69___38939	vanW gene in vanG cluster	p813
+mh_p813___170333	spaS71	spaS71___40743	vanW gene in vanG cluster	p813
+mh_p813___170333	spaS72	spaS72___35484	vanW gene in vanG cluster	p813
+mh_p813___170333	spaS73	spaS73___96478	vanW gene in vanG cluster	p813
+mh_p813___170333	spaS75	spaS75___26109	vanW gene in vanG cluster	p813
+mh_p813___170333	spaS79	spaS79___51439	vanW gene in vanG cluster	p813
+mh_p813___170333	spaS88	spaS88___87186	vanW gene in vanG cluster	p813
+mh_p813___170333	spaS89	spaS89___103565	vanW gene in vanG cluster	p813
+mh_p813___170333	spaS113	spaS113___155369	vanW gene in vanG cluster	p813
+mh_p813___170333	spaS153	spaS153___134482	vanW gene in vanG cluster	p813
+mh_p813___170333	spaS174	spaS174___119234	vanW gene in vanG cluster	p813
+mh_p813___170333	spaS194	spaS194___242906	vanW gene in vanB cluster	p813
+mh_p813___170333	spaS248	spaS248___8509	vanW gene in vanG cluster	p813
+mh_p813___170333	spaS249	spaS249___61234	vanW gene in vanG cluster	p813
+mh_p813___517526	mh_p813	mh_p813___517526	FosA2	p813
+mh_p813___517526	spaS11	spaS11___59463	FosA2	p813
+mh_p813___517526	spaS48	spaS48___64765	FosA2	p813
+mh_p813___517526	spaS57	spaS57___45878	FosA2	p813
+mh_p813___517526	spaS59	spaS59___116905	FosA8	p813
+mh_p813___517526	spaS61	spaS61___131797	FosA2	p813
+mh_p813___517526	spaS63	spaS63___56074	FosA2	p813
+mh_p813___517526	spaS69	spaS69___168698	FosA2	p813
+mh_p813___517526	spaS71	spaS71___56918	FosA2	p813
+mh_p813___517526	spaS75	spaS75___42330	FosA2	p813
+mh_p813___517526	spaS153	spaS153___56949	FosA2	p813
+mh_p813___517526	spaS169	spaS169___194507	FosA2	p813
+mh_p813___517526	spaS188	spaS188___197990	FosA2	p813
+mh_p813___517526	spaS249	spaS249___44264	FosA2	p813
+spaS63___1798	spaS63	spaS63___1798	vanY gene in vanG cluster	p813
+spaS63___1798	spaS69	spaS69___66219	vanY gene in vanG cluster	p813
+spaS63___1798	spaS71	spaS71___87459	vanY gene in vanM cluster	p813
+spaS63___1798	mh_p813	mh_p813___72221	vanY gene in vanM cluster	p813
+spaS68___58801	spaS68	spaS68___58801	vanY gene in vanB cluster	p813
+spaS68___58801	mh_p813	mh_p813___588709	vanY gene in vanA cluster	p813
+spaS68___58801	spaS69	spaS69___126429	vanY gene in vanB cluster	p813
+spaS68___58801	spaS71	spaS71___130507	vanY gene in vanB cluster	p813
+spaS68___58801	spaS73	spaS73___136667	vanY gene in vanB cluster	p813
+spaS68___58801	spaS79	spaS79___60871	vanY gene in vanB cluster	p813
+spaS68___58801	spaS89	spaS89___12746	vanY gene in vanB cluster	p813
+spaS68___58801	spaS113	spaS113___192295	vanY gene in vanG cluster	p813
+spaS68___58801	spaS134	spaS134___118784	vanY gene in vanB cluster	p813
+spaS68___58801	spaS169	spaS169___146490	vanY gene in vanB cluster	p813
+spaS68___58801	spaS174	spaS174___123224	vanY gene in vanA cluster	p813
+mh_p813___192748	spaS42	spaS42___96636	vanH gene in vanO cluster	p813
+mh_p813___192748	spaS57	spaS57___64287	vanH gene in vanO cluster	p813
+mh_p813___192748	spaS59	spaS59___85431	vanH gene in vanO cluster	p813
+mh_p813___192748	spaS61	spaS61___149255	vanH gene in vanO cluster	p813
+mh_p813___192748	spaS69	spaS69___161475	vanH gene in vanF cluster	p813
+mh_p813___192748	spaS79	spaS79___43966	vanH gene in vanO cluster	p813
+mh_p813___192748	spaS89	spaS89___103530	vanH gene in vanO cluster	p813
+mh_p813___192748	spaS113	spaS113___73793	vanH gene in vanO cluster	p813
+mh_p813___192748	spaS153	spaS153___43036	vanH gene in vanO cluster	p813
+mh_p813___192748	spaS169	spaS169___132175	vanH gene in vanO cluster	p813
+mh_p813___192748	spaS188	spaS188___61127	vanH gene in vanO cluster	p813
+mh_p813___192748	spaS194	spaS194___208276	vanH gene in vanO cluster	p813
+mh_p813___192748	spaS249	spaS249___79420	vanH gene in vanO cluster	p813
+spaS249___56596	spaS249	spaS249___56596	EC-14	p813
+spaS249___56596	mh_p813	mh_p813___496820	CMY-136	p813
+spaS249___56596	spaS224	spaS224___36490	EC-15	p813
+mh_p813___499789	mh_p813	mh_p813___499789	vanY gene in vanB cluster	p813
+mh_p813___499789	spaS42	spaS42___85441	vanY gene in vanB cluster	p813
+mh_p813___499789	spaS73	spaS73___135826	vanY gene in vanB cluster	p813
+mh_p813___499789	spaS79	spaS79___156938	vanY gene in vanG cluster	p813
+mh_p813___499789	spaS194	spaS194___129075	vanY gene in vanB cluster	p813
+mh_p813___327623	mh_p813	mh_p813___327623	vanY gene in vanA cluster	p813
+mh_p813___327623	spaS59	spaS59___119747	vanY gene in vanA cluster	p813
+mh_p813___327623	spaS72	spaS72___96470	vanY gene in vanA cluster	p813
+mh_p813___327623	spaS174	spaS174___164470	vanY gene in vanB cluster	p813
+mh_p813___34340	mh_p813	mh_p813___34340	vanY gene in vanB cluster	p813
+mh_p813___34340	spaS153	spaS153___158117	vanY gene in vanG cluster	p813
+mh_p813___34340	spaS169	spaS169___225820	vanY gene in vanG cluster	p813
+mh_p813___34340	spaS174	spaS174___20215	vanY gene in vanB cluster	p813
+mh_p813___34340	spaS188	spaS188___44583	vanY gene in vanB cluster	p813
+mh_p860___237571	mh_p860	mh_p860___237571	vanY gene in vanG cluster	p860
+mh_p860___237571	spaS163	spaS163___41465	vanY gene in vanG cluster	p860
+mh_p860___237571	spaS170	spaS170___63683	vanY gene in vanG cluster	p860
+mh_p860___237571	spaS195	spaS195___61926	vanY gene in vanG cluster	p860
+mh_p860___237571	spaS195	spaS195___77034	vanY gene in vanM cluster	p860
+mh_p860___237571	spaS199	spaS199___118538	vanY gene in vanG cluster	p860
+mh_p860___237571	spaS201	spaS201___98034	vanY gene in vanG cluster	p860
+mh_p860___237571	spaS206	spaS206___154777	vanY gene in vanG cluster	p860
+mh_p860___237571	spaS220	spaS220___98191	vanY gene in vanG cluster	p860
+mh_p860___128372	mh_p860	mh_p860___128372	nimA	p860
+mh_p860___128372	spaS199	spaS199___127421	nimG	p860
+mh_p860___128372	spaS201	spaS201___132958	nimA	p860
+mh_p860___128372	spaS206	spaS206___104635	nimA	p860
+mh_p860___263458	mh_p860	mh_p860___263458	tet(W/32/O)	p860
+mh_p860___263458	spaS166	spaS166___59731	tet(W/32/O)	p860
+mh_p860___263458	spaS199	spaS199___156180	tet(W/N/W)	p860
+spaS206___151182	spaS206	spaS206___151182	vanW gene in vanG cluster	p860
+spaS206___151182	mh_p860	mh_p860___296095	vanW gene in vanB cluster	p860
+spaS206___151182	spaS201	spaS201___88208	vanW gene in vanB cluster	p860
+mh_p860___283903	mh_p860	mh_p860___283903	vanY gene in vanB cluster	p860
+mh_p860___283903	spaS201	spaS201___158373	vanY gene in vanG cluster	p860
+mh_p860___283903	spaS206	spaS206___130890	vanY gene in vanB cluster	p860
+mh_p860___50224	mh_p860	mh_p860___50224	EC-14	p860
+mh_p860___50224	spaS175	spaS175___51563	EC-13	p860
+mh_p860___50224	spaS201	spaS201___76662	EC-14	p860
+mh_p860___50224	spaS206	spaS206___74918	EC-14	p860
+mh_p860___285499	mh_p860	mh_p860___285499	vanY gene in vanA cluster	p860
+mh_p860___285499	spaS163	spaS163___86382	vanY gene in vanB cluster	p860
+mh_p860___285499	spaS166	spaS166___84394	vanY gene in vanA cluster	p860
+mh_p860___310984	mh_p860	mh_p860___310984	vanW gene in vanI cluster	p860
+mh_p860___310984	spaS166	spaS166___32236	vanW gene in vanI cluster	p860
+mh_p860___310984	spaS175	spaS175___65939	vanW gene in vanI cluster	p860
+mh_p860___310984	spaS195	spaS195___53674	vanW gene in vanI cluster	p860
+mh_p860___310984	spaS199	spaS199___95498	vanW gene in vanI cluster	p860
+mh_p860___310984	spaS206	spaS206___161914	vanW gene in vanI cluster	p860
+mh_p860___310984	spaS206	spaS206___167231	vanW gene in vanG cluster	p860
+spaS199___85570	spaS199	spaS199___85570	vanY gene in vanA cluster	p860
+spaS199___85570	mh_p860	mh_p860___27417	vanY gene in vanB cluster	p860
+spaS170___34899	spaS170	spaS170___34899	vanY gene in vanB cluster	p860
+spaS170___34899	mh_p860	mh_p860___260564	vanY gene in vanB cluster	p860
+spaS170___34899	spaS163	spaS163___92003	vanY gene in vanB cluster	p860
+spaS170___34899	spaS166	spaS166___83596	vanY gene in vanB cluster	p860
+spaS170___34899	spaS175	spaS175___95887	vanY gene in vanG cluster	p860
+mh_p860___16697	mh_p860	mh_p860___16697	vanH gene in vanO cluster	p860
+mh_p860___16697	spaS163	spaS163___7141	vanH gene in vanO cluster	p860
+mh_p860___16697	spaS170	spaS170___50835	vanH gene in vanO cluster	p860
+mh_p860___16697	spaS199	spaS199___18004	vanH gene in vanB cluster	p860
+mh_p860___16697	spaS201	spaS201___14896	vanH gene in vanB cluster	p860
+mh_p860___16697	spaS206	spaS206___19695	vanH gene in vanB cluster	p860
+mh_p860___16697	spaS213	spaS213___13543	vanH gene in vanB cluster	p860
+mh_p860___16697	spaS217	spaS217___80100	vanH gene in vanO cluster	p860
+mh_p860___16697	spaS220	spaS220___51434	vanH gene in vanO cluster	p860
+mh_p860___184827	mh_p860	mh_p860___184827	vanY gene in vanB cluster	p860
+mh_p860___184827	spaS166	spaS166___48904	vanY gene in vanB cluster	p860
+mh_p860___184827	spaS170	spaS170___93318	vanY gene in vanG cluster	p860
+mh_p860___184827	spaS175	spaS175___59708	vanY gene in vanB cluster	p860
+mh_p860___184827	spaS195	spaS195___39708	vanY gene in vanB cluster	p860
+mh_p860___184827	spaS199	spaS199___100923	vanY gene in vanB cluster	p860
+mh_p860___184827	spaS201	spaS201___83516	vanY gene in vanB cluster	p860
+mh_p860___184827	spaS206	spaS206___81371	vanY gene in vanG cluster	p860
+spaS163___15525	spaS163	spaS163___15525	vanY gene in vanG cluster	p860
+spaS163___15525	spaS170	spaS170___50211	vanY gene in vanG cluster	p860
+spaS163___15525	spaS220	spaS220___140279	vanY gene in vanG cluster	p860
+spaS163___15525	mh_p860	mh_p860___61604	vanY gene in vanM cluster	p860
+spaS163___15525	spaS195	spaS195___72700	vanY gene in vanM cluster	p860
+mh_p894___53661	mh_p894	mh_p894___53661	vanXY gene in vanG cluster	p894
+mh_p894___53661	spaS95	spaS95___16509	vanXY gene in vanG cluster	p894
+mh_p894___53661	spaS139	spaS139___144340	vanY gene in vanB cluster	p894
+mh_p894___106442	mh_p894	mh_p894___106442	nimA	p894
+mh_p894___106442	spaS157	spaS157___11411	nimA	p894
+mh_p894___106442	spaS176	spaS176___69956	nimG	p894
+mh_p894___106442	spaS197	spaS197___70164	nimA	p894
+spaS139___31655	spaS139	spaS139___31655	vanY gene in vanM cluster	p894
+spaS139___31655	mh_p894	mh_p894___317643	vanY gene in vanM cluster	p894
+spaS139___31655	spaS197	spaS197___21297	vanY gene in vanA cluster	p894
+spaS139___31655	mh_p894	mh_p894___181077	vanY gene in vanG cluster	p894
+mh_p894___80304	mh_p894	mh_p894___80304	tet(Q)	p894
+mh_p894___80304	spaS139	spaS139___76795	tet(Q)	p894
+mh_p894___80304	spaS157	spaS157___11968	tet(Q)	p894
+mh_p894___80304	spaS197	spaS197___103949	tet(36)	p894
+mh_p894___2950	mh_p894	mh_p894___2950	vanT gene in vanG cluster	p894
+mh_p894___2950	spaS95	spaS95___30050	vanT gene in vanG cluster	p894
+mh_p894___2950	spaS139	spaS139___110284	vanT gene in vanN cluster	p894
+mh_p894___54147	mh_p894	mh_p894___54147	vanY gene in vanG cluster	p894
+mh_p894___54147	spaS95	spaS95___16264	vanY gene in vanG cluster	p894
+mh_p894___54147	spaS139	spaS139___86680	vanY gene in vanA cluster	p894
+mh_p894___54147	spaS197	spaS197___117055	vanY gene in vanG cluster	p894
+mh_p894___167347	mh_p894	mh_p894___167347	EC-14	p894
+mh_p894___167347	spaS95	spaS95___52331	EC-5	p894
+mh_p894___167347	spaS139	spaS139___9133	EC-14	p894
+mh_p97___158274	mh_p97	mh_p97___158274	vanY gene in vanG cluster	p97
+mh_p97___158274	spaS35	spaS35___86475	vanY gene in vanM cluster	p97
+mh_p97___31209	mh_p97	mh_p97___31209	vanY gene in vanB cluster	p97
+mh_p97___31209	spaS29	spaS29___114842	vanY gene in vanF cluster	p97
+mh_p97___31209	spaS251	spaS251___134743	vanY gene in vanB cluster	p97
+mh_p97___122430	mh_p97	mh_p97___122430	vanY gene in vanG cluster	p97
+mh_p97___122430	spaS25	spaS25___67587	vanY gene in vanG cluster	p97
+mh_p97___122430	spaS29	spaS29___70248	vanY gene in vanG cluster	p97
+mh_p97___122430	spaS35	spaS35___91383	vanY gene in vanB cluster	p97
+mh_p97___122430	spaS43	spaS43___68147	vanY gene in vanG cluster	p97
+mh_p97___122430	spaS250	spaS250___86368	vanY gene in vanG cluster	p97
+mh_p97___122430	spaS253	spaS253___78255	vanY gene in vanG cluster	p97
+mh_p97___201507	mh_p97	mh_p97___201507	vanY gene in vanB cluster	p97
+mh_p97___201507	spaS29	spaS29___111342	vanY gene in vanB cluster	p97
+mh_p97___201507	spaS35	spaS35___94912	vanY gene in vanB cluster	p97
+mh_p97___201507	spaS250	spaS250___128254	vanY gene in vanB cluster	p97
+mh_p97___201507	spaS251	spaS251___154246	vanY gene in vanA cluster	p97
+mh_p97___201507	spaS252	spaS252___117301	vanY gene in vanB cluster	p97
+mh_p97___201507	spaS253	spaS253___139731	vanY gene in vanB cluster	p97
+spaS253___109227	spaS253	spaS253___109227	vanY gene in vanG cluster	p97
+spaS253___109227	mh_p97	mh_p97___176642	vanY gene in vanF cluster	p97
+spaS29___127119	spaS29	spaS29___127119	vanY gene in vanG cluster	p97
+spaS29___127119	mh_p97	mh_p97___126659	vanY gene in vanM cluster	p97
+mh_p97___212308	mh_p97	mh_p97___212308	vanW gene in vanG cluster	p97
+mh_p97___212308	spaS252	spaS252___151641	vanW gene in vanB cluster	p97
+spaS252___133087	spaS252	spaS252___133087	vanY gene in vanB cluster	p97
+spaS252___133087	mh_p97	mh_p97___241456	vanY gene in vanB cluster	p97
+spaS252___133087	spaS250	spaS250___135153	vanY gene in vanG cluster	p97
+spaS252___133087	spaS251	spaS251___116514	vanY gene in vanB cluster	p97

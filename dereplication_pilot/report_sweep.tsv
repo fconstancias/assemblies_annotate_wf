@@ -1,9 +1,9 @@
 participant	tier	setting	redundant_pct	redundant_bp_pct
 p110	contigs	cov-mode 2 (original)	43.9	71.4
 p110	contigs	cov-mode 0	20.8	34.4
-p110	orfs	min-seq-id 0.95 (original)	93.2	96.0
-p110	orfs	min-seq-id 0.99	90.6	94.0
-p97	contigs	cov-mode 2 (original)	42.0	73.3
+p110	orfs	min-seq-id 0.95 (original)	93.2	96
+p110	orfs	min-seq-id 0.99	90.6	94
+p97	contigs	cov-mode 2 (original)	42	73.3
 p97	contigs	cov-mode 0	25.1	47.8
-p97	orfs	min-seq-id 0.95 (original)	96.5	98.0
+p97	orfs	min-seq-id 0.95 (original)	96.5	98
 p97	orfs	min-seq-id 0.99	94.4	96.4

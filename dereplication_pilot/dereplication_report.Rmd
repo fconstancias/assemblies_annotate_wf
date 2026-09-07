@@ -431,33 +431,85 @@ ggplot(amr_prevalence, aes(x = n_samples)) +
   theme_minimal()
 ```
 
-```{r amr-presence-heatmap, fig.height=12}
-top_genes <- amr_prevalence %>% slice_max(n_samples, n = 40) %>% pull(amr_gene)
+Tiles are colored by the underlying contig's own Tier-1 (contig-level)
+dereplication cluster -- "Context 1", "Context 2", etc. per gene x participant,
+ranked by first appearance -- so a color change between two timepoints means
+the gene reassembled on a genuinely different contig backbone, not just a
+different-looking assembly of the same one. Grey tiles mark a real sample that
+was collected but didn't carry that gene, so absence is never confused with
+"no sample was taken" -- a genuine gap in the grid means no sample exists near
+that date at all.
 
-amr_presence %>%
-  filter(amr_gene %in% top_genes, !is_coassembly, date != "") %>%
-  mutate(date = as.Date(date),
-         label = paste0(substr(aro_call, 1, 30), " (", amr_gene, ")")) %>%
-  ggplot(aes(x = date, y = reorder(label, match(amr_gene, top_genes)))) +
-  geom_tile(fill = "#2c7fb8") +
-  facet_wrap(~participant, scales = "free_x", ncol = 5) +
+```{r amr-presence-heatmap, fig.height=22, fig.width=13}
+top_genes <- amr_prevalence %>% slice_max(n_samples, n = 40) %>% pull(amr_gene)
+gene_label <- amr_prevalence %>%
+  filter(amr_gene %in% top_genes) %>%
+  transmute(amr_gene, label = paste0(substr(aro_call, 1, 30), " (", amr_gene, ")"))
+
+sample_calendar <- read.delim(file.path(DP, "report_sample_calendar.tsv")) %>%
+  mutate(date = as.Date(date))
+
+presence_top <- amr_presence %>%
+  filter(amr_gene %in% top_genes, !is_coassembly, date != "")
+
+# Rank each gene's distinct contig-cluster contexts by first appearance, per participant,
+# so colors are meaningful within a row without needing raw (per-sample, non-comparable) IDs.
+context_rank <- presence_top %>%
+  filter(contig_cluster != "") %>%
+  mutate(date = as.Date(date)) %>%
+  arrange(amr_gene, participant, date) %>%
+  distinct(amr_gene, participant, contig_cluster, .keep_all = TRUE) %>%
+  group_by(amr_gene, participant) %>%
+  mutate(context_label = paste0("Context ", pmin(row_number(), 6), ifelse(row_number() > 6, "+", ""))) %>%
+  ungroup() %>%
+  select(amr_gene, participant, contig_cluster, context_label)
+
+presence_labeled <- presence_top %>%
+  left_join(context_rank, by = c("amr_gene", "participant", "contig_cluster")) %>%
+  transmute(amr_gene, group, participant, status = coalesce(context_label, "Context unresolved"))
+
+relevant_participants <- unique(presence_labeled$participant)
+
+grid <- tidyr::crossing(amr_gene = top_genes,
+                         sample_calendar %>% filter(participant %in% relevant_participants)) %>%
+  left_join(presence_labeled, by = c("amr_gene", "group", "participant")) %>%
+  mutate(status = ifelse(is.na(status), "Sampled, gene absent", status)) %>%
+  left_join(gene_label, by = "amr_gene")
+
+status_colors <- c(
+  "Sampled, gene absent" = "grey90",
+  "Context 1" = "#1b9e77", "Context 2" = "#d95f02", "Context 3" = "#7570b3",
+  "Context 4" = "#e7298a", "Context 5" = "#66a61e", "Context 6+" = "#e6ab02",
+  "Context unresolved" = "grey50"
+)
+
+ggplot(grid, aes(x = date, y = reorder(label, match(amr_gene, top_genes)), fill = status)) +
+  geom_tile(color = "white", linewidth = 0.1) +
+  scale_fill_manual(values = status_colors, name = "Genomic context\n(same color = same contig lineage)") +
+  facet_wrap(~participant, scales = "free_x", ncol = 4) +
   labs(x = "Sample date", y = NULL,
        title = "Presence of the 40 most prevalent AMR genes, per participant, over real time",
-       subtitle = "Each tile = detected in that participant's sample on that date; gaps = not detected") +
-  theme_minimal() +
-  theme(axis.text.x = element_text(angle = 90, size = 6, hjust = 1),
-        axis.text.y = element_text(size = 6),
-        strip.text = element_text(size = 7))
+       subtitle = "Grey = sampled, gene absent | colored = present, colored by genomic (contig) context | gap = no sample collected") +
+  theme_minimal(base_size = 11) +
+  theme(axis.text.x = element_text(angle = 90, size = 7, hjust = 1),
+        axis.text.y = element_text(size = 7),
+        strip.text = element_text(size = 8, face = "bold"),
+        legend.position = "bottom",
+        legend.title = element_text(size = 9),
+        panel.spacing = unit(0.6, "lines"))
 ```
 
-Two real patterns visible directly: (1) some AMR genes, once detected in a
+Three real patterns visible directly: (1) some AMR genes, once detected in a
 participant, persist across most/all of their later timepoints -- consistent
 with a stable resident strain carrying that resistance gene; (2) others appear
-intermittently, consistent with either genuine strain turnover/loss, or
-detection-limit noise (present but at low enough abundance/coverage to
-sometimes fail assembly) -- this analysis alone can't distinguish the two,
-but the gap pattern itself is the first real evidence needed to investigate
-further.
+intermittently against a background of genuine sampling (grey tiles either
+side), consistent with real strain turnover/loss, or detection-limit noise
+(present but at low enough abundance/coverage to sometimes fail assembly) --
+this analysis alone can't distinguish the two; (3) where a persistent gene's
+color changes between timepoints, the gene moved to a different contig/plasmid
+backbone rather than staying on the same one -- worth flagging as a candidate
+for closer inspection (real mobilization, vs. an assembly-fragmentation
+artifact splitting the same true backbone differently across samples).
 
 ## Conclusions
 

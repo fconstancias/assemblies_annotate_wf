@@ -74,7 +74,7 @@ mmseqs easy-cluster "$BASE/orfs/pooled.faa" "$BASE/orfs/clu" "$BASE/orfs/tmp" \
 conda deactivate
 
 echo "=== [$PARTICIPANT] clustering done, analyzing ==="
-conda activate seqtk 2>/dev/null || true
+conda activate r-binner-compare
 # NOTE: "GROUPS" is a bash special variable (the process's Unix group-ID list) --
 # assigning a custom value to it silently collides with that instead of holding our
 # own string, so $GROUPS below would NOT expand to what you'd expect. Confirmed the
@@ -82,12 +82,12 @@ conda activate seqtk 2>/dev/null || true
 # produced -- $GROUPS had actually expanded to a real numeric GID, not our group
 # list). Use a differently-named variable for anything script-local.
 PARTICIPANT_GROUPS="$COASSEMBLY ${SINGLE_GROUPS[*]}"
-python3 /maps/projects/hansen_ol-AUDIT/scratch/NILU/metagenomes/assembly_annotation_wf/dereplication_pilot/analyze_clusters.py \
+Rscript /maps/projects/hansen_ol-AUDIT/scratch/NILU/metagenomes/assembly_annotation_wf/dereplication_pilot/R/analyze_clusters.R \
   --cluster-tsv "$BASE/contigs/clu_cluster.tsv" --fasta "$BASE/contigs/pooled.min1kb.fa" \
   --groups $PARTICIPANT_GROUPS --tier contigs --participant "$PARTICIPANT" \
   --out "$BASE/contigs/cluster_membership.tsv" --summary "$BASE/contigs/summary.txt"
 
-python3 /maps/projects/hansen_ol-AUDIT/scratch/NILU/metagenomes/assembly_annotation_wf/dereplication_pilot/analyze_clusters.py \
+Rscript /maps/projects/hansen_ol-AUDIT/scratch/NILU/metagenomes/assembly_annotation_wf/dereplication_pilot/R/analyze_clusters.R \
   --cluster-tsv "$BASE/orfs/clu_cluster.tsv" --fasta "$BASE/orfs/pooled.faa" \
   --groups $PARTICIPANT_GROUPS --tier orfs --participant "$PARTICIPANT" \
   --out "$BASE/orfs/cluster_membership.tsv" --summary "$BASE/orfs/summary.txt"

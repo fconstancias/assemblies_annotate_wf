@@ -45,7 +45,8 @@ mmseqs easy-cluster "$INPUT_FASTA" "$BASE/clu" "$BASE/tmp" "${MMSEQS_ARGS[@]}" -
 conda deactivate
 
 echo "=== [$PARTICIPANT/$TIER/$VARIANT_TAG] analyzing ==="
-python3 /maps/projects/hansen_ol-AUDIT/scratch/NILU/metagenomes/assembly_annotation_wf/dereplication_pilot/analyze_clusters.py \
+conda activate r-binner-compare
+Rscript /maps/projects/hansen_ol-AUDIT/scratch/NILU/metagenomes/assembly_annotation_wf/dereplication_pilot/R/analyze_clusters.R \
   --cluster-tsv "$BASE/clu_cluster.tsv" --fasta "$INPUT_FASTA" \
   --groups $PARTICIPANT_GROUPS_STR --tier "$TIER" --participant "${PARTICIPANT}_${VARIANT_TAG}" \
   --out "$BASE/cluster_membership.tsv" --summary "$BASE/summary.txt"
