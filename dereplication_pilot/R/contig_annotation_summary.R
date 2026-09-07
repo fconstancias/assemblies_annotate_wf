@@ -73,13 +73,25 @@ detail_rollup <- contig_detail %>%
     n_amr_genes = max(n_amr_genes, na.rm = TRUE),
     n_good_mag = sum(is_good_mag, na.rm = TRUE),
     n_binned = sum(!is.na(bin_name)),
+    n_instances = n(),
     .groups = "drop"
   ) %>%
-  mutate(mag_status = case_when(
-    n_good_mag > 0 ~ "good MAG",
-    n_binned > 0 ~ "binned (low quality)",
-    TRUE ~ "unbinned"
-  ))
+  mutate(
+    # MAG binning is done independently per sample/assembly, so it can genuinely
+    # succeed in some participants' assemblies and fail in others for the exact same
+    # whole-cohort contig -- confirmed on real data (mh_p550_000000053967: a plasmid
+    # shared across 11 participants, good-MAG in 4 of them, unbinned in the rest). A
+    # flat any()-derived "good MAG"/"unbinned" label collapsed that real heterogeneity
+    # into a misleadingly definitive-looking single value; report the actual fraction
+    # instead.
+    pct_good_mag = round(100 * n_good_mag / n_instances, 1),
+    mag_status = case_when(
+      n_binned == 0 ~ "never binned",
+      pct_good_mag >= 80 ~ "consistently good MAG",
+      n_good_mag > 0 ~ "sometimes good MAG",
+      TRUE ~ "binned, never good quality"
+    )
+  )
 
 summary <- classification %>% left_join(detail_rollup, by = "whole_cohort_id")
 
