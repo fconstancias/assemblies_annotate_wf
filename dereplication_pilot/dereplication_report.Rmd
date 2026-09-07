@@ -723,6 +723,61 @@ reliably); several of the most prevalent plasmid-classified contigs remain
 unbinned regardless, reinforcing that MAG absence here reflects a binning
 limitation rather than low confidence in the sequence itself.
 
+### The same atlas, but as presence/absence over real time
+
+Section 13 tracked *genes* as heatmap rows over real time; here it's the same
+idea pivoted to *contigs* as the row -- one row per whole-cohort-distinct
+contig (same top-60 set as above, same order), tracked across every real
+sample it could possibly appear in, with the annotation side-bars from the
+panel above attached directly. This is the same underlying concept the earlier
+gene-level heatmap already used -- a "whole-cohort-distinct contig" is exactly
+the cluster-equivalence-class dereplication itself defines, so tracking one
+row across different participants/samples is consistent with, not an
+extension beyond, what the clustering already represents.
+
+```{r contig-presence-heatmap, fig.height=11, fig.width=15}
+contig_presence <- read.delim(file.path(DP, "report_contig_presence_absence.tsv")) %>%
+  mutate(date = as.Date(ifelse(date == "", NA, date)))
+
+relevant_contigs <- top_contigs$whole_cohort_id
+relevant_participants_c <- contig_presence %>%
+  filter(whole_cohort_id %in% relevant_contigs) %>% pull(participant) %>% unique()
+
+contig_grid <- tidyr::crossing(
+    whole_cohort_id = relevant_contigs,
+    sample_calendar %>% filter(participant %in% relevant_participants_c)
+  ) %>%
+  left_join(contig_presence %>% filter(!is_coassembly) %>%
+              select(whole_cohort_id, group, local_length),
+            by = c("whole_cohort_id", "group")) %>%
+  mutate(present = !is.na(local_length)) %>%
+  left_join(top_contigs %>% select(whole_cohort_id, contig_label), by = "whole_cohort_id")
+
+col_presence <- ggplot(contig_grid, aes(x = date, y = factor(contig_label, levels = y_order), fill = present)) +
+  geom_tile(color = "white", linewidth = 0.05) +
+  scale_fill_manual(values = c(`TRUE` = "#2c7fb8", `FALSE` = "grey90"),
+                     labels = c(`TRUE` = "Detected", `FALSE` = "Sampled, not detected"), name = NULL) +
+  facet_wrap(~participant, scales = "free_x", nrow = 1) +
+  labs(x = NULL, y = NULL, title = "Presence over real time (faceted by participant)") +
+  theme_minimal(base_size = 7) +
+  theme(axis.text.x = element_text(angle = 90, size = 5), axis.text.y = element_blank(),
+        strip.text = element_text(size = 6), legend.position = "bottom")
+
+patchwork::wrap_plots(
+  list(col_length, col_genes, col_amr, col_class, col_mag, col_presence),
+  widths = c(1, 1, 1, 1, 1, 10), nrow = 1
+)
+```
+
+Grey tiles mean the sample exists but that specific contig wasn't detected in
+it -- same "no data" vs. "genuinely absent" distinction the gene-level version
+enforces. A contig row that's solid blue across most of a participant's
+timepoints is a stable resident element; scattered detection against a grey
+background is the contig-level equivalent of the intermittent AMR genes
+already seen in section 13 -- and now directly comparable against that same
+contig's length/AMR-count/classification/MAG side-bars without cross-referencing
+a separate table.
+
 ## Conclusions
 
 1. **Real, large, robust redundancy at both tiers, across all 25
