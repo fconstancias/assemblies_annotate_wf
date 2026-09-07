@@ -4,13 +4,18 @@ date: "`r Sys.Date()`"
 output:
   html_document:
     toc: true
-    toc_float: true
+    toc_float: false
     theme: flatly
     code_folding: hide
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE, fig.width = 9)
+# echo = TRUE (was FALSE): with source hidden, "code_folding: hide"'s Code button had
+# nothing to reveal -- looked broken but was working as configured. toc_float: false
+# (was TRUE): renders a plain static TOC list directly in the page instead of one a
+# JS library (tocify) populates at load time, since that wasn't rendering reliably in
+# at least one real viewer.
+knitr::opts_chunk$set(echo = TRUE, warning = FALSE, message = FALSE, fig.width = 9)
 library(dplyr)
 library(tidyr)
 library(ggplot2)
