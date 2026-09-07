@@ -46,6 +46,34 @@ genomad_summary_paths <- function(group) {
   )
 }
 
+COASSEMBLY_BINETTE <- "/maps/projects/hansen_ol-AUDIT/scratch/NILU/metagenomes/spa_coassembly_all/results_coassembly_all/binette"
+SINGLE_BINETTE <- "/maps/projects/hansen_ol-AUDIT/scratch/NILU/metagenomes/spa_single_all/results_spa_single_all/binette"
+
+binette_paths <- function(group) {
+  base <- if (is_coassembly(group)) COASSEMBLY_BINETTE else SINGLE_BINETTE
+  dir <- file.path(base, group)
+  list(contig_to_bin = file.path(dir, "final_contig_to_bin.tsv"),
+       bin_quality = file.path(dir, "final_bins_quality_reports.tsv"))
+}
+
+#' contig_id -> (bin_name, completeness, contamination, is_good_mag) for one group.
+#' "good MAG" follows the common completeness>=50 / contamination<10 threshold.
+load_contig_bins <- function(group) {
+  paths <- binette_paths(group)
+  if (!file.exists(paths$contig_to_bin)) {
+    return(tibble(contig_id = character(), bin_name = character(),
+                   completeness = double(), contamination = double(), is_good_mag = logical()))
+  }
+  c2b <- read_tsv(paths$contig_to_bin, col_names = c("contig_id", "bin_name"), col_types = "cc", progress = FALSE)
+  if (!file.exists(paths$bin_quality)) {
+    return(c2b %>% mutate(completeness = NA_real_, contamination = NA_real_, is_good_mag = NA))
+  }
+  bq <- read_tsv(paths$bin_quality, col_types = cols(name = "c", completeness = "d", contamination = "d", .default = "c"), progress = FALSE)
+  c2b %>%
+    left_join(bq %>% select(bin_name = name, completeness, contamination), by = "bin_name") %>%
+    mutate(is_good_mag = completeness >= 50 & contamination < 10)
+}
+
 #' Read one group's gff3 as a tidy (contig, start, stop, gene_id) table.
 read_gff3 <- function(group) {
   p <- gff3_path(group)

@@ -123,6 +123,45 @@ per_group %>%
   theme_minimal()
 ```
 
+### Both tiers together: co-assembly vs. single-sample as set overlaps
+
+The same comparison as a set breakdown -- clusters unique to single-sample
+assemblies, unique to the co-assembly, or shared between them, for both tiers.
+(A true UpSet dot-matrix plot was attempted here via patchwork, but hit a
+persistent axis-alignment bug combining discrete and continuous panels; with
+only 2 sets being compared, a grouped bar chart shows the identical
+information without the fragility.)
+
+```{r coassembly-single-upset, fig.height=5}
+sets <- read.delim(file.path(DP, "report_coassembly_vs_single_sets.tsv"))
+
+set_levels <- c("single_only", "shared", "coassembly_only")
+set_labels_full <- c(single_only = "Single-sample only", shared = "Shared", coassembly_only = "Co-assembly only")
+
+sets_agg <- sets %>%
+  group_by(tier, set) %>%
+  summarise(n_clusters = sum(n_clusters), .groups = "drop") %>%
+  mutate(set = factor(set, levels = set_levels))
+
+ggplot(sets_agg, aes(x = set, y = n_clusters, fill = set)) +
+  geom_col(width = 0.6) +
+  geom_text(aes(label = scales::comma(n_clusters)), vjust = -0.4, size = 3.2) +
+  facet_wrap(~tier, scales = "free_y") +
+  scale_x_discrete(labels = set_labels_full) +
+  scale_y_continuous(expand = expansion(mult = c(0, 0.15)), labels = scales::comma) +
+  scale_fill_manual(values = c(single_only = "#e34a33", shared = "#66a61e", coassembly_only = "#2c7fb8"), guide = "none") +
+  labs(x = NULL, y = "Clusters", title = "Co-assembly vs. single-sample: unique and shared cluster counts") +
+  theme_minimal() +
+  theme(axis.text.x = element_text(angle = 20, hjust = 1), strip.text = element_text(face = "bold"))
+```
+
+Genes: the "shared" bar dominates (5.25M of ~7.0M pooled cluster-instances) --
+consistent with the 90%+ gene-level redundancy already reported. Contigs: "single
+only" dominates instead (3.04M of ~4.1M) -- most contig identity is still
+sample-specific even though a meaningful fraction (both "shared" and
+"co-assembly only") is not, matching the more moderate ~40-45% contig-level
+redundancy already reported.
+
 ## 4. Co-assembly-unique contribution
 
 Contigs/genes in a cluster with **no single-sample member at all** -- only
@@ -510,6 +549,75 @@ color changes between timepoints, the gene moved to a different contig/plasmid
 backbone rather than staying on the same one -- worth flagging as a candidate
 for closer inspection (real mobilization, vs. an assembly-fragmentation
 artifact splitting the same true backbone differently across samples).
+
+### Same grid, colored by contig length instead of context
+
+Same participants, genes, dates and sample-collection background as above --
+only the fill changes, from categorical genomic context to the actual length
+(bp) of the underlying contig, so a change in shade between two timepoints
+shows whether the gene moved to a longer/shorter assembled backbone, not just
+a *different* one.
+
+```{r amr-presence-heatmap-length, fig.height=22, fig.width=13}
+grid_length <- tidyr::crossing(amr_gene = top_genes,
+                                sample_calendar %>% filter(participant %in% relevant_participants)) %>%
+  left_join(presence_top %>% select(amr_gene, group, participant, contig_length),
+            by = c("amr_gene", "group", "participant")) %>%
+  left_join(gene_label, by = "amr_gene")
+
+ggplot(grid_length, aes(x = date, y = reorder(label, match(amr_gene, top_genes)), fill = contig_length)) +
+  geom_tile(color = "white", linewidth = 0.1) +
+  scale_fill_viridis_c(name = "Contig length (bp)", trans = "log10", na.value = "grey90",
+                        labels = scales::comma) +
+  facet_wrap(~participant, scales = "free_x", ncol = 4) +
+  labs(x = "Sample date", y = NULL,
+       title = "Same presence grid, colored by contig length",
+       subtitle = "Grey = sampled, gene absent | color = length (log scale) of the contig carrying the gene | gap = no sample collected") +
+  theme_minimal(base_size = 11) +
+  theme(axis.text.x = element_text(angle = 90, size = 7, hjust = 1),
+        axis.text.y = element_text(size = 7),
+        strip.text = element_text(size = 8, face = "bold"),
+        legend.position = "bottom",
+        legend.title = element_text(size = 9),
+        panel.spacing = unit(0.6, "lines"))
+```
+
+### A closer look at genuinely mobile genes (multiple real contexts)
+
+Most (gene, participant) pairs above only ever show one context -- the
+"multi-colored row" cases where a gene really did reassemble on different
+contig backbones are the interesting minority. Isolating those and faceting by
+context directly (rather than color) makes each context's own timeline legible
+on its own, with point size now showing contig length.
+
+```{r amr-mobile-genes, fig.height=8}
+mobile <- context_rank %>%
+  group_by(amr_gene, participant) %>%
+  filter(n_distinct(context_label) >= 2) %>%
+  ungroup()
+
+if (nrow(mobile) > 0) {
+  mobile_presence <- presence_top %>%
+    inner_join(mobile %>% select(amr_gene, participant, contig_cluster, context_label),
+               by = c("amr_gene", "participant", "contig_cluster")) %>%
+    left_join(gene_label, by = "amr_gene") %>%
+    mutate(gene_participant = paste0(label, " -- ", participant))
+
+  ggplot(mobile_presence, aes(x = date, y = gene_participant, size = contig_length)) +
+    geom_point(aes(color = context_label), alpha = 0.8) +
+    scale_color_manual(values = status_colors, guide = "none") +
+    scale_size_continuous(name = "Contig length (bp)", labels = scales::comma, range = c(2, 8)) +
+    facet_wrap(~context_label, ncol = 1) +
+    labs(x = "Sample date", y = NULL,
+         title = sprintf("%d gene x participant pairs with >=2 real genomic contexts",
+                          n_distinct(paste(mobile$amr_gene, mobile$participant))),
+         subtitle = "Each panel = one context rank; point size = contig length at that timepoint") +
+    theme_minimal(base_size = 10) +
+    theme(axis.text.y = element_text(size = 7), strip.text = element_text(face = "bold"))
+} else {
+  cat("No gene x participant pairs among the top 40 genes showed >=2 distinct real contexts.\n")
+}
+```
 
 ## Conclusions
 

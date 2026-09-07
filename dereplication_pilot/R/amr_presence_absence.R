@@ -14,7 +14,7 @@ if (TRUE) {  # always run main logic on source() or Rscript alike -- sys.nframe(
   for (participant in all_participants()) {
     membership <- load_cluster_membership(participant, "orfs")
     contig_membership <- load_cluster_membership(participant, "contigs") %>%
-      select(contig_id = member_id, contig_cluster = cluster_id)
+      select(contig_id = member_id, contig_cluster = cluster_id, contig_length = length)
 
     groups <- unique(membership$source_group)
     calls <- purrr::map_dfr(groups, load_gene_calls_rgi)
@@ -57,14 +57,15 @@ if (TRUE) {  # always run main logic on source() or Rscript alike -- sys.nframe(
   presence <- amr_cluster_info %>%
     inner_join(second_level, by = "cluster_id") %>%
     group_by(amr_gene, source_group, participant) %>%
-    summarise(aro_call = first(aro_call), contig_cluster = first(contig_cluster), .groups = "drop") %>%
+    summarise(aro_call = first(aro_call), contig_cluster = first(contig_cluster),
+              contig_length = first(contig_length), .groups = "drop") %>%
     rename(group = source_group) %>%
     mutate(is_coassembly = is_coassembly(group)) %>%
     left_join(dates %>% select(group, date), by = "group") %>%
     mutate(date = ifelse(is_coassembly, NA, as.character(date)))
 
   write_tsv(presence %>% mutate(date = coalesce(date, "")) %>%
-              select(amr_gene, aro_call, group, participant, is_coassembly, date, contig_cluster),
+              select(amr_gene, aro_call, group, participant, is_coassembly, date, contig_cluster, contig_length),
             file.path(PILOT_DIR, "R_report_amr_presence_absence.tsv"))
 
   prevalence <- presence %>%
