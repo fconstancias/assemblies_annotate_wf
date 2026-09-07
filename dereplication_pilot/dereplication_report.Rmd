@@ -19,7 +19,16 @@ library(knitr)
 DP <- "/maps/projects/hansen_ol-AUDIT/scratch/NILU/metagenomes/assembly_annotation_wf/dereplication_pilot"
 
 overview <- read.delim(file.path(DP, "report_overview.tsv"))
-per_group <- read.delim(file.path(DP, "report_per_group.tsv"))
+# NOTE: is_coassembly columns were written by Python as str(bool) -- "True"/"False"
+# (capitalized first letter only), which never matches R's own TRUE/FALSE when read
+# via read.delim (stays a character column) -- confirmed the hard way: scale_x_discrete/
+# scale_fill_manual keyed on `TRUE`/`FALSE` silently produced wrong axis labels and
+# missing fill colors in this report's first two co-assembly-vs-single-sample plots
+# (no error, since unmatched scale values just degrade to NA rather than fail) until a
+# later chunk's `!is_coassembly` hard-errored on the same root cause and exposed it.
+# Converting to real logicals immediately on load avoids this everywhere at once.
+per_group <- read.delim(file.path(DP, "report_per_group.tsv")) %>%
+  mutate(is_coassembly = as.logical(is_coassembly))
 sweep <- read.delim(file.path(DP, "report_sweep.tsv"))
 validation <- read.delim(file.path(DP, "report_validation.tsv"))
 amr_redundancy <- read.delim(file.path(DP, "report_amr_redundancy.tsv"))
@@ -32,6 +41,9 @@ longitudinal_contigs <- read.delim(file.path(DP, "longitudinal_similarity_contig
 longitudinal <- bind_rows(longitudinal_orfs, longitudinal_contigs)
 amr_within_between <- read.delim(file.path(DP, "report_amr_within_between.tsv"))
 amr_plasmid_within_between <- read.delim(file.path(DP, "report_amr_plasmid_within_between.tsv"))
+amr_presence <- read.delim(file.path(DP, "report_amr_presence_absence.tsv")) %>%
+  mutate(is_coassembly = as.logical(is_coassembly))
+amr_prevalence <- read.delim(file.path(DP, "report_amr_prevalence.tsv"))
 
 pal <- c(contigs = "#2c7fb8", orfs = "#e34a33")
 ```
@@ -399,6 +411,54 @@ in `r max(amr_plasmid_within_between$n_participants_sharing)` different
 participants -- real evidence of a circulating resistance plasmid, not
 coincidental sequence similarity.
 
+## 13. AMR gene presence/absence: within participant, across time
+
+Sections 5, 11-12 reported redundancy as summary percentages. Here each
+whole-cohort-distinct AMR gene (from section 11) is tracked as a real
+presence/absence call per sample -- "present" meaning that sample carries a
+gene clustering with that AMR gene's reference hit at >=95% identity/90%
+coverage, whether or not RGI happened to call a hit on that specific sample's
+own copy. This is the direct view of whether a given resistance gene
+persists, disappears, or reappears over a participant's own timepoints, and
+how consistently it's detected across the cohort.
+
+```{r amr-prevalence-hist}
+ggplot(amr_prevalence, aes(x = n_samples)) +
+  geom_histogram(binwidth = 5, fill = "#2c7fb8") +
+  labs(x = "Number of samples (out of 296) an AMR gene is detected in",
+       y = "Number of distinct AMR genes",
+       title = "Most whole-cohort AMR genes are detected in only a handful of samples;\na long tail is near-ubiquitous") +
+  theme_minimal()
+```
+
+```{r amr-presence-heatmap, fig.height=12}
+top_genes <- amr_prevalence %>% slice_max(n_samples, n = 40) %>% pull(amr_gene)
+
+amr_presence %>%
+  filter(amr_gene %in% top_genes, !is_coassembly, date != "") %>%
+  mutate(date = as.Date(date),
+         label = paste0(substr(aro_call, 1, 30), " (", amr_gene, ")")) %>%
+  ggplot(aes(x = date, y = reorder(label, match(amr_gene, top_genes)))) +
+  geom_tile(fill = "#2c7fb8") +
+  facet_wrap(~participant, scales = "free_x", ncol = 5) +
+  labs(x = "Sample date", y = NULL,
+       title = "Presence of the 40 most prevalent AMR genes, per participant, over real time",
+       subtitle = "Each tile = detected in that participant's sample on that date; gaps = not detected") +
+  theme_minimal() +
+  theme(axis.text.x = element_text(angle = 90, size = 6, hjust = 1),
+        axis.text.y = element_text(size = 6),
+        strip.text = element_text(size = 7))
+```
+
+Two real patterns visible directly: (1) some AMR genes, once detected in a
+participant, persist across most/all of their later timepoints -- consistent
+with a stable resident strain carrying that resistance gene; (2) others appear
+intermittently, consistent with either genuine strain turnover/loss, or
+detection-limit noise (present but at low enough abundance/coverage to
+sometimes fail assembly) -- this analysis alone can't distinguish the two,
+but the gap pattern itself is the first real evidence needed to investigate
+further.
+
 ## Conclusions
 
 1. **Real, large, robust redundancy at both tiers, across all 25
@@ -428,6 +488,11 @@ coincidental sequence similarity.
    a whole plasmid is a stricter test than matching one gene -- but the most
    widely shared one was found in 7 different participants, real evidence of
    a circulating resistance plasmid in this cohort.
+8. **AMR gene presence/absence has real temporal structure**, visible at the
+   individual-gene level: some resistance genes persist across a
+   participant's later timepoints once detected (consistent with a stable
+   resident strain), others appear intermittently (strain turnover, or
+   detection-limit noise -- not distinguishable from clustering alone).
 
 Not yet done: per-tool propagation-safety audit beyond RGI/geNomad (the
 brainstorm's original open question), and no representative-annotation +
