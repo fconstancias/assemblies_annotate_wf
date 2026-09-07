@@ -793,6 +793,73 @@ already seen in section 13 -- and now directly comparable against that same
 contig's length/AMR-count/classification/MAG side-bars without cross-referencing
 a separate table.
 
+### Per-participant view: AMR gene x contig, faceted by plasmid vs. MAG association
+
+One more cut, combining sections 13 and 14 at finer grain and per participant:
+each row is now a specific **(AMR gene, contig)** pair -- not just the gene
+alone -- so a gene that recurs on genuinely different contig backbones gets
+separate rows instead of being collapsed into one. Rows are split into two
+facets by what that contig actually is: **plasmid-associated** (geNomad
+plasmid-classified) vs. **MAG-associated** (landed in a good-quality bin at
+least once) -- the same two categories used throughout sections 10-14, now
+shown side by side the way you'd compare mobile-element-borne vs.
+chromosomally-binned resistance genes directly. Presence/absence for now
+(not contig count) -- the natural next step, not built yet, is separating
+single-sample from co-assembly detections the same way.
+
+```{r amr-gene-contig-participant, fig.height=9, fig.width=13}
+make_gene_contig_participant_heatmap <- function(target_participant, top_n = 40) {
+  p_presence <- amr_presence %>%
+    filter(participant == target_participant, !is_coassembly, date != "", contig_cluster != "")
+
+  top_pairs <- p_presence %>%
+    count(amr_gene, contig_cluster, aro_call, name = "n_obs", sort = TRUE) %>%
+    slice_head(n = top_n) %>%
+    left_join(contig_summary %>% select(whole_cohort_id, is_plasmid, mag_status),
+              by = c("contig_cluster" = "whole_cohort_id")) %>%
+    mutate(
+      row_label = paste0(substr(aro_call, 1, 22), " (", contig_cluster, ")"),
+      facet_type = case_when(
+        is_plasmid ~ "Plasmid-associated",
+        mag_status %in% c("consistently good MAG", "sometimes good MAG") ~ "MAG-associated",
+        TRUE ~ "Neither (AMR only / never binned)"
+      )
+    )
+
+  cal <- sample_calendar %>% filter(participant == target_participant)
+  presence_flag <- p_presence %>% distinct(amr_gene, contig_cluster, group) %>% mutate(present = TRUE)
+
+  grid <- tidyr::crossing(top_pairs %>% select(amr_gene, contig_cluster, row_label, facet_type), cal) %>%
+    left_join(presence_flag, by = c("amr_gene", "contig_cluster", "group")) %>%
+    mutate(present = coalesce(present, FALSE))
+
+  ggplot(grid, aes(x = date, y = row_label, fill = present)) +
+    geom_tile(color = "white", linewidth = 0.1) +
+    scale_fill_manual(values = c(`TRUE` = "#2c7fb8", `FALSE` = "grey90"),
+                       labels = c(`TRUE` = "Detected", `FALSE` = "Sampled, not detected"), name = NULL) +
+    facet_wrap(~facet_type, ncol = 1, scales = "free_y") +
+    labs(x = NULL, y = NULL, title = sprintf("Participant %s", target_participant)) +
+    theme_minimal(base_size = 7) +
+    theme(axis.text.x = element_text(angle = 90, size = 6), axis.text.y = element_text(size = 6),
+          strip.text = element_text(size = 7, face = "bold"), legend.position = "bottom")
+}
+
+# Two illustrative participants (most AMR presence records, richest real examples --
+# same "show 2 example participants" pattern as the reference figure this was adapted from).
+patchwork::wrap_plots(
+  list(make_gene_contig_participant_heatmap("p813"), make_gene_contig_participant_heatmap("p431")),
+  nrow = 1
+)
+```
+
+Read each panel as: does this specific gene-on-this-specific-contig recur
+across this participant's own timepoints, and is it riding on a plasmid, a
+binned chromosome, or neither? A gene appearing in *both* facets (once on a
+plasmid-classified contig, once on a MAG-associated one) is real evidence of
+the same resistance determinant existing on two genuinely different genomic
+backgrounds within the same person -- worth a closer look candidate, not
+something the gene-only view in section 13 could show.
+
 ## Conclusions
 
 1. **Real, large, robust redundancy at both tiers, across all 25
