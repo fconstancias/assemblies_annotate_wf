@@ -81,3 +81,8 @@ __pycache__/
 # cluster_membership.tsv + geNomad/RGI output. Keep only the small aggregated
 # summary (report_plasmid_amr.tsv) tracked.
 dereplication_pilot/plasmid_amr_join.tsv
+
+# Per-instance contig annotation detail (291K rows, one per (contig cluster, sample) --
+# regeneratable via R/contig_annotation_summary.R). Keep only the whole-cohort-distinct
+# summary (report_contig_annotation_summary.tsv) tracked.
+dereplication_pilot/report_contig_annotation_detail.tsv

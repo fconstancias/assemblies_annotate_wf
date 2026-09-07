@@ -44,6 +44,7 @@ amr_plasmid_within_between <- read.delim(file.path(DP, "report_amr_plasmid_withi
 amr_presence <- read.delim(file.path(DP, "report_amr_presence_absence.tsv")) %>%
   mutate(is_coassembly = as.logical(is_coassembly))
 amr_prevalence <- read.delim(file.path(DP, "report_amr_prevalence.tsv"))
+contig_summary <- read.delim(file.path(DP, "report_contig_annotation_summary.tsv"))
 
 pal <- c(contigs = "#2c7fb8", orfs = "#e34a33")
 ```
@@ -619,6 +620,104 @@ if (nrow(mobile) > 0) {
 }
 ```
 
+## 14. Contig annotation atlas: length, genes, AMR, prevalence, plasmid/viral, MAG status
+
+Every prior contig-level section looked at one or two dimensions at a time
+(redundancy, plasmid/AMR enrichment, presence/absence). Here each of the
+**`r format(nrow(contig_summary), big.mark=",")`** whole-cohort-distinct
+contigs that are AMR-carrying and/or geNomad plasmid/virus-classified (the
+same "interesting" set section 10 uses, out of 5.48M total contig clusters --
+everything else is an uninformative singleton) gets a full annotation record:
+length, gene count, AMR gene count, how many samples/participants it's found
+in, plasmid/virus classification, and whether it landed in a real MAG bin
+(via Binette -- "good MAG" = completeness >=50%, contamination <10%, the
+standard MAG-quality threshold; the co-assembly/single-sample Binette runs
+that produced this were part of this project's separate binning workflow, not
+this dereplication pipeline).
+
+```{r contig-annotation-mag-summary}
+contig_summary %>%
+  count(mag_status) %>%
+  mutate(pct = round(100 * n / sum(n), 1)) %>%
+  kable(col.names = c("MAG status", "N contigs", "%"),
+        caption = sprintf("MAG binning status across all %s interesting contigs", format(nrow(contig_summary), big.mark=",")))
+```
+
+Roughly half of these AMR/plasmid/viral contigs never made it into a
+good-quality MAG bin -- consistent with a well-known binning limitation:
+plasmids and mobile elements often have coverage/composition signals that
+diverge from their host chromosome, so binners that rely on those signals
+systematically under-recover them, independent of how real or important the
+sequence is.
+
+```{r contig-annotation-heatmap, fig.height=11, fig.width=11}
+top_contigs <- contig_summary %>%
+  arrange(desc(n_samples), desc(length)) %>%
+  slice_head(n = 60) %>%
+  mutate(
+    contig_label = paste0(whole_cohort_id, " (", scales::comma(length), " bp)"),
+    classification = case_when(
+      is_plasmid & is_virus ~ "plasmid+virus",
+      is_plasmid ~ "plasmid",
+      is_virus ~ "virus",
+      TRUE ~ "AMR only, no plasmid/virus call"
+    ),
+    mag_status = factor(mag_status, levels = c("good MAG", "binned (low quality)", "unbinned"))
+  )
+y_order <- rev(top_contigs$contig_label)
+top_contigs <- top_contigs %>% mutate(contig_label = factor(contig_label, levels = y_order))
+
+base_theme <- theme_minimal(base_size = 8) +
+  theme(axis.ticks = element_blank(), panel.grid = element_blank(),
+        plot.title = element_text(size = 8, hjust = 0.5),
+        legend.title = element_blank(), legend.text = element_text(size = 6),
+        legend.key.width = unit(0.3, "cm"))
+
+make_continuous_col <- function(var, title, trans = "identity", show_axis = FALSE) {
+  ggplot(top_contigs, aes(x = 1, y = contig_label, fill = .data[[var]])) +
+    geom_tile() +
+    scale_fill_viridis_c(trans = trans, labels = scales::comma) +
+    labs(title = title, x = NULL, y = NULL) +
+    base_theme +
+    theme(axis.text.x = element_blank(),
+          axis.text.y = if (show_axis) element_text(size = 5.5) else element_blank())
+}
+make_discrete_col <- function(var, title, palette, show_axis = FALSE) {
+  ggplot(top_contigs, aes(x = 1, y = contig_label, fill = .data[[var]])) +
+    geom_tile() +
+    scale_fill_manual(values = palette) +
+    labs(title = title, x = NULL, y = NULL) +
+    base_theme +
+    theme(axis.text.x = element_blank(),
+          axis.text.y = if (show_axis) element_text(size = 5.5) else element_blank())
+}
+
+col_length <- make_continuous_col("length", "Length\n(bp)", trans = "log10", show_axis = TRUE)
+col_genes <- make_continuous_col("n_genes", "Genes")
+col_amr <- make_continuous_col("n_amr_genes", "AMR\ngenes")
+col_samples <- make_continuous_col("n_samples", "Samples")
+col_participants <- make_continuous_col("n_participants", "Partic-\nipants")
+col_class <- make_discrete_col("classification", "Class",
+  c(plasmid = "#fc8d62", virus = "#66c2a5", `plasmid+virus` = "#8da0cb", `AMR only, no plasmid/virus call` = "grey70"))
+col_mag <- make_discrete_col("mag_status", "MAG",
+  c(`good MAG` = "#1b9e77", `binned (low quality)` = "#e6ab02", unbinned = "grey80"))
+
+# NOTE: patchwork's `|`/`/` operator overloads don't dispatch correctly against this
+# ggplot2 version's new S7 object system in this env ("Can't find method for generic
+# `|`" -- same underlying issue hit earlier in the co-assembly/single-sample UpSet
+# attempt, worked around there by dropping patchwork entirely; here wrap_plots(), the
+# function-based API, works fine since it doesn't rely on operator dispatch).
+patchwork::wrap_plots(list(col_length, col_genes, col_amr, col_samples, col_participants, col_class, col_mag), nrow = 1)
+```
+
+The 60 most widely-shared interesting contigs (by sample count, then length)
+shown above -- real patterns worth noting: contigs found in more
+samples/participants tend to be longer and more often land in a good MAG
+(prevalent, well-covered sequence assembles more completely and bins more
+reliably); several of the most prevalent plasmid-classified contigs remain
+unbinned regardless, reinforcing that MAG absence here reflects a binning
+limitation rather than low confidence in the sequence itself.
+
 ## Conclusions
 
 1. **Real, large, robust redundancy at both tiers, across all 25
@@ -653,6 +752,11 @@ if (nrow(mobile) > 0) {
    participant's later timepoints once detected (consistent with a stable
    resident strain), others appear intermittently (strain turnover, or
    detection-limit noise -- not distinguishable from clustering alone).
+9. **About half of AMR/plasmid/viral contigs never land in a good-quality
+   MAG bin** -- a real binning limitation (plasmids' coverage/composition
+   diverges from their host), not a sign the sequence itself is unreliable;
+   worth keeping in mind for any downstream analysis that only looks at
+   binned/MAG-level data.
 
 Not yet done: per-tool propagation-safety audit beyond RGI/geNomad (the
 brainstorm's original open question), and no representative-annotation +
