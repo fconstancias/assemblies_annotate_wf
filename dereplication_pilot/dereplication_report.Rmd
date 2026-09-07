@@ -27,7 +27,11 @@ coassembly_unique <- read.delim(file.path(DP, "report_coassembly_unique.tsv"))
 amr_coassembly_unique <- read.delim(file.path(DP, "report_amr_coassembly_unique.tsv"))
 cross_participant <- read.delim(file.path(DP, "report_cross_participant.tsv"))
 plasmid_amr <- read.delim(file.path(DP, "report_plasmid_amr.tsv"))
-longitudinal <- read.delim(file.path(DP, "longitudinal_similarity.tsv"))
+longitudinal_orfs <- read.delim(file.path(DP, "longitudinal_similarity_orfs.tsv")) %>% mutate(tier = "orfs")
+longitudinal_contigs <- read.delim(file.path(DP, "longitudinal_similarity_contigs.tsv")) %>% mutate(tier = "contigs")
+longitudinal <- bind_rows(longitudinal_orfs, longitudinal_contigs)
+amr_within_between <- read.delim(file.path(DP, "report_amr_within_between.tsv"))
+amr_plasmid_within_between <- read.delim(file.path(DP, "report_amr_plasmid_within_between.tsv"))
 
 pal <- c(contigs = "#2c7fb8", orfs = "#e34a33")
 ```
@@ -223,25 +227,31 @@ random** -- inspection of individual cases showed:
   with genuine prophage-plasmid hybrid mobile elements the classifier finds
   genuinely borderline.
 
-## 8. Gene cluster longitudinal similarity within participant
+## 8. Gene & contig cluster longitudinal similarity within participant
 
 For every pair of a participant's own single-sample timepoints: what fraction
-of gene clusters do they share (Jaccard), vs. real calendar days between them?
+of clusters do they share (Jaccard), vs. real calendar days between them --
+now for both tiers.
 
 ```{r longitudinal-plot}
 ggplot(longitudinal, aes(x = days_between, y = jaccard)) +
-  geom_point(aes(color = participant), alpha = 0.6, show.legend = FALSE) +
+  geom_point(aes(color = participant), alpha = 0.5, show.legend = FALSE) +
   geom_smooth(method = "loess", color = "black", se = TRUE) +
-  labs(x = "Days between timepoints", y = "Jaccard similarity (shared gene clusters)",
-       title = "Gene-sharing between two timepoints of the same participant decays with time") +
+  facet_wrap(~tier, scales = "free_y") +
+  labs(x = "Days between timepoints", y = "Jaccard similarity (shared clusters)",
+       title = "Sharing between two timepoints of the same participant decays with time,\nmuch more steeply for contigs than genes") +
   theme_minimal()
 ```
 
-Similarity is highest (~0.6-0.8) for timepoints ~1-2 weeks apart and drops
+Gene similarity is highest (~0.6-0.8) for timepoints ~1-2 weeks apart and drops
 substantially (~0.2-0.3) for timepoints roughly a year apart -- real strain
-turnover, not noise. This matters directly for the propagation design: an
-"annotate once" representative may not stay valid indefinitely over a long
-study and could need periodic refresh.
+turnover, not noise. Contig similarity starts far lower (~0.14 at best) and
+decays to near-zero (~0.002-0.02) -- contigs are longer, more
+structurally-specific sequences that reassemble consistently far less often
+than individual genes do, even within the same person over time. This matters
+directly for the propagation design: an "annotate once" representative may not
+stay valid indefinitely over a long study and could need periodic refresh,
+more urgently for contig-level than gene-level annotation.
 
 ## 9. Within- vs. between-participant sharing (second-level clustering)
 
@@ -310,6 +320,85 @@ background rate; virus-classified clusters show no enrichment over background
 reservoir/vector, unlike phages), recovered here from real, cluster-deduplicated
 data rather than assumed.
 
+## 11. AMR gene dynamics: within- vs. between-participant
+
+Section 5 counted distinct AMR genes *within* each participant separately
+(summed: `r format(sum(amr_redundancy$distinct_clusters), big.mark=",")`).
+Here the same AMR-carrying clusters are pushed through the second-level
+(cross-participant) clustering to ask: how many are *actually* distinct once
+sharing between different people is also collapsed?
+
+```{r amr-within-between-summary}
+within_total <- sum(amr_redundancy$distinct_clusters)
+whole_cohort <- sum(amr_within_between$n_distinct_amr_genes)
+shared_n <- sum(amr_within_between$n_distinct_amr_genes[amr_within_between$n_participants_sharing > 1])
+data.frame(
+  Level = c("Within-participant (summed)", "Whole-cohort (cross-participant dedup)"),
+  `Distinct AMR genes` = c(within_total, whole_cohort),
+  check.names = FALSE
+) %>% kable()
+```
+
+`r format(within_total, big.mark=",")` within-participant-distinct AMR genes
+collapse to just **`r format(whole_cohort, big.mark=",")`** once shared across
+different people too -- a further
+**`r round(100*(within_total-whole_cohort)/within_total, 1)`%** reduction.
+**`r round(100*shared_n/whole_cohort, 1)`%** of the whole-cohort-distinct AMR
+genes are found in >=2 participants.
+
+```{r amr-within-between-hist}
+ggplot(amr_within_between, aes(x = n_participants_sharing, y = n_distinct_amr_genes)) +
+  geom_col(fill = "#2c7fb8") +
+  labs(x = "Number of participants sharing this AMR gene", y = "Number of distinct AMR genes",
+       title = "Most whole-cohort AMR genes are shared by multiple participants,\nsome present in nearly everyone") +
+  theme_minimal()
+```
+
+A striking tail: some individual AMR genes recur in *most or all* 25
+participants -- consistent with a shared "core" resistance gene pool
+circulating in this population, distinct from the ~43% that are genuinely
+participant-specific (private resistance elements, or simply not yet detected
+elsewhere).
+
+## 12. AMR plasmid dynamics: within- vs. between-participant
+
+The same within-vs-between question, restricted to contig clusters that are
+**both** geNomad-plasmid-classified **and** AMR-gene-carrying (section 10) --
+is a given resistance plasmid participant-specific, or does it circulate
+across people?
+
+```{r amr-plasmid-within-between-summary}
+within_p <- sum(plasmid_amr$n_amr_carrying[plasmid_amr$category == "plasmid"])
+whole_cohort_p <- sum(amr_plasmid_within_between$n_distinct_clusters)
+shared_p <- sum(amr_plasmid_within_between$n_distinct_clusters[amr_plasmid_within_between$n_participants_sharing > 1])
+data.frame(
+  Level = c("Within-participant (summed)", "Whole-cohort (cross-participant dedup)"),
+  `Distinct AMR+plasmid clusters` = c(within_p, whole_cohort_p),
+  check.names = FALSE
+) %>% kable()
+```
+
+`r within_p` within-participant AMR-carrying plasmid clusters collapse to
+**`r whole_cohort_p`** whole-cohort distinct ones. Only
+**`r round(100*shared_p/whole_cohort_p, 1)`%** are shared across >=2
+participants -- far less cross-participant sharing than plain AMR genes
+(section 11) show. This makes sense: matching a *whole plasmid* (a longer,
+multi-gene sequence) across different people's distinct bacterial populations
+is a much stricter test than matching one gene.
+
+```{r amr-plasmid-within-between-hist}
+ggplot(amr_plasmid_within_between, aes(x = n_participants_sharing, y = n_distinct_clusters)) +
+  geom_col(fill = "#fc8d62") +
+  labs(x = "Number of participants sharing this AMR+plasmid cluster", y = "Number of distinct clusters",
+       title = "Most AMR-carrying plasmids are participant-specific,\nbut a real minority circulate across multiple people") +
+  theme_minimal()
+```
+
+The most-shared single AMR-carrying plasmid cluster in this cohort was found
+in `r max(amr_plasmid_within_between$n_participants_sharing)` different
+participants -- real evidence of a circulating resistance plasmid, not
+coincidental sequence similarity.
+
 ## Conclusions
 
 1. **Real, large, robust redundancy at both tiers, across all 25
@@ -328,8 +417,17 @@ data rather than assumed.
    genes (44%) -- a full cohort-wide dereplication (not just within-participant)
    would capture meaningfully more redundancy than reported here.
 5. **Time matters**: gene-sharing between timepoints decays with real
-   calendar time -- an eventual production pipeline should account for this
-   rather than treat "annotate once" as valid indefinitely.
+   calendar time, far more steeply for contigs than genes -- an eventual
+   production pipeline should account for this rather than treat "annotate
+   once" as valid indefinitely.
+6. **AMR genes show a shared "core" resistance pool**: whole-cohort dedup
+   collapses 12,227 within-participant-distinct AMR genes to just 2,497 --
+   57% of those are found in multiple participants, some in nearly all 25.
+7. **AMR-carrying plasmids are mostly participant-specific, but not always**:
+   only 12% are shared across people (vs. 57% for plain AMR genes) -- matching
+   a whole plasmid is a stricter test than matching one gene -- but the most
+   widely shared one was found in 7 different participants, real evidence of
+   a circulating resistance plasmid in this cohort.
 
 Not yet done: per-tool propagation-safety audit beyond RGI/geNomad (the
 brainstorm's original open question), and no representative-annotation +

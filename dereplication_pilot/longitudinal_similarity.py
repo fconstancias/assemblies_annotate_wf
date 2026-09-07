@@ -32,11 +32,10 @@ def load_sample_dates():
     return dates
 
 
-def main():
-    dates = load_sample_dates()
+def run_tier(tier, dates):
     out_rows = []
 
-    for mfile in sorted(glob.glob(f"{PILOT_DIR}/p*/orfs/cluster_membership.tsv")):
+    for mfile in sorted(glob.glob(f"{PILOT_DIR}/p*/{tier}/cluster_membership.tsv")):
         participant = mfile.split("/")[-3]
         clusters_of_group = defaultdict(set)  # group -> set of cluster_ids it has a member in
         with open(mfile) as fh:
@@ -61,18 +60,24 @@ def main():
 
                 out_rows.append((participant, gi, gj, days, shared, len(ci), len(cj), jaccard))
 
-    out_path = f"{PILOT_DIR}/longitudinal_similarity.tsv"
+    out_path = f"{PILOT_DIR}/longitudinal_similarity_{tier}.tsv"
     with open(out_path, "w") as fh:
         fh.write("participant\tgroup_i\tgroup_j\tdays_between\tshared_clusters\tn_clusters_i\tn_clusters_j\tjaccard\n")
         for row in out_rows:
             fh.write("\t".join(str(x) for x in row) + "\n")
 
-    print(f"wrote {len(out_rows)} pairs to {out_path}")
+    print(f"[{tier}] wrote {len(out_rows)} pairs to {out_path}")
     if out_rows:
         days_list = [r[3] for r in out_rows]
         jac_list = [r[7] for r in out_rows]
-        print(f"days_between range: {min(days_list)}-{max(days_list)}")
-        print(f"jaccard range: {min(jac_list):.3f}-{max(jac_list):.3f}")
+        print(f"[{tier}] days_between range: {min(days_list)}-{max(days_list)}")
+        print(f"[{tier}] jaccard range: {min(jac_list):.3f}-{max(jac_list):.3f}")
+
+
+def main():
+    dates = load_sample_dates()
+    for tier in ("orfs", "contigs"):
+        run_tier(tier, dates)
 
 
 if __name__ == "__main__":
