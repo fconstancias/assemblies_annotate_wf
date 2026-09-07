@@ -86,3 +86,12 @@ dereplication_pilot/plasmid_amr_join.tsv
 # regeneratable via R/contig_annotation_summary.R). Keep only the whole-cohort-distinct
 # summary (report_contig_annotation_summary.tsv) tracked.
 dereplication_pilot/report_contig_annotation_detail.tsv
+
+# Two-step clustering validation test intermediates (candidate FASTA/TSV + raw mmseqs
+# re-clustering output) -- regeneratable via R/validate_two_step_clustering.R + mmseqs
+# easy-cluster + R/analyze_two_step_validation.R against the already-committed
+# master_orf_table_amr.tsv.gz. Keep only the small aggregated summaries
+# (R_two_step_validation_*.tsv) tracked.
+dereplication_pilot/validate_two_step_candidates.*
+dereplication_pilot/validate_two_step_call_membership.tsv
+dereplication_pilot/validate_two_step_clu_*

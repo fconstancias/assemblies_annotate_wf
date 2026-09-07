@@ -1,0 +1,113 @@
+aro_call	n_original_clusters	n_new_clusters	merged
+AAC(6')-Im	2	2	FALSE
+AcrS	2	2	FALSE
+ArnT	10	10	FALSE
+Bifidobacterium adolescentis rpoB mutants conferring resistance to rifampicin	5	4	TRUE
+CMY-132	3	3	FALSE
+CfxA2	2	2	FALSE
+CfxA6	2	2	FALSE
+ErmF	2	2	FALSE
+Escherichia coli AcrAB-TolC with AcrR mutation conferring resistance to ciprofloxacin, tetracycline, and ceftazidime	2	2	FALSE
+Escherichia coli AcrAB-TolC with MarR mutations conferring resistance to ciprofloxacin and tetracycline	4	4	FALSE
+Escherichia coli EF-Tu mutants conferring resistance to Pulvomycin	2	2	FALSE
+Escherichia coli UhpT with mutation conferring resistance to fosfomycin	2	1	TRUE
+Escherichia coli acrA	2	2	FALSE
+Escherichia coli ampC beta-lactamase	2	2	FALSE
+Escherichia coli emrE	2	1	TRUE
+Escherichia coli mdfA	4	4	FALSE
+Escherichia coli soxS with mutation conferring antibiotic resistance	5	4	TRUE
+FosA2	2	1	TRUE
+FosA8	2	2	FALSE
+FosXCC	2	2	FALSE
+H-NS	2	1	TRUE
+Haemophilus influenzae PBP3 conferring resistance to beta-lactam antibiotics	6	6	FALSE
+Klebsiella pneumoniae KpnE	8	8	FALSE
+Klebsiella pneumoniae KpnF	7	7	FALSE
+Klebsiella pneumoniae KpnH	5	4	TRUE
+Klebsiella pneumoniae OmpK37	2	2	FALSE
+LptD	2	2	FALSE
+PmrF	5	4	TRUE
+aad(6)	2	2	FALSE
+acrB	3	3	FALSE
+acrD	5	5	FALSE
+adeF	64	63	TRUE
+bacA	4	4	FALSE
+baeR	3	3	FALSE
+catS	6	6	FALSE
+cfrE	2	2	FALSE
+efrA	5	5	FALSE
+emrA	3	3	FALSE
+emrB	4	3	TRUE
+emrR	2	2	FALSE
+eptA	2	1	TRUE
+eptB	2	2	FALSE
+fosA5	4	3	TRUE
+gadW	2	1	TRUE
+gadX	2	2	FALSE
+kdpE	3	3	FALSE
+leuO	6	6	FALSE
+lnuC	2	2	FALSE
+marA	4	4	FALSE
+mdeA	4	4	FALSE
+mdtB	5	4	TRUE
+mdtC	4	4	FALSE
+mdtG	2	2	FALSE
+mdtM	2	2	FALSE
+mdtN	2	2	FALSE
+mdtP	2	2	FALSE
+mefH	9	9	FALSE
+msbA	4	4	FALSE
+nimA	15	15	FALSE
+nimB	5	5	FALSE
+nimE	4	4	FALSE
+nimG	16	15	TRUE
+nimI	4	4	FALSE
+nimJ	12	12	FALSE
+nimK	2	2	FALSE
+oqxA	6	6	FALSE
+patA	2	2	FALSE
+patB	3	3	FALSE
+poxtA	28	27	TRUE
+qacG	32	30	TRUE
+qacJ	10	10	FALSE
+ramA	2	2	FALSE
+tet(32)	9	8	TRUE
+tet(36)	37	37	FALSE
+tet(44)	3	3	FALSE
+tet(45)	2	2	FALSE
+tet(M)	4	3	TRUE
+tet(O)	4	3	TRUE
+tet(O/W)	2	1	TRUE
+tet(Q)	37	37	FALSE
+tet(W)	6	3	TRUE
+tet(W/N/W)	4	3	TRUE
+tetB(P)	5	5	FALSE
+ugd	2	2	FALSE
+vanC	2	2	FALSE
+vanD	3	3	FALSE
+vanG	135	133	TRUE
+vanH gene in vanA cluster	3	3	FALSE
+vanH gene in vanB cluster	16	16	FALSE
+vanH gene in vanD cluster	11	11	FALSE
+vanH gene in vanF cluster	11	11	FALSE
+vanH gene in vanO cluster	59	59	FALSE
+vanR gene in vanC cluster	2	2	FALSE
+vanR gene in vanD cluster	4	4	FALSE
+vanR gene in vanG cluster	3	3	FALSE
+vanT gene in vanC cluster	10	10	FALSE
+vanT gene in vanG cluster	479	477	TRUE
+vanTr gene in vanL cluster	5	5	FALSE
+vanU gene in vanG cluster	5	5	FALSE
+vanW gene in vanB cluster	28	28	FALSE
+vanW gene in vanG cluster	52	52	FALSE
+vanW gene in vanI cluster	470	461	TRUE
+vanX gene in vanD cluster	4	4	FALSE
+vanXY gene in vanC cluster	2	2	FALSE
+vanXY gene in vanE cluster	2	2	FALSE
+vanXY gene in vanG cluster	43	43	FALSE
+vanY gene in vanA cluster	73	71	TRUE
+vanY gene in vanB cluster	296	288	TRUE
+vanY gene in vanD cluster	3	3	FALSE
+vanY gene in vanF cluster	99	97	TRUE
+vanY gene in vanG cluster	152	134	TRUE
+vanY gene in vanM cluster	90	75	TRUE

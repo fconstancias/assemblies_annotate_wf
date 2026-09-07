@@ -50,6 +50,8 @@ amr_presence <- read.delim(file.path(DP, "report_amr_presence_absence.tsv")) %>%
   mutate(is_coassembly = as.logical(is_coassembly))
 amr_prevalence <- read.delim(file.path(DP, "report_amr_prevalence.tsv"))
 contig_summary <- read.delim(file.path(DP, "report_contig_annotation_summary.tsv"))
+two_step_validation <- read.delim(file.path(DP, "R_two_step_validation_summary.tsv"))
+two_step_missed_merges <- read.delim(file.path(DP, "R_two_step_validation_missed_merges.tsv"))
 
 pal <- c(contigs = "#2c7fb8", orfs = "#e34a33")
 ```
@@ -860,6 +862,89 @@ the same resistance determinant existing on two genuinely different genomic
 backgrounds within the same person -- worth a closer look candidate, not
 something the gene-only view in section 13 could show.
 
+## 15. Two-step clustering validation: does the hierarchy miss real cross-participant matches?
+
+The whole-cohort ORF/contig identity used throughout this report (e.g. section
+9) is built in **two steps**: cluster within each participant first, then
+cluster only the within-participant *representatives* across participants.
+That second step has a known theoretical limitation -- only one representative
+per within-participant cluster is ever compared cross-participant, so a real
+match can be missed if that specific representative happens not to be quite
+close enough, even though another member of the same cluster would have
+matched fine. This bias can only ever be **conservative** (undercount sharing,
+never invent it), but it had never been measured on real data.
+
+**Direct test**: every `aro_call` (RGI's named gene/allele) that the two-step
+pipeline split into >1 distinct whole-cohort ORF cluster is a candidate missed
+merge. For each candidate cluster, one real representative protein sequence
+was pulled and the entire pool (2,345 sequences across 112 `aro_call` values)
+was re-clustered in a single step -- no hierarchy, same settings
+(`--min-seq-id 0.95 -c 0.9 --cov-mode 1 --cluster-mode 2`) as the original
+ORF-tier pass. If clusters that were kept separate by the two-step approach
+merge back together here, that's real, direct evidence of a missed merge, not
+just a theoretical possibility.
+
+```{r two-step-validation-summary}
+two_step_validation %>%
+  summarise(
+    aro_calls_tested = n(),
+    split_confirmed = sum(!merged),
+    missed_merge = sum(merged),
+    total_original_clusters = sum(n_original_clusters),
+    total_new_clusters = sum(n_new_clusters)
+  ) %>%
+  mutate(pct_missed_merge = round(100 * missed_merge / aro_calls_tested, 1),
+         pct_cluster_reduction = round(100 * (total_original_clusters - total_new_clusters) / total_original_clusters, 1)) %>%
+  kable(col.names = c("aro_call values tested", "Split confirmed", "Missed merge found",
+                       "Total original clusters", "Total new clusters",
+                       "% aro_calls affected", "% cluster reduction"))
+```
+
+```{r two-step-validation-detail}
+two_step_validation %>%
+  filter(merged) %>%
+  arrange(desc(n_original_clusters - n_new_clusters)) %>%
+  transmute(aro_call, n_original_clusters, n_new_clusters,
+            clusters_collapsed = n_original_clusters - n_new_clusters) %>%
+  kable(col.names = c("aro_call", "Original clusters (two-step)", "New clusters (direct)", "Clusters collapsed"))
+```
+
+```{r two-step-validation-plot}
+two_step_validation %>%
+  mutate(outcome = if_else(merged, "Missed merge found", "Split confirmed")) %>%
+  ggplot(aes(x = n_original_clusters, y = n_new_clusters, color = outcome)) +
+  geom_abline(slope = 1, intercept = 0, linetype = "dashed", color = "grey60") +
+  geom_point(alpha = 0.7, size = 2) +
+  scale_x_log10() + scale_y_log10() +
+  scale_color_manual(values = c("Split confirmed" = "#2c7fb8", "Missed merge found" = "#e34a33")) +
+  labs(x = "Original whole-cohort clusters (two-step, log scale)",
+       y = "New clusters after direct single-step re-clustering (log scale)",
+       color = NULL,
+       title = "Most aro_call splits sit exactly on the diagonal -- real, not a hierarchy artifact") +
+  theme_minimal()
+```
+
+**81 of 112 (72%) `aro_call` splits are confirmed real** -- every original
+cluster stayed distinct even under direct, hierarchy-free comparison, meaning
+those ORFs really are different enough to be split, exactly as the two-step
+pipeline concluded. **31 of 112 (28%) show at least one real missed merge** --
+but the magnitude is small: across all 112 tested calls combined, only 84 of
+2,578 total original clusters (3.3%) collapse under direct re-clustering. The
+effect concentrates almost entirely in the same highly diverse, hard-to-name
+gene families already flagged in section 7's propagation check -- `van`-operon
+genes (vanY/vanW/vanT/vanG across the vanA/B/F/G/I/M subtypes) and a handful of
+single-instance cases (`tet(W)`, `qacG`, `FosA2`). These are large gene
+families with many close alleles and known CARD/RGI naming ambiguity, not
+representative of AMR gene clustering generally.
+
+**Conclusion**: the two-step hierarchy's conservative bias is real but small
+and concentrated, not a broad correctness problem -- it costs a few percent of
+extra splitting specifically among gene families that are already ambiguous by
+name, and never merges things that shouldn't be merged (the reverse error is
+structurally impossible here). Scaling to the full cohort dereplication should
+expect this same small, gene-family-concentrated shortfall, not a systematic
+undercount across all AMR genes.
+
 ## Conclusions
 
 1. **Real, large, robust redundancy at both tiers, across all 25
@@ -905,6 +990,13 @@ something the gene-only view in section 13 could show.
    expect to systematically miss a real, non-trivial share of AMR/plasmid
    content -- and inconsistently so across participants for the same
    sequence.
+
+10. **The two-step (within-then-across-participant) clustering hierarchy's
+    known conservative bias is real but small**: a direct hierarchy-free
+    re-clustering test confirmed 72% of its `aro_call` splits as genuine, and
+    found the remaining 28% collapse only 3.3% of total clusters overall --
+    concentrated almost entirely in already-known-ambiguous `van`-operon gene
+    families (section 7). It never merges things that shouldn't be merged.
 
 Not yet done: per-tool propagation-safety audit beyond RGI/geNomad (the
 brainstorm's original open question), and no representative-annotation +

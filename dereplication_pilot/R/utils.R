@@ -56,22 +56,80 @@ binette_paths <- function(group) {
        bin_quality = file.path(dir, "final_bins_quality_reports.tsv"))
 }
 
+#' Real GTDB-Tk taxonomy + dRep cross-sample species-level cluster for every Binette
+#' bin -- NOT a new pass to run: dRep and GTDB-Tk already exist as siblings of binette/
+#' itself (spa_coassembly_all/results_coassembly_all/{dRep,gtdbtk_classify}/ and the
+#' spa_single_all equivalent), run ONCE per assembly strand directly on Binette's own
+#' final_bins/*.fa (via binette_renamed_bins/, genome names "<group>_binette_binN.fa" --
+#' this pipeline's own group-prefix convention, already matching load_contig_bins()'s
+#' bin_name once ".fa" is stripped). This is a DIFFERENT, unrelated pass from the
+#' top-level metagenomes/dRep + metagenomes/gtdbtk_classify (those use concoct-manual/
+#' semibin2 bin identities -- a separate, earlier binning strategy that mixes both
+#' binners across BOTH assembly strands, confirmed not reconcilable to Binette's own
+#' bins by name). GTDB-Tk classified essentially every individual bin here (8286
+#' summary rows for 8285 single-assembly final_bins), not just dRep cluster
+#' representatives, so taxonomy is a direct per-bin join -- dRep's secondary_cluster is
+#' exposed alongside it since it directly answers "is this bin the same organism as
+#' that bin from a different sample/participant", the cross-sample MAG identity link
+#' load_contig_bins() alone can't provide (Binette itself bins each assembly group
+#' independently, never across samples). Cached per strand (one shared file pair, not
+#' per-group) since build_one_group() calls load_contig_bins() ~296 times.
+.bin_taxonomy_cache <- new.env()
+load_bin_taxonomy <- function(is_coa) {
+  key <- as.character(is_coa)
+  if (!is.null(.bin_taxonomy_cache[[key]])) return(.bin_taxonomy_cache[[key]])
+
+  base <- dirname(if (is_coa) COASSEMBLY_BINETTE else SINGLE_BINETTE)
+  gtdb_bac <- file.path(base, "gtdbtk_classify/gtdbtk.bac120.summary.tsv")
+  gtdb_ar  <- file.path(base, "gtdbtk_classify/gtdbtk.ar53.summary.tsv")
+  drep_cdb <- file.path(base, "dRep/data_tables/Cdb.csv")
+
+  read_gtdb <- function(p) {
+    if (!file.exists(p)) return(tibble(bin_name = character(), gtdb_taxonomy = character()))
+    read_tsv(p, col_types = cols(user_genome = "c", classification = "c", .default = "c"), progress = FALSE) %>%
+      transmute(bin_name = str_remove(user_genome, "\\.fa$"), gtdb_taxonomy = classification)
+  }
+  gtdb <- bind_rows(read_gtdb(gtdb_bac), read_gtdb(gtdb_ar))
+
+  drep <- if (file.exists(drep_cdb)) {
+    read_csv(drep_cdb, col_types = cols(genome = "c", secondary_cluster = "c", .default = "c"), progress = FALSE) %>%
+      transmute(bin_name = str_remove(genome, "\\.fa$"), drep_secondary_cluster = secondary_cluster)
+  } else tibble(bin_name = character(), drep_secondary_cluster = character())
+
+  result <- full_join(gtdb, drep, by = "bin_name")
+  .bin_taxonomy_cache[[key]] <- result
+  result
+}
+
 #' contig_id -> (bin_name, completeness, contamination, is_good_mag) for one group.
 #' "good MAG" follows the common completeness>=50 / contamination<10 threshold.
+#' bin_name is prefixed with the group ("mh_p110_binette_bin1", not just "binette_bin1")
+#' -- Binette numbers bins independently PER GROUP, so the raw name alone is genuinely
+#' ambiguous read in isolation (two different rows both saying "binette_bin1" could be
+#' completely unrelated bins from different samples) even though every actual JOIN in
+#' this codebase was already safe (always keyed on contig_id + source_group, never on
+#' bin_name alone) -- a real output-labeling gap, not a join bug, caught directly.
 load_contig_bins <- function(group) {
   paths <- binette_paths(group)
+  empty_tax <- tibble(gtdb_taxonomy = character(), drep_secondary_cluster = character())
   if (!file.exists(paths$contig_to_bin)) {
     return(tibble(contig_id = character(), bin_name = character(),
-                   completeness = double(), contamination = double(), is_good_mag = logical()))
+                   completeness = double(), contamination = double(), is_good_mag = logical()) %>%
+             bind_cols(empty_tax))
   }
-  c2b <- read_tsv(paths$contig_to_bin, col_names = c("contig_id", "bin_name"), col_types = "cc", progress = FALSE)
+  c2b <- read_tsv(paths$contig_to_bin, col_names = c("contig_id", "bin_name"), col_types = "cc", progress = FALSE) %>%
+    mutate(bin_name = paste0(group, "_", bin_name))
+  taxonomy <- load_bin_taxonomy(is_coassembly(group))
   if (!file.exists(paths$bin_quality)) {
-    return(c2b %>% mutate(completeness = NA_real_, contamination = NA_real_, is_good_mag = NA))
+    return(c2b %>% mutate(completeness = NA_real_, contamination = NA_real_, is_good_mag = NA) %>%
+             left_join(taxonomy, by = "bin_name"))
   }
-  bq <- read_tsv(paths$bin_quality, col_types = cols(name = "c", completeness = "d", contamination = "d", .default = "c"), progress = FALSE)
+  bq <- read_tsv(paths$bin_quality, col_types = cols(name = "c", completeness = "d", contamination = "d", .default = "c"), progress = FALSE) %>%
+    mutate(name = paste0(group, "_", name))
   c2b %>%
     left_join(bq %>% select(bin_name = name, completeness, contamination), by = "bin_name") %>%
-    mutate(is_good_mag = completeness >= 50 & contamination < 10)
+    mutate(is_good_mag = completeness >= 50 & contamination < 10) %>%
+    left_join(taxonomy, by = "bin_name")
 }
 
 #' Read one group's gff3 as a tidy (contig, start, stop, gene_id) table.
@@ -107,31 +165,44 @@ load_gene_calls_rgi <- function(group) {
     transmute(gene_id, aro_call = Best_Hit_ARO)
 }
 
-#' contig_id -> classification ("plasmid"/"virus"/"plasmid+virus"), via MAP's own
-#' contigID.map (geNomad's input contigs get renamed contig_<N> before running; this
-#' file resolves that back to our own contig IDs).
+#' contig_id -> classification ("plasmid"/"virus"/"plasmid+virus") PLUS geNomad's own
+#' real, continuous scores (plasmid_score/plasmid_fdr, virus_score/virus_fdr) -- these
+#' are score-based, not a hard binary truth, and appearing in the summary file at all
+#' already reflects geNomad's own internal threshold; the earlier version of this
+#' function only recorded that appearance as a plain TRUE/FALSE, discarding exactly the
+#' confidence information needed to tell "confidently plasmid" from "barely crossed the
+#' threshold" apart -- caught by a real, ambiguous example (a geNomad-plasmid-classified,
+#' Binette-binned contig carrying a canonical *chromosomal* AMR gene call, soxR). Via
+#' MAP's own contigID.map (geNomad's input contigs get renamed contig_<N> before
+#' running; this file resolves that back to our own contig IDs).
 load_contig_calls_genomad <- function(group) {
+  empty <- tibble(contig_id = character(), call = character(),
+                    plasmid_score = double(), plasmid_fdr = double(),
+                    virus_score = double(), virus_fdr = double())
   mpath <- contigid_map_path(group)
-  if (!file.exists(mpath)) return(tibble(contig_id = character(), call = character()))
+  if (!file.exists(mpath)) return(empty)
   id_map <- read_tsv(mpath, col_names = c("genomad_id", "contig_id"), col_types = "cc", progress = FALSE) %>%
     mutate(genomad_id = str_remove(genomad_id, "^>"))
 
   paths <- genomad_summary_paths(group)
-  plasmid_ids <- if (file.exists(paths$plasmid)) {
-    read_tsv(paths$plasmid, col_types = cols(seq_name = "c", .default = "c"), progress = FALSE)$seq_name
-  } else character()
-  virus_ids <- if (file.exists(paths$virus)) {
-    read_tsv(paths$virus, col_types = cols(seq_name = "c", .default = "c"), progress = FALSE)$seq_name
-  } else character()
+  plasmid_tbl <- if (file.exists(paths$plasmid)) {
+    read_tsv(paths$plasmid, col_types = cols(seq_name = "c", plasmid_score = "d", fdr = "d", .default = "c"), progress = FALSE) %>%
+      select(genomad_id = seq_name, plasmid_score, plasmid_fdr = fdr)
+  } else tibble(genomad_id = character(), plasmid_score = double(), plasmid_fdr = double())
+  virus_tbl <- if (file.exists(paths$virus)) {
+    read_tsv(paths$virus, col_types = cols(seq_name = "c", virus_score = "d", fdr = "d", .default = "c"), progress = FALSE) %>%
+      select(genomad_id = seq_name, virus_score, virus_fdr = fdr)
+  } else tibble(genomad_id = character(), virus_score = double(), virus_fdr = double())
 
-  calls <- bind_rows(
-    tibble(genomad_id = plasmid_ids, tag = "plasmid"),
-    tibble(genomad_id = virus_ids, tag = "virus")
-  ) %>%
+  full_join(plasmid_tbl, virus_tbl, by = "genomad_id") %>%
     inner_join(id_map, by = "genomad_id") %>%
-    group_by(contig_id) %>%
-    summarise(call = paste(sort(unique(tag)), collapse = "+"), .groups = "drop")
-  calls
+    mutate(call = case_when(
+      !is.na(plasmid_score) & !is.na(virus_score) ~ "plasmid+virus",
+      !is.na(plasmid_score) ~ "plasmid",
+      !is.na(virus_score) ~ "virus",
+      TRUE ~ NA_character_
+    )) %>%
+    select(contig_id, call, plasmid_score, plasmid_fdr, virus_score, virus_fdr)
 }
 
 #' Read a participant's real Tier-1 or Tier-2 cluster_membership.tsv (already produced

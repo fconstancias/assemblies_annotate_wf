@@ -91,8 +91,10 @@ build_one_group <- function(group, participant, contig_info, orf_cluster_ids,
       contig_id = contig, contig_length, contig_cluster_id, contig_whole_cohort_id,
       is_plasmid = str_detect(coalesce(call, ""), "plasmid"),
       is_virus = str_detect(coalesce(call, ""), "virus"),
+      plasmid_score, plasmid_fdr, virus_score, virus_fdr,
       mag_bin = bin_name, mag_completeness = completeness, mag_contamination = contamination,
-      is_good_mag = is_good_mag, aro_call = aro_call
+      is_good_mag = is_good_mag, mag_gtdb_taxonomy = gtdb_taxonomy,
+      mag_drep_secondary_cluster = drep_secondary_cluster, aro_call = aro_call
     )
 }
 

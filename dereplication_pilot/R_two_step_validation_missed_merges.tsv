@@ -1,0 +1,2009 @@
+aro_call	orf_whole_cohort_id	new_cluster_rep	n_orf_instances
+Bifidobacterium adolescentis rpoB mutants conferring resistance to rifampicin	mh_p125___270977	mh_p125___270977	2
+Bifidobacterium adolescentis rpoB mutants conferring resistance to rifampicin	spaS238___16194	mh_p341___213336	12
+Bifidobacterium adolescentis rpoB mutants conferring resistance to rifampicin	mh_p341___213336	mh_p341___213336	1
+Bifidobacterium adolescentis rpoB mutants conferring resistance to rifampicin	mh_p470___57982	mh_p470___57982	19
+Bifidobacterium adolescentis rpoB mutants conferring resistance to rifampicin	mh_p601___83634	mh_p601___83634	9
+Escherichia coli UhpT with mutation conferring resistance to fosfomycin	spaS268___45203	spaS257___160881	11
+Escherichia coli UhpT with mutation conferring resistance to fosfomycin	spaS257___160881	spaS257___160881	NA
+Escherichia coli emrE	spaS84___65626	spaS176___76419	8
+Escherichia coli emrE	spaS176___76419	spaS176___76419	NA
+Escherichia coli soxS with mutation conferring antibiotic resistance	mh_p584___32948	mh_p584___32948	1
+Escherichia coli soxS with mutation conferring antibiotic resistance	mh_p813___466904	mh_p813___466904	NA
+Escherichia coli soxS with mutation conferring antibiotic resistance	spaS257___148482	spaS257___148482	10
+Escherichia coli soxS with mutation conferring antibiotic resistance	spaS169___203960	spaS268___33777	2
+Escherichia coli soxS with mutation conferring antibiotic resistance	spaS268___33777	spaS268___33777	1
+FosA2	spaS268___189447	mh_p584___45273	3
+FosA2	mh_p584___45273	mh_p584___45273	1
+H-NS	spaS122___115380	spaS122___115380	7
+H-NS	spaS184___77367	spaS122___115380	NA
+Klebsiella pneumoniae KpnH	mh_p292___109764	mh_p292___109764	6
+Klebsiella pneumoniae KpnH	mh_p601___285113	mh_p584___122197	1
+Klebsiella pneumoniae KpnH	mh_p584___122197	mh_p584___122197	4
+Klebsiella pneumoniae KpnH	spaS103___3694	spaS103___3694	6
+Klebsiella pneumoniae KpnH	spaS268___19881	spaS268___19881	3
+PmrF	mh_p584___189287	mh_p584___189287	4
+PmrF	spaS268___4978	mh_p584___51955	2
+PmrF	mh_p584___51955	mh_p584___51955	1
+PmrF	mh_p813___569896	mh_p813___569896	NA
+PmrF	spaS257___123390	spaS257___123390	7
+adeF	mh_p110___110447	mh_p110___110447	8
+adeF	mh_p110___137239	mh_p110___137239	2
+adeF	mh_p110___139114	mh_p110___139114	7
+adeF	mh_p110___144348	mh_p110___144348	2
+adeF	mh_p110___208008	mh_p110___208008	7
+adeF	mh_p110___208238	mh_p110___208238	3
+adeF	mh_p110___24182	mh_p110___24182	3
+adeF	mh_p110___280892	mh_p110___280892	10
+adeF	mh_p110___43667	mh_p110___43667	10
+adeF	mh_p125___159769	mh_p110___60943	1
+adeF	mh_p110___60943	mh_p110___60943	4
+adeF	mh_p110___76261	mh_p110___76261	2
+adeF	mh_p110___76866	mh_p110___76866	15
+adeF	mh_p110___91336	mh_p110___91336	31
+adeF	mh_p125___142416	mh_p125___142416	7
+adeF	mh_p125___259419	mh_p125___259419	8
+adeF	mh_p292___143528	mh_p292___143528	5
+adeF	mh_p292___286051	mh_p292___286051	1
+adeF	mh_p292___339557	mh_p292___339557	1
+adeF	mh_p292___339702	mh_p292___339702	1
+adeF	mh_p341___104292	mh_p341___104292	1
+adeF	mh_p341___37195	mh_p341___37195	2
+adeF	mh_p523___102611	mh_p523___102611	1
+adeF	mh_p523___107248	mh_p523___107248	1
+adeF	mh_p523___123726	mh_p523___123726	1
+adeF	mh_p523___29286	mh_p523___29286	1
+adeF	mh_p523___353195	mh_p523___353195	8
+adeF	mh_p523___422278	mh_p523___422278	1
+adeF	mh_p523___430407	mh_p523___430407	1
+adeF	mh_p601___132410	mh_p601___132410	1
+adeF	mh_p644___137253	mh_p644___137253	NA
+adeF	mh_p644___34424	mh_p644___34424	NA
+adeF	mh_p789___232798	mh_p789___232798	NA
+adeF	mh_p789___30316	mh_p789___30316	NA
+adeF	mh_p789___348598	mh_p789___348598	NA
+adeF	mh_p789___479589	mh_p789___479589	NA
+adeF	mh_p97___97085	mh_p97___97085	NA
+adeF	spaS118___50058	spaS118___50058	1
+adeF	spaS118___52145	spaS118___52145	3
+adeF	spaS118___73026	spaS118___73026	2
+adeF	spaS183___92606	spaS183___92606	NA
+adeF	spaS215___104153	spaS215___104153	NA
+adeF	spaS215___75136	spaS215___75136	NA
+adeF	spaS215___75140	spaS215___75140	NA
+adeF	spaS216___72752	spaS216___72752	NA
+adeF	spaS223___60781	spaS223___60781	2
+adeF	spaS223___89108	spaS223___89108	8
+adeF	spaS235___42770	spaS235___42770	NA
+adeF	spaS24___60450	spaS24___60450	5
+adeF	spaS257___143023	spaS257___143023	NA
+adeF	spaS257___38007	spaS257___38007	2
+adeF	spaS257___47823	spaS257___47823	4
+adeF	spaS257___61357	spaS257___61357	2
+adeF	spaS257___71794	spaS257___71794	NA
+adeF	spaS257___82501	spaS257___82501	NA
+adeF	spaS257___85806	spaS257___85806	2
+adeF	spaS259___106091	spaS259___106091	2
+adeF	spaS268___121005	spaS268___121005	4
+adeF	spaS268___43683	spaS268___43683	NA
+adeF	spaS268___80186	spaS268___80186	NA
+adeF	spaS272___21450	spaS272___21450	7
+adeF	spaS300___103788	spaS300___103788	NA
+adeF	spaS300___149791	spaS300___149791	NA
+adeF	spaS52___109797	spaS52___109797	17
+emrB	mh_p584___122197	mh_p584___122197	4
+emrB	mh_p601___285113	mh_p584___122197	1
+emrB	spaS103___3694	spaS103___3694	6
+emrB	spaS268___19881	spaS268___19881	3
+eptA	spaS7___96312	spaS103___16450	4
+eptA	spaS103___16450	spaS103___16450	1
+fosA5	mh_p470___275094	mh_p470___275094	1
+fosA5	spaS268___62876	mh_p470___275094	NA
+fosA5	mh_p584___149798	mh_p584___149798	1
+fosA5	spaS9___32541	spaS9___32541	2
+gadW	spaS187___66416	mh_p470___17502	3
+gadW	mh_p470___17502	mh_p470___17502	2
+mdtB	mh_p341___7832	mh_p341___7832	3
+mdtB	spaS268___8759	mh_p341___7832	NA
+mdtB	mh_p813___343425	mh_p813___343425	NA
+mdtB	spaS136___55556	spaS136___55556	3
+mdtB	spaS184___64972	spaS184___64972	4
+nimG	mh_p110___278989	mh_p110___278989	3
+nimG	mh_p110___298423	mh_p110___298423	6
+nimG	mh_p292___222318	mh_p292___222318	1
+nimG	mh_p292___32135	mh_p292___32135	1
+nimG	spaS283___77738	mh_p292___32135	NA
+nimG	mh_p408___159862	mh_p408___159862	1
+nimG	mh_p470___77992	mh_p470___77992	3
+nimG	mh_p523___427918	mh_p523___427918	NA
+nimG	mh_p601___294128	mh_p601___294128	1
+nimG	mh_p722___305738	mh_p722___305738	NA
+nimG	mh_p894___20293	mh_p894___20293	1
+nimG	spaS130___152369	spaS130___152369	1
+nimG	spaS156___135413	spaS156___135413	NA
+nimG	spaS215___54592	spaS215___54592	3
+nimG	spaS223___152812	spaS223___152812	NA
+nimG	spaS257___108034	spaS257___108034	5
+poxtA	mh_p110___162951	mh_p110___162951	3
+poxtA	mh_p110___180964	mh_p110___180964	1
+poxtA	mh_p110___25662	mh_p110___25662	3
+poxtA	mh_p110___285798	mh_p110___285798	5
+poxtA	mh_p292___164528	mh_p292___164528	8
+poxtA	mh_p341___77016	mh_p341___77016	2
+poxtA	mh_p398___182090	mh_p398___182090	1
+poxtA	mh_p470___230072	mh_p470___230072	2
+poxtA	mh_p523___180927	mh_p523___180927	1
+poxtA	mh_p722___155575	mh_p722___155575	NA
+poxtA	mh_p722___198974	mh_p722___198974	NA
+poxtA	spaS196___112801	mh_p722___198974	NA
+poxtA	mh_p789___435850	mh_p789___435850	NA
+poxtA	spaS127___100477	spaS127___100477	4
+poxtA	spaS127___112263	spaS127___112263	NA
+poxtA	spaS127___92974	spaS127___92974	NA
+poxtA	spaS147___80373	spaS147___80373	4
+poxtA	spaS154___67515	spaS154___67515	1
+poxtA	spaS215___210306	spaS215___210306	NA
+poxtA	spaS257___27484	spaS257___27484	NA
+poxtA	spaS258___135173	spaS258___135173	1
+poxtA	spaS259___6823	spaS259___6823	NA
+poxtA	spaS268___57222	spaS268___57222	1
+poxtA	spaS278___18327	spaS278___18327	NA
+poxtA	spaS279___93074	spaS279___93074	NA
+poxtA	spaS287___88558	spaS287___88558	NA
+poxtA	spaS295___171114	spaS295___171114	NA
+poxtA	spaS58___59543	spaS58___59543	NA
+qacG	mh_p110___67107	mh_p110___67107	2
+qacG	mh_p125___121489	mh_p125___121489	3
+qacG	mh_p125___225480	mh_p125___225480	6
+qacG	mh_p125___293711	mh_p125___293711	3
+qacG	mh_p292___274251	mh_p292___274251	1
+qacG	mh_p341___177707	mh_p341___177707	1
+qacG	mh_p523___233557	mh_p523___233557	1
+qacG	mh_p523___362153	mh_p523___362153	1
+qacG	mh_p550___194073	mh_p550___194073	1
+qacG	mh_p601___130325	mh_p601___130325	1
+qacG	spaS258___216524	mh_p722___71954	6
+qacG	mh_p722___71954	mh_p722___71954	8
+qacG	mh_p722___97547	mh_p722___97547	NA
+qacG	mh_p728___105604	mh_p728___105604	NA
+qacG	mh_p789___425105	mh_p789___425105	NA
+qacG	mh_p813___368196	mh_p813___368196	NA
+qacG	mh_p813___386621	mh_p813___386621	NA
+qacG	mh_p813___50857	mh_p813___50857	NA
+qacG	mh_p813___823	mh_p813___823	NA
+qacG	mh_p860___21065	mh_p860___21065	NA
+qacG	mh_p860___320198	mh_p860___320198	NA
+qacG	mh_p894___166697	mh_p894___166697	NA
+qacG	spaS188___82759	spaS188___82759	NA
+qacG	spaS44___101105	spaS213___122940	8
+qacG	spaS213___122940	spaS213___122940	3
+qacG	spaS215___118181	spaS215___118181	1
+qacG	spaS216___108412	spaS216___108412	NA
+qacG	spaS253___133676	spaS253___133676	1
+qacG	spaS267___160800	spaS267___160800	1
+qacG	spaS268___69886	spaS268___69886	NA
+qacG	spaS274___83626	spaS274___83626	NA
+qacG	spaS95___90813	spaS95___90813	NA
+tet(32)	mh_p292___432877	mh_p292___432877	3
+tet(32)	mh_p644___192844	mh_p644___192844	NA
+tet(32)	mh_p728___283236	mh_p728___283236	NA
+tet(32)	spaS122___77686	spaS122___77686	NA
+tet(32)	spaS122___80240	spaS122___80240	NA
+tet(32)	spaS128___21840	spaS122___80240	NA
+tet(32)	spaS196___133616	spaS196___133616	NA
+tet(32)	spaS4___73548	spaS4___73548	14
+tet(32)	spaS50___162916	spaS50___162916	NA
+tet(M)	mh_p110___228965	mh_p110___228965	11
+tet(M)	spaS282___79676	mh_p110___228965	2
+tet(M)	spaS228___46969	spaS228___46969	4
+tet(M)	spaS258___79316	spaS258___79316	4
+tet(O)	mh_p110___112918	mh_p110___112918	12
+tet(O)	spaS184___138457	mh_p110___112918	NA
+tet(O)	mh_p813___336343	mh_p813___336343	NA
+tet(O)	spaS128___21840	spaS122___80240	NA
+tet(O/W)	spaS111___55809	spaS15___20395	10
+tet(O/W)	spaS15___20395	spaS15___20395	3
+tet(W)	spaS111___55809	spaS15___20395	10
+tet(W)	spaS15___20395	spaS15___20395	3
+tet(W)	spaS285___97773	spaS285___97773	NA
+tet(W)	mh_p722___57684	spaS286___81123	3
+tet(W)	mh_p125___186446	spaS286___81123	2
+tet(W)	spaS286___81123	spaS286___81123	NA
+tet(W/N/W)	spaS111___55809	spaS15___20395	10
+tet(W/N/W)	spaS225___62737	spaS225___62737	7
+tet(W/N/W)	mh_p125___186446	spaS286___81123	2
+tet(W/N/W)	mh_p722___57684	spaS286___81123	3
+vanG	mh_p110___100105	mh_p110___100105	5
+vanG	mh_p110___129351	mh_p110___129351	4
+vanG	mh_p110___171297	mh_p110___171297	4
+vanG	mh_p110___172206	mh_p110___172206	2
+vanG	mh_p110___197273	mh_p110___197273	2
+vanG	mh_p110___202575	mh_p110___202575	1
+vanG	mh_p110___208119	mh_p110___208119	4
+vanG	mh_p110___214258	mh_p110___214258	11
+vanG	mh_p110___216496	mh_p110___216496	1
+vanG	mh_p110___226328	mh_p110___226328	10
+vanG	mh_p110___235414	mh_p110___235414	2
+vanG	mh_p110___240359	mh_p110___240359	4
+vanG	mh_p110___252026	mh_p110___252026	3
+vanG	mh_p110___268470	mh_p110___268470	1
+vanG	mh_p110___275393	mh_p110___275393	4
+vanG	mh_p110___27848	mh_p110___27848	3
+vanG	mh_p110___289243	mh_p110___289243	4
+vanG	mh_p110___297080	mh_p110___297080	1
+vanG	mh_p110___309250	mh_p110___309250	2
+vanG	mh_p110___4399	mh_p110___4399	1
+vanG	mh_p110___57668	mh_p110___57668	10
+vanG	mh_p110___71809	mh_p110___71809	6
+vanG	mh_p125___156212	mh_p125___156212	3
+vanG	mh_p125___206165	mh_p125___206165	5
+vanG	mh_p125___222877	mh_p125___222877	3
+vanG	mh_p125___3252	mh_p125___3252	2
+vanG	mh_p125___85193	mh_p125___85193	1
+vanG	mh_p292___112635	mh_p292___112635	2
+vanG	mh_p292___149457	mh_p292___149457	1
+vanG	mh_p292___180458	mh_p292___180458	1
+vanG	mh_p292___376305	mh_p292___376305	2
+vanG	mh_p292___407405	mh_p292___407405	1
+vanG	mh_p341___159327	mh_p341___159327	3
+vanG	mh_p341___163676	mh_p341___163676	1
+vanG	mh_p470___158582	mh_p470___158582	1
+vanG	mh_p470___229995	mh_p470___229995	2
+vanG	mh_p523___131617	mh_p523___131617	1
+vanG	mh_p523___179999	mh_p523___179999	1
+vanG	mh_p523___244642	mh_p523___244642	1
+vanG	mh_p523___25823	mh_p523___25823	2
+vanG	mh_p523___360260	mh_p523___360260	1
+vanG	mh_p523___430223	mh_p523___430223	1
+vanG	mh_p584___219430	mh_p584___219430	1
+vanG	mh_p601___142553	mh_p601___142553	1
+vanG	mh_p601___299482	mh_p601___299482	1
+vanG	mh_p601___377880	mh_p601___377880	1
+vanG	mh_p601___378747	mh_p601___378747	1
+vanG	mh_p601___75085	mh_p601___75085	1
+vanG	mh_p601___92784	mh_p601___92784	1
+vanG	mh_p644___115774	mh_p644___115774	NA
+vanG	mh_p644___161474	mh_p644___161474	NA
+vanG	mh_p644___63581	mh_p644___63581	NA
+vanG	mh_p722___138152	mh_p722___138152	NA
+vanG	mh_p722___278141	mh_p722___278141	NA
+vanG	mh_p722___353257	mh_p722___353257	NA
+vanG	mh_p789___12766	mh_p789___12766	NA
+vanG	mh_p789___202586	mh_p789___202586	NA
+vanG	mh_p789___261090	mh_p789___261090	NA
+vanG	mh_p789___281259	mh_p789___281259	NA
+vanG	mh_p789___304572	mh_p789___304572	NA
+vanG	mh_p789___356505	mh_p789___356505	NA
+vanG	spaS74___34582	mh_p789___358264	3
+vanG	mh_p789___358264	mh_p789___358264	NA
+vanG	mh_p789___402158	mh_p789___402158	NA
+vanG	mh_p789___40852	mh_p789___40852	NA
+vanG	mh_p789___421027	mh_p789___421027	NA
+vanG	mh_p789___521245	mh_p789___521245	1
+vanG	mh_p789___532299	mh_p789___532299	NA
+vanG	mh_p789___541492	mh_p789___541492	NA
+vanG	mh_p789___546006	mh_p789___546006	1
+vanG	mh_p789___558385	mh_p789___558385	NA
+vanG	mh_p789___73356	mh_p789___73356	NA
+vanG	mh_p789___78276	mh_p789___78276	NA
+vanG	mh_p813___141772	mh_p813___141772	NA
+vanG	mh_p813___207017	mh_p813___207017	NA
+vanG	mh_p813___457267	mh_p813___457267	NA
+vanG	mh_p813___573638	mh_p813___573638	NA
+vanG	mh_p894___215262	mh_p894___215262	NA
+vanG	mh_p894___305767	mh_p894___305767	NA
+vanG	mh_p97___33033	mh_p97___33033	NA
+vanG	spaS102___40987	spaS102___40987	NA
+vanG	spaS105___44246	spaS105___44246	8
+vanG	spaS123___75394	spaS123___75394	1
+vanG	spaS130___36949	spaS130___36949	NA
+vanG	spaS135___130202	spaS135___130202	11
+vanG	spaS136___19079	spaS136___19079	NA
+vanG	spaS139___67852	spaS139___67852	NA
+vanG	spaS161___93308	spaS161___93308	3
+vanG	spaS169___205980	spaS169___205980	1
+vanG	spaS16___55766	spaS16___55766	NA
+vanG	spaS171___2206	spaS171___2206	4
+vanG	spaS186___102516	spaS186___102516	3
+vanG	spaS194___208160	spaS194___208160	NA
+vanG	spaS196___55954	spaS196___55954	NA
+vanG	spaS200___82249	spaS200___82249	NA
+vanG	spaS214___85138	spaS214___85138	NA
+vanG	spaS214___92176	spaS214___92176	NA
+vanG	spaS215___105287	spaS215___105287	NA
+vanG	spaS215___116113	spaS215___116113	NA
+vanG	spaS215___157792	spaS215___157792	NA
+vanG	spaS215___17830	spaS215___17830	NA
+vanG	spaS215___584	spaS215___584	NA
+vanG	spaS216___122567	spaS216___122567	4
+vanG	spaS216___155279	spaS216___155279	3
+vanG	spaS216___189459	spaS216___189459	NA
+vanG	spaS228___46561	spaS228___46561	NA
+vanG	spaS231___146919	spaS231___146919	NA
+vanG	spaS23___73883	spaS23___73883	NA
+vanG	spaS257___10980	spaS257___10980	NA
+vanG	spaS257___115702	spaS257___115702	NA
+vanG	spaS257___179329	spaS257___179329	NA
+vanG	spaS257___59670	spaS257___59670	NA
+vanG	spaS257___60392	spaS257___60392	3
+vanG	spaS257___90225	spaS257___90225	NA
+vanG	spaS257___92907	spaS257___92907	7
+vanG	spaS258___105776	spaS258___105776	8
+vanG	spaS258___110587	spaS258___110587	NA
+vanG	spaS52___145628	spaS258___17148	7
+vanG	spaS258___17148	spaS258___17148	2
+vanG	spaS259___170239	spaS259___170239	4
+vanG	spaS259___21063	spaS259___21063	NA
+vanG	spaS266___111711	spaS266___111711	2
+vanG	spaS268___122943	spaS268___122943	NA
+vanG	spaS268___238243	spaS268___238243	8
+vanG	spaS269___211773	spaS269___211773	NA
+vanG	spaS272___129633	spaS272___129633	2
+vanG	spaS274___48665	spaS274___48665	1
+vanG	spaS282___199902	spaS282___199902	NA
+vanG	spaS296___204674	spaS296___204674	NA
+vanG	spaS39___49352	spaS39___49352	NA
+vanG	spaS3___80556	spaS3___80556	NA
+vanG	spaS59___136742	spaS59___136742	3
+vanG	spaS78___95742	spaS78___95742	NA
+vanG	spaS85___98425	spaS85___98425	NA
+vanG	spaS9___57651	spaS9___57651	NA
+vanT gene in vanG cluster	mh_p110___111603	mh_p110___111603	4
+vanT gene in vanG cluster	mh_p110___116616	mh_p110___116616	5
+vanT gene in vanG cluster	mh_p110___119648	mh_p110___119648	2
+vanT gene in vanG cluster	mh_p110___120739	mh_p110___120739	2
+vanT gene in vanG cluster	mh_p110___122076	mh_p110___122076	5
+vanT gene in vanG cluster	mh_p110___124121	mh_p110___124121	2
+vanT gene in vanG cluster	mh_p110___127275	mh_p110___127275	8
+vanT gene in vanG cluster	mh_p110___130307	mh_p110___130307	2
+vanT gene in vanG cluster	mh_p110___133648	mh_p110___133648	1
+vanT gene in vanG cluster	mh_p110___141476	mh_p110___141476	11
+vanT gene in vanG cluster	mh_p110___146450	mh_p110___146450	2
+vanT gene in vanG cluster	mh_p110___157705	mh_p110___157705	3
+vanT gene in vanG cluster	mh_p110___158504	mh_p110___158504	1
+vanT gene in vanG cluster	mh_p110___15939	mh_p110___15939	11
+vanT gene in vanG cluster	mh_p110___160576	mh_p110___160576	12
+vanT gene in vanG cluster	mh_p110___162948	mh_p110___162948	4
+vanT gene in vanG cluster	mh_p110___163202	mh_p110___163202	4
+vanT gene in vanG cluster	mh_p110___167756	mh_p110___167756	1
+vanT gene in vanG cluster	mh_p110___170269	mh_p110___170269	3
+vanT gene in vanG cluster	mh_p110___172208	mh_p110___172208	2
+vanT gene in vanG cluster	mh_p110___178336	mh_p110___178336	1
+vanT gene in vanG cluster	mh_p110___180969	mh_p110___180969	1
+vanT gene in vanG cluster	mh_p110___185816	mh_p110___185816	3
+vanT gene in vanG cluster	mh_p110___189592	mh_p110___189592	1
+vanT gene in vanG cluster	mh_p110___18999	mh_p110___18999	6
+vanT gene in vanG cluster	mh_p110___197667	mh_p110___197667	9
+vanT gene in vanG cluster	mh_p110___20091	mh_p110___20091	2
+vanT gene in vanG cluster	mh_p110___208121	mh_p110___208121	4
+vanT gene in vanG cluster	mh_p110___210420	mh_p110___210420	1
+vanT gene in vanG cluster	mh_p110___210735	mh_p110___210735	7
+vanT gene in vanG cluster	mh_p110___227021	mh_p110___227021	2
+vanT gene in vanG cluster	mh_p110___227377	mh_p110___227377	11
+vanT gene in vanG cluster	mh_p110___234882	mh_p110___234882	6
+vanT gene in vanG cluster	mh_p110___244361	mh_p110___244361	2
+vanT gene in vanG cluster	mh_p110___247594	mh_p110___247594	5
+vanT gene in vanG cluster	mh_p110___248346	mh_p110___248346	3
+vanT gene in vanG cluster	mh_p110___262319	mh_p110___262319	5
+vanT gene in vanG cluster	mh_p110___26883	mh_p110___26883	3
+vanT gene in vanG cluster	mh_p110___275506	mh_p110___275506	4
+vanT gene in vanG cluster	mh_p110___27643	mh_p110___27643	1
+vanT gene in vanG cluster	mh_p110___276649	mh_p110___276649	4
+vanT gene in vanG cluster	mh_p110___279093	mh_p110___279093	4
+vanT gene in vanG cluster	mh_p110___281780	mh_p110___281780	2
+vanT gene in vanG cluster	mh_p110___295519	mh_p110___295519	7
+vanT gene in vanG cluster	mh_p110___305203	mh_p110___305203	6
+vanT gene in vanG cluster	mh_p110___308473	mh_p110___308473	3
+vanT gene in vanG cluster	mh_p110___308886	mh_p110___308886	10
+vanT gene in vanG cluster	mh_p110___311607	mh_p110___311607	1
+vanT gene in vanG cluster	mh_p110___313104	mh_p110___313104	8
+vanT gene in vanG cluster	mh_p110___4397	mh_p110___4397	2
+vanT gene in vanG cluster	mh_p110___45059	mh_p110___45059	10
+vanT gene in vanG cluster	mh_p110___45414	mh_p110___45414	4
+vanT gene in vanG cluster	mh_p110___51065	mh_p110___51065	11
+vanT gene in vanG cluster	mh_p110___7009	mh_p110___7009	3
+vanT gene in vanG cluster	mh_p110___7418	mh_p110___7418	9
+vanT gene in vanG cluster	mh_p110___85010	mh_p110___85010	6
+vanT gene in vanG cluster	mh_p110___86200	mh_p110___86200	5
+vanT gene in vanG cluster	mh_p110___89668	mh_p110___89668	2
+vanT gene in vanG cluster	mh_p110___99282	mh_p110___99282	6
+vanT gene in vanG cluster	mh_p125___114913	mh_p125___114913	3
+vanT gene in vanG cluster	mh_p125___116546	mh_p125___116546	11
+vanT gene in vanG cluster	mh_p125___117577	mh_p125___117577	6
+vanT gene in vanG cluster	mh_p125___141214	mh_p125___141214	3
+vanT gene in vanG cluster	mh_p125___143600	mh_p125___143600	4
+vanT gene in vanG cluster	mh_p125___143687	mh_p125___143687	8
+vanT gene in vanG cluster	mh_p125___155888	mh_p125___155888	1
+vanT gene in vanG cluster	mh_p125___156214	mh_p125___156214	3
+vanT gene in vanG cluster	mh_p125___156215	mh_p125___156215	3
+vanT gene in vanG cluster	mh_p125___168177	mh_p125___168177	10
+vanT gene in vanG cluster	mh_p125___179923	mh_p125___179923	7
+vanT gene in vanG cluster	mh_p125___187206	mh_p125___187206	6
+vanT gene in vanG cluster	mh_p125___189393	mh_p125___189393	4
+vanT gene in vanG cluster	mh_p125___211326	mh_p125___211326	6
+vanT gene in vanG cluster	mh_p125___218047	mh_p125___218047	2
+vanT gene in vanG cluster	mh_p125___223677	mh_p125___223677	1
+vanT gene in vanG cluster	mh_p125___223707	mh_p125___223707	1
+vanT gene in vanG cluster	mh_p125___229690	mh_p125___229690	6
+vanT gene in vanG cluster	mh_p125___249107	mh_p125___249107	1
+vanT gene in vanG cluster	mh_p125___44863	mh_p125___44863	11
+vanT gene in vanG cluster	mh_p125___56341	mh_p125___56341	5
+vanT gene in vanG cluster	mh_p125___62085	mh_p125___62085	2
+vanT gene in vanG cluster	mh_p125___90694	mh_p125___90694	4
+vanT gene in vanG cluster	mh_p292___149459	mh_p292___149459	1
+vanT gene in vanG cluster	mh_p292___164524	mh_p292___164524	3
+vanT gene in vanG cluster	mh_p292___217292	mh_p292___217292	1
+vanT gene in vanG cluster	mh_p292___223671	mh_p292___223671	2
+vanT gene in vanG cluster	mh_p292___234229	mh_p292___234229	1
+vanT gene in vanG cluster	mh_p292___242112	mh_p292___242112	1
+vanT gene in vanG cluster	mh_p292___250075	mh_p292___250075	1
+vanT gene in vanG cluster	mh_p292___265334	mh_p292___265334	2
+vanT gene in vanG cluster	mh_p292___284198	mh_p292___284198	2
+vanT gene in vanG cluster	mh_p292___285131	mh_p292___285131	1
+vanT gene in vanG cluster	mh_p292___300370	mh_p292___300370	1
+vanT gene in vanG cluster	mh_p292___353353	mh_p292___353353	1
+vanT gene in vanG cluster	mh_p292___395967	mh_p292___395967	1
+vanT gene in vanG cluster	mh_p292___76037	mh_p292___76037	1
+vanT gene in vanG cluster	mh_p292___87534	mh_p292___87534	1
+vanT gene in vanG cluster	mh_p341___169826	mh_p341___169826	1
+vanT gene in vanG cluster	mh_p341___172424	mh_p341___172424	1
+vanT gene in vanG cluster	mh_p341___183719	mh_p341___183719	1
+vanT gene in vanG cluster	mh_p341___210916	mh_p341___210916	2
+vanT gene in vanG cluster	mh_p341___222915	mh_p341___222915	1
+vanT gene in vanG cluster	mh_p341___227585	mh_p341___227585	1
+vanT gene in vanG cluster	mh_p341___257802	mh_p341___257802	6
+vanT gene in vanG cluster	mh_p341___294690	mh_p341___294690	1
+vanT gene in vanG cluster	mh_p341___35110	mh_p341___35110	1
+vanT gene in vanG cluster	mh_p341___62887	mh_p341___62887	2
+vanT gene in vanG cluster	mh_p341___63845	mh_p341___63845	6
+vanT gene in vanG cluster	mh_p341___72273	mh_p341___72273	3
+vanT gene in vanG cluster	mh_p341___78733	mh_p341___78733	2
+vanT gene in vanG cluster	mh_p398___169235	mh_p398___169235	2
+vanT gene in vanG cluster	mh_p398___191007	mh_p398___191007	1
+vanT gene in vanG cluster	mh_p398___205363	mh_p398___205363	4
+vanT gene in vanG cluster	mh_p398___68802	mh_p398___68802	2
+vanT gene in vanG cluster	mh_p398___95910	mh_p398___95910	2
+vanT gene in vanG cluster	mh_p408___105	mh_p408___105	1
+vanT gene in vanG cluster	mh_p408___122334	mh_p408___122334	1
+vanT gene in vanG cluster	mh_p408___2769	mh_p408___2769	1
+vanT gene in vanG cluster	mh_p408___33856	mh_p408___33856	1
+vanT gene in vanG cluster	mh_p408___57747	mh_p408___57747	3
+vanT gene in vanG cluster	mh_p470___113065	mh_p470___113065	1
+vanT gene in vanG cluster	mh_p470___227344	mh_p470___227344	1
+vanT gene in vanG cluster	mh_p470___256234	mh_p470___256234	1
+vanT gene in vanG cluster	mh_p470___273168	mh_p470___273168	2
+vanT gene in vanG cluster	mh_p523___112612	mh_p523___112612	1
+vanT gene in vanG cluster	mh_p523___11482	mh_p523___11482	1
+vanT gene in vanG cluster	mh_p523___148580	mh_p523___148580	1
+vanT gene in vanG cluster	mh_p523___188562	mh_p523___188562	1
+vanT gene in vanG cluster	mh_p523___236021	mh_p523___236021	1
+vanT gene in vanG cluster	mh_p523___244641	mh_p523___244641	1
+vanT gene in vanG cluster	mh_p523___276069	mh_p523___276069	1
+vanT gene in vanG cluster	mh_p523___287614	mh_p523___287614	1
+vanT gene in vanG cluster	mh_p523___289856	mh_p523___289856	1
+vanT gene in vanG cluster	mh_p523___318779	mh_p523___318779	1
+vanT gene in vanG cluster	mh_p523___330056	mh_p523___330056	1
+vanT gene in vanG cluster	mh_p523___338296	mh_p523___338296	1
+vanT gene in vanG cluster	mh_p523___33984	mh_p523___33984	1
+vanT gene in vanG cluster	mh_p523___365695	mh_p523___365695	1
+vanT gene in vanG cluster	mh_p523___395336	mh_p523___395336	1
+vanT gene in vanG cluster	mh_p523___410275	mh_p523___410275	1
+vanT gene in vanG cluster	mh_p523___416410	mh_p523___416410	1
+vanT gene in vanG cluster	mh_p523___56265	mh_p523___56265	1
+vanT gene in vanG cluster	mh_p523___58987	mh_p523___58987	1
+vanT gene in vanG cluster	mh_p550___104551	mh_p550___104551	1
+vanT gene in vanG cluster	mh_p550___133926	mh_p550___133926	1
+vanT gene in vanG cluster	mh_p550___171382	mh_p550___171382	2
+vanT gene in vanG cluster	mh_p550___215417	mh_p550___215417	1
+vanT gene in vanG cluster	mh_p550___22649	mh_p550___22649	1
+vanT gene in vanG cluster	mh_p550___243444	mh_p550___243444	1
+vanT gene in vanG cluster	mh_p550___53232	mh_p550___53232	1
+vanT gene in vanG cluster	mh_p584___175274	mh_p584___175274	1
+vanT gene in vanG cluster	mh_p584___208958	mh_p584___208958	1
+vanT gene in vanG cluster	mh_p584___215909	mh_p584___215909	1
+vanT gene in vanG cluster	mh_p601___11500	mh_p601___11500	1
+vanT gene in vanG cluster	mh_p601___206180	mh_p601___206180	1
+vanT gene in vanG cluster	mh_p601___249465	mh_p601___249465	1
+vanT gene in vanG cluster	mh_p601___283241	mh_p601___283241	1
+vanT gene in vanG cluster	mh_p601___299451	mh_p601___299451	1
+vanT gene in vanG cluster	mh_p601___339611	mh_p601___339611	1
+vanT gene in vanG cluster	mh_p601___376529	mh_p601___376529	1
+vanT gene in vanG cluster	mh_p601___378749	mh_p601___378749	1
+vanT gene in vanG cluster	mh_p601___53759	mh_p601___53759	1
+vanT gene in vanG cluster	mh_p601___61353	mh_p601___61353	1
+vanT gene in vanG cluster	mh_p601___79109	mh_p601___79109	1
+vanT gene in vanG cluster	mh_p601___85979	mh_p601___85979	1
+vanT gene in vanG cluster	mh_p644___119186	mh_p644___119186	NA
+vanT gene in vanG cluster	mh_p644___143434	mh_p644___143434	NA
+vanT gene in vanG cluster	mh_p644___32969	mh_p644___32969	NA
+vanT gene in vanG cluster	mh_p644___570	mh_p644___570	NA
+vanT gene in vanG cluster	mh_p644___63579	mh_p644___63579	NA
+vanT gene in vanG cluster	mh_p644___81385	mh_p644___81385	NA
+vanT gene in vanG cluster	mh_p722___138271	mh_p722___138271	NA
+vanT gene in vanG cluster	mh_p722___138598	mh_p722___138598	NA
+vanT gene in vanG cluster	mh_p722___149611	mh_p722___149611	NA
+vanT gene in vanG cluster	mh_p722___170026	mh_p722___170026	NA
+vanT gene in vanG cluster	mh_p722___205693	mh_p722___205693	NA
+vanT gene in vanG cluster	mh_p722___210055	mh_p722___210055	NA
+vanT gene in vanG cluster	mh_p722___217774	mh_p722___217774	NA
+vanT gene in vanG cluster	mh_p722___218436	mh_p722___218436	NA
+vanT gene in vanG cluster	mh_p722___332844	mh_p722___332844	NA
+vanT gene in vanG cluster	mh_p722___333207	mh_p722___333207	NA
+vanT gene in vanG cluster	mh_p722___46776	mh_p722___46776	NA
+vanT gene in vanG cluster	mh_p722___51580	mh_p722___51580	NA
+vanT gene in vanG cluster	mh_p728___162604	mh_p728___162604	6
+vanT gene in vanG cluster	spaS235___36528	mh_p728___162604	NA
+vanT gene in vanG cluster	mh_p728___232883	mh_p728___232883	NA
+vanT gene in vanG cluster	mh_p728___47276	mh_p728___47276	9
+vanT gene in vanG cluster	spaS215___186067	mh_p728___47276	NA
+vanT gene in vanG cluster	mh_p789___119442	mh_p789___119442	NA
+vanT gene in vanG cluster	mh_p789___121616	mh_p789___121616	NA
+vanT gene in vanG cluster	mh_p789___162134	mh_p789___162134	NA
+vanT gene in vanG cluster	mh_p789___173984	mh_p789___173984	NA
+vanT gene in vanG cluster	mh_p789___191076	mh_p789___191076	NA
+vanT gene in vanG cluster	mh_p789___194494	mh_p789___194494	NA
+vanT gene in vanG cluster	mh_p789___217401	mh_p789___217401	3
+vanT gene in vanG cluster	mh_p789___217712	mh_p789___217712	NA
+vanT gene in vanG cluster	mh_p789___245398	mh_p789___245398	NA
+vanT gene in vanG cluster	mh_p789___262133	mh_p789___262133	NA
+vanT gene in vanG cluster	mh_p789___267045	mh_p789___267045	NA
+vanT gene in vanG cluster	mh_p789___281261	mh_p789___281261	1
+vanT gene in vanG cluster	mh_p789___304574	mh_p789___304574	NA
+vanT gene in vanG cluster	mh_p789___311199	mh_p789___311199	NA
+vanT gene in vanG cluster	mh_p789___313306	mh_p789___313306	NA
+vanT gene in vanG cluster	mh_p789___344030	mh_p789___344030	NA
+vanT gene in vanG cluster	mh_p789___348146	mh_p789___348146	NA
+vanT gene in vanG cluster	mh_p789___356503	mh_p789___356503	NA
+vanT gene in vanG cluster	mh_p789___379687	mh_p789___379687	NA
+vanT gene in vanG cluster	mh_p789___389598	mh_p789___389598	NA
+vanT gene in vanG cluster	mh_p789___399926	mh_p789___399926	NA
+vanT gene in vanG cluster	mh_p789___40686	mh_p789___40686	NA
+vanT gene in vanG cluster	mh_p789___40815	mh_p789___40815	NA
+vanT gene in vanG cluster	mh_p789___40849	mh_p789___40849	NA
+vanT gene in vanG cluster	mh_p789___40850	mh_p789___40850	NA
+vanT gene in vanG cluster	mh_p789___408897	mh_p789___408897	NA
+vanT gene in vanG cluster	mh_p789___409366	mh_p789___409366	NA
+vanT gene in vanG cluster	mh_p789___417111	mh_p789___417111	NA
+vanT gene in vanG cluster	mh_p789___421026	mh_p789___421026	NA
+vanT gene in vanG cluster	mh_p789___43431	mh_p789___43431	NA
+vanT gene in vanG cluster	mh_p789___439781	mh_p789___439781	NA
+vanT gene in vanG cluster	mh_p789___443020	mh_p789___443020	NA
+vanT gene in vanG cluster	mh_p789___450489	mh_p789___450489	NA
+vanT gene in vanG cluster	mh_p789___450490	mh_p789___450490	NA
+vanT gene in vanG cluster	mh_p789___457599	mh_p789___457599	NA
+vanT gene in vanG cluster	mh_p789___46147	mh_p789___46147	NA
+vanT gene in vanG cluster	mh_p789___490850	mh_p789___490850	NA
+vanT gene in vanG cluster	mh_p789___498651	mh_p789___498651	NA
+vanT gene in vanG cluster	mh_p789___499830	mh_p789___499830	NA
+vanT gene in vanG cluster	mh_p789___511257	mh_p789___511257	NA
+vanT gene in vanG cluster	mh_p789___518425	mh_p789___518425	NA
+vanT gene in vanG cluster	mh_p789___523978	mh_p789___523978	NA
+vanT gene in vanG cluster	mh_p789___529176	mh_p789___529176	NA
+vanT gene in vanG cluster	mh_p789___535716	mh_p789___535716	NA
+vanT gene in vanG cluster	mh_p789___537255	mh_p789___537255	NA
+vanT gene in vanG cluster	mh_p789___537653	mh_p789___537653	NA
+vanT gene in vanG cluster	mh_p789___540492	mh_p789___540492	NA
+vanT gene in vanG cluster	mh_p789___549038	mh_p789___549038	NA
+vanT gene in vanG cluster	mh_p789___557150	mh_p789___557150	NA
+vanT gene in vanG cluster	mh_p789___571954	mh_p789___571954	1
+vanT gene in vanG cluster	mh_p789___596343	mh_p789___596343	NA
+vanT gene in vanG cluster	mh_p789___597192	mh_p789___597192	NA
+vanT gene in vanG cluster	mh_p789___601498	mh_p789___601498	NA
+vanT gene in vanG cluster	mh_p789___604352	mh_p789___604352	1
+vanT gene in vanG cluster	mh_p789___616848	mh_p789___616848	NA
+vanT gene in vanG cluster	mh_p789___635480	mh_p789___635480	NA
+vanT gene in vanG cluster	mh_p789___638965	mh_p789___638965	1
+vanT gene in vanG cluster	mh_p789___658137	mh_p789___658137	NA
+vanT gene in vanG cluster	mh_p789___69501	mh_p789___69501	NA
+vanT gene in vanG cluster	mh_p789___99563	mh_p789___99563	NA
+vanT gene in vanG cluster	mh_p813___13791	mh_p813___13791	NA
+vanT gene in vanG cluster	mh_p813___142869	mh_p813___142869	1
+vanT gene in vanG cluster	mh_p813___163054	mh_p813___163054	NA
+vanT gene in vanG cluster	mh_p813___190788	mh_p813___190788	NA
+vanT gene in vanG cluster	mh_p813___207018	mh_p813___207018	NA
+vanT gene in vanG cluster	mh_p813___213830	mh_p813___213830	NA
+vanT gene in vanG cluster	mh_p813___282413	mh_p813___282413	NA
+vanT gene in vanG cluster	mh_p813___454698	mh_p813___454698	NA
+vanT gene in vanG cluster	mh_p813___550583	mh_p813___550583	NA
+vanT gene in vanG cluster	mh_p813___573291	mh_p813___573291	NA
+vanT gene in vanG cluster	mh_p813___590079	mh_p813___590079	NA
+vanT gene in vanG cluster	mh_p813___618309	mh_p813___618309	NA
+vanT gene in vanG cluster	mh_p813___84686	mh_p813___84686	NA
+vanT gene in vanG cluster	mh_p860___118457	mh_p860___118457	NA
+vanT gene in vanG cluster	mh_p860___89179	mh_p860___89179	NA
+vanT gene in vanG cluster	mh_p860___92478	mh_p860___92478	NA
+vanT gene in vanG cluster	mh_p894___163068	mh_p894___163068	NA
+vanT gene in vanG cluster	mh_p894___168864	mh_p894___168864	NA
+vanT gene in vanG cluster	mh_p894___261839	mh_p894___261839	NA
+vanT gene in vanG cluster	mh_p894___305763	mh_p894___305763	NA
+vanT gene in vanG cluster	mh_p894___305765	mh_p894___305765	NA
+vanT gene in vanG cluster	mh_p894___83671	mh_p894___83671	NA
+vanT gene in vanG cluster	mh_p97___202135	mh_p97___202135	NA
+vanT gene in vanG cluster	mh_p97___247215	mh_p97___247215	NA
+vanT gene in vanG cluster	spaS100___47721	spaS100___47721	2
+vanT gene in vanG cluster	spaS102___49694	spaS102___49694	NA
+vanT gene in vanG cluster	spaS107___41532	spaS107___41532	7
+vanT gene in vanG cluster	spaS10___82252	spaS10___82252	NA
+vanT gene in vanG cluster	spaS116___75720	spaS116___75720	NA
+vanT gene in vanG cluster	spaS118___17506	spaS118___17506	NA
+vanT gene in vanG cluster	spaS118___31646	spaS118___31646	3
+vanT gene in vanG cluster	spaS123___101042	spaS123___101042	1
+vanT gene in vanG cluster	spaS123___75396	spaS123___75396	1
+vanT gene in vanG cluster	spaS130___174124	spaS130___174124	1
+vanT gene in vanG cluster	spaS130___197447	spaS130___197447	NA
+vanT gene in vanG cluster	spaS142___135375	spaS142___135375	NA
+vanT gene in vanG cluster	spaS145___118412	spaS145___118412	8
+vanT gene in vanG cluster	spaS153___157487	spaS153___157487	11
+vanT gene in vanG cluster	spaS154___62570	spaS154___62570	2
+vanT gene in vanG cluster	spaS154___67859	spaS154___67859	2
+vanT gene in vanG cluster	spaS156___118811	spaS156___118811	4
+vanT gene in vanG cluster	spaS156___132026	spaS156___132026	NA
+vanT gene in vanG cluster	spaS158___126506	spaS158___126506	NA
+vanT gene in vanG cluster	spaS160___74447	spaS160___74447	NA
+vanT gene in vanG cluster	spaS163___89245	spaS163___89245	NA
+vanT gene in vanG cluster	spaS16___102708	spaS16___102708	NA
+vanT gene in vanG cluster	spaS16___46995	spaS16___46995	NA
+vanT gene in vanG cluster	spaS171___18313	spaS171___18313	4
+vanT gene in vanG cluster	spaS174___92771	spaS174___92771	1
+vanT gene in vanG cluster	spaS177___53685	spaS177___53685	NA
+vanT gene in vanG cluster	spaS178___128151	spaS178___128151	3
+vanT gene in vanG cluster	spaS184___133775	spaS184___133775	3
+vanT gene in vanG cluster	spaS184___53497	spaS184___53497	1
+vanT gene in vanG cluster	spaS184___78469	spaS184___78469	1
+vanT gene in vanG cluster	spaS184___89425	spaS184___89425	NA
+vanT gene in vanG cluster	spaS184___96747	spaS184___96747	4
+vanT gene in vanG cluster	spaS185___48419	spaS185___48419	NA
+vanT gene in vanG cluster	spaS186___98130	spaS186___98130	NA
+vanT gene in vanG cluster	spaS187___95879	spaS187___95879	NA
+vanT gene in vanG cluster	spaS188___162316	spaS188___162316	1
+vanT gene in vanG cluster	spaS18___94929	spaS18___94929	8
+vanT gene in vanG cluster	spaS195___74785	spaS195___74785	NA
+vanT gene in vanG cluster	spaS196___55956	spaS196___55956	NA
+vanT gene in vanG cluster	spaS196___55957	spaS196___55957	NA
+vanT gene in vanG cluster	spaS196___64764	spaS196___64764	NA
+vanT gene in vanG cluster	spaS201___144878	spaS201___144878	NA
+vanT gene in vanG cluster	spaS202___118512	spaS202___118512	NA
+vanT gene in vanG cluster	spaS202___91948	spaS202___91948	NA
+vanT gene in vanG cluster	spaS204___81090	spaS204___81090	1
+vanT gene in vanG cluster	spaS207___48092	spaS207___48092	4
+vanT gene in vanG cluster	spaS210___108432	spaS210___108432	NA
+vanT gene in vanG cluster	spaS210___151392	spaS210___151392	3
+vanT gene in vanG cluster	spaS211___167361	spaS211___167361	NA
+vanT gene in vanG cluster	spaS212___121824	spaS212___121824	NA
+vanT gene in vanG cluster	spaS212___14778	spaS212___14778	NA
+vanT gene in vanG cluster	spaS213___40850	spaS213___40850	9
+vanT gene in vanG cluster	spaS214___139780	spaS214___139780	NA
+vanT gene in vanG cluster	spaS214___47305	spaS214___47305	NA
+vanT gene in vanG cluster	spaS214___85136	spaS214___85136	NA
+vanT gene in vanG cluster	spaS215___116115	spaS215___116115	NA
+vanT gene in vanG cluster	spaS215___124066	spaS215___124066	NA
+vanT gene in vanG cluster	spaS215___142387	spaS215___142387	NA
+vanT gene in vanG cluster	spaS215___160648	spaS215___160648	2
+vanT gene in vanG cluster	spaS215___161977	spaS215___161977	NA
+vanT gene in vanG cluster	spaS215___168220	spaS215___168220	NA
+vanT gene in vanG cluster	spaS215___168836	spaS215___168836	NA
+vanT gene in vanG cluster	spaS215___16963	spaS215___16963	NA
+vanT gene in vanG cluster	spaS215___170295	spaS215___170295	NA
+vanT gene in vanG cluster	spaS215___228648	spaS215___228648	NA
+vanT gene in vanG cluster	spaS215___59362	spaS215___59362	NA
+vanT gene in vanG cluster	spaS215___62593	spaS215___62593	3
+vanT gene in vanG cluster	spaS215___62972	spaS215___62972	NA
+vanT gene in vanG cluster	spaS215___74033	spaS215___74033	2
+vanT gene in vanG cluster	spaS215___7774	spaS215___7774	NA
+vanT gene in vanG cluster	spaS215___82376	spaS215___82376	NA
+vanT gene in vanG cluster	spaS215___8952	spaS215___8952	1
+vanT gene in vanG cluster	spaS216___167639	spaS216___167639	NA
+vanT gene in vanG cluster	spaS216___77112	spaS216___77112	NA
+vanT gene in vanG cluster	spaS217___82323	spaS217___82323	NA
+vanT gene in vanG cluster	spaS21___67968	spaS21___67968	NA
+vanT gene in vanG cluster	spaS221___130442	spaS221___130442	NA
+vanT gene in vanG cluster	spaS223___137638	spaS223___137638	NA
+vanT gene in vanG cluster	spaS223___19480	spaS223___19480	3
+vanT gene in vanG cluster	spaS223___48285	spaS223___48285	10
+vanT gene in vanG cluster	spaS224___55055	spaS224___55055	10
+vanT gene in vanG cluster	spaS228___53976	spaS228___53976	3
+vanT gene in vanG cluster	spaS228___69025	spaS228___69025	5
+vanT gene in vanG cluster	spaS233___97862	spaS233___97862	NA
+vanT gene in vanG cluster	spaS238___59977	spaS238___59977	10
+vanT gene in vanG cluster	spaS23___74103	spaS23___74103	2
+vanT gene in vanG cluster	spaS23___97641	spaS23___97641	NA
+vanT gene in vanG cluster	spaS257___115698	spaS257___115698	NA
+vanT gene in vanG cluster	spaS257___119420	spaS257___119420	3
+vanT gene in vanG cluster	spaS257___122007	spaS257___122007	NA
+vanT gene in vanG cluster	spaS257___1258	spaS257___1258	NA
+vanT gene in vanG cluster	spaS257___133011	spaS257___133011	NA
+vanT gene in vanG cluster	spaS257___13764	spaS257___13764	NA
+vanT gene in vanG cluster	spaS257___141083	spaS257___141083	3
+vanT gene in vanG cluster	spaS257___152631	spaS257___152631	1
+vanT gene in vanG cluster	spaS257___180963	spaS257___180963	NA
+vanT gene in vanG cluster	spaS257___18570	spaS257___18570	1
+vanT gene in vanG cluster	spaS257___19372	spaS257___19372	NA
+vanT gene in vanG cluster	spaS257___204404	spaS257___204404	2
+vanT gene in vanG cluster	spaS257___205526	spaS257___205526	1
+vanT gene in vanG cluster	spaS257___230463	spaS257___230463	4
+vanT gene in vanG cluster	spaS257___231877	spaS257___231877	NA
+vanT gene in vanG cluster	spaS257___26144	spaS257___26144	NA
+vanT gene in vanG cluster	spaS257___27480	spaS257___27480	NA
+vanT gene in vanG cluster	spaS257___33597	spaS257___33597	3
+vanT gene in vanG cluster	spaS257___36659	spaS257___36659	NA
+vanT gene in vanG cluster	spaS257___41370	spaS257___41370	NA
+vanT gene in vanG cluster	spaS257___43775	spaS257___43775	4
+vanT gene in vanG cluster	spaS257___48340	spaS257___48340	NA
+vanT gene in vanG cluster	spaS257___53996	spaS257___53996	2
+vanT gene in vanG cluster	spaS257___59669	spaS257___59669	NA
+vanT gene in vanG cluster	spaS257___60394	spaS257___60394	3
+vanT gene in vanG cluster	spaS257___72167	spaS257___72167	NA
+vanT gene in vanG cluster	spaS257___75799	spaS257___75799	3
+vanT gene in vanG cluster	spaS257___89784	spaS257___89784	5
+vanT gene in vanG cluster	spaS257___94209	spaS257___94209	3
+vanT gene in vanG cluster	spaS257___99341	spaS257___99341	1
+vanT gene in vanG cluster	spaS258___11046	spaS258___11046	NA
+vanT gene in vanG cluster	spaS258___110589	spaS258___110589	NA
+vanT gene in vanG cluster	spaS258___114131	spaS258___114131	1
+vanT gene in vanG cluster	spaS258___140908	spaS258___140908	1
+vanT gene in vanG cluster	spaS258___152913	spaS258___152913	NA
+vanT gene in vanG cluster	spaS258___202938	spaS258___202938	NA
+vanT gene in vanG cluster	spaS258___207264	spaS258___207264	NA
+vanT gene in vanG cluster	spaS258___61484	spaS258___61484	7
+vanT gene in vanG cluster	spaS259___117828	spaS259___117828	2
+vanT gene in vanG cluster	spaS259___1273	spaS259___1273	NA
+vanT gene in vanG cluster	spaS259___135376	spaS259___135376	4
+vanT gene in vanG cluster	spaS259___146015	spaS259___146015	3
+vanT gene in vanG cluster	spaS259___151567	spaS259___151567	5
+vanT gene in vanG cluster	spaS259___83761	spaS259___83761	NA
+vanT gene in vanG cluster	spaS260___59499	spaS260___59499	7
+vanT gene in vanG cluster	spaS262___88620	spaS262___88620	NA
+vanT gene in vanG cluster	spaS264___119561	spaS264___119561	NA
+vanT gene in vanG cluster	spaS266___103219	spaS266___103219	NA
+vanT gene in vanG cluster	spaS266___135591	spaS266___135591	1
+vanT gene in vanG cluster	spaS266___97906	spaS266___97906	NA
+vanT gene in vanG cluster	spaS267___113281	spaS267___113281	NA
+vanT gene in vanG cluster	spaS267___134746	spaS267___134746	NA
+vanT gene in vanG cluster	spaS267___162960	spaS267___162960	NA
+vanT gene in vanG cluster	spaS267___163567	spaS267___163567	5
+vanT gene in vanG cluster	spaS267___195387	spaS267___195387	2
+vanT gene in vanG cluster	spaS267___68940	spaS267___68940	NA
+vanT gene in vanG cluster	spaS268___121109	spaS268___121109	NA
+vanT gene in vanG cluster	spaS268___142807	spaS268___142807	NA
+vanT gene in vanG cluster	spaS268___151028	spaS268___151028	7
+vanT gene in vanG cluster	spaS268___171472	spaS268___171472	NA
+vanT gene in vanG cluster	spaS268___175051	spaS268___175051	NA
+vanT gene in vanG cluster	spaS268___229606	spaS268___229606	NA
+vanT gene in vanG cluster	spaS268___272117	spaS268___272117	NA
+vanT gene in vanG cluster	spaS269___154712	spaS269___154712	NA
+vanT gene in vanG cluster	spaS269___185174	spaS269___185174	NA
+vanT gene in vanG cluster	spaS26___110692	spaS26___110692	NA
+vanT gene in vanG cluster	spaS271___88527	spaS271___88527	1
+vanT gene in vanG cluster	spaS272___125477	spaS272___125477	3
+vanT gene in vanG cluster	spaS274___48663	spaS274___48663	1
+vanT gene in vanG cluster	spaS276___117568	spaS276___117568	7
+vanT gene in vanG cluster	spaS278___111972	spaS278___111972	10
+vanT gene in vanG cluster	spaS279___64147	spaS279___64147	NA
+vanT gene in vanG cluster	spaS280___29568	spaS280___29568	8
+vanT gene in vanG cluster	spaS282___132579	spaS282___132579	6
+vanT gene in vanG cluster	spaS282___163543	spaS282___163543	NA
+vanT gene in vanG cluster	spaS282___165291	spaS282___165291	2
+vanT gene in vanG cluster	spaS282___230315	spaS282___230315	NA
+vanT gene in vanG cluster	spaS282___98210	spaS282___98210	1
+vanT gene in vanG cluster	spaS284___132780	spaS284___132780	4
+vanT gene in vanG cluster	spaS287___184886	spaS287___184886	NA
+vanT gene in vanG cluster	spaS294___184109	spaS294___184109	NA
+vanT gene in vanG cluster	spaS295___323563	spaS295___323563	NA
+vanT gene in vanG cluster	spaS296___194478	spaS296___194478	NA
+vanT gene in vanG cluster	spaS296___204672	spaS296___204672	NA
+vanT gene in vanG cluster	spaS296___224221	spaS296___224221	NA
+vanT gene in vanG cluster	spaS296___224621	spaS296___224621	NA
+vanT gene in vanG cluster	spaS296___232216	spaS296___232216	NA
+vanT gene in vanG cluster	spaS2___48857	spaS2___48857	NA
+vanT gene in vanG cluster	spaS32___92556	spaS32___92556	NA
+vanT gene in vanG cluster	spaS32___9278	spaS32___9278	8
+vanT gene in vanG cluster	spaS35___101427	spaS35___101427	3
+vanT gene in vanG cluster	spaS35___73052	spaS35___73052	NA
+vanT gene in vanG cluster	spaS3___137914	spaS3___137914	NA
+vanT gene in vanG cluster	spaS50___95279	spaS50___95279	2
+vanT gene in vanG cluster	spaS51___47554	spaS51___47554	2
+vanT gene in vanG cluster	spaS54___109619	spaS54___109619	NA
+vanT gene in vanG cluster	spaS54___90300	spaS54___90300	5
+vanT gene in vanG cluster	spaS56___31951	spaS56___31951	10
+vanT gene in vanG cluster	spaS59___149846	spaS59___149846	8
+vanT gene in vanG cluster	spaS65___142525	spaS65___142525	NA
+vanT gene in vanG cluster	spaS66___106238	spaS66___106238	NA
+vanT gene in vanG cluster	spaS69___3054	spaS69___3054	NA
+vanT gene in vanG cluster	spaS70___67666	spaS70___67666	1
+vanT gene in vanG cluster	spaS73___80673	spaS73___80673	1
+vanT gene in vanG cluster	spaS79___58953	spaS79___58953	9
+vanT gene in vanG cluster	spaS7___27159	spaS7___27159	1
+vanT gene in vanG cluster	spaS80___73189	spaS80___73189	7
+vanT gene in vanG cluster	spaS81___114457	spaS81___114457	NA
+vanT gene in vanG cluster	spaS81___56601	spaS81___56601	1
+vanT gene in vanG cluster	spaS81___73862	spaS81___73862	5
+vanT gene in vanG cluster	spaS85___119820	spaS85___119820	NA
+vanT gene in vanG cluster	spaS86___55436	spaS86___55436	NA
+vanT gene in vanG cluster	spaS88___93422	spaS88___93422	2
+vanT gene in vanG cluster	spaS95___67000	spaS95___67000	NA
+vanT gene in vanG cluster	spaS96___78505	spaS96___78505	8
+vanT gene in vanG cluster	spaS97___45047	spaS97___45047	NA
+vanT gene in vanG cluster	spaS98___32207	spaS98___32207	6
+vanT gene in vanG cluster	spaS98___60876	spaS98___60876	NA
+vanT gene in vanG cluster	spaS9___55232	spaS9___55232	NA
+vanT gene in vanG cluster	spaS9___65067	spaS9___65067	8
+vanW gene in vanI cluster	mh_p110___126313	mh_p110___126313	8
+vanW gene in vanI cluster	mh_p110___129445	mh_p110___129445	1
+vanW gene in vanI cluster	mh_p110___134892	mh_p110___134892	4
+vanW gene in vanI cluster	mh_p110___136028	mh_p110___136028	5
+vanW gene in vanI cluster	mh_p110___153030	mh_p110___153030	1
+vanW gene in vanI cluster	mh_p110___156006	mh_p110___156006	6
+vanW gene in vanI cluster	mh_p110___15608	mh_p110___15608	5
+vanW gene in vanI cluster	mh_p110___157013	mh_p110___157013	1
+vanW gene in vanI cluster	mh_p110___168315	mh_p110___168315	1
+vanW gene in vanI cluster	mh_p110___179002	mh_p110___179002	2
+vanW gene in vanI cluster	mh_p110___192390	mh_p110___192390	2
+vanW gene in vanI cluster	mh_p110___193830	mh_p110___193830	1
+vanW gene in vanI cluster	mh_p110___198714	mh_p110___198714	2
+vanW gene in vanI cluster	mh_p110___200721	mh_p110___200721	3
+vanW gene in vanI cluster	mh_p110___206472	mh_p110___206472	5
+vanW gene in vanI cluster	mh_p110___231161	mh_p110___231161	1
+vanW gene in vanI cluster	mh_p110___235557	mh_p110___235557	6
+vanW gene in vanI cluster	mh_p110___240411	mh_p110___240411	7
+vanW gene in vanI cluster	mh_p110___247147	mh_p110___247147	4
+vanW gene in vanI cluster	mh_p110___260910	mh_p110___260910	11
+vanW gene in vanI cluster	mh_p110___280436	mh_p110___280436	5
+vanW gene in vanI cluster	mh_p110___285167	mh_p110___285167	3
+vanW gene in vanI cluster	mh_p110___285747	mh_p110___285747	5
+vanW gene in vanI cluster	mh_p110___302628	mh_p110___302628	11
+vanW gene in vanI cluster	mh_p110___32099	mh_p110___32099	4
+vanW gene in vanI cluster	mh_p110___55012	mh_p110___55012	10
+vanW gene in vanI cluster	mh_p110___60288	mh_p110___60288	10
+vanW gene in vanI cluster	mh_p110___61948	mh_p110___61948	8
+vanW gene in vanI cluster	mh_p728___181691	mh_p110___61948	NA
+vanW gene in vanI cluster	mh_p110___66809	mh_p110___66809	5
+vanW gene in vanI cluster	mh_p110___76627	mh_p110___76627	1
+vanW gene in vanI cluster	mh_p110___77704	mh_p110___77704	1
+vanW gene in vanI cluster	mh_p110___90950	mh_p110___90950	1
+vanW gene in vanI cluster	mh_p125___119366	mh_p125___119366	2
+vanW gene in vanI cluster	mh_p125___127792	mh_p125___127792	1
+vanW gene in vanI cluster	mh_p125___150725	mh_p125___150725	2
+vanW gene in vanI cluster	mh_p125___156864	mh_p125___156864	11
+vanW gene in vanI cluster	mh_p125___167368	mh_p125___167368	3
+vanW gene in vanI cluster	mh_p125___18154	mh_p125___18154	9
+vanW gene in vanI cluster	mh_p125___220576	mh_p125___220576	1
+vanW gene in vanI cluster	spaS274___63663	mh_p125___220576	NA
+vanW gene in vanI cluster	mh_p125___236208	mh_p125___236208	1
+vanW gene in vanI cluster	spaS211___100118	mh_p125___271783	2
+vanW gene in vanI cluster	mh_p125___271783	mh_p125___271783	2
+vanW gene in vanI cluster	mh_p125___281619	mh_p125___281619	1
+vanW gene in vanI cluster	mh_p125___290496	mh_p125___290496	1
+vanW gene in vanI cluster	mh_p125___292993	mh_p125___292993	7
+vanW gene in vanI cluster	mh_p125___57138	mh_p125___57138	2
+vanW gene in vanI cluster	mh_p125___90324	mh_p125___90324	2
+vanW gene in vanI cluster	mh_p125___91697	mh_p125___91697	8
+vanW gene in vanI cluster	mh_p292___133856	mh_p292___133856	1
+vanW gene in vanI cluster	mh_p292___150308	mh_p292___150308	1
+vanW gene in vanI cluster	mh_p292___172152	mh_p292___172152	3
+vanW gene in vanI cluster	mh_p292___174608	mh_p292___174608	1
+vanW gene in vanI cluster	mh_p292___213371	mh_p292___213371	1
+vanW gene in vanI cluster	mh_p292___21750	mh_p292___21750	1
+vanW gene in vanI cluster	mh_p292___218155	mh_p292___218155	1
+vanW gene in vanI cluster	mh_p292___237226	mh_p292___237226	9
+vanW gene in vanI cluster	mh_p292___288713	mh_p292___288713	1
+vanW gene in vanI cluster	mh_p292___316783	mh_p292___316783	1
+vanW gene in vanI cluster	mh_p292___341	mh_p292___341	1
+vanW gene in vanI cluster	mh_p292___3442	mh_p292___3442	1
+vanW gene in vanI cluster	mh_p292___405310	mh_p292___405310	1
+vanW gene in vanI cluster	mh_p292___430840	mh_p292___430840	1
+vanW gene in vanI cluster	mh_p292___446223	mh_p292___446223	7
+vanW gene in vanI cluster	mh_p292___46463	mh_p292___46463	4
+vanW gene in vanI cluster	mh_p292___4665	mh_p292___4665	1
+vanW gene in vanI cluster	mh_p292___54986	mh_p292___54986	1
+vanW gene in vanI cluster	mh_p292___7048	mh_p292___7048	5
+vanW gene in vanI cluster	mh_p341___115988	mh_p341___115988	1
+vanW gene in vanI cluster	mh_p341___141384	mh_p341___141384	1
+vanW gene in vanI cluster	mh_p341___146129	mh_p341___146129	2
+vanW gene in vanI cluster	mh_p341___178686	mh_p341___178686	3
+vanW gene in vanI cluster	mh_p341___184234	mh_p341___184234	1
+vanW gene in vanI cluster	mh_p341___202537	mh_p341___202537	5
+vanW gene in vanI cluster	mh_p341___231155	mh_p341___231155	1
+vanW gene in vanI cluster	mh_p341___236982	mh_p341___236982	1
+vanW gene in vanI cluster	mh_p341___252936	mh_p341___252936	1
+vanW gene in vanI cluster	mh_p341___277490	mh_p341___277490	1
+vanW gene in vanI cluster	mh_p341___48422	mh_p341___48422	2
+vanW gene in vanI cluster	mh_p341___75616	mh_p341___75616	6
+vanW gene in vanI cluster	mh_p341___85696	mh_p341___85696	1
+vanW gene in vanI cluster	mh_p398___102653	mh_p398___102653	5
+vanW gene in vanI cluster	mh_p398___106530	mh_p398___106530	4
+vanW gene in vanI cluster	mh_p398___163408	mh_p398___163408	1
+vanW gene in vanI cluster	mh_p398___207790	mh_p398___207790	1
+vanW gene in vanI cluster	mh_p408___122408	mh_p408___122408	1
+vanW gene in vanI cluster	mh_p408___151049	mh_p408___151049	1
+vanW gene in vanI cluster	mh_p408___155144	mh_p408___155144	1
+vanW gene in vanI cluster	mh_p408___214791	mh_p408___214791	1
+vanW gene in vanI cluster	mh_p408___217157	mh_p408___217157	1
+vanW gene in vanI cluster	mh_p789___263555	mh_p408___217157	1
+vanW gene in vanI cluster	mh_p408___61422	mh_p408___61422	3
+vanW gene in vanI cluster	mh_p470___14953	mh_p470___14953	2
+vanW gene in vanI cluster	mh_p470___160878	mh_p470___160878	1
+vanW gene in vanI cluster	mh_p470___38803	mh_p470___38803	1
+vanW gene in vanI cluster	mh_p523___116912	mh_p523___116912	1
+vanW gene in vanI cluster	mh_p523___140811	mh_p523___140811	1
+vanW gene in vanI cluster	mh_p523___149226	mh_p523___149226	3
+vanW gene in vanI cluster	mh_p523___149761	mh_p523___149761	1
+vanW gene in vanI cluster	mh_p523___191184	mh_p523___191184	1
+vanW gene in vanI cluster	mh_p523___201015	mh_p523___201015	1
+vanW gene in vanI cluster	mh_p523___224976	mh_p523___224976	2
+vanW gene in vanI cluster	mh_p523___237153	mh_p523___237153	1
+vanW gene in vanI cluster	mh_p523___245417	mh_p523___245417	1
+vanW gene in vanI cluster	mh_p523___24735	mh_p523___24735	1
+vanW gene in vanI cluster	mh_p523___304756	mh_p523___304756	2
+vanW gene in vanI cluster	mh_p523___305972	mh_p523___305972	1
+vanW gene in vanI cluster	mh_p523___347435	mh_p523___347435	1
+vanW gene in vanI cluster	mh_p523___351102	mh_p523___351102	1
+vanW gene in vanI cluster	mh_p523___361670	mh_p523___361670	1
+vanW gene in vanI cluster	mh_p523___370920	mh_p523___370920	1
+vanW gene in vanI cluster	mh_p523___429860	mh_p523___429860	1
+vanW gene in vanI cluster	mh_p523___44441	mh_p523___44441	1
+vanW gene in vanI cluster	mh_p523___52709	mh_p523___52709	1
+vanW gene in vanI cluster	mh_p523___56719	mh_p523___56719	1
+vanW gene in vanI cluster	mh_p550___117968	mh_p550___117968	1
+vanW gene in vanI cluster	mh_p550___125061	mh_p550___125061	1
+vanW gene in vanI cluster	mh_p550___228029	mh_p550___228029	1
+vanW gene in vanI cluster	mh_p550___249306	mh_p550___249306	1
+vanW gene in vanI cluster	mh_p584___102776	mh_p584___102776	1
+vanW gene in vanI cluster	mh_p584___1447	mh_p584___1447	1
+vanW gene in vanI cluster	mh_p584___207327	mh_p584___207327	1
+vanW gene in vanI cluster	mh_p584___209950	mh_p584___209950	1
+vanW gene in vanI cluster	mh_p584___215752	mh_p584___215752	2
+vanW gene in vanI cluster	mh_p584___234023	mh_p584___234023	1
+vanW gene in vanI cluster	mh_p584___237497	mh_p584___237497	1
+vanW gene in vanI cluster	mh_p584___242044	mh_p584___242044	1
+vanW gene in vanI cluster	mh_p601___192835	mh_p601___192835	1
+vanW gene in vanI cluster	mh_p601___239945	mh_p601___239945	1
+vanW gene in vanI cluster	mh_p601___24026	mh_p601___24026	2
+vanW gene in vanI cluster	mh_p601___314669	mh_p601___314669	1
+vanW gene in vanI cluster	mh_p601___333607	mh_p601___333607	1
+vanW gene in vanI cluster	mh_p644___1034	mh_p644___1034	NA
+vanW gene in vanI cluster	mh_p644___238170	mh_p644___238170	NA
+vanW gene in vanI cluster	mh_p644___253286	mh_p644___253286	NA
+vanW gene in vanI cluster	mh_p722___101583	mh_p722___101583	NA
+vanW gene in vanI cluster	mh_p722___147430	mh_p722___147430	NA
+vanW gene in vanI cluster	mh_p722___152151	mh_p722___152151	NA
+vanW gene in vanI cluster	mh_p722___364309	mh_p722___364309	NA
+vanW gene in vanI cluster	mh_p722___51602	mh_p722___51602	NA
+vanW gene in vanI cluster	mh_p722___6061	mh_p722___6061	NA
+vanW gene in vanI cluster	mh_p722___88680	mh_p722___88680	NA
+vanW gene in vanI cluster	mh_p722___92807	mh_p722___92807	1
+vanW gene in vanI cluster	mh_p728___282004	mh_p728___282004	7
+vanW gene in vanI cluster	mh_p728___302650	mh_p728___302650	NA
+vanW gene in vanI cluster	mh_p789___105509	mh_p789___105509	NA
+vanW gene in vanI cluster	mh_p789___105829	mh_p789___105829	NA
+vanW gene in vanI cluster	mh_p789___109866	mh_p789___109866	NA
+vanW gene in vanI cluster	mh_p789___120654	mh_p789___120654	NA
+vanW gene in vanI cluster	mh_p789___124607	mh_p789___124607	NA
+vanW gene in vanI cluster	mh_p789___125418	mh_p789___125418	NA
+vanW gene in vanI cluster	mh_p789___136682	mh_p789___136682	NA
+vanW gene in vanI cluster	mh_p789___137958	mh_p789___137958	NA
+vanW gene in vanI cluster	mh_p789___147580	mh_p789___147580	NA
+vanW gene in vanI cluster	mh_p789___160706	mh_p789___160706	NA
+vanW gene in vanI cluster	mh_p789___162351	mh_p789___162351	NA
+vanW gene in vanI cluster	mh_p789___164423	mh_p789___164423	NA
+vanW gene in vanI cluster	mh_p789___165780	mh_p789___165780	NA
+vanW gene in vanI cluster	mh_p789___178212	mh_p789___178212	NA
+vanW gene in vanI cluster	mh_p789___184878	mh_p789___184878	NA
+vanW gene in vanI cluster	mh_p789___205846	mh_p789___205846	NA
+vanW gene in vanI cluster	mh_p789___233935	mh_p789___233935	1
+vanW gene in vanI cluster	mh_p789___236276	mh_p789___236276	NA
+vanW gene in vanI cluster	mh_p789___257591	mh_p789___257591	1
+vanW gene in vanI cluster	mh_p292___48591	mh_p789___257591	1
+vanW gene in vanI cluster	mh_p789___258095	mh_p789___258095	NA
+vanW gene in vanI cluster	mh_p789___263869	mh_p789___263869	NA
+vanW gene in vanI cluster	mh_p789___267815	mh_p789___267815	NA
+vanW gene in vanI cluster	mh_p789___275082	mh_p789___275082	NA
+vanW gene in vanI cluster	mh_p789___277220	mh_p789___277220	4
+vanW gene in vanI cluster	mh_p789___27827	mh_p789___27827	NA
+vanW gene in vanI cluster	mh_p789___285874	mh_p789___285874	NA
+vanW gene in vanI cluster	mh_p789___29079	mh_p789___29079	NA
+vanW gene in vanI cluster	mh_p789___291266	mh_p789___291266	NA
+vanW gene in vanI cluster	mh_p789___297157	mh_p789___297157	NA
+vanW gene in vanI cluster	mh_p789___314726	mh_p789___314726	NA
+vanW gene in vanI cluster	mh_p789___315571	mh_p789___315571	NA
+vanW gene in vanI cluster	mh_p789___319358	mh_p789___319358	NA
+vanW gene in vanI cluster	mh_p789___334751	mh_p789___334751	NA
+vanW gene in vanI cluster	mh_p789___359236	mh_p789___359236	NA
+vanW gene in vanI cluster	mh_p789___369461	mh_p789___369461	NA
+vanW gene in vanI cluster	mh_p789___379522	mh_p789___379522	NA
+vanW gene in vanI cluster	mh_p789___383861	mh_p789___383861	NA
+vanW gene in vanI cluster	mh_p789___386597	mh_p789___386597	NA
+vanW gene in vanI cluster	mh_p789___386820	mh_p789___386820	NA
+vanW gene in vanI cluster	mh_p789___391218	mh_p789___391218	NA
+vanW gene in vanI cluster	mh_p789___39538	mh_p789___39538	NA
+vanW gene in vanI cluster	mh_p789___409182	mh_p789___409182	NA
+vanW gene in vanI cluster	mh_p789___431146	mh_p789___431146	NA
+vanW gene in vanI cluster	mh_p789___453386	mh_p789___453386	NA
+vanW gene in vanI cluster	mh_p789___455254	mh_p789___455254	NA
+vanW gene in vanI cluster	mh_p789___457616	mh_p789___457616	NA
+vanW gene in vanI cluster	mh_p789___472440	mh_p789___472440	NA
+vanW gene in vanI cluster	mh_p789___479078	mh_p789___479078	NA
+vanW gene in vanI cluster	mh_p789___480673	mh_p789___480673	NA
+vanW gene in vanI cluster	mh_p789___529067	mh_p789___529067	NA
+vanW gene in vanI cluster	mh_p789___53132	mh_p789___53132	NA
+vanW gene in vanI cluster	mh_p789___531767	mh_p789___531767	NA
+vanW gene in vanI cluster	mh_p789___535675	mh_p789___535675	NA
+vanW gene in vanI cluster	mh_p789___544862	mh_p789___544862	NA
+vanW gene in vanI cluster	mh_p789___545006	mh_p789___545006	NA
+vanW gene in vanI cluster	mh_p789___548961	mh_p789___548961	NA
+vanW gene in vanI cluster	mh_p789___565708	mh_p789___565708	NA
+vanW gene in vanI cluster	mh_p789___570965	mh_p789___570965	NA
+vanW gene in vanI cluster	mh_p789___571940	mh_p789___571940	NA
+vanW gene in vanI cluster	mh_p789___575314	mh_p789___575314	NA
+vanW gene in vanI cluster	mh_p789___577437	mh_p789___577437	NA
+vanW gene in vanI cluster	mh_p789___584702	mh_p789___584702	NA
+vanW gene in vanI cluster	mh_p789___584703	mh_p789___584703	NA
+vanW gene in vanI cluster	mh_p789___585292	mh_p789___585292	NA
+vanW gene in vanI cluster	mh_p789___597440	mh_p789___597440	NA
+vanW gene in vanI cluster	mh_p789___602663	mh_p789___602663	NA
+vanW gene in vanI cluster	mh_p789___612805	mh_p789___612805	NA
+vanW gene in vanI cluster	mh_p789___623359	mh_p789___623359	NA
+vanW gene in vanI cluster	mh_p789___62377	mh_p789___62377	1
+vanW gene in vanI cluster	mh_p789___637123	mh_p789___637123	NA
+vanW gene in vanI cluster	mh_p789___664301	mh_p789___664301	1
+vanW gene in vanI cluster	mh_p789___666950	mh_p789___666950	NA
+vanW gene in vanI cluster	mh_p789___98571	mh_p789___98571	NA
+vanW gene in vanI cluster	mh_p813___100639	mh_p813___100639	NA
+vanW gene in vanI cluster	mh_p813___150710	mh_p813___150710	NA
+vanW gene in vanI cluster	mh_p813___155062	mh_p813___155062	NA
+vanW gene in vanI cluster	mh_p813___163059	mh_p813___163059	NA
+vanW gene in vanI cluster	mh_p813___219992	mh_p813___219992	NA
+vanW gene in vanI cluster	mh_p813___275140	mh_p813___275140	NA
+vanW gene in vanI cluster	mh_p813___29875	mh_p813___29875	NA
+vanW gene in vanI cluster	mh_p813___311222	mh_p813___311222	NA
+vanW gene in vanI cluster	mh_p813___440483	mh_p813___440483	NA
+vanW gene in vanI cluster	mh_p813___477381	mh_p813___477381	1
+vanW gene in vanI cluster	mh_p813___492892	mh_p813___492892	NA
+vanW gene in vanI cluster	mh_p813___521235	mh_p813___521235	NA
+vanW gene in vanI cluster	mh_p813___52838	mh_p813___52838	NA
+vanW gene in vanI cluster	mh_p813___567851	mh_p813___567851	1
+vanW gene in vanI cluster	mh_p813___655898	mh_p813___655898	NA
+vanW gene in vanI cluster	mh_p813___682959	mh_p813___682959	NA
+vanW gene in vanI cluster	mh_p860___171935	mh_p860___171935	NA
+vanW gene in vanI cluster	mh_p860___188524	mh_p860___188524	NA
+vanW gene in vanI cluster	mh_p860___27050	mh_p860___27050	NA
+vanW gene in vanI cluster	mh_p860___297208	mh_p860___297208	NA
+vanW gene in vanI cluster	mh_p860___306015	mh_p860___306015	NA
+vanW gene in vanI cluster	mh_p860___77059	mh_p860___77059	NA
+vanW gene in vanI cluster	mh_p894___241361	mh_p894___241361	NA
+vanW gene in vanI cluster	mh_p894___289485	mh_p894___289485	NA
+vanW gene in vanI cluster	mh_p894___93784	mh_p894___93784	NA
+vanW gene in vanI cluster	mh_p97___158899	mh_p97___158899	NA
+vanW gene in vanI cluster	mh_p97___219	mh_p97___219	NA
+vanW gene in vanI cluster	mh_p97___66463	mh_p97___66463	NA
+vanW gene in vanI cluster	mh_p97___80754	mh_p97___80754	NA
+vanW gene in vanI cluster	spaS102___37620	spaS102___37620	NA
+vanW gene in vanI cluster	spaS102___64333	spaS102___64333	3
+vanW gene in vanI cluster	spaS104___6900	spaS104___6900	9
+vanW gene in vanI cluster	spaS108___86748	spaS108___86748	NA
+vanW gene in vanI cluster	spaS115___23324	spaS115___23324	NA
+vanW gene in vanI cluster	spaS115___30907	spaS115___30907	NA
+vanW gene in vanI cluster	spaS115___47120	spaS115___47120	NA
+vanW gene in vanI cluster	spaS116___19697	spaS116___19697	1
+vanW gene in vanI cluster	spaS120___60478	spaS120___60478	10
+vanW gene in vanI cluster	spaS123___76604	spaS123___76604	1
+vanW gene in vanI cluster	spaS123___92576	spaS123___92576	1
+vanW gene in vanI cluster	spaS126___116672	spaS126___116672	NA
+vanW gene in vanI cluster	spaS132___82718	spaS132___82718	4
+vanW gene in vanI cluster	spaS133___77041	spaS133___77041	9
+vanW gene in vanI cluster	spaS134___102468	spaS134___102468	2
+vanW gene in vanI cluster	spaS140___103664	spaS140___103664	10
+vanW gene in vanI cluster	spaS141___65888	spaS141___65888	7
+vanW gene in vanI cluster	spaS141___82523	spaS141___82523	6
+vanW gene in vanI cluster	spaS142___109349	spaS142___109349	NA
+vanW gene in vanI cluster	spaS142___69246	spaS142___69246	NA
+vanW gene in vanI cluster	spaS142___98419	spaS142___98419	NA
+vanW gene in vanI cluster	spaS143___76762	spaS143___76762	NA
+vanW gene in vanI cluster	spaS143___8012	spaS143___8012	NA
+vanW gene in vanI cluster	spaS149___31911	spaS149___31911	8
+vanW gene in vanI cluster	spaS151___53055	spaS151___53055	1
+vanW gene in vanI cluster	spaS198___76527	spaS151___53055	NA
+vanW gene in vanI cluster	spaS153___49863	spaS153___49863	1
+vanW gene in vanI cluster	spaS158___85710	spaS158___85710	11
+vanW gene in vanI cluster	spaS161___124393	spaS161___124393	NA
+vanW gene in vanI cluster	spaS168___138692	spaS168___138692	10
+vanW gene in vanI cluster	spaS16___14429	spaS16___14429	NA
+vanW gene in vanI cluster	spaS174___176739	spaS174___176739	4
+vanW gene in vanI cluster	spaS177___16521	spaS177___16521	NA
+vanW gene in vanI cluster	spaS182___99724	spaS182___99724	1
+vanW gene in vanI cluster	spaS183___138828	spaS183___138828	NA
+vanW gene in vanI cluster	spaS184___131760	spaS184___131760	2
+vanW gene in vanI cluster	spaS184___28691	spaS184___28691	1
+vanW gene in vanI cluster	spaS184___44271	spaS184___44271	2
+vanW gene in vanI cluster	spaS185___22985	spaS185___22985	NA
+vanW gene in vanI cluster	spaS186___132220	spaS186___132220	NA
+vanW gene in vanI cluster	spaS186___145667	spaS186___145667	NA
+vanW gene in vanI cluster	spaS186___157727	spaS186___157727	NA
+vanW gene in vanI cluster	spaS192___85776	spaS192___85776	NA
+vanW gene in vanI cluster	spaS194___182301	spaS194___182301	3
+vanW gene in vanI cluster	spaS194___232590	spaS194___232590	NA
+vanW gene in vanI cluster	spaS196___137036	spaS196___137036	NA
+vanW gene in vanI cluster	spaS196___70130	spaS196___70130	NA
+vanW gene in vanI cluster	spaS196___73586	spaS196___73586	NA
+vanW gene in vanI cluster	spaS196___96360	spaS196___96360	NA
+vanW gene in vanI cluster	spaS200___85633	spaS200___85633	NA
+vanW gene in vanI cluster	spaS200___90760	spaS200___90760	NA
+vanW gene in vanI cluster	spaS202___110277	spaS202___110277	3
+vanW gene in vanI cluster	spaS202___125222	spaS202___125222	NA
+vanW gene in vanI cluster	spaS202___17927	spaS202___17927	3
+vanW gene in vanI cluster	spaS202___73709	spaS202___73709	NA
+vanW gene in vanI cluster	spaS205___104075	spaS205___104075	7
+vanW gene in vanI cluster	spaS206___103393	spaS206___103393	2
+vanW gene in vanI cluster	spaS207___97649	spaS207___97649	1
+vanW gene in vanI cluster	spaS209___16970	spaS209___16970	4
+vanW gene in vanI cluster	spaS209___30389	spaS209___30389	4
+vanW gene in vanI cluster	spaS210___133494	spaS210___133494	NA
+vanW gene in vanI cluster	spaS210___150016	spaS210___150016	NA
+vanW gene in vanI cluster	spaS210___150790	spaS210___150790	NA
+vanW gene in vanI cluster	spaS211___12014	spaS211___12014	NA
+vanW gene in vanI cluster	spaS211___128842	spaS211___128842	NA
+vanW gene in vanI cluster	spaS214___112917	spaS214___112917	1
+vanW gene in vanI cluster	spaS214___121873	spaS214___121873	NA
+vanW gene in vanI cluster	spaS214___72375	spaS214___72375	1
+vanW gene in vanI cluster	spaS214___73089	spaS214___73089	NA
+vanW gene in vanI cluster	spaS214___74019	spaS214___74019	1
+vanW gene in vanI cluster	spaS214___88720	spaS214___88720	1
+vanW gene in vanI cluster	spaS214___97290	spaS214___97290	1
+vanW gene in vanI cluster	spaS214___99160	spaS214___99160	NA
+vanW gene in vanI cluster	spaS215___14589	spaS215___14589	8
+vanW gene in vanI cluster	spaS215___17860	spaS215___17860	NA
+vanW gene in vanI cluster	spaS215___239562	spaS215___239562	NA
+vanW gene in vanI cluster	spaS215___2613	spaS215___2613	1
+vanW gene in vanI cluster	spaS215___33284	spaS215___33284	1
+vanW gene in vanI cluster	spaS215___75098	spaS215___75098	NA
+vanW gene in vanI cluster	spaS215___81376	spaS215___81376	NA
+vanW gene in vanI cluster	spaS215___85731	spaS215___85731	NA
+vanW gene in vanI cluster	spaS215___90496	spaS215___90496	NA
+vanW gene in vanI cluster	spaS218___81012	spaS218___81012	NA
+vanW gene in vanI cluster	spaS258___173928	spaS221___165198	3
+vanW gene in vanI cluster	spaS221___165198	spaS221___165198	NA
+vanW gene in vanI cluster	spaS221___95681	spaS221___95681	3
+vanW gene in vanI cluster	spaS221___95779	spaS221___95779	2
+vanW gene in vanI cluster	spaS222___100548	spaS222___100548	11
+vanW gene in vanI cluster	spaS223___157138	spaS223___157138	NA
+vanW gene in vanI cluster	spaS32___100834	spaS223___94247	1
+vanW gene in vanI cluster	spaS223___94247	spaS223___94247	1
+vanW gene in vanI cluster	spaS228___57766	spaS228___57766	6
+vanW gene in vanI cluster	spaS229___95990	spaS229___95990	NA
+vanW gene in vanI cluster	spaS231___201432	spaS231___201432	NA
+vanW gene in vanI cluster	spaS236___78768	spaS236___78768	NA
+vanW gene in vanI cluster	spaS238___42228	spaS238___42228	6
+vanW gene in vanI cluster	spaS238___85040	spaS238___85040	NA
+vanW gene in vanI cluster	spaS23___100677	spaS23___100677	NA
+vanW gene in vanI cluster	spaS23___101946	spaS23___101946	NA
+vanW gene in vanI cluster	spaS23___38145	spaS23___38145	1
+vanW gene in vanI cluster	spaS23___76983	spaS23___76983	2
+vanW gene in vanI cluster	spaS240___116733	spaS240___116733	NA
+vanW gene in vanI cluster	spaS256___122473	spaS256___122473	NA
+vanW gene in vanI cluster	spaS256___55515	spaS256___55515	11
+vanW gene in vanI cluster	spaS257___110148	spaS257___110148	NA
+vanW gene in vanI cluster	spaS257___121615	spaS257___121615	6
+vanW gene in vanI cluster	spaS257___1267	spaS257___1267	1
+vanW gene in vanI cluster	spaS257___128287	spaS257___128287	2
+vanW gene in vanI cluster	spaS257___132578	spaS257___132578	NA
+vanW gene in vanI cluster	spaS257___133364	spaS257___133364	NA
+vanW gene in vanI cluster	spaS257___149081	spaS257___149081	6
+vanW gene in vanI cluster	spaS257___181761	spaS257___181761	NA
+vanW gene in vanI cluster	spaS257___184420	spaS257___184420	3
+vanW gene in vanI cluster	spaS257___189876	spaS257___189876	5
+vanW gene in vanI cluster	spaS257___202094	spaS257___202094	NA
+vanW gene in vanI cluster	spaS257___208747	spaS257___208747	NA
+vanW gene in vanI cluster	spaS257___27413	spaS257___27413	NA
+vanW gene in vanI cluster	spaS257___27981	spaS257___27981	NA
+vanW gene in vanI cluster	spaS257___31112	spaS257___31112	4
+vanW gene in vanI cluster	spaS257___60312	spaS257___60312	1
+vanW gene in vanI cluster	spaS257___68621	spaS257___68621	1
+vanW gene in vanI cluster	spaS257___76556	spaS257___76556	3
+vanW gene in vanI cluster	spaS257___84342	spaS257___84342	4
+vanW gene in vanI cluster	spaS257___85443	spaS257___85443	NA
+vanW gene in vanI cluster	spaS257___97624	spaS257___97624	3
+vanW gene in vanI cluster	spaS258___116453	spaS258___116453	NA
+vanW gene in vanI cluster	spaS258___139075	spaS258___139075	1
+vanW gene in vanI cluster	spaS258___139676	spaS258___139676	NA
+vanW gene in vanI cluster	spaS258___189991	spaS258___189991	NA
+vanW gene in vanI cluster	spaS258___93477	spaS258___93477	3
+vanW gene in vanI cluster	spaS259___126296	spaS259___126296	1
+vanW gene in vanI cluster	spaS259___1303	spaS259___1303	NA
+vanW gene in vanI cluster	spaS259___170484	spaS259___170484	5
+vanW gene in vanI cluster	spaS259___74257	spaS259___74257	NA
+vanW gene in vanI cluster	spaS261___54676	spaS261___54676	6
+vanW gene in vanI cluster	spaS262___81325	spaS262___81325	NA
+vanW gene in vanI cluster	spaS262___89502	spaS262___89502	NA
+vanW gene in vanI cluster	spaS263___79754	spaS263___79754	1
+vanW gene in vanI cluster	spaS266___102163	spaS266___102163	5
+vanW gene in vanI cluster	spaS266___125037	spaS266___125037	NA
+vanW gene in vanI cluster	spaS267___101841	spaS267___101841	4
+vanW gene in vanI cluster	spaS267___120051	spaS267___120051	4
+vanW gene in vanI cluster	spaS267___147114	spaS267___147114	5
+vanW gene in vanI cluster	spaS267___16574	spaS267___16574	NA
+vanW gene in vanI cluster	spaS267___203097	spaS267___203097	NA
+vanW gene in vanI cluster	spaS267___2957	spaS267___2957	4
+vanW gene in vanI cluster	spaS267___89906	spaS267___89906	5
+vanW gene in vanI cluster	spaS268___101564	spaS268___101564	7
+vanW gene in vanI cluster	spaS268___121160	spaS268___121160	9
+vanW gene in vanI cluster	spaS268___124325	spaS268___124325	7
+vanW gene in vanI cluster	spaS268___130680	spaS268___130680	NA
+vanW gene in vanI cluster	spaS268___131277	spaS268___131277	NA
+vanW gene in vanI cluster	spaS268___151710	spaS268___151710	NA
+vanW gene in vanI cluster	spaS268___174175	spaS268___174175	5
+vanW gene in vanI cluster	spaS171___71418	spaS268___174175	1
+vanW gene in vanI cluster	spaS268___185191	spaS268___185191	8
+vanW gene in vanI cluster	spaS268___201776	spaS268___201776	NA
+vanW gene in vanI cluster	spaS268___209418	spaS268___209418	NA
+vanW gene in vanI cluster	spaS268___218339	spaS268___218339	NA
+vanW gene in vanI cluster	spaS269___167814	spaS269___167814	NA
+vanW gene in vanI cluster	spaS269___181947	spaS269___181947	3
+vanW gene in vanI cluster	spaS269___184088	spaS269___184088	NA
+vanW gene in vanI cluster	spaS269___225335	spaS269___225335	NA
+vanW gene in vanI cluster	spaS26___69721	spaS26___69721	NA
+vanW gene in vanI cluster	spaS272___141463	spaS272___141463	1
+vanW gene in vanI cluster	spaS273___85219	spaS273___85219	NA
+vanW gene in vanI cluster	spaS274___74884	spaS274___74884	NA
+vanW gene in vanI cluster	spaS278___34889	spaS278___34889	NA
+vanW gene in vanI cluster	spaS278___70599	spaS278___70599	4
+vanW gene in vanI cluster	spaS278___82081	spaS278___82081	NA
+vanW gene in vanI cluster	spaS279___63083	spaS279___63083	4
+vanW gene in vanI cluster	spaS279___84380	spaS279___84380	NA
+vanW gene in vanI cluster	spaS282___114833	spaS282___114833	1
+vanW gene in vanI cluster	spaS282___115211	spaS282___115211	5
+vanW gene in vanI cluster	spaS282___156008	spaS282___156008	3
+vanW gene in vanI cluster	spaS282___164301	spaS282___164301	7
+vanW gene in vanI cluster	spaS282___178330	spaS282___178330	6
+vanW gene in vanI cluster	spaS282___93890	spaS282___93890	6
+vanW gene in vanI cluster	spaS282___99423	spaS282___99423	1
+vanW gene in vanI cluster	spaS284___36847	spaS284___36847	NA
+vanW gene in vanI cluster	spaS284___45281	spaS284___45281	NA
+vanW gene in vanI cluster	spaS285___117709	spaS285___117709	3
+vanW gene in vanI cluster	spaS285___25659	spaS285___25659	NA
+vanW gene in vanI cluster	spaS287___238043	spaS287___238043	7
+vanW gene in vanI cluster	spaS287___296184	spaS287___296184	NA
+vanW gene in vanI cluster	spaS294___103874	spaS294___103874	NA
+vanW gene in vanI cluster	spaS294___215711	spaS294___215711	NA
+vanW gene in vanI cluster	spaS294___245615	spaS294___245615	NA
+vanW gene in vanI cluster	spaS294___271999	spaS294___271999	NA
+vanW gene in vanI cluster	spaS295___250262	spaS295___250262	NA
+vanW gene in vanI cluster	spaS295___331861	spaS295___331861	NA
+vanW gene in vanI cluster	spaS296___160102	spaS296___160102	NA
+vanW gene in vanI cluster	spaS296___187710	spaS296___187710	NA
+vanW gene in vanI cluster	spaS296___209828	spaS296___209828	NA
+vanW gene in vanI cluster	spaS296___253305	spaS296___253305	NA
+vanW gene in vanI cluster	spaS296___326566	spaS296___326566	NA
+vanW gene in vanI cluster	spaS296___370031	spaS296___370031	NA
+vanW gene in vanI cluster	spaS296___370640	spaS296___370640	NA
+vanW gene in vanI cluster	spaS298___141187	spaS298___141187	NA
+vanW gene in vanI cluster	spaS34___82235	spaS34___82235	NA
+vanW gene in vanI cluster	spaS37___25571	spaS37___25571	NA
+vanW gene in vanI cluster	spaS3___121354	spaS3___121354	NA
+vanW gene in vanI cluster	spaS3___136880	spaS3___136880	NA
+vanW gene in vanI cluster	spaS3___138010	spaS3___138010	NA
+vanW gene in vanI cluster	spaS3___53643	spaS3___53643	1
+vanW gene in vanI cluster	spaS3___93882	spaS3___93882	1
+vanW gene in vanI cluster	spaS40___51386	spaS40___51386	8
+vanW gene in vanI cluster	spaS50___158047	spaS50___158047	2
+vanW gene in vanI cluster	spaS58___42646	spaS58___42646	1
+vanW gene in vanI cluster	spaS58___72285	spaS58___72285	1
+vanW gene in vanI cluster	spaS59___155264	spaS59___155264	NA
+vanW gene in vanI cluster	spaS59___94408	spaS59___94408	5
+vanW gene in vanI cluster	spaS5___147726	spaS5___147726	1
+vanW gene in vanI cluster	spaS5___202927	spaS5___202927	1
+vanW gene in vanI cluster	spaS65___150665	spaS65___150665	NA
+vanW gene in vanI cluster	spaS66___63270	spaS66___63270	NA
+vanW gene in vanI cluster	spaS72___75152	spaS72___75152	NA
+vanW gene in vanI cluster	spaS72___84487	spaS72___84487	NA
+vanW gene in vanI cluster	spaS74___13787	spaS74___13787	NA
+vanW gene in vanI cluster	spaS86___71409	spaS86___71409	NA
+vanW gene in vanI cluster	spaS9___53727	spaS9___53727	NA
+vanY gene in vanA cluster	mh_p110___130666	mh_p110___130666	2
+vanY gene in vanA cluster	mh_p110___132302	mh_p110___132302	4
+vanY gene in vanA cluster	mh_p110___160577	mh_p110___160577	8
+vanY gene in vanA cluster	mh_p110___181135	mh_p110___181135	3
+vanY gene in vanA cluster	mh_p110___252034	mh_p110___252034	3
+vanY gene in vanA cluster	mh_p110___54250	mh_p110___54250	6
+vanY gene in vanA cluster	mh_p125___193325	mh_p125___193325	11
+vanY gene in vanA cluster	mh_p125___230037	mh_p125___230037	2
+vanY gene in vanA cluster	mh_p125___65366	mh_p125___65366	8
+vanY gene in vanA cluster	mh_p125___74067	mh_p125___74067	8
+vanY gene in vanA cluster	mh_p125___90886	mh_p125___90886	8
+vanY gene in vanA cluster	mh_p292___354728	mh_p292___354728	2
+vanY gene in vanA cluster	spaS139___31655	mh_p341___145546	NA
+vanY gene in vanA cluster	mh_p341___167096	mh_p341___167096	1
+vanY gene in vanA cluster	mh_p341___236220	mh_p341___236220	3
+vanY gene in vanA cluster	mh_p523___113762	mh_p523___113762	1
+vanY gene in vanA cluster	mh_p584___115442	mh_p584___115442	2
+vanY gene in vanA cluster	mh_p601___315140	mh_p601___315140	1
+vanY gene in vanA cluster	mh_p644___75901	mh_p644___75901	3
+vanY gene in vanA cluster	mh_p644___82345	mh_p644___82345	2
+vanY gene in vanA cluster	mh_p110___154160	mh_p644___82345	7
+vanY gene in vanA cluster	mh_p789___263722	mh_p789___263722	NA
+vanY gene in vanA cluster	mh_p789___26682	mh_p789___26682	NA
+vanY gene in vanA cluster	mh_p789___329760	mh_p789___329760	2
+vanY gene in vanA cluster	mh_p789___335629	mh_p789___335629	NA
+vanY gene in vanA cluster	mh_p789___337863	mh_p789___337863	NA
+vanY gene in vanA cluster	mh_p789___414883	mh_p789___414883	NA
+vanY gene in vanA cluster	mh_p789___517096	mh_p789___517096	NA
+vanY gene in vanA cluster	mh_p789___559602	mh_p789___559602	NA
+vanY gene in vanA cluster	mh_p813___437370	mh_p813___437370	NA
+vanY gene in vanA cluster	mh_p813___451258	mh_p813___451258	NA
+vanY gene in vanA cluster	mh_p813___564892	mh_p813___564892	NA
+vanY gene in vanA cluster	mh_p894___88900	mh_p894___88900	NA
+vanY gene in vanA cluster	mh_p97___92766	mh_p97___92766	NA
+vanY gene in vanA cluster	spaS100___78872	spaS100___78872	8
+vanY gene in vanA cluster	spaS116___75721	spaS116___75721	5
+vanY gene in vanA cluster	spaS118___97382	spaS118___97382	4
+vanY gene in vanA cluster	spaS118___97576	spaS127___111986	4
+vanY gene in vanA cluster	spaS127___111986	spaS127___111986	2
+vanY gene in vanA cluster	spaS138___90769	spaS138___90769	9
+vanY gene in vanA cluster	spaS171___70124	spaS171___70124	2
+vanY gene in vanA cluster	spaS173___124136	spaS173___124136	NA
+vanY gene in vanA cluster	spaS186___155518	spaS186___155518	8
+vanY gene in vanA cluster	spaS188___141590	spaS188___141590	NA
+vanY gene in vanA cluster	spaS19___108415	spaS19___108415	4
+vanY gene in vanA cluster	spaS202___103861	spaS202___103861	NA
+vanY gene in vanA cluster	spaS202___86277	spaS202___86277	NA
+vanY gene in vanA cluster	spaS205___101964	spaS205___101964	NA
+vanY gene in vanA cluster	spaS212___106538	spaS212___106538	1
+vanY gene in vanA cluster	spaS215___167169	spaS215___167169	NA
+vanY gene in vanA cluster	spaS215___55494	spaS215___55494	2
+vanY gene in vanA cluster	spaS223___141508	spaS223___141508	11
+vanY gene in vanA cluster	spaS223___24740	spaS223___24740	3
+vanY gene in vanA cluster	spaS223___44316	spaS223___44316	3
+vanY gene in vanA cluster	spaS47___46737	spaS23___23043	1
+vanY gene in vanA cluster	spaS23___50380	spaS23___50380	NA
+vanY gene in vanA cluster	spaS23___61153	spaS23___61153	2
+vanY gene in vanA cluster	spaS24___98152	spaS24___98152	7
+vanY gene in vanA cluster	spaS257___197735	spaS257___197735	NA
+vanY gene in vanA cluster	spaS257___20386	spaS257___20386	NA
+vanY gene in vanA cluster	spaS257___60393	spaS257___60393	4
+vanY gene in vanA cluster	spaS272___143912	spaS272___143912	NA
+vanY gene in vanA cluster	spaS281___51793	spaS281___51793	8
+vanY gene in vanA cluster	spaS282___228255	spaS282___228255	2
+vanY gene in vanA cluster	spaS283___91893	spaS283___91893	NA
+vanY gene in vanA cluster	spaS284___13991	spaS284___13991	NA
+vanY gene in vanA cluster	spaS296___199191	spaS296___199191	NA
+vanY gene in vanA cluster	spaS296___215739	spaS296___215739	NA
+vanY gene in vanA cluster	spaS296___225629	spaS296___225629	NA
+vanY gene in vanA cluster	spaS30___21533	spaS30___21533	1
+vanY gene in vanA cluster	spaS3___95504	spaS3___95504	NA
+vanY gene in vanA cluster	spaS65___111811	spaS65___111811	1
+vanY gene in vanA cluster	spaS98___51528	spaS98___51528	NA
+vanY gene in vanB cluster	mh_p110___114715	mh_p110___114715	11
+vanY gene in vanB cluster	mh_p110___117516	mh_p110___117516	4
+vanY gene in vanB cluster	mh_p110___132302	mh_p110___132302	4
+vanY gene in vanB cluster	mh_p110___152783	mh_p110___152783	8
+vanY gene in vanB cluster	mh_p110___160577	mh_p110___160577	8
+vanY gene in vanB cluster	mh_p110___162725	mh_p110___162725	2
+vanY gene in vanB cluster	mh_p110___171178	mh_p110___171178	5
+vanY gene in vanB cluster	mh_p110___187381	mh_p110___187381	3
+vanY gene in vanB cluster	mh_p110___213890	mh_p110___213890	4
+vanY gene in vanB cluster	mh_p110___252034	mh_p110___252034	3
+vanY gene in vanB cluster	mh_p110___262048	mh_p110___262048	11
+vanY gene in vanB cluster	mh_p110___263735	mh_p110___263735	2
+vanY gene in vanB cluster	mh_p110___264502	mh_p110___264502	6
+vanY gene in vanB cluster	mh_p110___285350	mh_p110___285350	4
+vanY gene in vanB cluster	mh_p110___291447	mh_p110___291447	2
+vanY gene in vanB cluster	mh_p110___296632	mh_p110___296632	1
+vanY gene in vanB cluster	mh_p110___54250	mh_p110___54250	6
+vanY gene in vanB cluster	mh_p110___57408	mh_p110___57408	8
+vanY gene in vanB cluster	mh_p110___71751	mh_p110___71751	10
+vanY gene in vanB cluster	mh_p110___79965	mh_p110___79965	5
+vanY gene in vanB cluster	mh_p110___93431	mh_p110___93431	11
+vanY gene in vanB cluster	spaS81___74895	mh_p125___134306	1
+vanY gene in vanB cluster	mh_p125___134306	mh_p125___134306	3
+vanY gene in vanB cluster	mh_p125___143686	mh_p125___143686	8
+vanY gene in vanB cluster	mh_p125___183919	mh_p125___183919	8
+vanY gene in vanB cluster	mh_p125___213279	mh_p125___213279	2
+vanY gene in vanB cluster	mh_p125___230038	mh_p125___230038	2
+vanY gene in vanB cluster	mh_p125___23340	mh_p125___23340	2
+vanY gene in vanB cluster	mh_p125___252970	mh_p125___252970	1
+vanY gene in vanB cluster	mh_p125___292984	mh_p125___292984	7
+vanY gene in vanB cluster	mh_p125___3625	mh_p125___3625	3
+vanY gene in vanB cluster	mh_p125___40995	mh_p125___40995	8
+vanY gene in vanB cluster	mh_p125___58329	mh_p125___58329	5
+vanY gene in vanB cluster	mh_p125___65366	mh_p125___65366	8
+vanY gene in vanB cluster	mh_p125___74067	mh_p125___74067	8
+vanY gene in vanB cluster	mh_p125___78778	mh_p125___78778	4
+vanY gene in vanB cluster	mh_p125___88785	mh_p125___88785	1
+vanY gene in vanB cluster	spaS297___286730	mh_p125___88785	NA
+vanY gene in vanB cluster	mh_p125___90886	mh_p125___90886	8
+vanY gene in vanB cluster	mh_p292___112218	mh_p292___112218	1
+vanY gene in vanB cluster	mh_p292___125367	mh_p292___125367	1
+vanY gene in vanB cluster	mh_p292___135072	mh_p292___135072	1
+vanY gene in vanB cluster	mh_p292___142138	mh_p292___142138	2
+vanY gene in vanB cluster	mh_p292___183510	mh_p292___183510	1
+vanY gene in vanB cluster	mh_p292___190700	mh_p292___190700	2
+vanY gene in vanB cluster	mh_p292___237153	mh_p292___237153	2
+vanY gene in vanB cluster	mh_p292___249264	mh_p292___249264	1
+vanY gene in vanB cluster	mh_p292___253269	mh_p292___253269	2
+vanY gene in vanB cluster	mh_p292___254977	mh_p292___254977	1
+vanY gene in vanB cluster	mh_p292___280728	mh_p292___280728	1
+vanY gene in vanB cluster	mh_p292___33055	mh_p292___33055	1
+vanY gene in vanB cluster	mh_p292___336381	mh_p292___336381	1
+vanY gene in vanB cluster	mh_p292___354728	mh_p292___354728	2
+vanY gene in vanB cluster	mh_p292___45991	mh_p292___45991	3
+vanY gene in vanB cluster	mh_p292___68005	mh_p292___68005	1
+vanY gene in vanB cluster	mh_p292___73009	mh_p292___73009	3
+vanY gene in vanB cluster	mh_p341___155237	mh_p341___155237	2
+vanY gene in vanB cluster	mh_p341___194176	mh_p341___194176	1
+vanY gene in vanB cluster	mh_p341___197292	mh_p341___197292	2
+vanY gene in vanB cluster	mh_p341___283089	mh_p341___283089	1
+vanY gene in vanB cluster	mh_p341___355	mh_p341___355	1
+vanY gene in vanB cluster	mh_p341___6697	mh_p341___6697	1
+vanY gene in vanB cluster	mh_p341___78114	mh_p341___78114	3
+vanY gene in vanB cluster	mh_p398___203777	mh_p398___203777	2
+vanY gene in vanB cluster	mh_p398___216294	mh_p398___216294	8
+vanY gene in vanB cluster	spaS25___40389	mh_p398___8705	8
+vanY gene in vanB cluster	mh_p398___8705	mh_p398___8705	3
+vanY gene in vanB cluster	mh_p408___114823	mh_p408___114823	3
+vanY gene in vanB cluster	mh_p408___28857	mh_p408___28857	2
+vanY gene in vanB cluster	spaS134___46157	mh_p408___28857	NA
+vanY gene in vanB cluster	mh_p470___221294	mh_p470___221294	1
+vanY gene in vanB cluster	mh_p523___132677	mh_p523___132677	1
+vanY gene in vanB cluster	mh_p523___172779	mh_p523___172779	1
+vanY gene in vanB cluster	mh_p523___270072	mh_p523___270072	1
+vanY gene in vanB cluster	mh_p523___314983	mh_p523___314983	1
+vanY gene in vanB cluster	mh_p523___330222	mh_p523___330222	1
+vanY gene in vanB cluster	mh_p523___347992	mh_p523___347992	1
+vanY gene in vanB cluster	mh_p523___35938	mh_p523___35938	1
+vanY gene in vanB cluster	mh_p523___385067	mh_p523___385067	1
+vanY gene in vanB cluster	mh_p523___412262	mh_p523___412262	1
+vanY gene in vanB cluster	mh_p523___42791	mh_p523___42791	1
+vanY gene in vanB cluster	mh_p523___98933	mh_p523___98933	1
+vanY gene in vanB cluster	mh_p550___12968	mh_p550___12968	1
+vanY gene in vanB cluster	mh_p550___237930	mh_p550___237930	1
+vanY gene in vanB cluster	mh_p584___101519	mh_p584___101519	1
+vanY gene in vanB cluster	mh_p584___204192	mh_p584___204192	1
+vanY gene in vanB cluster	mh_p601___142213	mh_p601___142213	1
+vanY gene in vanB cluster	mh_p601___148281	mh_p601___148281	1
+vanY gene in vanB cluster	mh_p601___285610	mh_p601___285610	1
+vanY gene in vanB cluster	mh_p601___299831	mh_p601___299831	1
+vanY gene in vanB cluster	mh_p601___310772	mh_p601___310772	1
+vanY gene in vanB cluster	mh_p644___102104	mh_p644___102104	NA
+vanY gene in vanB cluster	mh_p644___108530	mh_p644___108530	NA
+vanY gene in vanB cluster	mh_p644___191252	mh_p644___191252	NA
+vanY gene in vanB cluster	mh_p110___154160	mh_p644___82345	7
+vanY gene in vanB cluster	mh_p644___82345	mh_p644___82345	2
+vanY gene in vanB cluster	mh_p722___134242	mh_p722___134242	1
+vanY gene in vanB cluster	mh_p722___241960	mh_p722___241960	NA
+vanY gene in vanB cluster	mh_p722___32626	mh_p722___32626	NA
+vanY gene in vanB cluster	mh_p722___332170	mh_p722___332170	NA
+vanY gene in vanB cluster	mh_p722___352773	mh_p722___352773	NA
+vanY gene in vanB cluster	spaS66___107746	mh_p722___367521	5
+vanY gene in vanB cluster	mh_p722___57699	mh_p722___57699	NA
+vanY gene in vanB cluster	mh_p728___239028	mh_p728___239028	NA
+vanY gene in vanB cluster	mh_p789___155671	mh_p789___155671	NA
+vanY gene in vanB cluster	mh_p789___177358	mh_p789___177358	NA
+vanY gene in vanB cluster	mh_p789___183142	mh_p789___183142	NA
+vanY gene in vanB cluster	mh_p789___184257	mh_p789___184257	1
+vanY gene in vanB cluster	mh_p789___196225	mh_p789___196225	NA
+vanY gene in vanB cluster	mh_p789___210887	mh_p789___210887	NA
+vanY gene in vanB cluster	mh_p789___213477	mh_p789___213477	NA
+vanY gene in vanB cluster	mh_p789___243899	mh_p789___243899	NA
+vanY gene in vanB cluster	mh_p789___253047	mh_p789___253047	NA
+vanY gene in vanB cluster	mh_p789___272539	mh_p789___272539	NA
+vanY gene in vanB cluster	mh_p789___273600	mh_p789___273600	1
+vanY gene in vanB cluster	mh_p789___28502	mh_p789___28502	NA
+vanY gene in vanB cluster	mh_p789___288875	mh_p789___288875	NA
+vanY gene in vanB cluster	mh_p789___302074	mh_p789___302074	NA
+vanY gene in vanB cluster	mh_p789___348431	mh_p789___348431	NA
+vanY gene in vanB cluster	mh_p789___353243	mh_p789___353243	NA
+vanY gene in vanB cluster	mh_p789___376596	mh_p789___376596	NA
+vanY gene in vanB cluster	mh_p789___383152	mh_p789___383152	NA
+vanY gene in vanB cluster	mh_p789___386128	mh_p789___386128	NA
+vanY gene in vanB cluster	mh_p789___448898	mh_p789___448898	NA
+vanY gene in vanB cluster	mh_p789___497611	mh_p789___497611	NA
+vanY gene in vanB cluster	mh_p789___522818	mh_p789___522818	NA
+vanY gene in vanB cluster	mh_p789___543888	mh_p789___543888	NA
+vanY gene in vanB cluster	mh_p789___548530	mh_p789___548530	NA
+vanY gene in vanB cluster	mh_p789___557169	mh_p789___557169	NA
+vanY gene in vanB cluster	mh_p789___566177	mh_p789___566177	NA
+vanY gene in vanB cluster	mh_p789___581853	mh_p789___581853	NA
+vanY gene in vanB cluster	mh_p789___595239	mh_p789___595239	NA
+vanY gene in vanB cluster	mh_p789___600138	mh_p789___600138	NA
+vanY gene in vanB cluster	mh_p789___608983	mh_p789___608983	NA
+vanY gene in vanB cluster	mh_p789___625330	mh_p789___625330	NA
+vanY gene in vanB cluster	mh_p789___648480	mh_p789___648480	NA
+vanY gene in vanB cluster	mh_p789___98098	mh_p789___98098	NA
+vanY gene in vanB cluster	mh_p813___166281	mh_p813___166281	NA
+vanY gene in vanB cluster	mh_p813___173843	mh_p813___173843	NA
+vanY gene in vanB cluster	mh_p813___437370	mh_p813___437370	NA
+vanY gene in vanB cluster	mh_p813___491607	mh_p813___491607	NA
+vanY gene in vanB cluster	mh_p813___584688	mh_p813___584688	NA
+vanY gene in vanB cluster	mh_p813___591351	mh_p813___591351	8
+vanY gene in vanB cluster	mh_p813___618456	mh_p813___618456	NA
+vanY gene in vanB cluster	mh_p813___627326	mh_p813___627326	NA
+vanY gene in vanB cluster	mh_p894___229925	mh_p894___229925	NA
+vanY gene in vanB cluster	mh_p97___211584	mh_p97___211584	NA
+vanY gene in vanB cluster	spaS100___78872	spaS100___78872	8
+vanY gene in vanB cluster	spaS102___45545	spaS102___45545	NA
+vanY gene in vanB cluster	spaS102___49227	spaS102___49227	NA
+vanY gene in vanB cluster	spaS106___15434	spaS106___15434	NA
+vanY gene in vanB cluster	spaS106___30976	spaS106___30976	NA
+vanY gene in vanB cluster	spaS115___43911	spaS115___43911	NA
+vanY gene in vanB cluster	spaS115___45220	spaS115___45220	NA
+vanY gene in vanB cluster	spaS123___79567	spaS123___79567	2
+vanY gene in vanB cluster	spaS134___128539	spaS134___128539	NA
+vanY gene in vanB cluster	spaS138___90769	spaS138___90769	9
+vanY gene in vanB cluster	spaS139___136418	spaS139___136418	NA
+vanY gene in vanB cluster	spaS142___109258	spaS142___109258	2
+vanY gene in vanB cluster	spaS153___144570	spaS153___144570	NA
+vanY gene in vanB cluster	spaS155___52836	spaS155___52836	1
+vanY gene in vanB cluster	spaS156___137113	spaS156___137113	NA
+vanY gene in vanB cluster	spaS158___105077	spaS158___105077	NA
+vanY gene in vanB cluster	spaS164___77873	spaS164___77873	1
+vanY gene in vanB cluster	spaS167___82603	spaS167___82603	NA
+vanY gene in vanB cluster	spaS16___128090	spaS16___128090	1
+vanY gene in vanB cluster	spaS16___93760	spaS16___93760	NA
+vanY gene in vanB cluster	spaS16___98103	spaS16___98103	NA
+vanY gene in vanB cluster	spaS265___21810	spaS171___68915	2
+vanY gene in vanB cluster	spaS171___68915	spaS171___68915	NA
+vanY gene in vanB cluster	spaS173___124136	spaS173___124136	NA
+vanY gene in vanB cluster	spaS183___126015	spaS183___126015	9
+vanY gene in vanB cluster	spaS183___129347	spaS183___129347	NA
+vanY gene in vanB cluster	spaS186___102830	spaS186___102830	NA
+vanY gene in vanB cluster	spaS186___149611	spaS186___149611	1
+vanY gene in vanB cluster	spaS186___175392	spaS186___175392	1
+vanY gene in vanB cluster	spaS188___155971	spaS188___155971	NA
+vanY gene in vanB cluster	spaS188___181805	spaS188___181805	1
+vanY gene in vanB cluster	spaS194___152888	spaS194___152888	NA
+vanY gene in vanB cluster	spaS196___55506	spaS196___55506	NA
+vanY gene in vanB cluster	spaS197___127774	spaS197___127774	NA
+vanY gene in vanB cluster	spaS202___101289	spaS202___101289	NA
+vanY gene in vanB cluster	spaS202___138080	spaS202___138080	NA
+vanY gene in vanB cluster	spaS202___38390	spaS202___38390	1
+vanY gene in vanB cluster	spaS205___108643	spaS205___108643	NA
+vanY gene in vanB cluster	spaS205___81937	spaS205___81937	NA
+vanY gene in vanB cluster	spaS211___185760	spaS211___185760	NA
+vanY gene in vanB cluster	spaS212___121872	spaS212___121872	NA
+vanY gene in vanB cluster	spaS214___153996	spaS214___153996	1
+vanY gene in vanB cluster	spaS214___91869	spaS214___91869	NA
+vanY gene in vanB cluster	spaS214___95648	spaS214___95648	1
+vanY gene in vanB cluster	spaS258___125618	spaS215___101285	2
+vanY gene in vanB cluster	spaS215___101285	spaS215___101285	NA
+vanY gene in vanB cluster	spaS215___105178	spaS215___105178	1
+vanY gene in vanB cluster	spaS215___107197	spaS215___107197	NA
+vanY gene in vanB cluster	spaS215___108122	spaS215___108122	1
+vanY gene in vanB cluster	spaS215___123528	spaS215___123528	NA
+vanY gene in vanB cluster	spaS215___128261	spaS215___128261	NA
+vanY gene in vanB cluster	spaS215___147783	spaS215___147783	NA
+vanY gene in vanB cluster	spaS215___163486	spaS215___163486	1
+vanY gene in vanB cluster	spaS215___167169	spaS215___167169	NA
+vanY gene in vanB cluster	spaS215___22194	spaS215___22194	NA
+vanY gene in vanB cluster	spaS215___223163	spaS215___223163	1
+vanY gene in vanB cluster	spaS215___241950	spaS215___241950	NA
+vanY gene in vanB cluster	spaS215___54768	spaS215___54768	NA
+vanY gene in vanB cluster	spaS215___60516	spaS215___60516	1
+vanY gene in vanB cluster	spaS215___75673	spaS215___75673	2
+vanY gene in vanB cluster	spaS215___88033	spaS215___88033	NA
+vanY gene in vanB cluster	spaS215___96553	spaS215___96553	NA
+vanY gene in vanB cluster	spaS217___113069	spaS217___113069	NA
+vanY gene in vanB cluster	spaS220___126625	spaS220___126625	NA
+vanY gene in vanB cluster	spaS221___118174	spaS221___118174	NA
+vanY gene in vanB cluster	spaS223___141508	spaS223___141508	11
+vanY gene in vanB cluster	spaS223___24713	spaS223___24713	3
+vanY gene in vanB cluster	spaS223___31464	spaS223___31464	3
+vanY gene in vanB cluster	spaS223___85284	spaS223___85284	5
+vanY gene in vanB cluster	spaS22___45297	spaS22___45297	NA
+vanY gene in vanB cluster	spaS233___113235	spaS233___113235	1
+vanY gene in vanB cluster	spaS239___82814	spaS239___82814	3
+vanY gene in vanB cluster	spaS23___28231	spaS23___28231	2
+vanY gene in vanB cluster	spaS23___39126	spaS23___39126	1
+vanY gene in vanB cluster	spaS23___92938	spaS23___92938	NA
+vanY gene in vanB cluster	spaS24___98152	spaS24___98152	7
+vanY gene in vanB cluster	spaS252___133087	spaS252___133087	NA
+vanY gene in vanB cluster	spaS253___96808	spaS253___96808	1
+vanY gene in vanB cluster	spaS257___104599	spaS257___104599	6
+vanY gene in vanB cluster	spaS257___112423	spaS257___112423	2
+vanY gene in vanB cluster	spaS257___115697	spaS257___115697	NA
+vanY gene in vanB cluster	spaS257___119733	spaS257___119733	1
+vanY gene in vanB cluster	spaS257___136120	spaS257___136120	NA
+vanY gene in vanB cluster	spaS257___154300	spaS257___154300	6
+vanY gene in vanB cluster	spaS257___169275	spaS257___169275	5
+vanY gene in vanB cluster	spaS257___18838	spaS257___18838	NA
+vanY gene in vanB cluster	spaS257___201630	spaS257___201630	NA
+vanY gene in vanB cluster	mh_p789___443845	spaS257___212457	1
+vanY gene in vanB cluster	spaS257___212457	spaS257___212457	NA
+vanY gene in vanB cluster	spaS257___220339	spaS257___220339	NA
+vanY gene in vanB cluster	spaS257___223075	spaS257___223075	NA
+vanY gene in vanB cluster	spaS257___223833	spaS257___223833	NA
+vanY gene in vanB cluster	spaS257___22728	spaS257___22728	NA
+vanY gene in vanB cluster	spaS257___242499	spaS257___242499	NA
+vanY gene in vanB cluster	spaS257___31314	spaS257___31314	1
+vanY gene in vanB cluster	spaS257___3300	spaS257___3300	NA
+vanY gene in vanB cluster	spaS257___41003	spaS257___41003	3
+vanY gene in vanB cluster	spaS257___56259	spaS257___56259	NA
+vanY gene in vanB cluster	spaS257___69842	spaS257___69842	5
+vanY gene in vanB cluster	spaS258___10886	spaS258___10886	NA
+vanY gene in vanB cluster	spaS258___201720	spaS258___201720	NA
+vanY gene in vanB cluster	spaS258___227669	spaS258___227669	5
+vanY gene in vanB cluster	spaS258___45015	spaS258___45015	1
+vanY gene in vanB cluster	spaS258___73965	spaS258___73965	8
+vanY gene in vanB cluster	spaS258___77591	spaS258___77591	NA
+vanY gene in vanB cluster	spaS259___104463	spaS259___104463	1
+vanY gene in vanB cluster	spaS259___132980	spaS259___132980	3
+vanY gene in vanB cluster	spaS259___21021	spaS259___21021	NA
+vanY gene in vanB cluster	spaS259___21039	spaS259___21039	NA
+vanY gene in vanB cluster	spaS267___163592	spaS267___163592	NA
+vanY gene in vanB cluster	spaS268___106118	spaS268___106118	NA
+vanY gene in vanB cluster	spaS268___206655	spaS268___206655	5
+vanY gene in vanB cluster	spaS268___247274	spaS268___247274	NA
+vanY gene in vanB cluster	spaS268___96555	spaS268___96555	NA
+vanY gene in vanB cluster	spaS274___85221	spaS274___85221	1
+vanY gene in vanB cluster	spaS278___102504	spaS278___102504	NA
+vanY gene in vanB cluster	spaS278___90345	spaS278___90345	NA
+vanY gene in vanB cluster	spaS281___51793	spaS281___51793	8
+vanY gene in vanB cluster	spaS282___54485	spaS282___54485	1
+vanY gene in vanB cluster	spaS282___55696	spaS282___55696	1
+vanY gene in vanB cluster	spaS285___126620	spaS285___126620	3
+vanY gene in vanB cluster	spaS285___34668	spaS285___34668	NA
+vanY gene in vanB cluster	spaS286___211122	spaS286___211122	NA
+vanY gene in vanB cluster	spaS286___40533	spaS286___40533	NA
+vanY gene in vanB cluster	spaS294___257376	spaS294___257376	NA
+vanY gene in vanB cluster	spaS295___281330	spaS295___281330	1
+vanY gene in vanB cluster	spaS296___167735	spaS296___167735	NA
+vanY gene in vanB cluster	spaS296___282795	spaS296___282795	NA
+vanY gene in vanB cluster	spaS296___282796	spaS296___282796	NA
+vanY gene in vanB cluster	spaS296___310557	spaS296___310557	NA
+vanY gene in vanB cluster	spaS296___311097	spaS296___311097	NA
+vanY gene in vanB cluster	spaS297___260217	spaS297___260217	NA
+vanY gene in vanB cluster	spaS2___42334	spaS2___42334	1
+vanY gene in vanB cluster	spaS2___51517	spaS2___51517	1
+vanY gene in vanB cluster	spaS30___21533	spaS30___21533	1
+vanY gene in vanB cluster	spaS34___89520	spaS34___89520	1
+vanY gene in vanB cluster	spaS3___82699	spaS3___82699	NA
+vanY gene in vanB cluster	spaS44___88309	spaS44___88309	2
+vanY gene in vanB cluster	spaS65___111811	spaS65___111811	1
+vanY gene in vanB cluster	spaS66___121230	spaS66___121230	NA
+vanY gene in vanB cluster	spaS66___130731	spaS66___130731	NA
+vanY gene in vanB cluster	spaS84___72297	spaS84___72297	NA
+vanY gene in vanB cluster	spaS86___61795	spaS86___61795	NA
+vanY gene in vanB cluster	spaS88___72709	spaS88___72709	NA
+vanY gene in vanB cluster	spaS96___93118	spaS96___93118	NA
+vanY gene in vanB cluster	spaS98___44877	spaS98___44877	NA
+vanY gene in vanB cluster	spaS98___61041	spaS98___61041	NA
+vanY gene in vanB cluster	spaS99___101482	spaS99___101482	NA
+vanY gene in vanB cluster	spaS99___86745	spaS99___86745	NA
+vanY gene in vanF cluster	mh_p110___130666	mh_p110___130666	2
+vanY gene in vanF cluster	mh_p110___162725	mh_p110___162725	2
+vanY gene in vanF cluster	mh_p110___168334	mh_p110___168334	6
+vanY gene in vanF cluster	mh_p110___174791	mh_p110___174791	3
+vanY gene in vanF cluster	mh_p110___184896	mh_p110___184896	1
+vanY gene in vanF cluster	mh_p110___262048	mh_p110___262048	11
+vanY gene in vanF cluster	mh_p110___267341	mh_p110___267341	1
+vanY gene in vanF cluster	mh_p110___282322	mh_p110___282322	4
+vanY gene in vanF cluster	mh_p125___103233	mh_p125___103233	2
+vanY gene in vanF cluster	mh_p125___156213	mh_p125___156213	3
+vanY gene in vanF cluster	mh_p125___171583	mh_p125___171583	2
+vanY gene in vanF cluster	mh_p125___171584	mh_p125___171584	2
+vanY gene in vanF cluster	mh_p125___230037	mh_p125___230037	2
+vanY gene in vanF cluster	mh_p125___230038	mh_p125___230038	2
+vanY gene in vanF cluster	mh_p125___249462	mh_p125___249462	1
+vanY gene in vanF cluster	mh_p125___252970	mh_p125___252970	1
+vanY gene in vanF cluster	mh_p125___58329	mh_p125___58329	5
+vanY gene in vanF cluster	mh_p125___65366	mh_p125___65366	8
+vanY gene in vanF cluster	mh_p125___74067	mh_p125___74067	8
+vanY gene in vanF cluster	mh_p125___78778	mh_p125___78778	4
+vanY gene in vanF cluster	mh_p125___86453	mh_p125___86453	8
+vanY gene in vanF cluster	mh_p292___135072	mh_p292___135072	1
+vanY gene in vanF cluster	mh_p292___320977	mh_p292___320977	2
+vanY gene in vanF cluster	mh_p292___354728	mh_p292___354728	2
+vanY gene in vanF cluster	mh_p341___180962	mh_p341___180962	1
+vanY gene in vanF cluster	mh_p341___221414	mh_p341___221414	3
+vanY gene in vanF cluster	mh_p523___117473	mh_p523___117473	1
+vanY gene in vanF cluster	mh_p523___300828	mh_p523___300828	3
+vanY gene in vanF cluster	mh_p523___43333	mh_p523___43333	1
+vanY gene in vanF cluster	mh_p523___43358	mh_p523___43358	1
+vanY gene in vanF cluster	mh_p523___46666	mh_p523___46666	1
+vanY gene in vanF cluster	mh_p550___117867	mh_p550___117867	1
+vanY gene in vanF cluster	mh_p601___234673	mh_p601___234673	1
+vanY gene in vanF cluster	mh_p601___354191	mh_p601___354191	1
+vanY gene in vanF cluster	mh_p601___386077	mh_p601___386077	1
+vanY gene in vanF cluster	mh_p110___154160	mh_p644___82345	7
+vanY gene in vanF cluster	mh_p722___171316	mh_p722___171316	NA
+vanY gene in vanF cluster	mh_p722___179147	mh_p722___179147	NA
+vanY gene in vanF cluster	mh_p722___283907	mh_p722___283907	NA
+vanY gene in vanF cluster	mh_p789___145592	mh_p789___145592	NA
+vanY gene in vanF cluster	mh_p789___158023	mh_p789___158023	NA
+vanY gene in vanF cluster	mh_p789___187935	mh_p789___187935	NA
+vanY gene in vanF cluster	mh_p789___273600	mh_p789___273600	1
+vanY gene in vanF cluster	mh_p789___285072	mh_p789___285072	NA
+vanY gene in vanF cluster	mh_p789___348931	mh_p789___348931	1
+vanY gene in vanF cluster	mh_p789___40851	mh_p789___40851	NA
+vanY gene in vanF cluster	mh_p789___581854	mh_p789___581854	NA
+vanY gene in vanF cluster	mh_p789___625331	mh_p789___625331	NA
+vanY gene in vanF cluster	mh_p789___632461	mh_p789___632461	NA
+vanY gene in vanF cluster	mh_p813___277054	mh_p813___277054	NA
+vanY gene in vanF cluster	mh_p813___451259	mh_p813___451259	NA
+vanY gene in vanF cluster	spaS102___28021	spaS102___28021	3
+vanY gene in vanF cluster	spaS130___109813	spaS130___109813	NA
+vanY gene in vanF cluster	spaS138___90769	spaS138___90769	9
+vanY gene in vanF cluster	mh_p125___258203	spaS171___65199	6
+vanY gene in vanF cluster	spaS171___65199	spaS171___65199	3
+vanY gene in vanF cluster	spaS185___37140	spaS185___37140	NA
+vanY gene in vanF cluster	spaS186___175392	spaS186___175392	1
+vanY gene in vanF cluster	spaS188___181805	spaS188___181805	1
+vanY gene in vanF cluster	spaS194___253307	spaS194___253307	NA
+vanY gene in vanF cluster	spaS196___56041	spaS196___56041	NA
+vanY gene in vanF cluster	spaS212___106538	spaS212___106538	1
+vanY gene in vanF cluster	spaS212___62083	spaS212___62083	1
+vanY gene in vanF cluster	spaS215___110435	spaS215___110435	NA
+vanY gene in vanF cluster	spaS215___31570	spaS215___31570	2
+vanY gene in vanF cluster	spaS215___75673	spaS215___75673	2
+vanY gene in vanF cluster	spaS223___141508	spaS223___141508	11
+vanY gene in vanF cluster	spaS223___24740	spaS223___24740	3
+vanY gene in vanF cluster	spaS223___31436	spaS223___31436	3
+vanY gene in vanF cluster	spaS22___62365	spaS22___62365	NA
+vanY gene in vanF cluster	spaS253___96808	spaS253___96808	1
+vanY gene in vanF cluster	spaS257___112423	spaS257___112423	2
+vanY gene in vanF cluster	spaS257___151670	spaS257___151670	2
+vanY gene in vanF cluster	spaS257___49462	spaS257___49462	NA
+vanY gene in vanF cluster	spaS257___60393	spaS257___60393	4
+vanY gene in vanF cluster	spaS258___170222	spaS258___170222	NA
+vanY gene in vanF cluster	spaS258___230953	spaS258___230953	NA
+vanY gene in vanF cluster	spaS267___31360	spaS267___31360	NA
+vanY gene in vanF cluster	spaS267___46127	spaS267___46127	NA
+vanY gene in vanF cluster	spaS278___102504	spaS278___102504	NA
+vanY gene in vanF cluster	spaS266___82092	spaS278___80899	NA
+vanY gene in vanF cluster	spaS278___80899	spaS278___80899	NA
+vanY gene in vanF cluster	spaS282___55696	spaS282___55696	1
+vanY gene in vanF cluster	spaS283___91893	spaS283___91893	NA
+vanY gene in vanF cluster	spaS287___266404	spaS287___266404	NA
+vanY gene in vanF cluster	spaS287___270220	spaS287___270220	3
+vanY gene in vanF cluster	spaS287___290474	spaS287___290474	NA
+vanY gene in vanF cluster	spaS296___365038	spaS296___365038	NA
+vanY gene in vanF cluster	spaS30___142862	spaS30___142862	1
+vanY gene in vanF cluster	spaS35___105350	spaS35___105350	8
+vanY gene in vanF cluster	spaS3___58391	spaS3___58391	1
+vanY gene in vanF cluster	spaS3___95504	spaS3___95504	NA
+vanY gene in vanF cluster	spaS61___145592	spaS61___145592	1
+vanY gene in vanF cluster	spaS65___111811	spaS65___111811	1
+vanY gene in vanF cluster	spaS70___73264	spaS70___73264	NA
+vanY gene in vanF cluster	spaS79___176989	spaS79___176989	NA
+vanY gene in vanF cluster	spaS85___106610	spaS85___106610	3
+vanY gene in vanF cluster	spaS95___68796	spaS95___68796	NA
+vanY gene in vanF cluster	spaS97___92099	spaS97___92099	3
+vanY gene in vanG cluster	mh_p110___117516	mh_p110___117516	4
+vanY gene in vanG cluster	mh_p110___154007	mh_p110___154007	1
+vanY gene in vanG cluster	mh_p110___162437	mh_p110___162437	1
+vanY gene in vanG cluster	mh_p110___171178	mh_p110___171178	5
+vanY gene in vanG cluster	mh_p110___187484	mh_p110___187484	1
+vanY gene in vanG cluster	mh_p110___217015	mh_p110___217015	1
+vanY gene in vanG cluster	mh_p110___264502	mh_p110___264502	6
+vanY gene in vanG cluster	mh_p110___284171	mh_p110___284171	5
+vanY gene in vanG cluster	mh_p110___79615	mh_p110___79615	2
+vanY gene in vanG cluster	mh_p110___79965	mh_p110___79965	5
+vanY gene in vanG cluster	mh_p125___123583	mh_p125___123583	1
+vanY gene in vanG cluster	mh_p125___155893	mh_p125___155893	1
+vanY gene in vanG cluster	mh_p125___183919	mh_p125___183919	8
+vanY gene in vanG cluster	mh_p125___193325	mh_p125___193325	11
+vanY gene in vanG cluster	mh_p125___213279	mh_p125___213279	2
+vanY gene in vanG cluster	mh_p125___230037	mh_p125___230037	2
+vanY gene in vanG cluster	mh_p125___40995	mh_p125___40995	8
+vanY gene in vanG cluster	mh_p125___65366	mh_p125___65366	8
+vanY gene in vanG cluster	mh_p125___74067	mh_p125___74067	8
+vanY gene in vanG cluster	mh_p125___78778	mh_p125___78778	4
+vanY gene in vanG cluster	mh_p125___90886	mh_p125___90886	8
+vanY gene in vanG cluster	mh_p292___125250	mh_p292___125250	2
+vanY gene in vanG cluster	mh_p292___128401	mh_p292___128401	1
+vanY gene in vanG cluster	mh_p292___190700	mh_p292___190700	2
+vanY gene in vanG cluster	mh_p292___280728	mh_p292___280728	1
+vanY gene in vanG cluster	mh_p292___33055	mh_p292___33055	1
+vanY gene in vanG cluster	mh_p292___336381	mh_p292___336381	1
+vanY gene in vanG cluster	spaS163___15525	mh_p341___145546	2
+vanY gene in vanG cluster	mh_p341___145546	mh_p341___145546	1
+vanY gene in vanG cluster	spaS139___31655	mh_p341___145546	NA
+vanY gene in vanG cluster	spaS152___88091	mh_p341___145546	NA
+vanY gene in vanG cluster	spaS87___32638	mh_p341___145546	NA
+vanY gene in vanG cluster	mh_p341___155237	mh_p341___155237	2
+vanY gene in vanG cluster	mh_p341___197292	mh_p341___197292	2
+vanY gene in vanG cluster	mh_p398___216294	mh_p398___216294	8
+vanY gene in vanG cluster	mh_p408___192411	mh_p408___192411	1
+vanY gene in vanG cluster	mh_p470___232797	mh_p470___232797	1
+vanY gene in vanG cluster	mh_p523___397827	mh_p523___397827	1
+vanY gene in vanG cluster	mh_p550___117867	mh_p550___117867	1
+vanY gene in vanG cluster	mh_p550___73946	mh_p550___73946	1
+vanY gene in vanG cluster	mh_p584___115442	mh_p584___115442	2
+vanY gene in vanG cluster	mh_p584___247242	mh_p584___247242	1
+vanY gene in vanG cluster	mh_p584___73106	mh_p584___73106	1
+vanY gene in vanG cluster	mh_p601___142075	mh_p601___142075	1
+vanY gene in vanG cluster	mh_p601___315140	mh_p601___315140	1
+vanY gene in vanG cluster	mh_p601___79185	mh_p601___79185	1
+vanY gene in vanG cluster	mh_p644___131135	mh_p644___131135	NA
+vanY gene in vanG cluster	mh_p644___158369	mh_p644___158369	NA
+vanY gene in vanG cluster	mh_p644___233297	mh_p644___233297	NA
+vanY gene in vanG cluster	mh_p644___23438	mh_p644___23438	NA
+vanY gene in vanG cluster	mh_p644___275791	mh_p644___275791	NA
+vanY gene in vanG cluster	spaS74___108074	mh_p644___75901	4
+vanY gene in vanG cluster	mh_p644___82345	mh_p644___82345	2
+vanY gene in vanG cluster	mh_p110___154160	mh_p644___82345	7
+vanY gene in vanG cluster	spaS66___107746	mh_p722___367521	5
+vanY gene in vanG cluster	mh_p722___367521	mh_p722___367521	NA
+vanY gene in vanG cluster	mh_p728___124538	mh_p728___124538	NA
+vanY gene in vanG cluster	mh_p728___259882	mh_p728___259882	NA
+vanY gene in vanG cluster	mh_p789___111727	mh_p789___111727	NA
+vanY gene in vanG cluster	mh_p789___128563	mh_p789___128563	NA
+vanY gene in vanG cluster	mh_p789___183143	mh_p789___183143	NA
+vanY gene in vanG cluster	mh_p789___241736	mh_p789___241736	NA
+vanY gene in vanG cluster	mh_p789___253047	mh_p789___253047	NA
+vanY gene in vanG cluster	mh_p789___386128	mh_p789___386128	NA
+vanY gene in vanG cluster	mh_p789___400021	mh_p789___400021	NA
+vanY gene in vanG cluster	mh_p789___532560	mh_p789___532560	NA
+vanY gene in vanG cluster	mh_p789___537376	mh_p789___537376	NA
+vanY gene in vanG cluster	mh_p789___563472	mh_p789___563472	NA
+vanY gene in vanG cluster	mh_p789___586728	mh_p789___586728	NA
+vanY gene in vanG cluster	mh_p789___586991	mh_p789___586991	NA
+vanY gene in vanG cluster	mh_p789___587598	mh_p789___587598	NA
+vanY gene in vanG cluster	mh_p789___645875	mh_p789___645875	NA
+vanY gene in vanG cluster	mh_p813___17610	mh_p813___17610	NA
+vanY gene in vanG cluster	mh_p813___32599	mh_p813___32599	NA
+vanY gene in vanG cluster	mh_p813___598037	mh_p813___598037	NA
+vanY gene in vanG cluster	mh_p813___645306	mh_p813___645306	NA
+vanY gene in vanG cluster	mh_p813___691600	mh_p813___691600	NA
+vanY gene in vanG cluster	mh_p813___92578	mh_p813___92578	1
+vanY gene in vanG cluster	mh_p894___146619	mh_p894___146619	NA
+vanY gene in vanG cluster	mh_p97___116635	mh_p97___116635	NA
+vanY gene in vanG cluster	mh_p97___205525	mh_p97___205525	NA
+vanY gene in vanG cluster	spaS102___28344	spaS102___28344	2
+vanY gene in vanG cluster	spaS102___46516	spaS102___46516	NA
+vanY gene in vanG cluster	spaS104___89725	spaS104___89725	NA
+vanY gene in vanG cluster	spaS118___97382	spaS118___97382	4
+vanY gene in vanG cluster	spaS118___97576	spaS127___111986	4
+vanY gene in vanG cluster	spaS127___111986	spaS127___111986	2
+vanY gene in vanG cluster	spaS98___26541	spaS129___29762	4
+vanY gene in vanG cluster	spaS129___29762	spaS129___29762	NA
+vanY gene in vanG cluster	spaS140___104653	spaS140___104653	1
+vanY gene in vanG cluster	spaS154___18013	spaS154___18013	NA
+vanY gene in vanG cluster	spaS176___90483	spaS154___18013	NA
+vanY gene in vanG cluster	spaS267___157470	spaS154___18013	NA
+vanY gene in vanG cluster	spaS167___82603	spaS167___82603	NA
+vanY gene in vanG cluster	spaS116___9745	spaS167___85695	1
+vanY gene in vanG cluster	spaS29___127119	spaS167___85695	NA
+vanY gene in vanG cluster	mh_p125___258203	spaS171___65199	6
+vanY gene in vanG cluster	spaS171___70124	spaS171___70124	2
+vanY gene in vanG cluster	spaS186___175392	spaS186___175392	1
+vanY gene in vanG cluster	spaS194___252647	spaS194___252647	NA
+vanY gene in vanG cluster	spaS196___101720	spaS196___101720	5
+vanY gene in vanG cluster	spaS201___117020	spaS201___117020	5
+vanY gene in vanG cluster	spaS212___53469	spaS212___53469	1
+vanY gene in vanG cluster	spaS212___62083	spaS212___62083	1
+vanY gene in vanG cluster	spaS214___95648	spaS214___95648	1
+vanY gene in vanG cluster	spaS215___101285	spaS215___101285	NA
+vanY gene in vanG cluster	spaS258___125618	spaS215___101285	2
+vanY gene in vanG cluster	spaS221___78820	spaS221___78820	NA
+vanY gene in vanG cluster	spaS222___160117	spaS222___160117	NA
+vanY gene in vanG cluster	spaS223___141508	spaS223___141508	11
+vanY gene in vanG cluster	spaS223___156207	spaS223___156207	NA
+vanY gene in vanG cluster	spaS223___31464	spaS223___31464	3
+vanY gene in vanG cluster	spaS223___85284	spaS223___85284	5
+vanY gene in vanG cluster	spaS22___69615	spaS22___69615	NA
+vanY gene in vanG cluster	spaS23___39126	spaS23___39126	1
+vanY gene in vanG cluster	spaS252___133087	spaS252___133087	NA
+vanY gene in vanG cluster	spaS257___104599	spaS257___104599	6
+vanY gene in vanG cluster	spaS257___169275	spaS257___169275	5
+vanY gene in vanG cluster	spaS257___18961	spaS257___18961	NA
+vanY gene in vanG cluster	spaS257___20386	spaS257___20386	NA
+vanY gene in vanG cluster	spaS257___22728	spaS257___22728	NA
+vanY gene in vanG cluster	spaS257___31314	spaS257___31314	1
+vanY gene in vanG cluster	spaS257___45510	spaS257___45510	NA
+vanY gene in vanG cluster	spaS257___98773	spaS257___98773	NA
+vanY gene in vanG cluster	spaS258___208277	spaS258___208277	NA
+vanY gene in vanG cluster	spaS258___73965	spaS258___73965	8
+vanY gene in vanG cluster	spaS259___132980	spaS259___132980	3
+vanY gene in vanG cluster	spaS264___93609	spaS264___93609	NA
+vanY gene in vanG cluster	spaS266___93659	spaS266___93659	NA
+vanY gene in vanG cluster	spaS268___209690	spaS268___209690	NA
+vanY gene in vanG cluster	spaS268___247274	spaS268___247274	NA
+vanY gene in vanG cluster	spaS261___72905	spaS278___42917	3
+vanY gene in vanG cluster	spaS48___37085	spaS278___42917	NA
+vanY gene in vanG cluster	spaS262___37088	spaS278___42917	1
+vanY gene in vanG cluster	spaS262___49013	spaS278___42917	NA
+vanY gene in vanG cluster	spaS282___217590	spaS282___217590	NA
+vanY gene in vanG cluster	spaS284___13991	spaS284___13991	NA
+vanY gene in vanG cluster	spaS287___270220	spaS287___270220	3
+vanY gene in vanG cluster	spaS296___354125	spaS296___354125	NA
+vanY gene in vanG cluster	spaS296___369960	spaS296___369960	NA
+vanY gene in vanG cluster	spaS298___91497	spaS298___91497	NA
+vanY gene in vanG cluster	spaS37___138676	spaS37___138676	NA
+vanY gene in vanG cluster	spaS124___102299	spaS43___51859	NA
+vanY gene in vanG cluster	spaS43___51859	spaS43___51859	NA
+vanY gene in vanG cluster	spaS172___70626	spaS43___51859	NA
+vanY gene in vanG cluster	spaS244___103358	spaS43___51859	NA
+vanY gene in vanG cluster	spaS44___88309	spaS44___88309	2
+vanY gene in vanG cluster	spaS63___1798	spaS63___1798	1
+vanY gene in vanG cluster	spaS74___83659	spaS74___83659	4
+vanY gene in vanG cluster	spaS78___122791	spaS78___122791	NA
+vanY gene in vanG cluster	spaS182___99934	spaS84___72297	1
+vanY gene in vanG cluster	spaS99___73173	spaS99___73173	2
+vanY gene in vanM cluster	mh_p110___114715	mh_p110___114715	11
+vanY gene in vanM cluster	mh_p110___152783	mh_p110___152783	8
+vanY gene in vanM cluster	mh_p110___160577	mh_p110___160577	8
+vanY gene in vanM cluster	mh_p110___168334	mh_p110___168334	6
+vanY gene in vanM cluster	mh_p110___282322	mh_p110___282322	4
+vanY gene in vanM cluster	mh_p125___183919	mh_p125___183919	8
+vanY gene in vanM cluster	mh_p125___193325	mh_p125___193325	11
+vanY gene in vanM cluster	mh_p125___40995	mh_p125___40995	8
+vanY gene in vanM cluster	mh_p125___65366	mh_p125___65366	8
+vanY gene in vanM cluster	mh_p292___112218	mh_p292___112218	1
+vanY gene in vanM cluster	mh_p292___237153	mh_p292___237153	2
+vanY gene in vanM cluster	mh_p292___249264	mh_p292___249264	1
+vanY gene in vanM cluster	mh_p292___320977	mh_p292___320977	2
+vanY gene in vanM cluster	mh_p341___131331	mh_p341___131331	1
+vanY gene in vanM cluster	spaS163___15525	mh_p341___145546	2
+vanY gene in vanM cluster	spaS139___31655	mh_p341___145546	NA
+vanY gene in vanM cluster	spaS87___32638	mh_p341___145546	NA
+vanY gene in vanM cluster	mh_p341___145546	mh_p341___145546	1
+vanY gene in vanM cluster	mh_p341___6697	mh_p341___6697	1
+vanY gene in vanM cluster	mh_p470___232797	mh_p470___232797	1
+vanY gene in vanM cluster	mh_p523___300828	mh_p523___300828	3
+vanY gene in vanM cluster	mh_p584___85650	mh_p584___85650	4
+vanY gene in vanM cluster	mh_p601___16813	mh_p601___16813	1
+vanY gene in vanM cluster	mh_p601___191892	mh_p601___191892	1
+vanY gene in vanM cluster	mh_p601___86990	mh_p601___86990	1
+vanY gene in vanM cluster	mh_p644___102104	mh_p644___102104	NA
+vanY gene in vanM cluster	spaS74___108074	mh_p644___75901	4
+vanY gene in vanM cluster	mh_p644___75901	mh_p644___75901	3
+vanY gene in vanM cluster	mh_p728___239028	mh_p728___239028	NA
+vanY gene in vanM cluster	mh_p789___234155	mh_p789___234155	NA
+vanY gene in vanM cluster	mh_p789___281260	mh_p789___281260	1
+vanY gene in vanM cluster	mh_p813___136759	mh_p813___136759	1
+vanY gene in vanM cluster	mh_p813___173843	mh_p813___173843	NA
+vanY gene in vanM cluster	mh_p813___417056	mh_p813___417056	NA
+vanY gene in vanM cluster	mh_p813___591351	mh_p813___591351	8
+vanY gene in vanM cluster	mh_p813___627326	mh_p813___627326	NA
+vanY gene in vanM cluster	mh_p813___85010	mh_p813___85010	NA
+vanY gene in vanM cluster	mh_p860___138522	mh_p860___138522	NA
+vanY gene in vanM cluster	spaS102___28344	spaS102___28344	2
+vanY gene in vanM cluster	spaS108___89787	spaS108___89787	NA
+vanY gene in vanM cluster	spaS98___26541	spaS129___29762	4
+vanY gene in vanM cluster	spaS147___88209	spaS147___88209	NA
+vanY gene in vanM cluster	spaS139___63700	spaS154___18013	NA
+vanY gene in vanM cluster	spaS267___157470	spaS154___18013	NA
+vanY gene in vanM cluster	spaS167___82603	spaS167___82603	NA
+vanY gene in vanM cluster	spaS29___127119	spaS167___85695	NA
+vanY gene in vanM cluster	spaS116___9745	spaS167___85695	1
+vanY gene in vanM cluster	spaS167___85695	spaS167___85695	NA
+vanY gene in vanM cluster	mh_p789___419936	spaS171___55462	NA
+vanY gene in vanM cluster	spaS171___55462	spaS171___55462	NA
+vanY gene in vanM cluster	spaS186___102830	spaS186___102830	NA
+vanY gene in vanM cluster	spaS186___155518	spaS186___155518	8
+vanY gene in vanM cluster	spaS186___175392	spaS186___175392	1
+vanY gene in vanM cluster	spaS196___70654	spaS196___70654	NA
+vanY gene in vanM cluster	spaS207___119138	spaS207___119138	NA
+vanY gene in vanM cluster	spaS215___241950	spaS215___241950	NA
+vanY gene in vanM cluster	spaS239___82814	spaS239___82814	3
+vanY gene in vanM cluster	spaS23___16031	spaS23___16031	2
+vanY gene in vanM cluster	spaS23___23043	spaS23___23043	NA
+vanY gene in vanM cluster	spaS47___46737	spaS23___23043	1
+vanY gene in vanM cluster	spaS23___61153	spaS23___61153	2
+vanY gene in vanM cluster	spaS257___110627	spaS257___110627	1
+vanY gene in vanM cluster	spaS257___151670	spaS257___151670	2
+vanY gene in vanM cluster	spaS257___176037	spaS257___176037	NA
+vanY gene in vanM cluster	spaS258___110588	spaS258___110588	NA
+vanY gene in vanM cluster	spaS258___52333	spaS258___52333	NA
+vanY gene in vanM cluster	spaS259___132980	spaS259___132980	3
+vanY gene in vanM cluster	spaS268___124764	spaS268___124764	NA
+vanY gene in vanM cluster	spaS268___206655	spaS268___206655	5
+vanY gene in vanM cluster	spaS269___221190	spaS269___221190	10
+vanY gene in vanM cluster	spaS261___72905	spaS278___42917	3
+vanY gene in vanM cluster	spaS262___37088	spaS278___42917	1
+vanY gene in vanM cluster	spaS254___34473	spaS278___42917	1
+vanY gene in vanM cluster	spaS48___37085	spaS278___42917	NA
+vanY gene in vanM cluster	spaS262___49013	spaS278___42917	NA
+vanY gene in vanM cluster	spaS278___42917	spaS278___42917	NA
+vanY gene in vanM cluster	spaS285___126620	spaS285___126620	3
+vanY gene in vanM cluster	spaS287___270220	spaS287___270220	3
+vanY gene in vanM cluster	spaS296___138350	spaS296___138350	NA
+vanY gene in vanM cluster	spaS2___52461	spaS2___52461	1
+vanY gene in vanM cluster	spaS3___58391	spaS3___58391	1
+vanY gene in vanM cluster	spaS177___88477	spaS43___51859	NA
+vanY gene in vanM cluster	spaS63___1798	spaS63___1798	1
+vanY gene in vanM cluster	spaS74___83659	spaS74___83659	4
+vanY gene in vanM cluster	spaS75___89522	spaS75___89522	2
+vanY gene in vanM cluster	spaS83___69193	spaS83___69193	NA
+vanY gene in vanM cluster	spaS182___99934	spaS84___72297	1
+vanY gene in vanM cluster	spaS85___106610	spaS85___106610	3
+vanY gene in vanM cluster	spaS94___68112	spaS88___127080	1
+vanY gene in vanM cluster	spaS88___127080	spaS88___127080	NA
