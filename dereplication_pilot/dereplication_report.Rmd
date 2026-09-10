@@ -20,6 +20,7 @@ library(dplyr)
 library(tidyr)
 library(ggplot2)
 library(knitr)
+library(stringr)
 
 DP <- "/maps/projects/hansen_ol-AUDIT/scratch/NILU/metagenomes/assembly_annotation_wf/dereplication_pilot"
 
@@ -52,6 +53,13 @@ amr_prevalence <- read.delim(file.path(DP, "report_amr_prevalence.tsv"))
 contig_summary <- read.delim(file.path(DP, "report_contig_annotation_summary.tsv"))
 two_step_validation <- read.delim(file.path(DP, "R_two_step_validation_summary.tsv"))
 two_step_missed_merges <- read.delim(file.path(DP, "R_two_step_validation_missed_merges.tsv"))
+mag_derep <- read.delim(file.path(DP, "R_report_mag_dereplication_summary.tsv"))
+mag_instances <- read.delim(file.path(DP, "R_report_mag_instances.tsv")) %>%
+  mutate(is_coassembly = as.logical(is_coassembly), date = as.Date(date))
+mag_per_participant <- read.delim(file.path(DP, "R_report_mag_per_participant.tsv"))
+mag_totals <- read.delim(file.path(DP, "R_report_mag_totals.tsv"))
+amr_drug_class <- read.delim(file.path(DP, "R_report_amr_drug_class_lookup.tsv")) %>%
+  mutate(drug_class_primary = purrr::map_chr(str_split(drug_class, ";\\s*"), 1))
 
 pal <- c(contigs = "#2c7fb8", orfs = "#e34a33")
 ```
@@ -944,6 +952,186 @@ name, and never merges things that shouldn't be merged (the reverse error is
 structurally impossible here). Scaling to the full cohort dereplication should
 expect this same small, gene-family-concentrated shortfall, not a systematic
 undercount across all AMR genes.
+
+## 16. Dereplication summary: MAGs, AMR genes, plasmid contigs
+
+Three entity types, three different real dereplication passes already run on
+this cohort -- Binette bins collapsed to species-level genomes by dRep +
+GTDB-Tk (section on MAG taxonomy above), AMR ORFs collapsed to whole-cohort
+gene identity by this report's own two-step `mmseqs2` clustering, and geNomad
+plasmid calls collapsed the same way at the contig level. This section pulls
+all three together: how many distinct, non-redundant entities does this
+cohort actually contain, and how are they distributed across participants
+(and, where a real date exists, across time)?
+
+### 16.1 MAGs
+
+**Important caveat**: co-assembly and single-assembly bins were dereplicated
+by dRep in two **separate, independent** runs (never compared to each other),
+so the same organism recovered in both a participant's co-assembly and their
+own single-sample assemblies counts as two separate "dereplicated MAGs"
+below -- a real limitation of the underlying data, not double-counted by
+choice.
+
+```{r mag-summary-table}
+tibble(
+  metric = c("Total Binette bins (both strands, all quality)", "...good-quality (>=50% completeness, <10% contamination)",
+             "Bins entering dRep", "Dereplicated MAGs (species-level genomes)",
+             "...shared across >=2 participants"),
+  value = c(format(mag_totals$total_bins, big.mark = ","),
+            format(mag_totals$good_mags, big.mark = ","),
+            format(nrow(mag_instances), big.mark = ","),
+            format(nrow(mag_derep), big.mark = ","),
+            sprintf("%d (%.1f%%)", sum(mag_derep$n_participants > 1), 100 * mean(mag_derep$n_participants > 1)))
+) %>% kable(col.names = c("Metric", "Value"))
+```
+
+```{r mag-phylum-breakdown}
+mag_derep %>%
+  filter(!is.na(phylum)) %>%
+  count(phylum, sort = TRUE) %>%
+  mutate(phylum = forcats::fct_reorder(phylum, n)) %>%
+  ggplot(aes(x = phylum, y = n)) +
+  geom_col(fill = "#2c7fb8") +
+  coord_flip() +
+  labs(x = NULL, y = "Dereplicated MAGs", title = "Dereplicated MAG set by GTDB phylum") +
+  theme_minimal()
+```
+
+```{r mag-participant-sharing}
+ggplot(mag_derep, aes(x = pmin(n_participants, 10))) +
+  geom_histogram(binwidth = 1, fill = "#2c7fb8") +
+  scale_x_continuous(breaks = 1:10, labels = c(1:9, "10+")) +
+  labs(x = "Participants sharing a dereplicated MAG (within its own strand)",
+       y = "Number of dereplicated MAGs",
+       title = "Most dereplicated MAGs are participant-specific -- a real shared minority") +
+  theme_minimal()
+```
+
+```{r mag-per-participant-table}
+mag_per_participant %>%
+  arrange(desc(n_dereplicated_mags)) %>%
+  kable(col.names = c("Participant", "Dereplicated MAGs"))
+```
+
+The most cohort-shared dereplicated MAGs (by number of participants carrying
+a bin from that species-level genome), tracked across real time for
+single-sample instances -- same grid convention as section 13: grey means a
+real sample exists but no bin from that genome was recovered in it, color
+means present, colored by GTDB phylum.
+
+```{r mag-presence-heatmap, fig.height=16, fig.width=13}
+top_mags <- mag_derep %>% filter(!is.na(gtdb_taxonomy)) %>% slice_max(n_participants, n = 30, with_ties = FALSE)
+
+mag_label <- top_mags %>%
+  transmute(dereplicated_mag_id, phylum,
+            label = paste0(coalesce(str_extract(gtdb_taxonomy, "(?<=s__).+"), dereplicated_mag_id)))
+
+mag_presence <- mag_instances %>%
+  filter(dereplicated_mag_id %in% top_mags$dereplicated_mag_id, !is_coassembly, !is.na(date))
+
+relevant_participants_mag <- unique(mag_presence$participant)
+
+grid_mag <- tidyr::crossing(dereplicated_mag_id = top_mags$dereplicated_mag_id,
+                             sample_calendar %>% filter(participant %in% relevant_participants_mag)) %>%
+  left_join(mag_presence %>% distinct(dereplicated_mag_id, group, participant) %>% mutate(present = TRUE),
+            by = c("dereplicated_mag_id", "group", "participant")) %>%
+  left_join(mag_label, by = "dereplicated_mag_id") %>%
+  mutate(fill_class = ifelse(is.na(present), "Sampled, MAG absent", phylum))
+
+phylum_levels <- sort(unique(mag_label$phylum))
+phylum_colors <- setNames(scales::hue_pal()(length(phylum_levels)), phylum_levels)
+mag_fill_colors <- c(phylum_colors, "Sampled, MAG absent" = "grey90")
+
+ggplot(grid_mag, aes(x = date, y = reorder(label, match(phylum, phylum_levels)), fill = fill_class)) +
+  geom_tile(color = "white", linewidth = 0.1) +
+  scale_fill_manual(values = mag_fill_colors, name = "Phylum (present) /\nabsent") +
+  facet_wrap(~participant, scales = "free_x", ncol = 4) +
+  labs(x = "Sample date", y = NULL,
+       title = "Presence of the 30 most cohort-shared dereplicated MAGs, per participant, over real time",
+       subtitle = "Grey = sampled, MAG absent | colored = present, colored by GTDB phylum | gap = no sample collected") +
+  theme_minimal(base_size = 10) +
+  theme(axis.text.x = element_text(angle = 90, size = 6, hjust = 1),
+        axis.text.y = element_text(size = 6),
+        strip.text = element_text(size = 8, face = "bold"),
+        legend.position = "bottom", legend.title = element_text(size = 9),
+        panel.spacing = unit(0.6, "lines"))
+```
+
+### 16.2 AMR genes, with real antibiotic class
+
+`aro_call` names (`vanG`, `tetB(P)`, ...) don't say what drug they confer
+resistance to -- RGI's own raw output does (`Drug Class`, `Resistance
+Mechanism`, `AMR Gene Family` columns), joined in here for the first time.
+
+```{r amr-drug-class-table}
+amr_prevalence %>%
+  left_join(amr_drug_class, by = "aro_call") %>%
+  count(drug_class_primary, name = "n_distinct_amr_genes", sort = TRUE) %>%
+  kable(col.names = c("Drug class", "Distinct whole-cohort AMR genes"))
+```
+
+Same top-40 whole-cohort AMR genes, same per-participant/date grid as
+section 13 -- but now colored by antibiotic drug class instead of genomic
+context, with rows grouped by class, directly answering "which resistances,
+to which drugs, are present in whom and when."
+
+```{r amr-drug-class-heatmap, fig.height=22, fig.width=13}
+gene_label_dc <- amr_prevalence %>%
+  filter(amr_gene %in% top_genes) %>%
+  left_join(amr_drug_class, by = "aro_call") %>%
+  transmute(amr_gene, drug_class_primary = coalesce(drug_class_primary, "unknown"),
+            label = paste0(substr(aro_call, 1, 28), " (", amr_gene, ")"))
+
+grid_dc <- tidyr::crossing(amr_gene = top_genes,
+                            sample_calendar %>% filter(participant %in% relevant_participants)) %>%
+  left_join(presence_top %>% distinct(amr_gene, group, participant) %>% mutate(present = TRUE),
+            by = c("amr_gene", "group", "participant")) %>%
+  left_join(gene_label_dc, by = "amr_gene") %>%
+  mutate(fill_class = ifelse(is.na(present), "Sampled, gene absent", drug_class_primary))
+
+dc_levels <- sort(unique(gene_label_dc$drug_class_primary))
+dc_colors <- setNames(scales::hue_pal()(length(dc_levels)), dc_levels)
+dc_fill_colors <- c(dc_colors, "Sampled, gene absent" = "grey90")
+
+ggplot(grid_dc, aes(x = date, y = reorder(label, match(drug_class_primary, dc_levels)), fill = fill_class)) +
+  geom_tile(color = "white", linewidth = 0.1) +
+  scale_fill_manual(values = dc_fill_colors, name = "Drug class (present) /\nabsent") +
+  facet_wrap(~participant, scales = "free_x", ncol = 4) +
+  labs(x = "Sample date", y = NULL,
+       title = "Presence of the 40 most prevalent whole-cohort AMR genes, colored by antibiotic drug class",
+       subtitle = "Grey = sampled, gene absent | colored = present, colored by drug class | rows grouped by class | gap = no sample collected") +
+  theme_minimal(base_size = 11) +
+  theme(axis.text.x = element_text(angle = 90, size = 7, hjust = 1),
+        axis.text.y = element_text(size = 7),
+        strip.text = element_text(size = 8, face = "bold"),
+        legend.position = "bottom", legend.title = element_text(size = 9),
+        panel.spacing = unit(0.6, "lines"))
+```
+
+### 16.3 geNomad plasmid contigs
+
+```{r plasmid-derep-table}
+plasmid_derep <- contig_summary %>% filter(is_plasmid)
+
+tibble(
+  metric = c("Dereplicated plasmid contigs (whole-cohort)", "...shared across >=2 participants",
+             "...also AMR-carrying"),
+  value = c(format(nrow(plasmid_derep), big.mark = ","),
+            sprintf("%d (%.1f%%)", sum(plasmid_derep$n_participants > 1), 100 * mean(plasmid_derep$n_participants > 1)),
+            sprintf("%d (%.1f%%)", sum(plasmid_derep$has_amr), 100 * mean(plasmid_derep$has_amr)))
+) %>% kable(col.names = c("Metric", "Value"))
+```
+
+```{r plasmid-derep-hist}
+ggplot(plasmid_derep, aes(x = pmin(n_participants, 10))) +
+  geom_histogram(binwidth = 1, fill = "#e34a33") +
+  scale_x_continuous(breaks = 1:10, labels = c(1:9, "10+")) +
+  labs(x = "Participants sharing a dereplicated plasmid contig",
+       y = "Number of dereplicated plasmid contigs",
+       title = "Most dereplicated plasmid contigs are participant-specific too") +
+  theme_minimal()
+```
 
 ## Conclusions
 

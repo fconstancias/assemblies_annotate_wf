@@ -1,0 +1,301 @@
+aro_call	drug_class	resistance_mechanism	amr_gene_family
+vanT gene in vanG cluster	glycopeptide antibiotic	antibiotic target alteration	glycopeptide resistance gene cluster; vanT
+tetB(P)	tetracycline antibiotic	antibiotic target protection	tetracycline-resistant ribosomal protection protein
+vanH gene in vanO cluster	glycopeptide antibiotic	antibiotic target alteration	vanH; glycopeptide resistance gene cluster
+vanG	glycopeptide antibiotic	antibiotic target alteration	glycopeptide resistance gene cluster; Van ligase
+vanY gene in vanB cluster	glycopeptide antibiotic	antibiotic target alteration	vanY; glycopeptide resistance gene cluster
+tet(W)	tetracycline antibiotic	antibiotic target protection	tetracycline-resistant ribosomal protection protein
+vanW gene in vanI cluster	glycopeptide antibiotic	antibiotic target alteration	vanW; glycopeptide resistance gene cluster
+Campylobacter coli chloramphenicol acetyltransferase	phenicol antibiotic	antibiotic inactivation	chloramphenicol acetyltransferase (CAT)
+vanY gene in vanA cluster	glycopeptide antibiotic	antibiotic target alteration	vanY; glycopeptide resistance gene cluster
+tet(36)	tetracycline antibiotic	antibiotic target protection	tetracycline-resistant ribosomal protection protein
+vanY gene in vanF cluster	glycopeptide antibiotic	antibiotic target alteration	vanY; glycopeptide resistance gene cluster
+vanW gene in vanG cluster	glycopeptide antibiotic	antibiotic target alteration	vanW; glycopeptide resistance gene cluster
+ErmQ	macrolide antibiotic; lincosamide antibiotic; streptogramin antibiotic; streptogramin A antibiotic; streptogramin B antibiotic	antibiotic target alteration	Erm 23S ribosomal RNA methyltransferase
+vanW gene in vanB cluster	glycopeptide antibiotic	antibiotic target alteration	vanW; glycopeptide resistance gene cluster
+nimG	nitroimidazole antibiotic	antibiotic inactivation	nitroimidazole reductase
+adeF	fluoroquinolone antibiotic; tetracycline antibiotic	antibiotic efflux	resistance-nodulation-cell division (RND) antibiotic efflux pump
+vanY gene in vanM cluster	glycopeptide antibiotic	antibiotic target alteration	vanY; glycopeptide resistance gene cluster
+SAT-4	nucleoside antibiotic	antibiotic inactivation	streptothricin acetyltransferase (SAT)
+vanY gene in vanG cluster	glycopeptide antibiotic	antibiotic target alteration	vanY; glycopeptide resistance gene cluster
+vanXY gene in vanG cluster	glycopeptide antibiotic	antibiotic target alteration	glycopeptide resistance gene cluster; vanXY
+nimD	nitroimidazole antibiotic	antibiotic inactivation	nitroimidazole reductase
+nimA	nitroimidazole antibiotic	antibiotic inactivation	nitroimidazole reductase
+tet(Q)	tetracycline antibiotic	antibiotic target protection	tetracycline-resistant ribosomal protection protein
+vanH gene in vanF cluster	glycopeptide antibiotic	antibiotic target alteration	vanH; glycopeptide resistance gene cluster
+vanH gene in vanB cluster	glycopeptide antibiotic	antibiotic target alteration	vanH; glycopeptide resistance gene cluster
+poxtA	tetracycline antibiotic; oxazolidinone antibiotic; phenicol antibiotic	antibiotic target protection	Miscellaneous ABC-F subfamily ATP-binding cassette ribosomal protection proteins
+mefH	macrolide antibiotic	antibiotic efflux	major facilitator superfamily (MFS) antibiotic efflux pump
+vanH gene in vanP cluster	glycopeptide antibiotic	antibiotic target alteration	vanH; glycopeptide resistance gene cluster
+CblA-1	cephalosporin	antibiotic inactivation	CblA beta-lactamase
+ErmB	macrolide antibiotic; lincosamide antibiotic; streptogramin antibiotic; streptogramin A antibiotic; streptogramin B antibiotic	antibiotic target alteration	Erm 23S ribosomal RNA methyltransferase
+Bifidobacterium adolescentis rpoB mutants conferring resistance to rifampicin	rifamycin antibiotic	antibiotic target alteration; antibiotic target replacement	rifamycin-resistant beta-subunit of RNA polymerase (rpoB)
+vanT gene in vanC cluster	glycopeptide antibiotic	antibiotic target alteration	glycopeptide resistance gene cluster; vanT
+tet(M)	tetracycline antibiotic	antibiotic target protection	tetracycline-resistant ribosomal protection protein
+nimB	nitroimidazole antibiotic	antibiotic inactivation	nitroimidazole reductase
+cfrE	lincosamide antibiotic; streptogramin antibiotic; oxazolidinone antibiotic; phenicol antibiotic	antibiotic target alteration	Cfr 23S ribosomal RNA methyltransferase
+tet(O)	tetracycline antibiotic	antibiotic target protection	tetracycline-resistant ribosomal protection protein
+Mef(En2)	macrolide antibiotic	antibiotic efflux	major facilitator superfamily (MFS) antibiotic efflux pump
+Bifidobacterium bifidum ileS conferring resistance to mupirocin	mupirocin-like antibiotic	antibiotic target alteration	antibiotic-resistant isoleucyl-tRNA synthetase (ileS)
+nimJ	nitroimidazole antibiotic	antibiotic inactivation	nitroimidazole reductase
+ErmF	macrolide antibiotic; lincosamide antibiotic; streptogramin antibiotic; streptogramin A antibiotic; streptogramin B antibiotic	antibiotic target alteration	Erm 23S ribosomal RNA methyltransferase
+tet(X)	glycylcycline; tetracycline antibiotic	antibiotic inactivation	tetracycline inactivation enzyme
+tet(W/N/W)	tetracycline antibiotic	antibiotic target protection	tetracycline-resistant ribosomal protection protein
+CepA-44	cephalosporin	antibiotic inactivation	CepA beta-lactamase
+vanU gene in vanG cluster	glycopeptide antibiotic	antibiotic target alteration	glycopeptide resistance gene cluster; vanU
+vanTr gene in vanL cluster	glycopeptide antibiotic	antibiotic target alteration	glycopeptide resistance gene cluster; vanT
+tet(32)	tetracycline antibiotic	antibiotic target protection	tetracycline-resistant ribosomal protection protein
+qacG	disinfecting agents and antiseptics	antibiotic efflux	small multidrug resistance (SMR) antibiotic efflux pump
+APH(3')-IIIa	aminoglycoside antibiotic	antibiotic inactivation	APH(3')
+tet(O/W)	tetracycline antibiotic	antibiotic target protection	tetracycline-resistant ribosomal protection protein
+catS	phenicol antibiotic	antibiotic inactivation	chloramphenicol acetyltransferase (CAT)
+Mycobacterium tuberculosis rpsL mutations conferring resistance to Streptomycin	aminoglycoside antibiotic	antibiotic target alteration	antibiotic-resistant rpsL
+cepA	cephalosporin	antibiotic inactivation	CepA beta-lactamase
+CfxA2	cephamycin	antibiotic inactivation	CfxA beta-lactamase
+vanH gene in vanD cluster	glycopeptide antibiotic	antibiotic target alteration	vanH; glycopeptide resistance gene cluster
+tet(W/32/O)	tetracycline antibiotic	antibiotic target protection	tetracycline-resistant ribosomal protection protein
+mdeA	fluoroquinolone antibiotic; aminoglycoside antibiotic; penam; tetracycline antibiotic; disinfecting agents and antiseptics	antibiotic efflux	major facilitator superfamily (MFS) antibiotic efflux pump
+dfrF	diaminopyrimidine antibiotic	antibiotic target replacement	trimethoprim resistant dihydrofolate reductase dfr
+lnuC	lincosamide antibiotic	antibiotic inactivation	lincosamide nucleotidyltransferase (LNU)
+mdtM	fluoroquinolone antibiotic; lincosamide antibiotic; nucleoside antibiotic; phenicol antibiotic; disinfecting agents and antiseptics	antibiotic efflux	major facilitator superfamily (MFS) antibiotic efflux pump
+kdpE	aminoglycoside antibiotic	antibiotic efflux	kdpDE
+mdtN	nucleoside antibiotic; disinfecting agents and antiseptics	antibiotic efflux	major facilitator superfamily (MFS) antibiotic efflux pump
+mdtO	nucleoside antibiotic; disinfecting agents and antiseptics	antibiotic efflux	major facilitator superfamily (MFS) antibiotic efflux pump
+mdtP	nucleoside antibiotic; disinfecting agents and antiseptics	antibiotic efflux	major facilitator superfamily (MFS) antibiotic efflux pump
+CRP	macrolide antibiotic; fluoroquinolone antibiotic; penam	antibiotic efflux	resistance-nodulation-cell division (RND) antibiotic efflux pump
+Klebsiella pneumoniae KpnE	macrolide antibiotic; aminoglycoside antibiotic; cephalosporin; tetracycline antibiotic; peptide antibiotic; rifamycin antibiotic; disinfecting agents and antiseptics	antibiotic efflux	small multidrug resistance (SMR) antibiotic efflux pump
+Klebsiella pneumoniae KpnF	macrolide antibiotic; aminoglycoside antibiotic; cephalosporin; tetracycline antibiotic; peptide antibiotic; rifamycin antibiotic; disinfecting agents and antiseptics	antibiotic efflux	small multidrug resistance (SMR) antibiotic efflux pump
+TolC	macrolide antibiotic; fluoroquinolone antibiotic; aminoglycoside antibiotic; carbapenem; cephalosporin; glycylcycline; cephamycin; penam; tetracycline antibiotic; peptide antibiotic; aminocoumarin antibiotic; rifamycin antibiotic; phenicol antibiotic; penem; disinfecting agents and antiseptics	antibiotic efflux	ATP-binding cassette (ABC) antibiotic efflux pump; major facilitator superfamily (MFS) antibiotic efflux pump; resistance-nodulation-cell division (RND) antibiotic efflux pump
+mdtC	aminocoumarin antibiotic	antibiotic efflux	resistance-nodulation-cell division (RND) antibiotic efflux pump
+mdtB	aminocoumarin antibiotic	antibiotic efflux	resistance-nodulation-cell division (RND) antibiotic efflux pump
+acrD	aminoglycoside antibiotic	antibiotic efflux	resistance-nodulation-cell division (RND) antibiotic efflux pump
+FosXCC	phosphonic acid antibiotic	antibiotic inactivation	fosfomycin thiol transferase
+aad(6)	aminoglycoside antibiotic	antibiotic inactivation	ANT(6)
+AcrE	fluoroquinolone antibiotic; cephalosporin; cephamycin; penam	antibiotic efflux	resistance-nodulation-cell division (RND) antibiotic efflux pump
+rsmA	fluoroquinolone antibiotic; diaminopyrimidine antibiotic; phenicol antibiotic	antibiotic efflux	resistance-nodulation-cell division (RND) antibiotic efflux pump
+bacA	peptide antibiotic	antibiotic target alteration	undecaprenyl pyrophosphate related proteins
+emrY	tetracycline antibiotic	antibiotic efflux	major facilitator superfamily (MFS) antibiotic efflux pump
+emrK	tetracycline antibiotic	antibiotic efflux	major facilitator superfamily (MFS) antibiotic efflux pump
+evgA	macrolide antibiotic; fluoroquinolone antibiotic; penam; tetracycline antibiotic	antibiotic efflux	major facilitator superfamily (MFS) antibiotic efflux pump; resistance-nodulation-cell division (RND) antibiotic efflux pump
+ErmX	macrolide antibiotic; lincosamide antibiotic; streptogramin antibiotic; streptogramin A antibiotic; streptogramin B antibiotic	antibiotic target alteration	Erm 23S ribosomal RNA methyltransferase
+Escherichia coli mdfA	tetracycline antibiotic; disinfecting agents and antiseptics	antibiotic efflux	major facilitator superfamily (MFS) antibiotic efflux pump
+TEM-1	monobactam; cephalosporin; penam; penem	antibiotic inactivation	TEM beta-lactamase
+Escherichia coli emrE	macrolide antibiotic	antibiotic efflux	small multidrug resistance (SMR) antibiotic efflux pump
+ErmG	macrolide antibiotic; lincosamide antibiotic; streptogramin antibiotic; streptogramin A antibiotic; streptogramin B antibiotic	antibiotic target alteration	Erm 23S ribosomal RNA methyltransferase
+vanR gene in vanG cluster	glycopeptide antibiotic	antibiotic target alteration	glycopeptide resistance gene cluster; vanR
+marA	fluoroquinolone antibiotic; monobactam; carbapenem; cephalosporin; glycylcycline; cephamycin; penam; tetracycline antibiotic; rifamycin antibiotic; phenicol antibiotic; penem; disinfecting agents and antiseptics	antibiotic efflux; reduced permeability to antibiotic	resistance-nodulation-cell division (RND) antibiotic efflux pump; General Bacterial Porin with reduced permeability to beta-lactams
+Mrx	macrolide antibiotic	antibiotic inactivation	macrolide phosphotransferase (MPH)
+mphA	macrolide antibiotic	antibiotic inactivation	macrolide phosphotransferase (MPH)
+msbA	nitroimidazole antibiotic	antibiotic efflux	ATP-binding cassette (ABC) antibiotic efflux pump
+mdtH	fluoroquinolone antibiotic	antibiotic efflux	major facilitator superfamily (MFS) antibiotic efflux pump
+mdtG	phosphonic acid antibiotic	antibiotic efflux	major facilitator superfamily (MFS) antibiotic efflux pump
+lsaC	lincosamide antibiotic; streptogramin antibiotic; pleuromutilin antibiotic	antibiotic target protection	lsa-type ABC-F protein
+LnuP	lincosamide antibiotic	antibiotic inactivation	lincosamide nucleotidyltransferase (LNU)
+baeR	aminoglycoside antibiotic; aminocoumarin antibiotic	antibiotic efflux	resistance-nodulation-cell division (RND) antibiotic efflux pump
+H-NS	macrolide antibiotic; fluoroquinolone antibiotic; cephalosporin; cephamycin; penam; tetracycline antibiotic	antibiotic efflux	major facilitator superfamily (MFS) antibiotic efflux pump; resistance-nodulation-cell division (RND) antibiotic efflux pump
+CTX-M-15	cephalosporin; penam	antibiotic inactivation	CTX-M beta-lactamase
+mdtE	macrolide antibiotic; fluoroquinolone antibiotic; penam	antibiotic efflux	resistance-nodulation-cell division (RND) antibiotic efflux pump
+mdtF	macrolide antibiotic; fluoroquinolone antibiotic; penam	antibiotic efflux	resistance-nodulation-cell division (RND) antibiotic efflux pump
+gadW	macrolide antibiotic; fluoroquinolone antibiotic; penam	antibiotic efflux	resistance-nodulation-cell division (RND) antibiotic efflux pump
+gadX	macrolide antibiotic; fluoroquinolone antibiotic; penam	antibiotic efflux	resistance-nodulation-cell division (RND) antibiotic efflux pump
+Erm(49)	macrolide antibiotic; lincosamide antibiotic; streptogramin antibiotic	antibiotic target alteration	Erm 23S ribosomal RNA methyltransferase
+Escherichia coli acrA	fluoroquinolone antibiotic; cephalosporin; glycylcycline; penam; tetracycline antibiotic; rifamycin antibiotic; phenicol antibiotic; disinfecting agents and antiseptics	antibiotic efflux	resistance-nodulation-cell division (RND) antibiotic efflux pump
+acrB	fluoroquinolone antibiotic; cephalosporin; glycylcycline; penam; tetracycline antibiotic; rifamycin antibiotic; phenicol antibiotic; disinfecting agents and antiseptics	antibiotic efflux	resistance-nodulation-cell division (RND) antibiotic efflux pump
+ArnT	peptide antibiotic	antibiotic target alteration	pmr phosphoethanolamine transferase
+PmrF	peptide antibiotic	antibiotic target alteration	pmr phosphoethanolamine transferase
+ugd	peptide antibiotic	antibiotic target alteration	pmr phosphoethanolamine transferase
+AcrS	fluoroquinolone antibiotic; cephalosporin; glycylcycline; cephamycin; penam; tetracycline antibiotic; rifamycin antibiotic; phenicol antibiotic; disinfecting agents and antiseptics	antibiotic efflux	resistance-nodulation-cell division (RND) antibiotic efflux pump
+nimE	nitroimidazole antibiotic	antibiotic inactivation	nitroimidazole reductase
+YojI	peptide antibiotic	antibiotic efflux	ATP-binding cassette (ABC) antibiotic efflux pump
+emrA	fluoroquinolone antibiotic	antibiotic efflux	major facilitator superfamily (MFS) antibiotic efflux pump
+emrR	fluoroquinolone antibiotic	antibiotic efflux	major facilitator superfamily (MFS) antibiotic efflux pump
+EC-19	cephalosporin	antibiotic inactivation	EC beta-lactamase
+Klebsiella pneumoniae KpnH	macrolide antibiotic; fluoroquinolone antibiotic; aminoglycoside antibiotic; carbapenem; cephalosporin; penam; peptide antibiotic; penem	antibiotic efflux	major facilitator superfamily (MFS) antibiotic efflux pump
+cpxA	aminoglycoside antibiotic; aminocoumarin antibiotic	antibiotic efflux	resistance-nodulation-cell division (RND) antibiotic efflux pump
+Escherichia coli GlpT with mutation conferring resistance to fosfomycin	phosphonic acid antibiotic	antibiotic target alteration	antibiotic-resistant GlpT
+Haemophilus influenzae PBP3 conferring resistance to beta-lactam antibiotics	cephalosporin; cephamycin; penam	antibiotic target alteration	Penicillin-binding protein mutations conferring resistance to beta-lactam antibiotics
+Escherichia coli UhpT with mutation conferring resistance to fosfomycin	phosphonic acid antibiotic	antibiotic target alteration	antibiotic-resistant UhpT
+Escherichia coli EF-Tu mutants conferring resistance to Pulvomycin	elfamycin antibiotic	antibiotic target alteration	elfamycin resistant EF-Tu
+Escherichia coli cyaA with mutation conferring resistance to fosfomycin	phosphonic acid antibiotic	antibiotic target alteration	antibiotic-resistant cya adenylate cyclase
+Escherichia coli soxR with mutation conferring antibiotic resistance	fluoroquinolone antibiotic; cephalosporin; glycylcycline; penam; tetracycline antibiotic; rifamycin antibiotic; phenicol antibiotic; disinfecting agents and antiseptics	antibiotic target alteration; antibiotic efflux	ATP-binding cassette (ABC) antibiotic efflux pump; major facilitator superfamily (MFS) antibiotic efflux pump; resistance-nodulation-cell division (RND) antibiotic efflux pump
+Escherichia coli soxS with mutation conferring antibiotic resistance	fluoroquinolone antibiotic; monobactam; carbapenem; cephalosporin; glycylcycline; cephamycin; penam; tetracycline antibiotic; rifamycin antibiotic; phenicol antibiotic; penem; disinfecting agents and antiseptics	antibiotic target alteration; antibiotic efflux; reduced permeability to antibiotic	ATP-binding cassette (ABC) antibiotic efflux pump; major facilitator superfamily (MFS) antibiotic efflux pump; resistance-nodulation-cell division (RND) antibiotic efflux pump; General Bacterial Porin with reduced permeability to beta-lactams
+Escherichia coli AcrAB-TolC with MarR mutations conferring resistance to ciprofloxacin and tetracycline	fluoroquinolone antibiotic; cephalosporin; glycylcycline; penam; tetracycline antibiotic; rifamycin antibiotic; phenicol antibiotic; disinfecting agents and antiseptics	antibiotic target alteration; antibiotic efflux	resistance-nodulation-cell division (RND) antibiotic efflux pump
+Escherichia coli AcrAB-TolC with AcrR mutation conferring resistance to ciprofloxacin, tetracycline, and ceftazidime	fluoroquinolone antibiotic; cephalosporin; glycylcycline; penam; tetracycline antibiotic; rifamycin antibiotic; phenicol antibiotic; disinfecting agents and antiseptics	antibiotic target alteration; antibiotic efflux	resistance-nodulation-cell division (RND) antibiotic efflux pump
+vanC	glycopeptide antibiotic	antibiotic target alteration	glycopeptide resistance gene cluster; Van ligase
+vanXY gene in vanC cluster	glycopeptide antibiotic	antibiotic target alteration	glycopeptide resistance gene cluster; vanXY
+Klebsiella pneumoniae OmpK37	monobactam; carbapenem; cephalosporin; cephamycin; penam; penem	reduced permeability to antibiotic	General Bacterial Porin with reduced permeability to beta-lactams
+tet(45)	tetracycline antibiotic	antibiotic efflux	major facilitator superfamily (MFS) antibiotic efflux pump
+FosI	phosphonic acid antibiotic	antibiotic inactivation	fosfomycin thiol transferase
+vanR gene in vanC cluster	glycopeptide antibiotic	antibiotic target alteration	glycopeptide resistance gene cluster; vanR
+lmrD	lincosamide antibiotic	antibiotic efflux	ATP-binding cassette (ABC) antibiotic efflux pump
+qacJ	disinfecting agents and antiseptics	antibiotic efflux	small multidrug resistance (SMR) antibiotic efflux pump
+FosA6	phosphonic acid antibiotic	antibiotic inactivation	fosfomycin thiol transferase
+efrA	macrolide antibiotic; fluoroquinolone antibiotic; rifamycin antibiotic	antibiotic efflux	ATP-binding cassette (ABC) antibiotic efflux pump
+dfrA17	diaminopyrimidine antibiotic	antibiotic target replacement	trimethoprim resistant dihydrofolate reductase dfr
+mdtA	aminocoumarin antibiotic	antibiotic efflux	resistance-nodulation-cell division (RND) antibiotic efflux pump
+eptB	peptide antibiotic	antibiotic target alteration	pmr phosphoethanolamine transferase
+tet(40)	tetracycline antibiotic	antibiotic efflux	major facilitator superfamily (MFS) antibiotic efflux pump
+eptA	peptide antibiotic	antibiotic target alteration	pmr phosphoethanolamine transferase
+AcrF	fluoroquinolone antibiotic; cephalosporin; cephamycin; penam	antibiotic efflux	resistance-nodulation-cell division (RND) antibiotic efflux pump
+baeS	aminoglycoside antibiotic; aminocoumarin antibiotic	antibiotic efflux	resistance-nodulation-cell division (RND) antibiotic efflux pump
+tet(44)	tetracycline antibiotic	antibiotic target protection	tetracycline-resistant ribosomal protection protein
+ANT(6)-Ib	aminoglycoside antibiotic	antibiotic inactivation	ANT(6)
+Klebsiella pneumoniae KpnG	macrolide antibiotic; fluoroquinolone antibiotic; aminoglycoside antibiotic; carbapenem; cephalosporin; penam; peptide antibiotic; penem	antibiotic efflux	major facilitator superfamily (MFS) antibiotic efflux pump
+SHV-1	carbapenem; cephalosporin; penam	antibiotic inactivation	SHV beta-lactamase
+sul2	sulfonamide antibiotic	antibiotic target replacement	sulfonamide resistant sul
+APH(3'')-Ib	aminoglycoside antibiotic	antibiotic inactivation	APH(3'')
+APH(6)-Id	aminoglycoside antibiotic	antibiotic inactivation	APH(6)
+tet(A)	tetracycline antibiotic	antibiotic efflux	major facilitator superfamily (MFS) antibiotic efflux pump
+DHA-1	cephalosporin; cephamycin	antibiotic inactivation	DHA beta-lactamase
+sul1	sulfonamide antibiotic	antibiotic target replacement	sulfonamide resistant sul
+efmA	macrolide antibiotic; fluoroquinolone antibiotic	antibiotic efflux	major facilitator superfamily (MFS) antibiotic efflux pump
+AAC(6')-Ii	aminoglycoside antibiotic	antibiotic inactivation	AAC(6')
+emrB	fluoroquinolone antibiotic	antibiotic efflux	major facilitator superfamily (MFS) antibiotic efflux pump
+oqxA	fluoroquinolone antibiotic; glycylcycline; tetracycline antibiotic; diaminopyrimidine antibiotic; nitrofuran antibiotic	antibiotic efflux	resistance-nodulation-cell division (RND) antibiotic efflux pump
+evgS	macrolide antibiotic; fluoroquinolone antibiotic; penam; tetracycline antibiotic	antibiotic efflux	major facilitator superfamily (MFS) antibiotic efflux pump; resistance-nodulation-cell division (RND) antibiotic efflux pump
+OmpA	peptide antibiotic	reduced permeability to antibiotic	General Bacterial Porin with reduced permeability to peptide antibiotics
+tetA(46)	tetracycline antibiotic	antibiotic efflux	ATP-binding cassette (ABC) antibiotic efflux pump
+ErmT	macrolide antibiotic; lincosamide antibiotic; streptogramin antibiotic; streptogramin A antibiotic; streptogramin B antibiotic	antibiotic target alteration	Erm 23S ribosomal RNA methyltransferase
+patA	fluoroquinolone antibiotic	antibiotic efflux	ATP-binding cassette (ABC) antibiotic efflux pump
+leuO	nucleoside antibiotic; disinfecting agents and antiseptics	antibiotic efflux	major facilitator superfamily (MFS) antibiotic efflux pump
+LptD	peptide antibiotic; aminocoumarin antibiotic; rifamycin antibiotic	antibiotic efflux	ATP-binding cassette (ABC) antibiotic efflux pump
+eatAv	pleuromutilin antibiotic	antibiotic target protection	Miscellaneous ABC-F subfamily ATP-binding cassette ribosomal protection proteins
+tet(X1)	tetracycline antibiotic	antibiotic inactivation	tetracycline inactivation enzyme
+aadS	aminoglycoside antibiotic	antibiotic inactivation	ANT(6)
+AAC(6')-Ie-APH(2'')-Ia bifunctional protein	aminoglycoside antibiotic	antibiotic inactivation	aminoglycoside bifunctional resistance protein
+Escherichia coli ampC beta-lactamase	cephalosporin; penam	antibiotic inactivation	ampC-type beta-lactamase
+patB	fluoroquinolone antibiotic	antibiotic efflux	ATP-binding cassette (ABC) antibiotic efflux pump
+catP	phenicol antibiotic	antibiotic inactivation	chloramphenicol acetyltransferase (CAT)
+fosA5	fluoroquinolone antibiotic; aminoglycoside antibiotic; phosphonic acid antibiotic	antibiotic inactivation	fosfomycin thiol transferase
+CMY-132	cephamycin	antibiotic inactivation	CMY beta-lactamase
+nimK	nitroimidazole antibiotic	antibiotic inactivation	nitroimidazole reductase
+SAT-2	nucleoside antibiotic	antibiotic inactivation	streptothricin acetyltransferase (SAT)
+ANT(3'')-IIa	aminoglycoside antibiotic	antibiotic inactivation	ANT(3'')
+AAC(3)-IId	aminoglycoside antibiotic	antibiotic inactivation	AAC(3)
+TEM-30	monobactam; cephalosporin; penam; penem	antibiotic inactivation	TEM beta-lactamase
+catI	phenicol antibiotic	antibiotic inactivation	chloramphenicol acetyltransferase (CAT)
+dfrA12	diaminopyrimidine antibiotic	antibiotic target replacement	trimethoprim resistant dihydrofolate reductase dfr
+aadA2	aminoglycoside antibiotic	antibiotic inactivation	ANT(3'')
+qacEdelta1	disinfecting agents and antiseptics	antibiotic efflux	major facilitator superfamily (MFS) antibiotic efflux pump
+Escherichia coli PtsI with mutation conferring resistance to fosfomycin	phosphonic acid antibiotic	antibiotic target alteration	antibiotic-resistant ptsI phosphotransferase
+oqxB	fluoroquinolone antibiotic; glycylcycline; tetracycline antibiotic; diaminopyrimidine antibiotic; nitrofuran antibiotic	antibiotic efflux	resistance-nodulation-cell division (RND) antibiotic efflux pump
+vanH gene in vanA cluster	glycopeptide antibiotic	antibiotic target alteration	vanH; glycopeptide resistance gene cluster
+nimI	nitroimidazole antibiotic	antibiotic inactivation	nitroimidazole reductase
+FosA2	phosphonic acid antibiotic	antibiotic inactivation	fosfomycin thiol transferase
+crxA	carbapenem	antibiotic inactivation	subclass B1 Bacteroides xylanisolvens crx beta-lactamase
+OXA-347	carbapenem; cephalosporin; penam	antibiotic inactivation	OXA beta-lactamase
+Enterobacter cloacae acrA	fluoroquinolone antibiotic; cephalosporin; glycylcycline; penam; tetracycline antibiotic; rifamycin antibiotic; phenicol antibiotic; disinfecting agents and antiseptics	antibiotic efflux	resistance-nodulation-cell division (RND) antibiotic efflux pump
+ramA	fluoroquinolone antibiotic; monobactam; carbapenem; cephalosporin; glycylcycline; cephamycin; penam; tetracycline antibiotic; rifamycin antibiotic; phenicol antibiotic; penem; disinfecting agents and antiseptics	antibiotic efflux; reduced permeability to antibiotic	resistance-nodulation-cell division (RND) antibiotic efflux pump; General Bacterial Porin with reduced permeability to beta-lactams
+ACT-62	carbapenem; cephalosporin; cephamycin; penam	antibiotic inactivation	ACT beta-lactamase
+ACT-74	carbapenem; cephalosporin; cephamycin; penam	antibiotic inactivation	ACT beta-lactamase
+bmr	fluoroquinolone antibiotic; nucleoside antibiotic; phenicol antibiotic; disinfecting agents and antiseptics	antibiotic efflux	major facilitator superfamily (MFS) antibiotic efflux pump
+blt	fluoroquinolone antibiotic; disinfecting agents and antiseptics	antibiotic efflux	major facilitator superfamily (MFS) antibiotic efflux pump
+aadK	aminoglycoside antibiotic	antibiotic inactivation	ANT(6)
+EstT	macrolide antibiotic; glycylcycline; tetracycline antibiotic	antibiotic inactivation	macrolide esterase
+Bacillus subtilis mprF	peptide antibiotic	antibiotic target alteration	defensin resistant mprF
+tet(L)	tetracycline antibiotic	antibiotic efflux	major facilitator superfamily (MFS) antibiotic efflux pump
+EreD	macrolide antibiotic	antibiotic inactivation	macrolide esterase
+FosBx1	phosphonic acid antibiotic	antibiotic inactivation	fosfomycin thiol transferase
+BcI	cephalosporin; penem	antibiotic inactivation	class A Bacillus cereus Bc beta-lactamase
+vmlR	lincosamide antibiotic; streptogramin antibiotic; streptogramin B antibiotic	antibiotic target protection	Miscellaneous ABC-F subfamily ATP-binding cassette ribosomal protection proteins
+ANT(9)-Ib	aminoglycoside antibiotic	antibiotic inactivation	ANT(9)
+tmrB	nucleoside antibiotic	reduced permeability to antibiotic	tunicamycin resistance protein
+lmrB	lincosamide antibiotic	antibiotic efflux	ATP-binding cassette (ABC) antibiotic efflux pump
+mphK	macrolide antibiotic	antibiotic inactivation	macrolide phosphotransferase (MPH)
+ykkC	aminoglycoside antibiotic; tetracycline antibiotic; phenicol antibiotic	antibiotic efflux	small multidrug resistance (SMR) antibiotic efflux pump
+ykkD	aminoglycoside antibiotic; tetracycline antibiotic; phenicol antibiotic	antibiotic efflux	small multidrug resistance (SMR) antibiotic efflux pump
+CfxA3	cephamycin	antibiotic inactivation	CfxA beta-lactamase
+EC-5	cephalosporin	antibiotic inactivation	EC beta-lactamase
+AAC(6')-Im	aminoglycoside antibiotic	antibiotic inactivation	AAC(6')
+mcr-10.1	peptide antibiotic	antibiotic target alteration	MCR phosphoethanolamine transferase
+ANT(4')-Ia	aminoglycoside antibiotic	antibiotic inactivation	ANT(4')
+RlmA(II)	macrolide antibiotic; lincosamide antibiotic	antibiotic target alteration	non-erm 23S ribosomal RNA methyltransferase (G748)
+catQ	phenicol antibiotic	antibiotic inactivation	chloramphenicol acetyltransferase (CAT)
+Erm(52)	macrolide antibiotic; lincosamide antibiotic; streptogramin antibiotic	antibiotic target alteration	Erm 23S ribosomal RNA methyltransferase
+CTX-M-27	carbapenem; cephalosporin; penam	antibiotic inactivation	CTX-M beta-lactamase
+CMH-2	cephalosporin	antibiotic inactivation	CMH beta-lactamase
+ACT-28	carbapenem; cephalosporin; cephamycin; penam	antibiotic inactivation	ACT beta-lactamase
+EC-13	cephalosporin	antibiotic inactivation	EC beta-lactamase
+OKP-A-12	cephalosporin; penam	antibiotic inactivation	OKP beta-lactamase
+Klebsiella pneumoniae acrR with mutation conferring multidrug antibiotic resistance	fluoroquinolone antibiotic; cephalosporin; glycylcycline; penam; tetracycline antibiotic; rifamycin antibiotic; phenicol antibiotic; disinfecting agents and antiseptics	antibiotic target alteration; antibiotic efflux	resistance-nodulation-cell division (RND) antibiotic efflux pump
+vanS gene in vanC cluster	glycopeptide antibiotic	antibiotic target alteration	vanS; glycopeptide resistance gene cluster
+aadA5	aminoglycoside antibiotic	antibiotic inactivation	ANT(3'')
+APH(2'')-IIa	aminoglycoside antibiotic	antibiotic inactivation	APH(2'')
+ACT-47	carbapenem; cephalosporin; cephamycin; penam	antibiotic inactivation	ACT beta-lactamase
+EC-14	cephalosporin	antibiotic inactivation	EC beta-lactamase
+vanT gene in vanE cluster	glycopeptide antibiotic	antibiotic target alteration	glycopeptide resistance gene cluster; vanT
+tet(B)	tetracycline antibiotic	antibiotic efflux	major facilitator superfamily (MFS) antibiotic efflux pump
+dfrA7	diaminopyrimidine antibiotic	antibiotic target replacement	trimethoprim resistant dihydrofolate reductase dfr
+EC-15	cephalosporin	antibiotic inactivation	EC beta-lactamase
+Escherichia coli gyrA conferring resistance to fluoroquinolones	fluoroquinolone antibiotic	antibiotic target alteration	fluoroquinolone resistant gyrA
+tetR	tetracycline antibiotic	antibiotic target alteration; antibiotic efflux	major facilitator superfamily (MFS) antibiotic efflux pump
+OXY-6-4	monobactam; cephalosporin; penam	antibiotic inactivation	OXY beta-lactamase
+vanR gene in vanD cluster	glycopeptide antibiotic	antibiotic target alteration	glycopeptide resistance gene cluster; vanR
+vanD	glycopeptide antibiotic	antibiotic target alteration	glycopeptide resistance gene cluster; Van ligase
+vanX gene in vanD cluster	glycopeptide antibiotic	antibiotic target alteration	vanX; glycopeptide resistance gene cluster
+TEM-176	monobactam; cephalosporin; penam; penem	antibiotic inactivation	TEM beta-lactamase
+APH(3')-Ia	aminoglycoside antibiotic	antibiotic inactivation	APH(3')
+floR	phenicol antibiotic	antibiotic efflux	major facilitator superfamily (MFS) antibiotic efflux pump
+QnrS1	fluoroquinolone antibiotic	antibiotic target protection	quinolone resistance protein (qnr)
+Morganella morganii gyrB conferring resistance to fluoroquinolones	fluoroquinolone antibiotic	antibiotic target alteration	fluoroquinolone resistant gyrB
+ANT(2'')-Ia	aminoglycoside antibiotic	antibiotic inactivation	ANT(2'')
+CDD-1	carbapenem	antibiotic inactivation	CDD beta-lactamase
+ANT(9)-Ia	aminoglycoside antibiotic	antibiotic inactivation	ANT(9)
+ErmA	macrolide antibiotic; lincosamide antibiotic; streptogramin antibiotic; streptogramin A antibiotic; streptogramin B antibiotic	antibiotic target alteration	Erm 23S ribosomal RNA methyltransferase
+dfrA14	diaminopyrimidine antibiotic	antibiotic target replacement	trimethoprim resistant dihydrofolate reductase dfr
+CfxA6	cephamycin	antibiotic inactivation	CfxA beta-lactamase
+CfxA4	cephamycin	antibiotic inactivation	CfxA beta-lactamase
+tet(X5)	tetracycline antibiotic	antibiotic inactivation	tetracycline inactivation enzyme
+vanX gene in vanP cluster	glycopeptide antibiotic	antibiotic target alteration	vanX; glycopeptide resistance gene cluster
+vanY gene in vanD cluster	glycopeptide antibiotic	antibiotic target alteration	vanY; glycopeptide resistance gene cluster
+AxyY	macrolide antibiotic; fluoroquinolone antibiotic; aminoglycoside antibiotic; cephalosporin	antibiotic efflux	resistance-nodulation-cell division (RND) antibiotic efflux pump
+OXA-243	carbapenem; cephalosporin; penam	antibiotic inactivation	OXA beta-lactamase
+FosA8	phosphonic acid antibiotic	antibiotic inactivation	fosfomycin thiol transferase
+OXY-2-7	monobactam; cephalosporin; penam	antibiotic inactivation	OXY beta-lactamase
+sepA	disinfecting agents and antiseptics	antibiotic efflux	small multidrug resistance (SMR) antibiotic efflux pump
+CMY-136	cephalosporin; cephamycin	antibiotic inactivation	CMY beta-lactamase
+sdrM	fluoroquinolone antibiotic; disinfecting agents and antiseptics	antibiotic efflux	major facilitator superfamily (MFS) antibiotic efflux pump
+tet(D)	tetracycline antibiotic	antibiotic efflux	major facilitator superfamily (MFS) antibiotic efflux pump
+Vibrio anguillarum chloramphenicol acetyltransferase	phenicol antibiotic	antibiotic inactivation	chloramphenicol acetyltransferase (CAT)
+SHV-11	carbapenem; cephalosporin; penam	antibiotic inactivation	SHV beta-lactamase
+norC	fluoroquinolone antibiotic; disinfecting agents and antiseptics	antibiotic efflux	major facilitator superfamily (MFS) antibiotic efflux pump
+APH(2'')-If	aminoglycoside antibiotic	antibiotic inactivation	APH(2'')
+tet(S)	tetracycline antibiotic	antibiotic target protection	tetracycline-resistant ribosomal protection protein
+CMY-48	cephamycin	antibiotic inactivation	CMY beta-lactamase
+lsaD	lincosamide antibiotic; streptogramin antibiotic; streptogramin A antibiotic; pleuromutilin antibiotic	antibiotic target protection	lsa-type ABC-F protein
+ACT-23	carbapenem; cephalosporin; cephamycin; penam	antibiotic inactivation	ACT beta-lactamase
+vanH gene in vanM cluster	glycopeptide antibiotic	antibiotic target alteration	vanH; glycopeptide resistance gene cluster
+CfxA5	cephamycin	antibiotic inactivation	CfxA beta-lactamase
+ANT(6)-Ia	aminoglycoside antibiotic	antibiotic inactivation	ANT(6)
+vanL	glycopeptide antibiotic	antibiotic target alteration	glycopeptide resistance gene cluster; Van ligase
+Enterococcus faecalis chloramphenicol acetyltransferase	phenicol antibiotic	antibiotic inactivation	chloramphenicol acetyltransferase (CAT)
+AAC(6')-Iih	aminoglycoside antibiotic	antibiotic inactivation	AAC(6')
+smeR	aminoglycoside antibiotic; cephalosporin; cephamycin; penam	antibiotic efflux	resistance-nodulation-cell division (RND) antibiotic efflux pump
+ACT-8	carbapenem; cephalosporin; cephamycin; penam	antibiotic inactivation	ACT beta-lactamase
+ACT-50	carbapenem; cephalosporin; cephamycin; penam	antibiotic inactivation	ACT beta-lactamase
+EC-8	cephalosporin	antibiotic inactivation	EC beta-lactamase
+tet(X4)	glycylcycline; tetracycline antibiotic	antibiotic inactivation	tetracycline inactivation enzyme
+tet(O/32/O)	tetracycline antibiotic	antibiotic target protection	tetracycline-resistant ribosomal protection protein
+vanT gene in vanN cluster	glycopeptide antibiotic	antibiotic target alteration	glycopeptide resistance gene cluster; vanT
+OXY-1-1	monobactam; cephalosporin; penam	antibiotic inactivation	OXY beta-lactamase
+tetA(P)	tetracycline antibiotic	antibiotic efflux	major facilitator superfamily (MFS) antibiotic efflux pump
+OKP-B-1	cephalosporin; penam	antibiotic inactivation	OKP beta-lactamase
+vanXY gene in vanE cluster	glycopeptide antibiotic	antibiotic target alteration	glycopeptide resistance gene cluster; vanXY
+dfrA8	diaminopyrimidine antibiotic	antibiotic target replacement	trimethoprim resistant dihydrofolate reductase dfr
+CepA-29	cephalosporin	antibiotic inactivation	CepA beta-lactamase
+LEN-14	penam; penem	antibiotic inactivation	LEN beta-lactamase
+CMY-67	cephamycin	antibiotic inactivation	CMY beta-lactamase
+ACT-17	carbapenem; cephalosporin; cephamycin; penam	antibiotic inactivation	ACT beta-lactamase
+TEM-214	monobactam; cephalosporin; penam; penem	antibiotic inactivation	TEM beta-lactamase
+dfrE	diaminopyrimidine antibiotic	antibiotic target replacement	trimethoprim resistant dihydrofolate reductase dfr
+lsaA	lincosamide antibiotic; streptogramin antibiotic; streptogramin A antibiotic; streptogramin B antibiotic; pleuromutilin antibiotic	antibiotic target protection	lsa-type ABC-F protein
+emeA	disinfecting agents and antiseptics	antibiotic efflux	multidrug and toxic compound extrusion (MATE) transporter
+APH(2'')-Ig	aminoglycoside antibiotic	antibiotic inactivation	APH(2'')
+pmrA	fluoroquinolone antibiotic	antibiotic efflux	major facilitator superfamily (MFS) antibiotic efflux pump
+CDD-2	carbapenem	antibiotic inactivation	CDD beta-lactamase
+cdeA	fluoroquinolone antibiotic; disinfecting agents and antiseptics	antibiotic efflux	multidrug and toxic compound extrusion (MATE) transporter
+OXY-1-3	monobactam; cephalosporin; penam	antibiotic inactivation	OXY beta-lactamase
+OXA-244	carbapenem; cephalosporin; penam	antibiotic inactivation	OXA beta-lactamase
+Escherichia coli parC conferring resistance to fluoroquinolones	fluoroquinolone antibiotic	antibiotic target alteration	fluoroquinolone resistant parC
+OXY-2-12	monobactam; cephalosporin; penam	antibiotic inactivation	OXY beta-lactamase
+ACT-38	carbapenem; cephalosporin; cephamycin; penam	antibiotic inactivation	ACT beta-lactamase
