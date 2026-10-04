@@ -1,0 +1,17 @@
+diff --git a/modules/local/integronfinder.nf b/modules/local/integronfinder.nf
+index 2115c5b..14a3f62 100755
+--- a/modules/local/integronfinder.nf
++++ b/modules/local/integronfinder.nf
+@@ -21,7 +21,11 @@ process INTEGRONFINDER {
+         --gbk \\
+         ${assembly_file}
+ 
+-    if ls -l Results_Integron_Finder_${prefix}_100kb_contigs/*.gbk 2>/dev/null | grep -q .
++    # PATCHED (local fix): was `ls -l .../*.gbk 2>/dev/null | grep -q .`, which under the process shell's
++    # `-o pipefail` fails whenever there are many .gbk files (grep -q exits at the first line, ls gets
++    # SIGPIPE -> pipeline status non-zero) and then publishes empty dummy files although integrons were
++    # found. compgen -G tests the glob without a pipe.
++    if compgen -G "Results_Integron_Finder_${prefix}_100kb_contigs/*.gbk" > /dev/null
+     then
+         echo 'IntegronFinder outputs complete'
+         mv Results_Integron_Finder_${prefix}_100kb_contigs/*.gbk .

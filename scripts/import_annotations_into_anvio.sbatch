@@ -7,7 +7,8 @@
 #SBATCH --time=4:00:00
 #SBATCH --output=import_annotations_anvio_%j.log
 # TEMPLATE: funcscan + MAP results -> anvi'o functions, imported into a COPY of the contigs DB (the original is
-# only read). Edit the variables below, then `sbatch import_annotations_into_anvio.sbatch`.
+# only read).  sbatch import_annotations_into_anvio.sbatch <contigs.db> <gene_export.gff3> <sample> <MAP outdir/sample> <funcscan outdir> <out dir>
+# (or edit the CHANGE_ME defaults below).
 # Prerequisites: funcscan + MAP were run on THIS DB's gene export (protein IDs <project>___<gene_callers_id>,
 # REPRODUCE.md §5); scripts/check_map_outputs.sh is clean (IntegronFinder dummies fixed, SignalP filled).
 # Sources, tiers and the e_value convention (real e-value or 1 - score): header of scripts/build_anvio_functions.py.
@@ -17,13 +18,13 @@ source /opt/software/mamba/23.3.1/etc/profile.d/conda.sh
 conda activate anvio-9
 set -euo pipefail
 REPO=/maps/projects/hansen_ol-AUDIT/scratch/NILU/metagenomes/assembly_annotation_wf
-DB="CHANGE_ME/project.db"                 # contigs DB (read only)
-GFF="CHANGE_ME/gene_export/project.gff3"  # anvi'o gene export given to funcscan / MAP
-SAMPLE="CHANGE_ME"                        # sample name in the MAP / funcscan samplesheets
-MAP="CHANGE_ME/map/results/$SAMPLE"       # MAP --outdir/<sample>
-FS="CHANGE_ME/funcscan/results"           # funcscan --outdir
+DB="${1:-CHANGE_ME/project.db}"                 # contigs DB (read only)
+GFF="${2:-CHANGE_ME/gene_export/project.gff3}"  # anvi'o gene export given to funcscan / MAP
+SAMPLE="${3:-CHANGE_ME}"                        # sample name in the MAP / funcscan samplesheets
+MAP="${4:-CHANGE_ME/map/results/$SAMPLE}"       # MAP --outdir/<sample>
+FS="${5:-CHANGE_ME/funcscan/results}"           # funcscan --outdir
 VFDB_DMND=/maps/projects/hansen_ol-AUDIT/scratch/mobilome_db/virulence/VFDB_setB_pro.dmnd   # = MAP's --virulencefactors_db
-OUT="CHANGE_ME/annotated"                 # writes $OUT/<project>_annotated.db + $OUT/functions/
+OUT="${6:-CHANGE_ME/annotated}"                 # writes $OUT/<project>_annotated.db + $OUT/functions/
 case "$DB$GFF$SAMPLE$MAP$FS$OUT" in *CHANGE_ME*) echo "edit the CHANGE_ME variables first"; exit 1 ;; esac
 
 mkdir -p $OUT; cd $OUT

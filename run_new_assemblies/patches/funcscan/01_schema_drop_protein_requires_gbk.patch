@@ -1,0 +1,12 @@
+diff --git a/assets/schema_input.json b/assets/schema_input.json
+index 8cc99f8..d868d7d 100644
+--- a/assets/schema_input.json
++++ b/assets/schema_input.json
+@@ -50,7 +50,6 @@
+         },
+         "required": ["sample", "fasta"],
+         "dependentRequired": {
+-            "protein": ["gbk"],
+             "gbk": ["protein"],
+             "gff": ["protein"]
+         }

@@ -14,6 +14,9 @@ detail lives.
 
 ## Documentation map
 
+**To annotate new assemblies: [`run_new_assemblies/`](run_new_assemblies/README.md)** — quick start, install,
+options, numbered scripts (anvi'o export → funcscan + MAP → checks → anvi'o import), all patches, tested end to end.
+
 | File | Purpose |
 |---|---|
 | `CLAUDE.md` | Operational memory: what's been tried, what broke, current production state. Read first. |

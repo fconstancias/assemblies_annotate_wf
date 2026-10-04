@@ -1,0 +1,18 @@
+diff --git a/bin/ampcombi_download.py b/bin/ampcombi_download.py
+index 1287b1e..441cc75 100755
+--- a/bin/ampcombi_download.py
++++ b/bin/ampcombi_download.py
+@@ -58,6 +58,13 @@ def download_ref_db(database, threads):
+             valid_sequence_pattern = re.compile("^[ACDEFGHIKLMNPQRSTVWY]+$")
+             for index, row in db_df.iterrows():
+                 sequence = row['Sequence']
++                # PATCHED (local fix): pandas reads an empty/missing 'Sequence' cell as NaN
++                # (a float), not "". DRAMP's live TSV export has at least one such row as of
++                # 2026-08-25, and re.match() on a float raises
++                # "TypeError: expected string or bytes-like object, got 'float'",
++                # crashing the whole download step. Skip rows with no real sequence instead.
++                if not isinstance(sequence, str):
++                    continue
+                 if valid_sequence_pattern.match(sequence):
+                     record = SeqRecord(Seq(sequence), id=str(row['DRAMP_ID']), description="")
+                     records.append(record)

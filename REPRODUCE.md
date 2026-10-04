@@ -1,5 +1,8 @@
 # Reproducing this annotation workflow on a new cluster
 
+**For running: use [`run_new_assemblies/`](run_new_assemblies/README.md)** (scripts + patches + quick start). This file
+explains the setup behind it.
+
 Procedural setup/run guide — not a narrative. For the *why* behind any of this, see
 `CLAUDE.md` (full decision history) and `coassembly_production/README.md` (production-scale
 run specifically). This document assumes you already have, per sample/assembly: an anvi'o
