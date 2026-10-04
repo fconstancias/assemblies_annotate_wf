@@ -36,6 +36,8 @@ errors on an undefined param (hit this once already, see `../CLAUDE.md` item 5).
   `../gene_export/` (the anvi'o-exported gff3/faa, ID-mismatch fix verified here),
   `../map_run/` (first full real run against the new architecture, 92/92 tasks succeeded).
 
+- Empty `prediction/integronfinder/contig_dummy.*` does not prove "no integrons": before patch 5 (`../map_run/05_integronfinder_gbk_check_sigpipe_fix.patch`) MAP published dummies whenever IntegronFinder wrote many `.gbk` files. Check the task's `Results_Integron_Finder_*/*.summary` in `work/`.
+
 ## Non-negotiable operational rules (see `../CLAUDE.md` for the full reasoning on each)
 
 1. **Always launch via remote form** (`nextflow run EBI-Metagenomics/mobilome-annotation-pipeline -r v5.0.0 ...`), never a local clone path — switching invalidates the entire resume cache.

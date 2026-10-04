@@ -85,6 +85,10 @@ cd ~/.nextflow/assets/EBI-Metagenomics/mobilome-annotation-pipeline
 # participants, not isolated) -- substituted an empty channel the existing remainder:true
 # downstream already handles, rather than excluding affected samples one at a time.
 git diff -- workflows/mobilomeannotation.nf > /path/to/coassembly_production/map_run/04_disable_broken_icefinder2_lite.patch
+# Patch 5 -- INTEGRONFINDER: replace `ls -l .../*.gbk | grep -q .` (SIGPIPE race under pipefail -> dummy
+# outputs when many integrons are found) by `compgen -G ".../*.gbk" > /dev/null`. The process script changes,
+# so -resume re-runs INTEGRONFINDER and its dependents.
+git diff -- modules/local/integronfinder.nf > /path/to/map_run/05_integronfinder_gbk_check_sigpipe_fix.patch
 ```
 
 Beyond that one patch, MAP needed only `nextflow.config`-level `errorStrategy = 'ignore'`
