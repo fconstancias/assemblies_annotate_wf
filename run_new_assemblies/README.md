@@ -89,6 +89,9 @@ dbCAN ~5 h, the rest < 1 h. Time and memory already set for those.
 - hAMRonization drops AMRFinderPlus hits with an internal stop codon (listed as WARN).
 - MAP's `signalP` column is always empty in v5.0.0 → filled in `<S>_combined_report.signalp.tsv` (step 5).
 - Compositional outliers are weak evidence (composition only), not mobility.
+- IntegronFinder runs with `--union-integrases` on contigs ≥ 100 kb: its **In0** calls include generic tyrosine
+  recombinases (model `Phage_integrase`). Only `intI_Cterm` hits / complete integrons are integron evidence; check all genes
+  with NCBIfam TIGR02249 / InterPro IPR011946 (integron integrase) in MAP's InterProScan output (matph 2026-10: 0 everywhere).
 
 ## Layout
 
