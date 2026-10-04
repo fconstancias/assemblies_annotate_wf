@@ -254,7 +254,18 @@ gotchas section. Apply these up front on a new cluster rather than waiting to hi
 2. **Fill SignalP** (MAP v5.0.0 never fills the `signalP` column, see CLAUDE.md): `python3
    scripts/add_signalp_to_report.py <sample>_combined_report.tsv prediction/interproscan/<sample>.tsv.gz
    <sample>_combined_report.signalp.tsv` (bacterial Gram+/Gram− models; original report untouched).
-3. **Optional: annotations into anvi'o** — `scripts/import_annotations_into_anvio.sbatch` (edit the variables)
+3. **Account for every hit, raw → summary**: `python3 scripts/check_annotation_completeness.py --sample <s>
+   --map-dir <MAP outdir>/<s> --funcscan-dir <funcscan outdir> --genes-gff <gene export .gff3> [--functions
+   <anvi'o functions_all.txt>]`. Checks hAMRonization / argNorm / AMPcombi / dbCAN overview against each tool's
+   raw output, MAP's combined report against its AMR / PathoFact2 / BGC / mobilome inputs (incl. the ≥ 90 % CDS
+   overlap behind `mge_type`), the mobilome against geNomad / ISEScan / IntegronFinder / outliers minus the
+   discarded list, and the anvi'o import against the summaries. Exit 1 on FAIL. **Filters the pipelines apply
+   silently** (encoded in the checker; know them when interpreting): MAP's mobilome keeps geNomad calls with score
+   > 0.8 only, complete ISEScan elements only, complete integrons only (not CALIN / In0); hAMRonization (and so
+   argNorm) drops AMRFinderPlus hits with Method `INTERNAL_STOP`; AMPcombi keeps ampir prob ≥ 0.6 and ≤ 120 aa
+   (funcscan params); the combined report has only PathoFact2 + AMR proteins (BGC / MGE columns only for those).
+   matph (2026-10, 5 runs): everything accounted for except one `INTERNAL_STOP` `mef(A)` (lib709878).
+4. **Optional: annotations into anvi'o** — `scripts/import_annotations_into_anvio.sbatch` (edit the variables)
    runs `scripts/build_anvio_functions.py` and imports into a **copy** of the contigs DB: one source per
    annotation and confidence tier (dbCAN + substrate, AMR_all/high, VFDB + category, VF_high, PathoFact2_toxin /
    Toxin_high / Toxin_secreted, AMP_all/high, BGC_SanntiS, MGE_context/strong, geNomad/geNomad_high + virus

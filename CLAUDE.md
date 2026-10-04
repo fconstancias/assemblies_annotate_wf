@@ -325,6 +325,9 @@ once a change is validated on this pair.
   it); funcscan `AMPCOMBI2_COMPLETE` fails on single-sample runs (ignore); MAP `GENOMAD` / `PATHOFACT2_VIRULENCE`
   need 32 / 128 GB from the first attempt; the Nextflow driver can die on a home-filesystem hiccup
   (`NoClassDefFoundError`, cancels running tasks, hangs) → `kill -9`, same command + `-resume`.
+  Silent filters to keep in mind (checked by `scripts/check_annotation_completeness.py`): MAP mobilome = geNomad
+  score > 0.8, complete ISEScan, complete integrons only; hAMRonization drops AMRFinderPlus `INTERNAL_STOP` hits.
+  So the IntegronFinder dummy bug did not change the mobilome (no complete integron in any matph run).
 
 ## Agent team for this directory
 

@@ -39,6 +39,7 @@ detail lives.
 - `scripts/` — standalone helpers: `gff3_to_gbk.py` (real GenBank conversion for AMPCOMBI2, see CLAUDE.md's
   Downstream section), `check_map_outputs.sh` (post-run check for MAP's silent failures),
   `add_signalp_to_report.py` (fills MAP's empty signalP column from its InterProScan run),
+  `check_annotation_completeness.py` (every raw hit traced to the final tables, incl. the pipelines' silent filters),
   `build_anvio_functions.py` + `import_annotations_into_anvio.sbatch` (funcscan + MAP → anvi'o functions,
   imported into a copy of the contigs DB).
 
