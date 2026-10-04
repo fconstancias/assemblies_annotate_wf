@@ -20,6 +20,8 @@ detail lives.
 | `COMMANDS.md` | Literal commands actually run this project, in order — copy-paste reference. |
 | `REPRODUCE.md` | Generic/templated version of the same, for adapting to new samples or a new cluster. |
 | `REPRODUCE.md` §8 | Config gotchas worth applying proactively rather than rediscovering. |
+| `REPRODUCE.md` §9 | After every run: output checks, SignalP fill, optional import into anvi'o. |
+| `templates/` | **Current recommended** `nextflow.config` for funcscan and MAP — start every new run from these, add new overrides back here. |
 | This file | Orientation: what this repo is, where things live, patch inventory. |
 
 ## Layout
@@ -32,8 +34,13 @@ detail lives.
   `s3_sync_watcher.sh` (incremental S3 upload as groups finish, see below).
 - `gene_export/`, `bgc_comparison/`, `metabolism_comparison/` — analysis/comparison work,
   not pipeline runs themselves.
-- `scripts/` — standalone helpers, notably `gff3_to_gbk.py` (real GenBank conversion for
-  AMPCOMBI2, see CLAUDE.md's Downstream section for why this exists).
+- `templates/` — current recommended configs (`funcscan.nextflow.config`, `map.nextflow.config`), built up
+  from every run.
+- `scripts/` — standalone helpers: `gff3_to_gbk.py` (real GenBank conversion for AMPCOMBI2, see CLAUDE.md's
+  Downstream section), `check_map_outputs.sh` (post-run check for MAP's silent failures),
+  `add_signalp_to_report.py` (fills MAP's empty signalP column from its InterProScan run),
+  `build_anvio_functions.py` + `import_annotations_into_anvio.sbatch` (funcscan + MAP → anvi'o functions,
+  imported into a copy of the contigs DB).
 
 Single-sample-assembly KEGG annotation (`spa_single_all/`'s 277 groups) runs in a **separate
 directory outside this repo**: `../spa_single_all_anvio_kegg/` (own `run_kofams_array.sh` +

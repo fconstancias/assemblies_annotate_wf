@@ -320,6 +320,11 @@ once a change is validated on this pair.
   instead. Check *what a tool actually writes to, and where*, before pointing any anvi'o
   annotation step at a path outside your own workflow directory — not just funcscan/MAP
   which only ever read gff3/faa/fasta inputs and write to their own `results/`.
+- **matph runs (2026-10), added to `templates/` + REPRODUCE.md §8/§9:** MAP IntegronFinder publishes empty
+  `contig_dummy.*` when many integrons are found (SIGPIPE race, patch 5; `scripts/check_map_outputs.sh` catches
+  it); funcscan `AMPCOMBI2_COMPLETE` fails on single-sample runs (ignore); MAP `GENOMAD` / `PATHOFACT2_VIRULENCE`
+  need 32 / 128 GB from the first attempt; the Nextflow driver can die on a home-filesystem hiccup
+  (`NoClassDefFoundError`, cancels running tasks, hangs) → `kill -9`, same command + `-resume`.
 
 ## Agent team for this directory
 

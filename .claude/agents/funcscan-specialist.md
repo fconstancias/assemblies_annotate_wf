@@ -54,6 +54,10 @@ AMP prediction still works but cross-sample `AMPCOMBI2_CLUSTER` will not.
   real output: `Ampcombi_summary_cluster.tsv` has genuine `contig_id`/`CDS_start`/`CDS_end`/
   `CDS_dir`/`CDS_stop_codon_found`, 88 hits → 22 deduplicated clusters across both samples.
 
+- **`AMPCOMBI2_COMPLETE` fails on single-sample runs** ("Only one file was given in --summaries_files");
+  per-sample AMPcombi tables are complete. `errorStrategy = 'ignore'` in `../templates/funcscan.nextflow.config`
+  (start every run from that template).
+
 ## Where things live
 
 - Patched asset checkout: `~/.nextflow/assets/nf-core/funcscan/` — real git repo, same

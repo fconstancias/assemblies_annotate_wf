@@ -45,7 +45,10 @@ errors on an undefined param (hit this once already, see `../CLAUDE.md` item 5).
    patch gets a `git apply --check` verification against the pristine file before you trust
    it, and a saved `.patch` file documenting it (see any existing `patches/` dir for the
    pattern).
-3. **`unset TMPDIR`** before every invocation.
+3. **`export TMPDIR=/tmp`** in the same shell as every `nextflow run` (an inherited TMPDIR the containers
+   can't see breaks AMRFinderPlus etc.; see `../CLAUDE.md`). Start from `../templates/map.nextflow.config`.
+   After the run: `../scripts/check_map_outputs.sh <outdir> <workdir>`, then `../scripts/add_signalp_to_report.py`.
+   If the driver dies with `NoClassDefFoundError` (home FS hiccup): `kill -9`, same command + `-resume`.
 4. If you edit a `bin/`-staged or module `resources/usr/bin/`-staged script, check whether
    the *calling process's* declared inputs/signature also changed. If not, `-resume` won't
    notice your edit — manually delete the specific cached task work dirs first (find them via

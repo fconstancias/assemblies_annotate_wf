@@ -55,7 +55,13 @@ apply byte-for-byte — pipeline point-releases can drift):
 `funcscan_gff_test/patches/{01_schema_drop_protein_requires_gbk,02_ampcombi2_parsetables_optional_gbk,03_ampcombi_download_dramp_nan_fix}.patch`
 
 **MAP** (`EBI-Metagenomics/mobilome-annotation-pipeline`, pin `v5.0.0`):
-- No code patches needed, but two upstream bugs need `errorStrategy = 'ignore'` overrides in
+- Code patches (same mechanism, against `~/.nextflow/assets/EBI-Metagenomics/mobilome-annotation-pipeline/`):
+  `coassembly_production/map_run/04_disable_broken_icefinder2_lite.patch` (ICEfinder2-lite join crash) and
+  `map_run/05_integronfinder_gbk_check_sigpipe_fix.patch` (IntegronFinder results replaced by empty dummy files
+  when many integrons are found). Also `../assembly_to_MGE/patches/pathofact2_integrator_200line_cap_fix.patch`
+  (PathoFact2 GFF silently empty for >~200 contigs; applied by `../assembly_to_MGE/scripts/02_apply_local_patches.sh`).
+  Verify with `git -C <checkout> apply --reverse --check <patch>` (= already applied).
+- Two upstream DB-download bugs need `errorStrategy = 'ignore'` overrides in
   your own `nextflow.config` (not the checkout itself) for `--download_dbs` to complete —
   see `map_run/nextflow.config` and `map_run/README.md` for both, plus the by-hand DB rescue
   each needs (`VFDB_setB_pro.dmnd` built manually; geNomad's tarball extracts to the wrong
@@ -139,6 +145,13 @@ the kind of thing that fails silently otherwise.
 
 ## 6. Samplesheets + launch commands
 
+Start from **`templates/funcscan.nextflow.config`** and **`templates/map.nextflow.config`**: the current
+recommended configs (retry policy, per-process memory/time, known `ignore`s), built up from every run. Copy them
+into the new run dir as `nextflow.config`. If a run needs a new override, add it to the template too (dated,
+with the reason), so the next run starts from it. Launch environment (every time, same shell as `nextflow run`):
+`conda activate env_nf; module load singularity/3.8.7; export TMPDIR=/tmp NXF_OPTS="-Xms1g -Xmx4g"`, and run the
+driver with `nohup` from the run dir.
+
 **funcscan** (`sample,fasta,protein,gff,gff_type[,gbk]` — `gbk` column optional, see §5):
 
 ```bash
@@ -220,3 +233,31 @@ gotchas section. Apply these up front on a new cluster rather than waiting to hi
 - Editing any `process{}`-level directive (as opposed to `executor{}`-level) invalidates the
   resume cache for *every* process, not just the one changed — expect a full recompute after
   such an edit, not a true resume.
+- **Start memory where the tool needs it** instead of ramping through retries (templates do this): MAP
+  `GENOMAD` 32 GB (16 GB fails every time, OOM hidden as exit 1), `PATHOFACT2_VIRULENCE` 128 GB (peak ~102 GB
+  on 468k genes), `SANNTIS`/`INTERPROSCAN` 64 GB + 24 h; funcscan `AMPIR`/`RGI_MAIN` 32 GB, `RUNDBCAN` 256 GB + 24 h.
+  Durations seen: InterProScan 9–13 h per sample, 17 h on a 468k-gene catalogue; SanntiS 4–7 h; dbCAN ~5 h.
+- **funcscan `AMPCOMBI2_COMPLETE` fails with a single sample** ("Only one file was given in --summaries_files");
+  the per-sample AMPcombi table is complete. `errorStrategy = 'ignore'` (in the template).
+- **The Nextflow driver can die on a home-filesystem hiccup** (`NoClassDefFoundError ... logback`, the jar in
+  `~/.nextflow/framework/` shows as "(deleted)" in `/proc/<pid>/fd`): it cancels the running tasks (lost 7.7 h of
+  InterProScan once) and then hangs, ignoring SIGTERM. Recovery: `kill -9 <java pid>`, relaunch the identical
+  command with `-resume` from the same dir — finished tasks are reused, only the cancelled ones rerun. Watch long
+  runs (`squeue`, `tail .nextflow.log`) rather than assuming the driver is alive.
+
+## 9. After every run (before using the results)
+
+1. **Check MAP for silent failures**: `scripts/check_map_outputs.sh <MAP outdir> <MAP work dir>` — combined
+   report, SignalP column, PathoFact2 GFF, IntegronFinder dummies (patch 5; if FAIL it prints the work dir with
+   the real results: copy `*.gbk *.summary *.integrons` into `prediction/integronfinder/`), geNomad/CheckV,
+   InterProScan. Exit 1 on FAIL.
+2. **Fill SignalP** (MAP v5.0.0 never fills the `signalP` column, see CLAUDE.md): `python3
+   scripts/add_signalp_to_report.py <sample>_combined_report.tsv prediction/interproscan/<sample>.tsv.gz
+   <sample>_combined_report.signalp.tsv` (bacterial Gram+/Gram− models; original report untouched).
+3. **Optional: annotations into anvi'o** — `scripts/import_annotations_into_anvio.sbatch` (edit the variables)
+   runs `scripts/build_anvio_functions.py` and imports into a **copy** of the contigs DB: one source per
+   annotation and confidence tier (dbCAN + substrate, AMR_all/high, VFDB + category, VF_high, PathoFact2_toxin /
+   Toxin_high / Toxin_secreted, AMP_all/high, BGC_SanntiS, MGE_context/strong, geNomad/geNomad_high + virus
+   taxonomy, CheckV_quality, SignalP, Pfam/NCBIfam/InterPro). `e_value` = real e-value or 1 − score (`<= 0.1` ⇔
+   score ≥ 0.9). Also writes per-gene evidence tables (`evidence_amr.tsv`, `evidence_vf_toxin.tsv`) and
+   `contig_genomad.tsv`. The contigs_db_hash does not change, so existing profiles open with the annotated copy.
